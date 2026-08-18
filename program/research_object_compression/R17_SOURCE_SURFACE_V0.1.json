@@ -1,0 +1,58 @@
+{
+  "object":"CEREBRO_R17_SOURCE_SURFACE_V0.1",
+  "record_type":"frozen full recursive repository source surface",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R17",
+  "repository":"bjoern-janson/meta-process-framework",
+  "default_branch":"main",
+  "frozen_head_commit":"642cb6bcd131309b9e9628fc39f228b92e4ed966",
+  "tree_truncated":false,
+  "inventory":{
+    "total_blob_paths":2,
+    "research_bearing_blob_paths":2,
+    "excluded_non_research_blob_paths":0,
+    "unique_head_blobs":2,
+    "markdown_blob_paths":2,
+    "other_blob_paths":0,
+    "duplicate_content_path_groups":0
+  },
+  "admitted_paths":[
+    ["README.md","67298d3ec67d1f82e7a4d30a15e9b321d3d45d52",7875,"PARSE_INCLUDED"],
+    ["README_2.md","d273cb808af262fd62a83863cdd199d5c6a0384e",7806,"PARSE_INCLUDED"]
+  ],
+  "path_accounting":{
+    "parse_included":2,
+    "parse_excluded_by_frozen_scope":0,
+    "parse_failed":0,
+    "parse_unsupported":0,
+    "unenumerated_paths":0
+  },
+  "developmental_provenance":[
+    ["4adb2b5528bf789cf86ecade690450b5f9488823","Initial commit","README.md contains only repository title plus source description 'a llm prompt'."],
+    ["10ff4c2a6227a5630e23ff0aab6c5abb31925192","Update README.md","README.md replaced by full Meta-Process Framework surface."],
+    ["573ea88166707d9f4564af839b937935c58df481","Create README_2","Recursive Adaptive Dynamics companion surface added."],
+    ["642cb6bcd131309b9e9628fc39f228b92e4ed966","Rename README_2 to README_2.md","Current-head rename; no textual-content promotion inferred from filename change."]
+  ],
+  "source_surface_structural_observations":{
+    "two_current_framework_surfaces_present":true,
+    "ordinary_executable_source_present":false,
+    "datasets_present":false,
+    "notebooks_present":false,
+    "persisted_execution_artifacts_present":false,
+    "reported_result_documents_present":false,
+    "semantic_parse_performed":false
+  },
+  "non_inferences":[
+    "CURRENT_HEAD != COMPLETE_DEVELOPMENTAL_HISTORY",
+    "FRAMEWORK_SEMANTIC_OVERLAP != FRAMEWORK_IDENTITY_EQUIVALENCE",
+    "EXPERIMENT_SECTION != EXECUTION_RECORD",
+    "PREDICTION != REPORTED_RESULT",
+    "SOURCE_LINEAGE_ASSERTION != PROGRAM_MAP_EDGE",
+    "RECURRENT_ASSERTION_ACROSS_TWO_FILES != INDEPENDENT_WARRANT"
+  ],
+  "coverage_claim":"EXHAUSTIVE_RELATIVE_TO_FROZEN_RECURSIVE_HEAD_INVENTORY",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "r18_parse_access_opened":false
+}
