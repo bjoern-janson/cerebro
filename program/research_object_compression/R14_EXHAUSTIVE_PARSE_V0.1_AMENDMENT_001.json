@@ -1,0 +1,105 @@
+{
+  "object":"CEREBRO_R14_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type":"minimal parse-role separability repair overlay",
+  "persistent_record_state":"FROZEN",
+  "parent":"R14_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger":"R14_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope":"18 mixed-role source units only",
+  "base_primary_units":97,
+  "demoted_mixed_role_units":18,
+  "replacement_role_pure_units":41,
+  "effective_primary_units":120,
+  "demoted_units":[
+    "R14:P:README:IDENTITY_STATUS",
+    "R14:P:AGENT:IDENTITY_STATUS_QUESTION",
+    "R14:P:AGENT:MEASUREMENTS_PREDICTION",
+    "R14:P:F1:PURPOSE_STATE",
+    "R14:P:F2:DEPENDENCY_HYP_BOUNDARY",
+    "R14:P:F2:PREDICTION_FALSIFICATION_INVARIANT",
+    "R14:P:METRICS:VECTOR_SIGNATURE_CLOSURE",
+    "R14:P:SPEC1:METADATA_OBJECTIVE_STATUS",
+    "R14:P:SPEC1:EXPECTED_FALSIFICATION",
+    "R14:P:SPEC2:METADATA_HYP_STATUS",
+    "R14:P:SPEC2:SCOPE_ONTOLOGY",
+    "R14:P:SPEC2:METRICS_PREDICTION_FALSIFICATION",
+    "R14:P:SPEC2:MINIMAL_REPO_FUTURE_INVARIANT",
+    "R14:P:ENVREADME:PURPOSE_STATE",
+    "R14:P:ENVREADME:FUTURE_EXTENSIONS_COMPARISON",
+    "R14:P:ENVDESIGN:PURPOSE_STATE",
+    "R14:P:MECH:PURPOSE_DEFINITION",
+    "R14:P:MECH:EXPERIMENTAL_PRINCIPLE_SUMMARY"
+  ],
+  "replacement_units":[
+    {"id":"R14:P:README:IDENTITY","source_path":"README.md","source_blob":"251a4e07e300a3d90ebf86a504206dfee9720c0c","role":"IDENTITY_TITLE","content":"Recursive Adaptive Dynamics (RAD)."},
+    {"id":"R14:P:README:TYPE_STATUS","source_path":"README.md","source_blob":"251a4e07e300a3d90ebf86a504206dfee9720c0c","role":"SOURCE_DESCRIBED_STATUS","content":{"type":"Causal decomposition + empirical hypothesis","status":"Ontology defined; hypothesis unverified"}},
+
+    {"id":"R14:P:AGENT:IDENTITY_STATUS","source_path":"agent/state.md","source_blob":"160aa48555f7e5a25a7681e82cd33625d83a88e2","role":"SOURCE_DESCRIBED_STATUS","content":{"framework":"Recursive Adaptive Dynamics (RAD)","type":"Causal decomposition + empirical hypothesis","status":"Ontology defined; hypothesis unverified","primary_object":"Evolution of reachable spaces of future adaptive mechanisms","hypothesis_status":"Hypothesis, not established fact"}},
+    {"id":"R14:P:AGENT:CORE_QUESTION","source_path":"agent/state.md","source_blob":"160aa48555f7e5a25a7681e82cd33625d83a88e2","role":"SOURCE_DESCRIBED_RESEARCH_QUESTION","content":"Does constraint-bearing information influence evolution of future adaptive mechanism spaces? Formal candidate: Omega_t -> Delta Gspace_{t+1}."},
+
+    {"id":"R14:P:AGENT:MEASUREMENTS","source_path":"agent/state.md","source_blob":"160aa48555f7e5a25a7681e82cd33625d83a88e2","role":"DEFINITION","content":{"P":"current competence","R":"recovery after environmental change","E":"discovery of new successful mechanisms","O":"sum(q_i v_i)/sum(q_i), future-compatible adaptive capacity among reachable mechanisms"}},
+    {"id":"R14:P:AGENT:PREDICTED_PHENOMENON","source_path":"agent/state.md","source_blob":"160aa48555f7e5a25a7681e82cd33625d83a88e2","role":"SOURCE_PREDICTION","content":{"early":"P_A approx P_B","later":"O_A > O_B","after_novelty":"R_A > R_B","possible_signature":"P rises while O falls; capability can improve inside a narrowing adaptive basin"}},
+
+    {"id":"R14:P:F1:PURPOSE","source_path":"core/formalism.md","source_blob":"6a54570e06c44ad416a51456e1db474733961531","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines RAD mathematical objects and relations; primary object is evolution of reachable spaces of future adaptive mechanisms."},
+    {"id":"R14:P:F1:SYSTEM_STATE","source_path":"core/formalism.md","source_blob":"6a54570e06c44ad416a51456e1db474733961531","role":"FORMAL_STRUCTURE","content":"S_t=(X_t,F_t,pi_t,G_t,M_t,q_t,v_t), with source dictionary for system state, transformation mechanism, selection policy, selected transformation-selection mechanism, internal model, accessibility distribution, and viability distribution."},
+
+    {"id":"R14:P:F2:DEPENDENCY_STRUCTURE","source_path":"core/formalism2.md","source_blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","role":"FORMAL_STRUCTURE","content":{"minimal_chain":"X -> F -> G -> Gspace","constraint_path":"Omega -> M -> G -> F -> X"}},
+    {"id":"R14:P:F2:HYPOTHESIS_BOUNDARY","source_path":"core/formalism2.md","source_blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","role":"SOURCE_ASSERTION_HYPOTHESIS","content":{"defined_objects":["X","F","G","Gspace","M","Omega"],"empirical_link":"Omega_t -> Delta Gspace_{t+1}","boundary":"the empirical link is not assumed by defining the objects"}},
+
+    {"id":"R14:P:F2:PRIMARY_PREDICTION","source_path":"core/formalism2.md","source_blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","role":"SOURCE_PREDICTION","content":"Performance may rise while adaptive openness falls; present competence can improve inside a narrowing region of adaptive possibility."},
+    {"id":"R14:P:F2:FALSIFICATION","source_path":"core/formalism2.md","source_blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Hypothesis is weakened if systems without Omega_t -> Delta Gspace_{t+1} maintain R,E,O under long horizons, repeated novelty, adversarial perturbations, and changing constraints."},
+    {"id":"R14:P:F2:CORE_INVARIANT_LABEL","source_path":"core/formalism2.md","source_blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","role":"SOURCE_DESCRIBED_STATUS","source_label":"Core Invariant","content":"Source labels X -> F -> G -> Gspace as the central formal relationship and separately identifies Omega_t -> Delta Gspace_{t+1} as the central empirical question. The invariant label is source characterization, not independent theorem standing."},
+
+    {"id":"R14:P:METRICS:ADAPTIVE_VECTOR","source_path":"core/metrics.md","source_blob":"107ca648f6163b096e6a54c2e970c3b0aea7990e","role":"DEFINITION","content":"Composite adaptive vector A=(P,R,E,O), where P=current performance, R=recovery, E=exploration/discovery, O=adaptive openness."},
+    {"id":"R14:P:METRICS:EXPECTED_SIGNATURE","source_path":"core/metrics.md","source_blob":"107ca648f6163b096e6a54c2e970c3b0aea7990e","role":"SOURCE_PREDICTION","content":{"early":"P_A approx P_B and O_A approx O_B","later":"O_A > O_B","after_novelty":"R_A > R_B"}},
+    {"id":"R14:P:METRICS:ADAPTIVE_CLOSURE_DEF","source_path":"core/metrics.md","source_blob":"107ca648f6163b096e6a54c2e970c3b0aea7990e","role":"DEFINITION","content":"Adaptive closure is defined as P(t) increasing while O(t) decreases: current optimization improves while future adaptive openness declines."},
+
+    {"id":"R14:P:SPEC1:STATUS","source_path":"docs/simulator-spec.md","source_blob":"57e33676888f9f6a7bb54bae81be54210f187483","role":"SOURCE_DESCRIBED_STATUS","content":{"artifact_type":"Simulator specification","status":"Specification defined; implementation pending"}},
+    {"id":"R14:P:SPEC1:OBJECTIVE","source_path":"docs/simulator-spec.md","source_blob":"57e33676888f9f6a7bb54bae81be54210f187483","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Define a minimal computational environment testing Omega_t -> Delta Gspace^(task)_{t+1} against the no-Omega counterfactual while holding initial capability, compute, mechanism library, self-modification capacity, and environment exposure controlled."},
+
+    {"id":"R14:P:SPEC1:EXPECTED_SIGNATURE","source_path":"docs/simulator-spec.md","source_blob":"57e33676888f9f6a7bb54bae81be54210f187483","role":"SOURCE_PREDICTION","content":"No immediate failure is expected; after novelty O_A>O_B and R_A>R_B, with adaptive closure as the predicted phenomenon."},
+    {"id":"R14:P:SPEC1:FALSIFICATION","source_path":"docs/simulator-spec.md","source_blob":"57e33676888f9f6a7bb54bae81be54210f187483","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Equivalent recovery, exploration, and adaptive openness without Omega coupling under long horizons, repeated novelty, and adversarial perturbations would weaken RAD."},
+
+    {"id":"R14:P:SPEC2:STATUS","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"SOURCE_DESCRIBED_STATUS","content":{"framework":"RAD","type":"Causal decomposition + empirical hypothesis","status":"Ontology defined; hypothesis unverified","primary_object":"Evolution of reachable spaces of future adaptive mechanisms"}},
+    {"id":"R14:P:SPEC2:CENTRAL_HYPOTHESIS","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"SOURCE_ASSERTION_HYPOTHESIS","source_standing":"Hypothesis, not established fact","content":"Omega_t -> Delta Gspace_{t+1}; consequence-shaped information may influence evolution of future adaptive mechanism spaces."},
+
+    {"id":"R14:P:SPEC2:SCOPE","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":{"not_a_theory_of":["intelligence","learning","optimization","alignment","agency","consciousness"],"core_distinction":"change within mechanism space != change of mechanism space"}},
+    {"id":"R14:P:SPEC2:ONTOLOGY","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"DEFINITION","content":{"X":"state","F":"process changing states","G":"mechanism modifying future F","Gspace":"reachable space of G","M":"internal model","Omega":"consequence information","formal_nonidentity":"G_t != Gspace_t"}},
+
+    {"id":"R14:P:SPEC2:METRICS","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"DEFINITION","content":{"P":"current competence","R":"recovery","E":"discovery of new successful mechanisms","O":"sum(q_i v_i)/sum(q_i), future-compatible capacity among reachable mechanisms"}},
+    {"id":"R14:P:SPEC2:PREDICTED_SIGNATURE","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"SOURCE_PREDICTION","content":"Initially P_A approx P_B; later O_A>O_B; after novelty R_A>R_B; possible adaptive closure P rises while O falls."},
+    {"id":"R14:P:SPEC2:FALSIFICATION","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"RAD is weakened if long-horizon adaptive capacity persists without Omega coupling under repeated novelty, regime changes, adversarial perturbations, and misleading proxies."},
+
+    {"id":"R14:P:SPEC2:REPOSITORY_PLAN","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"PROJECT_PROCESS_METADATA","content":{"document_described_minimal_repository":"RAD/RAD.md","future_extensions":["formalism.md","simulator-spec.md","experiments/","critiques/","related-work.md"]}},
+    {"id":"R14:P:SPEC2:FINAL_INVARIANT_LABEL","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"SOURCE_DESCRIBED_STATUS","source_label":"Final Invariant","content":"Source labels X -> F -> G -> Gspace, with G_t in Gspace_t, as final invariant while separately retaining Omega_t -> Delta Gspace_{t+1} as empirical hypothesis. Label does not grant theorem standing."},
+    {"id":"R14:P:SPEC2:INTELLIGENCE_BOUNDARY","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"RAD does not attempt to prove that constraint coupling creates intelligence; it tests measurable long-horizon adaptation differences."},
+
+    {"id":"R14:P:ENVREADME:PURPOSE","source_path":"environment/README.md","source_blob":"b133ab8b919634c868de1000d594e913041d157b","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines external conditions for testing adaptive mechanism-space evolution; explicitly not designed to test intelligence."},
+    {"id":"R14:P:ENVREADME:ENVIRONMENT_STATE","source_path":"environment/README.md","source_blob":"b133ab8b919634c868de1000d594e913041d157b","role":"DEFINITION","content":{"E_t":"(R_t,C_t)","R_t":"hidden regime/rule structure not directly observed","C_t":"current conditions affecting viability"}},
+
+    {"id":"R14:P:ENVREADME:FUTURE_PATHS","source_path":"environment/README.md","source_blob":"b133ab8b919634c868de1000d594e913041d157b","role":"PROJECT_PROCESS_METADATA","content":{"future_extensions":["environment/regime.py","environment/novelty.py","environment/hidden_rules.py","environment/delayed_feedback.py","environment/evaluator.py"],"first_implementation":"should remain minimal"}},
+    {"id":"R14:P:ENVREADME:EXPERIMENTAL_COMPARISON","source_path":"environment/README.md","source_blob":"b133ab8b919634c868de1000d594e913041d157b","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Environment exists to create measurable divergence between consequence-coupled and decoupled adaptive-space update rules, rendered in this source as J(G,Omega) versus J(G)."},
+
+    {"id":"R14:P:ENVDESIGN:PURPOSE","source_path":"environment/design.md","source_blob":"1dd41ca954002dad1f70935fb460f61d61a6944c","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines minimal environment model generating consequence-bearing Omega_t; environment is a perturbation for adaptive-space testing, not an intelligence test."},
+    {"id":"R14:P:ENVDESIGN:ENVIRONMENT_STATE","source_path":"environment/design.md","source_blob":"1dd41ca954002dad1f70935fb460f61d61a6944c","role":"DEFINITION","content":{"E_t":"(R_t,C_t,N_t)","R_t":"hidden environmental regime","C_t":"active constraints","N_t":"novelty structure"}},
+
+    {"id":"R14:P:MECH:PURPOSE","source_path":"mechanisms/library.md","source_blob":"ae51969d8e56cb678b8917e5c3005faf107f6e06","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines a bounded finite local mechanism library; RAD does not attempt to represent the complete adaptive-mechanism universe."},
+    {"id":"R14:P:MECH:MECHANISM_DEFINITION","source_path":"mechanisms/library.md","source_blob":"ae51969d8e56cb678b8917e5c3005faf107f6e06","role":"DEFINITION","content":{"library":"L={G_1,...,G_n}","mechanism":"G_i=(a_i,m_i,c_i,h_i)","question":"how accessibility and viability distributions evolve over shared library"}},
+
+    {"id":"R14:P:MECH:EXPERIMENTAL_PRINCIPLE","source_path":"mechanisms/library.md","source_blob":"ae51969d8e56cb678b8917e5c3005faf107f6e06","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"shared_library":"L_A=L_B","only_manipulated_variable":"Omega_t -> Delta Gspace_{t+1}","adaptive_state":"(q_t,v_t)"}},
+    {"id":"R14:P:MECH:OBSERVABLE_OBJECT","source_path":"mechanisms/library.md","source_blob":"ae51969d8e56cb678b8917e5c3005faf107f6e06","role":"DEFINITION","content":"Observable object is Gspace*_t, the viable reachable mechanism space."},
+    {"id":"R14:P:MECH:RESEARCH_QUESTION","source_path":"mechanisms/library.md","source_blob":"ae51969d8e56cb678b8917e5c3005faf107f6e06","role":"SOURCE_DESCRIBED_RESEARCH_QUESTION","content":"Does consequence-shaped evolution of mechanism accessibility and viability preserve future adaptive capacity?"}
+  ],
+  "effective_accounting":{
+    "base_units":97,
+    "demoted_units":18,
+    "unchanged_effective_base_units":79,
+    "replacement_units":41,
+    "effective_primary_units":120
+  },
+  "unchanged_structure":"all base units not listed in demoted_units remain effective without modification",
+  "derived_audit_views":"unchanged from base and remain non-source, zero-authority views",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "amendment_005":"NOT_EARNED"
+}
