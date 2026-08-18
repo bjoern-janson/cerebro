@@ -1,0 +1,42 @@
+{
+  "object": "CEREBRO_R04_SOURCE_SURFACE_V0.1",
+  "record_type": "frozen full recursive repository source surface",
+  "persistent_record_state": "FROZEN",
+  "repository_id": "R04",
+  "repository": "bjoern-janson/computational-resolution-horizon",
+  "frozen_head_commit": "30f661149443d12eebdcdd8e7f017667b61bfea2",
+  "frozen_head_tree": "0207b4e03aed695c2cd3776360af4ea6e8f64e97",
+  "tree_truncated": false,
+  "coverage": {
+    "blob_count": 13,
+    "research_bearing_blobs": 11,
+    "excluded_non_research_blobs": 2,
+    "unaccounted_blobs": 0,
+    "exhaustiveness_claim": "FULL_RECURSIVE_HEAD_INVENTORY_ONLY"
+  },
+  "path_dispositions": [
+    {"path":".gitignore","blob":"83972fadc2724842e111d0d3e2829a59ae3d3f45","disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"repository tooling metadata"},
+    {"path":"LICENSE","blob":"af602b2e8e83970d54a4a588e0fbdd14768cb691","disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"legal metadata"},
+    {"path":"README.md","blob":"d2bc590f3227ce7be82b307e999de7798551f4a2","disposition":"PARSE_INCLUDED","surface_role":"RESEARCH_PROSE"},
+    {"path":"docs/experimental_protocols.md","blob":"d206154abe1315e3612907638049e2e84a3b9921","disposition":"PARSE_INCLUDED","surface_role":"RESEARCH_PROSE"},
+    {"path":"docs/mathematical_specification.md","blob":"5c460e7dfcd68961df305558c9fd66192ceac5a1","disposition":"PARSE_INCLUDED","surface_role":"RESEARCH_PROSE"},
+    {"path":"docs/notation.md","blob":"ed3802e9feacc9be39bc33445ae04ccc447ebf7f","disposition":"PARSE_INCLUDED","surface_role":"RESEARCH_PROSE"},
+    {"path":"docs/theory.md","blob":"0626f02f9556660ef46f0a061ebc53fe1a4bcada","disposition":"PARSE_INCLUDED","surface_role":"RESEARCH_PROSE"},
+    {"path":"experiments/harmonic_oscillator/analyze_horizon.py","blob":"7f1913642aad4081a6bc146d8bae857c0659fb30","disposition":"PARSE_INCLUDED","surface_role":"EXECUTABLE_SOURCE_CODE"},
+    {"path":"experiments/harmonic_oscillator/compute_lie_depth.py","blob":"344dd1c8f6b63b5afa1bd68f97303c00637d1442","disposition":"PARSE_INCLUDED","surface_role":"EXECUTABLE_SOURCE_CODE"},
+    {"path":"experiments/harmonic_oscillator/estimate_generator.py","blob":"d01dc65124bddc13510fc27680edf9a34fdf3612","disposition":"PARSE_INCLUDED","surface_role":"EXECUTABLE_SOURCE_CODE"},
+    {"path":"experiments/harmonic_oscillator/generate_data.py","blob":"a4d8a7915d96b0b0cf554f1bb9790b6978ad9a17","disposition":"PARSE_INCLUDED","surface_role":"EXECUTABLE_SOURCE_CODE"},
+    {"path":"experiments/harmonic_oscillator/mdl_analysis.py","blob":"ded0448c639549c6b1ce6976d6bb45a37687cddb","disposition":"PARSE_INCLUDED","surface_role":"EXECUTABLE_SOURCE_CODE"},
+    {"path":"main.py","blob":"baad10e1dbc051df86b76e9da38df48afafdbcb9","disposition":"PARSE_INCLUDED","surface_role":"EXECUTABLE_SOURCE_CODE"}
+  ],
+  "boundary_rules": [
+    "SOURCE_CODE_PRESENCE != EXECUTION",
+    "PRINTED_OUTPUT_LABEL != OBSERVED_RESULT",
+    "IMPLEMENTATION != VALIDATION",
+    "HARD_CODED_SYNTHETIC_ASSUMPTION != EMPIRICAL_FINDING"
+  ],
+  "map_edge_emission": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
