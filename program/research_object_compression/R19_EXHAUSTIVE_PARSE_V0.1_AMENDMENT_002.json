@@ -1,0 +1,68 @@
+{
+  "object":"CEREBRO_R19_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002",
+  "record_type":"repository-local mixed-standing parse repair overlay",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R19",
+  "trigger":"program/research_object_compression/R19_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "base_candidate":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_V0.1.json",
+  "prior_local_repair":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001.json",
+  "repair_locus":"MIXED_STANDING_UNITIZATION_ONLY",
+  "governing_rule":"EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1_AMENDMENT_001",
+  "historical_candidates_mutated":false,
+  "effective_content_narrowing":[
+    {"unit_id":"R19P0024","standing":"APPLICATION_EXAMPLE","effective_content":"Biological intelligence is illustrated as embedded in a larger correction network; adaptive memory substrates with persistent memory, evolving representations, reinforcement, decay, and distributed knowledge are proposed as measurable environments for adaptive stability."},
+    {"unit_id":"R19P0025","standing":"METHODOLOGY_OR_TEST_PROTOCOL","effective_content":"Proposed measurements include correction frequency, structural rewrite magnitude, decay effectiveness, external validation rate, incorrect-structure persistence, and perturbation recovery; the next empirical stage is to define measurable primitives, build simulations, test controlled perturbations, and identify stability boundaries."},
+    {"unit_id":"R19P0037","standing":"DEFINITION","effective_content":"Error curve is accuracy per round averaged across scenarios."},
+    {"unit_id":"R19P0039","standing":"DEFINITION","effective_content":"False demotion rate is the percentage of correct signatures that lose dominance due to noise or an unlucky round."},
+    {"unit_id":"R19P0058","standing":"APPLICATION_EXAMPLE","effective_content":"Human intelligence is illustrated as a distributed loop through individual brain, language, other humans, tools, experiments, physical reality, and back to the brain."},
+    {"unit_id":"R19P0073","standing":"DEFINITION","effective_content":"Correction frequency f_c=dn_(e_c)/dt measures how often valid correction events occur."},
+    {"unit_id":"R19P0187","standing":"APPLICATION_EXAMPLE","effective_content":"Azus Mesh sharing is proposed as a possible reality-coupling mechanism; high-permeability and low-permeability response patterns are illustrated."},
+    {"unit_id":"R19P0193","standing":"FORMAL_STRUCTURE","effective_content":"Proposed Azus telemetry vector Psi(t)=[K_c,P_i,L,Theta,eta_c], with K_c correction cost, P_i internal pressure dominance, L lock-in, Theta reality permeability, and eta_c correction efficiency."},
+    {"unit_id":"R19P0194","standing":"IDENTITY_TITLE","effective_content":"Experiment: Correction Loop Simulation."},
+    {"unit_id":"R19P0218","standing":"METHODOLOGY_OR_TEST_PROTOCOL","effective_content":"Falsification criteria: challenge the framework if systems remain stable indefinitely while dOmega_n/dt>Theta*C_cap, divergence does not increase under sustained correction deficit, restoration capacity does not degrade as divergence accumulates, or reality permeability has no relationship with adaptive stability."},
+    {"unit_id":"R19P0232","standing":"APPLICATION_EXAMPLE","effective_content":"Robotics, SGD, evolution, and scientific revolutions are used to illustrate different correction-frequency and correction-magnitude strategies."},
+    {"unit_id":"R19P0279","standing":"DEFINITION","effective_content":"Correction efficiency eta_c=DeltaOmega_repaired/C_consumed, where DeltaOmega_repaired is restored grounded capability and C_consumed is correction resources used."}
+  ],
+  "source_coincident_added_units":[
+    {"unit_id":"R19P0288","kind":"SOURCE_ASSERTION_CONCEPTUAL","source_path":"README.md","source_section_path":"Connection to Existing Systems / Large Language Models","content":"Current LLMs are described as having enormous representation capacity and powerful generation but limited direct reality coupling during inference, with hallucination, outdated knowledge, and plausible unsupported outputs named as failure modes.","coincident_with":"R19P0024"},
+    {"unit_id":"R19P0289","kind":"SOURCE_DESCRIBED_STATUS","source_path":"README.md","source_section_path":"Current Status","content":"This repository is a theoretical framework.","coincident_with":"R19P0025"},
+    {"unit_id":"R19P0290","kind":"PREDICTION","source_path":"correctability-benchmark.md","source_section_path":"The five numbers / Error curve","content":"The benchmark claim is that the accuracy-per-round error curve rises.","coincident_with":"R19P0037"},
+    {"unit_id":"R19P0291","kind":"METHODOLOGY_OR_TEST_PROTOCOL","source_path":"correctability-benchmark.md","source_section_path":"The five numbers / False demotion rate","content":"A good benchmark result requires both memory gravity (#2) and false demotion rate (#5) to be low.","coincident_with":"R19P0039"},
+    {"unit_id":"R19P0292","kind":"SOURCE_ASSERTION_CONCEPTUAL","source_path":"docs/01_core_problem.md","source_section_path":"Humans as a Counterexample","content":"Human intelligence is described as not purely contained within the individual but stabilized by an external correction network; civilization is described as functioning as a large-scale adaptive feedback system.","coincident_with":"R19P0058"},
+    {"unit_id":"R19P0293","kind":"SOURCE_ASSERTION_CONCEPTUAL","source_path":"docs/02_primitives.md","source_section_path":"Correction Frequency (f_c)","content":"High correction frequency is not automatically better; adaptive systems may rely on many small corrections or rare transformative corrections.","coincident_with":"R19P0073"},
+    {"unit_id":"R19P0294","kind":"FORMAL_STRUCTURE","source_path":"examples/azus_mapping.md","source_section_path":"Mesh Network as Reality Permeability / Azus Mapping","content":"A possible Azus permeability measurement is proposed as Theta = externally forced structural updates / total structural updates.","coincident_with":"R19P0187"},
+    {"unit_id":"R19P0295","kind":"SOURCE_ASSERTION_CONCEPTUAL","source_path":"examples/azus_mapping.md","source_section_path":"Proposed Azus Telemetry Vector + Final Mapping","content":"Azus is proposed approximately as a visible laboratory for adaptive dynamics, and the target experimental property is preserving the ability to become less wrong as internal structure grows.","coincident_with":"R19P0193"},
+    {"unit_id":"R19P0296","kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","source_path":"experiments/correction_loop_simulation.md","source_section_path":"Objective","content":"The correction-loop simulation tests stability conditions of an adaptive control loop and does not attempt to model intelligence directly.","coincident_with":"R19P0194"},
+    {"unit_id":"R19P0297","kind":"SOURCE_ASSERTION_HYPOTHESIS","source_path":"experiments/correction_loop_simulation.md","source_section_path":"Core Experimental Question","content":"A system cannot sustainably create more adaptive structure than reality can correct; adaptation without sufficient feedback is framed as uncontrolled internal evolution rather than intelligence.","coincident_with":"R19P0218"},
+    {"unit_id":"R19P0298","kind":"SOURCE_ASSERTION_CONCEPTUAL","source_path":"theory/primitives.md","source_section_path":"Frequency vs Magnitude","content":"No single correction-frequency/correction-magnitude balance is asserted to be universally optimal.","coincident_with":"R19P0232"},
+    {"unit_id":"R19P0299","kind":"SOURCE_ASSERTION_HYPOTHESIS","source_path":"theory/equations.md","source_section_path":"Correction Efficiency","content":"Healthy systems are proposed to repair efficiently, while failing systems require increasing effort for decreasing correction.","coincident_with":"R19P0279"}
+  ],
+  "effective_whole_parse":{
+    "parsed_representations":299,
+    "unresolved_source_units":58,
+    "units":357,
+    "parser_failures":0,
+    "duplicate_unit_ids":0,
+    "missing_unit_ids":0,
+    "unaccounted_source_paths":0
+  },
+  "repair_accounting":{
+    "historical_units_narrowed_effectively":12,
+    "source_coincident_units_added":12,
+    "unresolved_units_added":0,
+    "source_locator_changes":0,
+    "historical_file_mutations":0
+  },
+  "contract_effect":{
+    "new_epistemic_distinction":"NO",
+    "new_global_parser_role":"NONE",
+    "new_top_level_compression_coordinate":"NONE",
+    "base_parse_contract_amendment":"NOT_EARNED",
+    "compression_amendment_005":"NOT_EARNED"
+  },
+  "authority_effect":"NONE",
+  "map_edge_emission":"NONE",
+  "propagation_authorized":false,
+  "r19_compression_retest_access":"PENDING_PARSE_RETEST",
+  "r20_parse_access_opened":false
+}
