@@ -1,0 +1,88 @@
+{
+  "object": "CEREBRO_R04_RESEARCH_OBJECT_COMPRESSION_V0.1",
+  "record_type": "loss-bounded compression projected from effective exhaustive parse",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "repository_id": "R04",
+  "identity": {
+    "repository": "bjoern-janson/computational-resolution-horizon",
+    "title": "Computational Phase Boundary",
+    "frozen_head_commit": "30f661149443d12eebdcdd8e7f017667b61bfea2",
+    "frozen_head_tree": "0207b4e03aed695c2cd3776360af4ea6e8f64e97"
+  },
+  "derivation_rule": "Every source_units handle resolves through the frozen effective R04 parse to repository/commit/path/blob/section. Source-unit handles are provenance pointers, not independent warrants.",
+  "source_described_scope_or_purpose": [
+    {"item_id":"R04:SCOPE:README","content":"Experimental resolution-aware framework for structural discovery limits under bounded observation.","source_units":["R04:P:README:PURPOSE"]},
+    {"item_id":"R04:SCOPE:THEORY","content":"Mathematical framework for recoverable structure under finite observation/computation and imperfect measurement.","source_units":["R04:P:THEORY:SCOPE"]},
+    {"item_id":"R04:SCOPE:MATH","content":"Formal specification of mathematical objects, operators and estimators for recoverable structural complexity.","source_units":["R04:P:MATH:SCOPE_ONLY"]},
+    {"item_id":"R04:SCOPE:NOTATION","content":"Notation discipline separating physical, estimated, observer-dependent, informational and control quantities.","source_units":["R04:P:NOTATION:PURPOSE"]}
+  ],
+  "source_described_status": [
+    {"item_id":"R04:STATUS:COMPLETED","content":"Source-described completed objects include k* definition, finite-data symmetry estimator, MDL criterion, dual-information diagram, error decomposition and initial synthetic calibration models.","source_units":["R04:P:README:STATUS_COMPLETED"]},
+    {"item_id":"R04:STATUS:NEXT","content":"Source-described next milestones include generator-estimation pipeline implementation, empirical k*(N,sigma), dual-curve validation and cross-system benchmarking.","source_units":["R04:P:README:STATUS_NEXT"],"notes":"Preserved without reconciliation against executable estimator code present on the same frozen head."}
+  ],
+  "definitions": [
+    {"item_id":"R04:DEF:MISRESOLUTION","content":"Beyond k*, observational uncertainty can be treated as structure; source describes this as overfitting the equivalence relation itself.","source_units":["R04:P:README:MISRESOLUTION"]},
+    {"item_id":"R04:DEF:NOTATION_CORE","content":"Source notation dictionary for true/estimated dynamics, observation controls, reconstruction, algebraic depth, invariant/gauge objects, information quantities, errors and reference systems.","source_units":["R04:P:NOTATION:DICTIONARY_CORE","R04:P:NOTATION:DICTIONARY_GAUGE_INFO","R04:P:NOTATION:ERRORS_PHASE_SYSTEMS"]}
+  ],
+  "formal_structures": [
+    {"item_id":"R04:FORMAL:HORIZON_OBJECT","content":"k* is the operational resolution horizon; O_comp is the bounded observer identification object at k*.","source_units":["R04:P:README:HORIZON_OBJECT","R04:P:THEORY:IDENTIFICATION_OBJECT","R04:P:MATH:FINAL_OBJECT","R04:P:NOTATION:ERRORS_PHASE_SYSTEMS"]},
+    {"item_id":"R04:FORMAL:DUAL_INFORMATION","content":"DeltaL(k), C_G(k), eta(k)=DeltaL/C_G and k*=argmax eta define the dual information/efficiency measurement family.","source_units":["R04:P:README:DUAL_INFORMATION","R04:P:THEORY:INFORMATION_FUNCTIONALS","R04:P:MATH:INFORMATION","R04:P:NOTATION:DICTIONARY_GAUGE_INFO"]},
+    {"item_id":"R04:FORMAL:PHASE_MODEL","content":"Three operational regimes: structural acquisition, resolution horizon and misresolution, with source-defined sign conditions.","source_units":["R04:P:README:PHASES","R04:P:THEORY:PHASE_MODEL","R04:P:MATH:PHASE_ERRORS","R04:P:NOTATION:ERRORS_PHASE_SYSTEMS"]},
+    {"item_id":"R04:FORMAL:ERROR_VECTOR","content":"Diagnostic decomposition E_learn,E_gauge,E_truncate,E_cover.","source_units":["R04:P:README:ERROR_GEOMETRY","R04:P:THEORY:ERRORS","R04:P:MATH:PHASE_ERRORS","R04:P:NOTATION:ERRORS_PHASE_SYSTEMS"]},
+    {"item_id":"R04:FORMAL:SYSTEM_ESTIMATOR","content":"Separates true dynamics F, finite noisy observations D_N, estimated generator F_hat and reconstruction operator R_lambda_N.","source_units":["R04:P:THEORY:SYSTEM_ESTIMATOR","R04:P:MATH:SYSTEM_RECONSTRUCTION","R04:P:NOTATION:DICTIONARY_CORE"]},
+    {"item_id":"R04:FORMAL:LIE_LADDER","content":"Nested Lie-depth ladder represents structural resolution depth k.","source_units":["R04:P:THEORY:LIE_DEPTH","R04:P:MATH:LIE_LADDER","R04:P:NOTATION:DICTIONARY_CORE"]},
+    {"item_id":"R04:FORMAL:INVARIANTS_GAUGE","content":"Separates ideal/estimated invariants and population/finite gauge structures with uncertainty radius and jet/compact-domain controls.","source_units":["R04:P:THEORY:INVARIANTS_GAUGE","R04:P:MATH:INVARIANTS_GAUGE","R04:P:NOTATION:DICTIONARY_GAUGE_INFO"]}
+  ],
+  "assertions_or_hypotheses": [
+    {"item_id":"R04:HYP:CENTRAL","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Discoverable/recoverable mathematical structure has a finite observer-resource-dependent horizon rather than being intrinsic to the system alone.","source_units":["R04:P:README:HYPOTHESIS","R04:P:THEORY:HYPOTHESIS"]},
+    {"item_id":"R04:HYP:PROFILE","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Structural discovery is predicted to improve then degrade beyond k* as high-order uncertainty dominates.","source_units":["R04:P:README:PROFILE_PREDICTION"]},
+    {"item_id":"R04:HYP:DERIVATIVE_STABILITY","item_kind":"SOURCE_ASSERTION_HYPOTHESIS_OR_ASSUMPTION","content":"High-order derivative uncertainty is modeled as increasing with depth; finite horizon depends on derivative amplification behavior.","source_units":["R04:P:THEORY:DERIVATIVE_ASSUMPTION","R04:P:MATH:DERIVATIVE_STABILITY_ASSUMPTION"]},
+    {"item_id":"R04:HYP:RESPONSE_SURFACE","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"k* should increase with N and excitation diversity and decrease with noise and coverage deficit.","source_units":["R04:P:README:RESPONSE_SURFACE","R04:P:THEORY:RESPONSE_PREDICTIONS","R04:P:MATH:RESPONSE","R04:P:NOTATION:OBSERVATION_PREDICTIONS"]},
+    {"item_id":"R04:ASSERT:INTRINSIC_OBSERVABLE","item_kind":"SOURCE_ASSERTION_CONCEPTUAL_DISTINCTION","content":"Intrinsic structure and observable structure are distinct; observable structure depends on observer/data/estimator conditions.","source_units":["R04:P:MATH:INTRINSIC_OBSERVABLE_DISTINCTION"]},
+    {"item_id":"R04:ASSERT:PHILOSOPHY","item_kind":"SOURCE_ASSERTION_RESEARCH_PHILOSOPHY","content":"Mathematical discovery is treated as a measurement process over what a bounded observer can recover.","source_units":["R04:P:README:PHILOSOPHY"]},
+    {"item_id":"R04:ASSERT:NOTATION_RULES","item_kind":"SOURCE_ASSERTION_NOTATION_PRINCIPLES","content":"True/estimated and intrinsic/observable objects are not conflated; depth above k* does not imply meaningful recovered structure; k* is resource-dependent.","source_units":["R04:P:NOTATION:RULES"]},
+    {"item_id":"R04:HYP:PROTOCOL_EXPECTATIONS","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Source-defined expected outcomes for calibration, coordinate transfer, noise/data/coverage/excitation sweeps and regularization bypass.","source_units":["R04:P:PROTOCOL:PHASE_I:PREDICTION","R04:P:PROTOCOL:PHASE_II_III_IV:PREDICTIONS","R04:P:PROTOCOL:PHASE_V_VI:PREDICTIONS","R04:P:PROTOCOL:PHASE_VII:ADJUDICATION"]}
+  ],
+  "methodology_or_test_protocol": [
+    {"item_id":"R04:METHOD:PROGRAM","item_kind":"SOURCE_METHODOLOGY","content":"Three-stage experimental program: harmonic calibration, coordinate warps, then richer nonlinear systems.","source_units":["R04:P:README:EXPERIMENT_PROGRAM"]},
+    {"item_id":"R04:METHOD:BYPASS","item_kind":"SOURCE_TEST_PROTOCOL","content":"Regularization bypass varies lambda_N to discriminate observer-limited from structure/representation-limited horizons.","source_units":["R04:P:THEORY:BYPASS_PROTOCOL","R04:P:MATH:BYPASS","R04:P:PROTOCOL:PHASE_VII:METHOD"]},
+    {"item_id":"R04:METHOD:FALSIFICATION","item_kind":"SOURCE_FALSIFICATION_PROTOCOL","content":"Source defines finite-horizon, response-surface, symmetry-curve, regularization and error-separability failure conditions.","source_units":["R04:P:THEORY:FALSIFICATION","R04:P:MATH:FALSIFICATION","R04:P:PROTOCOL:FALSIFICATION_ROADMAP"]},
+    {"item_id":"R04:METHOD:CORE_PROTOCOL","item_kind":"SOURCE_TEST_PROTOCOL","content":"Full measurement-chain protocol, controlled variables, required outputs, replication/uncertainty/sensitivity requirements.","source_units":["R04:P:PROTOCOL:PURPOSE","R04:P:PROTOCOL:VARIABLES","R04:P:PROTOCOL:OUTPUTS","R04:P:PROTOCOL:REPORTING_STATS"]},
+    {"item_id":"R04:METHOD:PHASE_I","item_kind":"SOURCE_TEST_PROTOCOL","content":"Harmonic oscillator calibration method.","source_units":["R04:P:PROTOCOL:PHASE_I:METHOD"]},
+    {"item_id":"R04:METHOD:PHASE_II_IV","item_kind":"SOURCE_TEST_PROTOCOL","content":"Coordinate-distortion, noise and data scaling procedures.","source_units":["R04:P:PROTOCOL:PHASE_II_III_IV:METHOD"]},
+    {"item_id":"R04:METHOD:PHASE_V_VI","item_kind":"SOURCE_TEST_PROTOCOL","content":"Coverage and excitation-diversity procedures.","source_units":["R04:P:PROTOCOL:PHASE_V_VI:METHOD"]},
+    {"item_id":"R04:METHOD:PHASE_VIII","item_kind":"SOURCE_TEST_PROTOCOL","content":"Euler-top nonlinear rigid-body benchmark protocol.","source_units":["R04:P:PROTOCOL:PHASE_VIII"]},
+
+    {"item_id":"R04:IMPL:GENERATE_DATA","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Python implementation of harmonic trajectory generation, noise, coordinate warp, energy baseline, persistence and CLI controls.","source_units":["R04:P:CODE:GENERATE:PURPOSE","R04:P:CODE:GENERATE:BEHAVIOR"]},
+    {"item_id":"R04:IMPL:GENERATE_OUTPUT","item_kind":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Potential runtime prints include data path and energy summary; no frozen execution output is present.","source_units":["R04:P:CODE:GENERATE:OUTPUT_LABELS"]},
+    {"item_id":"R04:IMPL:ESTIMATOR","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Python polynomial/Ridge generator estimator baseline and direct-execution readiness output.","source_units":["R04:P:CODE:ESTIMATE:PURPOSE","R04:P:CODE:ESTIMATE:BEHAVIOR","R04:P:CODE:ESTIMATE:STATUS"]},
+    {"item_id":"R04:IMPL:LIE","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Python numerical-Jacobian/Lie-bracket/rank closure-depth implementation plus potential print behavior.","source_units":["R04:P:CODE:LIE:PURPOSE","R04:P:CODE:LIE:BEHAVIOR","R04:P:CODE:LIE:OUTPUT"]},
+    {"item_id":"R04:IMPL:MDL","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Python MDL/gauge proxy analyzer with horizon extraction.","source_units":["R04:P:CODE:MDL:PURPOSE","R04:P:CODE:MDL:BEHAVIOR"]},
+    {"item_id":"R04:IMPL:MDL_SYNTHETIC","item_kind":"IMPLEMENTATION_ASSUMPTION","content":"Direct-run MDL calibration uses hard-coded synthetic reconstruction errors and epsilon values explicitly marked for later replacement.","source_units":["R04:P:CODE:MDL:SYNTHETIC_ASSUMPTION"]},
+    {"item_id":"R04:IMPL:MDL_OUTPUT","item_kind":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Potential 'Measured resolution horizon' output is computed from synthetic inputs; no frozen run output is present.","source_units":["R04:P:CODE:MDL:OUTPUT"]},
+    {"item_id":"R04:IMPL:ANALYZE","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Simplified horizon analyzer loads dataset but computes horizon profile from N/sigma proxy formulas on the frozen code surface.","source_units":["R04:P:CODE:ANALYZE:PURPOSE","R04:P:CODE:ANALYZE:BEHAVIOR","R04:P:CODE:ANALYZE:DATA_USE"]},
+    {"item_id":"R04:IMPL:ANALYZE_OUTPUT","item_kind":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Potential 'Measured k*' and plot outputs are programmed runtime behavior, not repository-recorded results.","source_units":["R04:P:CODE:ANALYZE:OUTPUT"]},
+    {"item_id":"R04:IMPL:MAIN","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Synthetic calibration bench implements clean and regularization-bypass scenarios and eta-based k* comparison.","source_units":["R04:P:CODE:MAIN:PURPOSE","R04:P:CODE:MAIN:SCENARIOS"]},
+    {"item_id":"R04:IMPL:MAIN_ASSUMPTIONS","item_kind":"IMPLEMENTATION_ASSUMPTION","content":"Bench hard-codes true_horizon=3 and synthetic gain/penalty/ambiguity formulas.","source_units":["R04:P:CODE:MAIN:ASSUMPTIONS"]},
+    {"item_id":"R04:IMPL:MAIN_OUTPUT","item_kind":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Program can print 'Observer-Limited Architecture Confirmed' if synthetic scenario k* values differ; this is not a scientific result.","source_units":["R04:P:CODE:MAIN:OUTPUT_LABEL"]}
+  ],
+  "reported_results": [],
+  "reported_negative_results": [],
+  "limitations_or_open_questions": [],
+  "applications_or_examples": [],
+  "internal_references": [],
+  "explicit_cross_repository_references": [],
+  "unresolved_references": [],
+  "standing_boundaries": [
+    "EXECUTABLE_IMPLEMENTATION != EXECUTION",
+    "IMPLEMENTATION_ASSUMPTION != SCIENTIFIC_HYPOTHESIS",
+    "IMPLEMENTED_OUTPUT_BEHAVIOR != REPORTED_RESULT",
+    "SOURCE_DESCRIBED_STATUS != REPOSITORY_STATE_RECONCILIATION",
+    "MULTIPLE_SOURCE_UNITS != INDEPENDENT_WARRANTS"
+  ],
+  "map_edge_emission": "NONE",
+  "compression_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
