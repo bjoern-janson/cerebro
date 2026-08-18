@@ -1,0 +1,25 @@
+{
+  "object":"CEREBRO_R10_COMPRESSION_V0.1_CONFORMANCE_004",
+  "record_type":"pre-death-test inherited-contract conformance overlay",
+  "persistent_record_state":"FROZEN",
+  "base_effective_compression":["R10_COMPRESSION_V0.1.json","R10_COMPRESSION_V0.1_CONFORMANCE_001.json","R10_COMPRESSION_V0.1_CONFORMANCE_002.json","R10_COMPRESSION_V0.1_CONFORMANCE_003.json"],
+  "trigger":"INHERITED_STANDING_AND_SECONDARY_REUSE_RULES",
+  "effective_item_repairs":[
+    {"item":"R10:METHOD:EXPERIMENTAL","effective_coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL"}
+  ],
+  "added_items":[
+    {"id":"R10:IMPL:ORDINARY_ARTIFACT_STATE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"ARTIFACT_CONTENT_STATE","content":"Standing-pure artifact-state destination for ordinary non-fenced Python blobs; artifact parseability/executable form remains distinct from the implementation semantics they contain."},
+    {"id":"R10:IMPL:INTEGRATION_ARTIFACT_STATE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"ARTIFACT_CONTENT_STATE","content":"Standing-pure destination for source-observed interface/API incompatibilities affecting integrated benchmark executability."},
+    {"id":"R10:STATUS:IDENTITY_VARIANTS","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":"Primary source-status view preserving each file-local CGET expansion variant without performing cross-source reconciliation."},
+    {"id":"R10:STATUS:SCALAR_IMPLEMENTATION_TENSION","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":"Primary source-status view preserving the implementation/documentation disagreement around scalar Theta* ranking."}
+  ],
+  "secondary_view_repairs":[
+    {"secondary_item":"R10:TENSION:NAME","secondary_role":"CROSS_SOURCE_IDENTITY_VARIATION_VIEW","primary_references":["R10:STATUS:IDENTITY_VARIANTS"],"authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_item":"R10:TENSION:SCALAR","secondary_role":"SPECIFICATION_IMPLEMENTATION_TENSION_VIEW","primary_references":["R10:STATUS:SCALAR_IMPLEMENTATION_TENSION","R10:ASSERT:CONCEPTUAL","R10:IMPL:ASSUMPTIONS_PROXIES"],"authority_effect":"NONE","warrant_multiplicity_effect":"NONE"}
+  ],
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
