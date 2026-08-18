@@ -1,0 +1,61 @@
+{
+  "object":"CEREBRO_R12_COMPRESSION_V0.1",
+  "record_type":"research-object compression candidate",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R12",
+  "repository":"bjoern-janson/causal-permeability-principle",
+  "frozen_head_commit":"c9b9b5581cdeb7dae49afd4b8e510ba838ec250a",
+  "effective_parse":"program/research_object_compression/R12_EXHAUSTIVE_PARSE_V0.1.json",
+  "effective_parse_units":31,
+  "compression_contract":"EFFECTIVE_RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "compressed_items":[
+    {"id":"R12:IDENTITY:CPP","coordinate":"IDENTITY","standing":"IDENTITY_TITLE","content":"The Causal Permeability Principle (CPP)."},
+    {"id":"R12:SCOPE:LOCAL_PURPOSES","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Standing-pure indexed purpose view preserving both the graph-theoretic-criterion subtitle and abstract purpose: distinguish autonomous self-modification from proposed open-ended evolution through causal access to future-revision machinery."},
+
+    {"id":"R12:DEF:CORE","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"G":"directed causal graph (V,E)","E_star":"external reality/environmental or ecological causal influence","C_rev":"constitutional revision mechanism determining generation of future revision rules","reachability_symbol":"directed causal reachability within G"}},
+    {"id":"R12:FORMAL:PERMEABILITY","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":"P_C is defined as E* having directed causal reachability to C_rev. This is the source permeability definition/formal relation, not an empirical result."},
+    {"id":"R12:FORMAL:CLOSED_DYNAMICS","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":"Closed trajectory branch: C_rev(t+1)=f(C_rev(t))."},
+    {"id":"R12:FORMAL:OPEN_DYNAMICS","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":"Open lineage branch: C_rev(t+1)=f(C_rev(t),E*(t))."},
+    {"id":"R12:FORMAL:NONIMPLICATION","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":"Source states Delta C_rev != 0 does not imply P_C; revision/change alone is formally separated from permeability."},
+    {"id":"R12:FORMAL:CLOSURE_CONDITION","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":"Closure-side formal condition is E* not directed-reachable C_rev."},
+
+    {"id":"R12:HYP:NECESSITY","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_HYPOTHESIS","content":"Central necessary-condition family: open-endedness is proposed to require external reality retaining causal access to constitutional revision; preserving P_C is not projected as a sufficient condition by the compressor."},
+    {"id":"R12:HYP:CLOSED_BOUNDARY","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_HYPOTHESIS","content":"Source proposes that purely internally generated constitutional revision can support learning/optimization/self-redesign while remaining bounded by internally generated rules or fixed future-possibility topology."},
+    {"id":"R12:HYP:TOPOLOGICAL_DISTINCTION","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_HYPOTHESIS","content":"Source proposes that closed trajectories and open lineages can be distinguished through causal topology rather than continual change, behavior or semantics."},
+    {"id":"R12:ASSERT:CONCEPTUAL","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_CONCEPTUAL","content":"Conceptual interpretations include reality retaining causal access, external reality participating rather than merely being observed, open-endedness not being continual change, and the one-line 'reality can rewrite what rewriting means' compression."},
+    {"id":"R12:ASSERT:GRAPH_CUT_EQUIVALENCE","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_CONCEPTUAL","source_label":"or equivalently","content":"Source labels existence of a graph cut separating E* from C_rev as equivalent to no directed reachability. The compression preserves the source equivalence assertion without upgrading it to independently proved equivalence."},
+
+    {"id":"R12:PRED:ADAPTIVE_CAPACITY","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_PREDICTION","content":"Predictions: severed permeability yields closure; preserved permeability yields greater long-term adaptive capacity than internal self-modification alone; otherwise similar systems should diverge under sufficiently novel environments when only one preserves constitutional permeability."},
+    {"id":"R12:METHOD:FALSIFICATION","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":"CPP would be challenged by sustained open-ended evolution with no external-reality-to-C_rev causal pathway while future possibility space continues expanding indefinitely."},
+
+    {"id":"R12:STATUS:SOURCE_CHARACTERIZATION","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":"Source characterizes CPP as a graph-theoretic criterion/invariant. These labels are preserved as source characterization and do not themselves establish a proved invariance theorem or universal scientific law."},
+
+    {"id":"R12:STATUS:NO_EMPIRICAL_RESULT","coordinate":"REPORTED_RESULTS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No reported empirical result is observed on the exhaustive frozen one-file research surface; derived from source/parse accounting, not from an omitted source unit."},
+    {"id":"R12:STATUS:NO_NEGATIVE_RESULT","coordinate":"REPORTED_NEGATIVE_RESULTS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No reported negative result is observed; the falsification condition is prospective methodology, not a failed experiment."},
+    {"id":"R12:STATUS:NO_IMPLEMENTATION","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No implementation or executable research artifact is observed on the frozen research surface."},
+    {"id":"R12:STATUS:NO_EXECUTION","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No execution record is observed on the frozen research surface."}
+  ],
+  "secondary_views":[
+    {"id":"R12:VIEW:PERMEABILITY_RECURRENCE","secondary_role":"SOURCE_OCCURRENCE_VIEW","primary_references":["R12:FORMAL:PERMEABILITY","R12:ASSERT:CONCEPTUAL"],"source_occurrence_ids":["R12:P:README:DEF_PERMEABILITY","R12:P:README:CRITICAL_BRIDGE_OCCURRENCE","R12:P:README:SUMMARY_FORMAL_RECURRENCE"],"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE","authority_effect":"NONE"},
+    {"id":"R12:VIEW:NECESSITY_SUFFICIENCY_BOUNDARY","secondary_role":"LOGICAL_JURISDICTION_VIEW","primary_references":["R12:HYP:NECESSITY","R12:FORMAL:PERMEABILITY"],"source_support":"OPEN_ENDED -> P_C is asserted; P_C -> OPEN_ENDED is not independently established on the frozen source surface","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"}
+  ],
+  "derived_bounded_absence_provenance":{"source_surface":"R12_SOURCE_SURFACE_V0.1.json","parse_manifest":"R12_EXHAUSTIVE_PARSE_V0.1.json","admitted_research_paths":"1/1 parsed"},
+  "non_inferences":[
+    "ONE_FILE != ONE_SEMANTIC_OBJECT",
+    "OPEN_ENDED_ONLY_IF_P_C != P_C_IF_AND_ONLY_IF_OPEN_ENDED",
+    "SOURCE_EQUIVALENT_LABEL != INDEPENDENT_EQUIVALENCE_PROOF",
+    "SOURCE_INVARIANT_LABEL != INDEPENDENT_INVARIANCE_PROOF",
+    "FORMALIZATION != RESULT",
+    "PREDICTION != EVIDENCE",
+    "FALSIFICATION_CRITERION != NEGATIVE_RESULT",
+    "RECURRENCE != INDEPENDENT_WARRANT",
+    "SOURCE_GRAPH_OBJECT != PROGRAM_MAP_EDGE"
+  ],
+  "compression_standing":"CANDIDATE_PENDING_EXPLICIT_PROJECTION_LEDGER_AND_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "amendment_005":"NOT_EARNED"
+}
