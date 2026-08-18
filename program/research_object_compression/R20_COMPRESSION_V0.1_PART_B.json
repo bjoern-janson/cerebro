@@ -1,0 +1,78 @@
+{
+  "object":"CEREBRO_R20_COMPRESSION_V0.1_PART_B",
+  "repository_id":"R20",
+  "record_type":"loss-bounded implementation compression payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "schema":"[ITEM_ID,COORDINATE,STANDING,SOURCE_UNITS,CONTENT]",
+  "items":[
+    ["R20:B:MAIN","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0145","R20P0146","R20P0147","R20P0148","R20P0149"],"CLI loads config, exposes agency_transfer/permeability_transition, runs a 100-episode ancestor training demo, maps history to agency plot inputs, and plots deterministic kappa/(1+kappa) over 0..2."],
+    ["R20:B:REQ","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0151"],"Python dependency manifest for numerical/data/plotting/testing/config tooling."],
+
+    ["R20:B:AGENTS:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0152"],"Agent package export surface."],
+    ["R20:B:AGENTS:BASE","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0153","R20P0154"],"Abstract BaseAgent with memory, abstract act(), feedback logging and default no-op update_model()."],
+    ["R20:B:AGENTS:BASE:UNRES","LIMITATIONS_OR_OPEN_QUESTIONS","UNRESOLVED_SOURCE_FRAGMENT",["R20U0043"],"Feedback schema/type is unconstrained across callers."],
+    ["R20:B:AGENTS:ANCESTOR","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0156","R20P0157","R20P0158","R20P0159"],"Prototype AncestorAgent selects challenge/scaffold/direct modes around fixed required level 0.5, emits symbolic actions, exposes agency/dependency estimates, and inherits base update behavior."],
+    ["R20:B:AGENTS:ORACLE","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0161"],"OracleAgent implements direct/complete assistance policy."],
+    ["R20:B:AGENTS:TUTOR","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0162"],"TutorAgent implements guided/hint-style assistance policy."],
+    ["R20:B:AGENTS:METRICS","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0163","R20P0164"],"Agent-local arithmetic capability/agency/dependency proxy calculations."],
+
+    ["R20:B:ENV:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0166"],"Environment package imports BaseEnvironment, ChangingRulesEnv, TransferTaskEnv and EcosystemEnv while defining an export list."],
+    ["R20:B:ENV:INIT:UNRES","LIMITATIONS_OR_OPEN_QUESTIONS","UNRESOLVED_SOURCE_FRAGMENT",["R20U0047"],"Package __all__ names do not match imported class names."],
+    ["R20:B:ENV:BASE","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0167"],"Abstract/base reset-step environment interface."],
+    ["R20:B:ENV:CHANGING","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0169","R20P0170","R20P0171"],"Minimal changing-rule environment with reset/step and rule-shift behavior."],
+    ["R20:B:ENV:ECOSYSTEM","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0173","R20P0174","R20P0175"],"Toy multi-agent ecosystem dynamics and state suitable for ecosystem proxy metrics."],
+    ["R20:B:ENV:TRANSFER","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0177","R20P0178"],"TransferTaskEnv gives 1.0 for independent_reasoning=True and a lower assisted score otherwise."],
+
+    ["R20:B:EXP:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0180"],"Experiment package surface."],
+    ["R20:B:EXP:AGENCY","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0181","R20P0182","R20P0183"],"Agency-transfer helper drives interactions, supplies independent_reasoning=True for independent evaluation and returns prototype result structures."],
+    ["R20:B:EXP:BASELINE","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0185","R20P0186"],"Baseline-comparison helper loops agents/environments and aggregates prototype metrics."],
+    ["R20:B:EXP:LOGGER","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0188","R20P0189"],"Filesystem ExperimentLogger can create run directories and persist metadata/config/metrics if invoked."],
+    ["R20:B:EXP:PERM","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0192","R20P0193","R20P0194"],"Permeability helper runs prediction/update interactions, counts error-triggered update calls as revisions and returns phase-analysis metrics."],
+    ["R20:B:EXP:REGISTRY","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0196","R20P0197"],"Registry/factory intended to bind experiment names to implementations."],
+    ["R20:B:EXP:RESULTS","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0199","R20P0200"],"ExperimentResults structures support save/load of supplied outcomes."],
+    ["R20:B:EXP:RUNNER","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0203","R20P0204"],"Runner orchestrates registry-created experiment, logging and result handling when dependencies resolve."],
+
+    ["R20:B:METRIC:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0206"],"Metrics package export surface."],
+    ["R20:B:METRIC:AGENCY","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0207","R20P0208"],"Arithmetic agency-transfer/capability proxy metrics."],
+    ["R20:B:METRIC:DEP","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0210","R20P0211"],"Deterministic dependency/reliance proxy metrics."],
+    ["R20:B:METRIC:ECO","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0213","R20P0214","R20P0215"],"Diversity, sovereignty and exploration proxy metrics from strategies/actions."],
+    ["R20:B:METRIC:EPI","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0217","R20P0218","R20P0219"],"Model-quality/update-velocity/permeability proxy calculations and composite support."],
+    ["R20:B:METRIC:EPI:UNRES","LIMITATIONS_OR_OPEN_QUESTIONS","UNRESOLVED_SOURCE_FRAGMENT",["R20U0057"],"Input scale/normalization and denominator semantics are not generally constrained."],
+
+    ["R20:B:MODEL:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0221"],"Models package export surface."],
+    ["R20:B:MODEL:BELIEF","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0222","R20P0223","R20P0224"],"BeliefState stores confidence and applies fixed bounded strengthen/weaken increments."],
+    ["R20:B:MODEL:COG","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0226","R20P0227","R20P0228"],"CognitiveModel stores beliefs and applies simple success/failure-driven revisions."],
+    ["R20:B:MODEL:COMP","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0230","R20P0231"],"Lightweight compression/representation proxy utility."],
+    ["R20:B:MODEL:UPDATE","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0233","R20P0234","R20P0235"],"UpdateEngine turns simple feedback into revision pressure/update accounting."],
+
+    ["R20:B:REWARD:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0237"],"Rewards package export surface."],
+    ["R20:B:REWARD:AGENCY","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0238"],"Agency reward from supplied capability/agency change proxies."],
+    ["R20:B:REWARD:ANCESTOR","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0240","R20P0241"],"Weighted ancestor objective combines task, agency, future-capability and dependency terms."],
+    ["R20:B:REWARD:DEP","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0243"],"Dependency penalty from supplied reliance proxy."],
+    ["R20:B:REWARD:TRACK","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0245","R20P0246"],"In-memory reward-component/history tracker."],
+
+    ["R20:B:TRAIN:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0248"],"Trainer package export surface."],
+    ["R20:B:TRAIN:BASE","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0249","R20P0250"],"Generic action-step-reward-update training loop and history collection."],
+    ["R20:B:TRAIN:ANCESTOR","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0252","R20P0253","R20P0254"],"AncestorTrainer wires environment scores and agency/dependency proxies into AncestorReward, calls agent.update and records episode history."],
+    ["R20:B:TRAIN:CURR","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0256","R20P0257","R20P0258"],"Curriculum implements staged difficulty/progression and challenge support."],
+    ["R20:B:TRAIN:EVAL","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0260","R20P0261","R20P0262"],"EvaluationLoop intends assisted/unassisted evaluation and calls act_without_assistance()."],
+
+    ["R20:B:UTIL:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0264"],"Utilities package export surface."],
+    ["R20:B:UTIL:CONFIG","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0265","R20P0266","R20P0267"],"Runtime configuration structure/default/access helpers."],
+    ["R20:B:UTIL:LOADER","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0269","R20P0270"],"YAML configuration loader and access/merge support."],
+    ["R20:B:UTIL:LOGGER","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0272","R20P0273"],"Separate in-memory ExperimentLogger for lightweight metric/event history."],
+    ["R20:B:UTIL:SEED","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0276"],"Random seed utility for Python/numpy-style reproducibility when invoked."],
+    ["R20:B:UTIL:SER","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0278","R20P0279"],"Generic serialization save/load helpers."],
+
+    ["R20:B:VIZ:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0282"],"Visualization package export surface."],
+    ["R20:B:VIZ:AGENCY","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0283","R20P0284"],"Agency-transfer plotting/save helper from supplied arrays."],
+    ["R20:B:VIZ:ECO","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0286","R20P0287"],"Ecosystem landscape plotting/save helper."],
+    ["R20:B:VIZ:PHASE","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0289","R20P0290"],"Permeability/phase-transition curve plotting/save helper."],
+    ["R20:B:VIZ:PLOTS","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0292","R20P0293"],"Generic metric/result plotting and figure-save utilities."]
+  ],
+  "item_count":55,
+  "reported_results":[],
+  "negative_results":[],
+  "authority_effect":"NONE",
+  "map_edge_emission":"NONE"
+}
