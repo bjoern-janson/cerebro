@@ -1,0 +1,70 @@
+{
+  "object": "CEREBRO_R03_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type": "frozen local parse-unitization repair",
+  "persistent_record_state": "FROZEN",
+  "base_parse": "program/research_object_compression/R03_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger": "program/research_object_compression/R03_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope": "MIXED_STANDING_GROUPING_REGRESSION_ONLY",
+  "replacement_semantics": "Remove each listed base unit from the effective parse and replace it with the successor units listed for that ID. All unlisted parse units remain unchanged.",
+  "effective_parse_unit_count": 99,
+  "replacements": [
+    {"replaces":"R03:P:012","units":[
+      {"id":"R03:P:012A","path":"theory.md","blob":"8bcfdac226237bcaea4be51130aad30c02863a8c","section":"11. Core Prediction","kind":"SOURCE_HYPOTHESIS","content":"Primary prediction requires measurable increase in aligned information velocity before accessibility acceleration and capability growth within a pre-specified bounded horizon τ."},
+      {"id":"R03:P:012B","path":"theory.md","blob":"8bcfdac226237bcaea4be51130aad30c02863a8c","section":"Model Status","kind":"SOURCE_DESCRIBED_STATUS","content":"Framework remains an empirical hypothesis requiring historical datasets, proxy reconstruction and falsification testing."}
+    ]},
+    {"replaces":"R03:P:015","units":[
+      {"id":"R03:P:015A","path":"methodology.md","blob":"2d81a4d06f8ac64660b42f37e4c0c0f161367269","section":"Accessibility Measurement","kind":"METHODOLOGICAL_PROTOCOL","content":"Operational accessibility estimate uses D_R, T_M, E_A and P_A and aims to estimate changes over time rather than direct accessibility."},
+      {"id":"R03:P:015B","path":"methodology.md","blob":"2d81a4d06f8ac64660b42f37e4c0c0f161367269","section":"Accessibility Measurement","kind":"MODEL_LIMITATION","content":"Exponential functional form is explicitly described as an initial operational model; alternative functional forms may be evaluated during empirical validation."}
+    ]},
+    {"replaces":"R03:P:018","units":[
+      {"id":"R03:P:018A","path":"methodology.md","blob":"2d81a4d06f8ac64660b42f37e4c0c0f161367269","section":"Proxy Estimation Limits","kind":"LIMITATION","content":"Historical variables are not directly observable; uncertainties include mutual information reconstruction, structural-vs-accumulated knowledge, resource-scaling separation and implicit utility alignment."},
+      {"id":"R03:P:018B","path":"methodology.md","blob":"2d81a4d06f8ac64660b42f37e4c0c0f161367269","section":"Temporal Validation + Falsification Criteria","kind":"METHODOLOGICAL_PROTOCOL","content":"Specifies temporal validation steps and five rejection conditions including ordering failure, resource explanation, absent description-length prediction, false-positive dominance and post-hoc horizon adjustment."}
+    ]},
+    {"replaces":"R03:P:019","units":[
+      {"id":"R03:P:019A","path":"methodology.md","blob":"2d81a4d06f8ac64660b42f37e4c0c0f161367269","section":"Current Status","kind":"SOURCE_DESCRIBED_STATUS","content":"Causal variables, measurable proxies, validation protocol and falsification criteria are currently defined."},
+      {"id":"R03:P:019B","path":"methodology.md","blob":"2d81a4d06f8ac64660b42f37e4c0c0f161367269","section":"Current Status > remaining task","kind":"SOURCE_DESCRIBED_NEXT_ACTIONS","content":"Remaining empirical work: construct historical datasets, estimate Λ_E trajectories, compare precursor signals with transitions and evaluate predictive performance."}
+    ]},
+    {"replaces":"R03:P:024","units":[
+      {"id":"R03:P:024A","path":"falsification.md","blob":"b3ba86d6460321b03cf00c1705c47842a79258a7","section":"12. Survival Criterion","kind":"FALSIFICATION_PROTOCOL","content":"Survival requires precursor ordering, bounded lead time, resource-control survival, manageable false positives and cross-domain signal."},
+      {"id":"R03:P:024B","path":"falsification.md","blob":"b3ba86d6460321b03cf00c1705c47842a79258a7","section":"Conclusion","kind":"SOURCE_ASSERTION","content":"Source reiterates capability explosions as downstream consequences of earlier exploration-efficiency transformations and says contrary empirical evidence should reject framework."}
+    ]},
+    {"replaces":"R03:P:033","units":[
+      {"id":"R03:P:033A","path":"case_studies  /autodiff_transition.md","blob":"b3108296f11beadd4844067d8274b4c6b407174b","section":"Alternative Explanations + Falsification Conditions","kind":"METHODOLOGICAL_PROTOCOL","content":"Specifies hardware, dataset and algorithmic alternatives/controls and six conditions that would weaken the autodiff case."},
+      {"id":"R03:P:033B","path":"case_studies  /autodiff_transition.md","blob":"b3108296f11beadd4844067d8274b4c6b407174b","section":"Current Assessment + Status","kind":"SOURCE_CASE_STATUS","content":"Classifies autodiff as candidate χ_g structural transition and says historical reconstruction of timing, throughput, description length and resource-normalized information velocity remains required."}
+    ]},
+    {"replaces":"R03:P:053","units":[
+      {"id":"R03:P:053A","path":"case_studies  /case_006_convergent_validity_test.md","blob":"7a244f3539b023fc0e8725564a11345f42591187","section":"Results > Overall Agreement","kind":"SOURCE_REPORTED_RESULT","content":"Reports observed binary-classification agreement of 80–85% against common historical interpretations."},
+      {"id":"R03:P:053B","path":"case_studies  /case_006_convergent_validity_test.md","blob":"7a244f3539b023fc0e8725564a11345f42591187","section":"Results > Overall Agreement","kind":"SOURCE_INTERPRETATION_OR_ESTIMATE","content":"Source says a Cohen's-kappa-style estimate would likely fall in substantial-to-almost-perfect range; no actual kappa computation is reported."}
+    ]},
+    {"replaces":"R03:P:065","units":[
+      {"id":"R03:P:065A","path":"docs/consciousness-speculation.md","blob":"e329ffd27d7e123c845f81374746c6f9e3f62755","section":"9. Falsification Criteria","kind":"FALSIFICATION_CRITERIA","content":"Lists consciousness-without-integration, integration-without-consciousness and intelligence-without-self-integration as weakening conditions."},
+      {"id":"R03:P:065B","path":"docs/consciousness-speculation.md","blob":"e329ffd27d7e123c845f81374746c6f9e3f62755","section":"10. The Unified Chain","kind":"EXPLICIT_PROGRAM_REFERENCE_AND_LINEAGE_CLAIM","content":"Presents Causal Mass -> Interface-Induced Computational Geometry -> Computational Phase Boundaries -> consciousness as a source-described conceptual chain; endpoints remain unresolved at map level."},
+      {"id":"R03:P:065C","path":"docs/consciousness-speculation.md","blob":"e329ffd27d7e123c845f81374746c6f9e3f62755","section":"Final Constraint","kind":"SOURCE_SCOPE_LIMIT","content":"States purpose is not to declare consciousness solved but to define a falsifiable computational hypothesis and requires measurable predictive architectural conditions."}
+    ]},
+    {"replaces":"R03:P:072","units":[
+      {"id":"R03:P:072A","path":"docs/emerging-insights.md","blob":"fe6d5c914ce9bb4547065167c2175853326cfbf3","section":"5. Compression Is Necessary but Not Sufficient","kind":"SOURCE_LIMITATION","content":"Beautiful conceptual compression does not guarantee increased information velocity or search capability; successful theory-to-tool transition requires an interface that improves search."},
+      {"id":"R03:P:072B","path":"docs/emerging-insights.md","blob":"fe6d5c914ce9bb4547065167c2175853326cfbf3","section":"6. CPB as a Navigation Instrument","kind":"SOURCE_CURRENT_CAPABILITY_CLAIM","content":"Source says strongest demonstrated capability of CPB is currently reframing/navigation rather than prediction and describes it as a search heuristic for exploration bottlenecks."}
+    ]},
+    {"replaces":"R03:P:074","units":[
+      {"id":"R03:P:074A","path":"docs/emerging-insights.md","blob":"fe6d5c914ce9bb4547065167c2175853326cfbf3","section":"8. Current Validation Requirement","kind":"METHODOLOGICAL_REQUIREMENT","content":"External transfer should enable unfamiliar users/systems to identify bottlenecks, generate interventions, recognize boundaries and outperform conventional approaches."},
+      {"id":"R03:P:074B","path":"docs/emerging-insights.md","blob":"fe6d5c914ce9bb4547065167c2175853326cfbf3","section":"9. Current Core Hypothesis","kind":"SOURCE_HYPOTHESIS","content":"Current synthesis: a phase boundary occurs when a system transforms the mechanism by which it explores possibility space."},
+      {"id":"R03:P:074C","path":"docs/emerging-insights.md","blob":"fe6d5c914ce9bb4547065167c2175853326cfbf3","section":"Open Question","kind":"OPEN_QUESTION","content":"Can CPB itself become a phase boundary by moving from framework describing exploration to interface improving exploration?"}
+    ]},
+    {"replaces":"R03:P:078","units":[
+      {"id":"R03:P:078A","path":"docs/emerging-insights2.md","blob":"c5d3cbf83c925561c1297e09c1ff8a458ce1f331","section":"7. Cross-Domain Transfer","kind":"SOURCE_HYPOTHESIS","content":"Proposes shared trajectory-based abstraction across computational systems, cognition, music organization and technological evolution."},
+      {"id":"R03:P:078B","path":"docs/emerging-insights2.md","blob":"c5d3cbf83c925561c1297e09c1ff8a458ce1f331","section":"8. The Danger of False Compression","kind":"SOURCE_LIMITATION","content":"Elegant explanations and analogies without better predictions, decisions or exploration are insufficient; compression must increase search velocity to count as useful interface."}
+    ]},
+    {"replaces":"R03:P:079","units":[
+      {"id":"R03:P:079A","path":"docs/emerging-insights2.md","blob":"c5d3cbf83c925561c1297e09c1ff8a458ce1f331","section":"9. Current Research Direction","kind":"SOURCE_DESCRIBED_NEXT_ACTIONS","content":"Proposes operational tests for bottleneck identification, intervention generation, human/AI reasoning-loop improvement and prediction against simpler models."},
+      {"id":"R03:P:079B","path":"docs/emerging-insights2.md","blob":"c5d3cbf83c925561c1297e09c1ff8a458ce1f331","section":"Conclusion","kind":"SOURCE_SYNTHESIS_ASSERTION","content":"Concludes computational progress occurs when systems improve mechanisms by which they improve, and a descriptive framework becomes exemplary only if it changes search process."}
+    ]},
+    {"replaces":"R03:P:083","units":[
+      {"id":"R03:P:083A","path":"docs/trajectory-coherence-a.md","blob":"1c531c3b2b30094afc0f54a127c6d2e39a67b703","section":"Formal Hypothesis","kind":"SOURCE_PROPOSED_FORMALIZATION","content":"Proposes authenticity proportional to negative divergence between internal and behavioral distributions and explicitly says this is a proposed formalization, not established measurement."},
+      {"id":"R03:P:083B","path":"docs/trajectory-coherence-a.md","blob":"1c531c3b2b30094afc0f54a127c6d2e39a67b703","section":"Formal Hypothesis > empirical question","kind":"OPEN_QUESTION","content":"Can authenticity-related signals predict long-term behavior better than surface behavior alone?"},
+      {"id":"R03:P:083C","path":"docs/trajectory-coherence-a.md","blob":"1c531c3b2b30094afc0f54a127c6d2e39a67b703","section":"Final Principle","kind":"SOURCE_SPECULATIVE_ASSERTION","content":"Proposes authenticity as coherence between a trajectory-generating system and the measurable trajectory observers see."}
+    ]}
+  ],
+  "global_contract_change": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
