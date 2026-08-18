@@ -1,0 +1,83 @@
+{
+  "object":"CEREBRO_R15_EXHAUSTIVE_PARSE_V0.1",
+  "record_type":"exhaustive structured parse manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R15",
+  "repository":"bjoern-janson/adaptive-intelligence-theory",
+  "frozen_head_commit":"20ac0fe1f085a35ce44effd92056df848919f16c",
+  "source_surface":"program/research_object_compression/R15_SOURCE_SURFACE_V0.1.json",
+  "parser_contract":"EFFECTIVE_RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "payload_parts":[
+    {"path":"program/research_object_compression/R15_EXHAUSTIVE_PARSE_V0.1_PART_A.json","source_paths":2,"units":71},
+    {"path":"program/research_object_compression/R15_EXHAUSTIVE_PARSE_V0.1_PART_B.json","source_paths":2,"units":50},
+    {"path":"program/research_object_compression/R15_EXHAUSTIVE_PARSE_V0.1_PART_C.json","source_paths":2,"units":68}
+  ],
+  "source_path_accounting":{"admitted_source_paths":6,"payload_source_paths":6,"unaccounted_source_paths":0},
+  "parse_unit_count":189,
+  "parsed_units":189,
+  "unresolved_source_fragments":0,
+  "parser_failures":0,
+  "source_artifact_classes":{"markdown_research_texts":6,"code_files":0,"execution_record_artifacts":0,"reported_empirical_result_artifacts":0},
+  "local_symbol_meaning_occurrences":{
+    "A_or_A_t":[
+      {"unit":"R15:P:P00:DEF_A","meaning":"adaptation capacity"},
+      {"unit":"R15:P:P1:DEF_A_ACTION","meaning":"action"},
+      {"unit":"R15:P:P1:DEF_A_ALIGNMENT","meaning":"alignment/correction capacity"},
+      {"unit":"R15:P:P4:DEF_A_ACTION_SPACE","meaning":"available action space"},
+      {"unit":"R15:P:P4:ALIGN_DEF_A","meaning":"alignment/correction capacity"}
+    ],
+    "C_or_C_t":[
+      {"unit":"R15:P:P00:DEF_C","meaning":"correction capacity / reality causal access"},
+      {"unit":"R15:P:P1:DEF_C_CAPABILITY","meaning":"capability"},
+      {"unit":"R15:P:P4:QR_C_DEF","meaning":"representation complexity C(R)"},
+      {"unit":"R15:P:P4:HORIZON_COMPONENTS","meaning":"computational capacity inside H(S)"},
+      {"unit":"R15:P:P4:ALIGN_DEF_C","meaning":"capability growth"}
+    ],
+    "R_or_R_t":[
+      {"unit":"R15:P:P00:DEF_R","meaning":"representation quality"},
+      {"unit":"R15:P:P1:DEF_R","meaning":"representation of reality"},
+      {"unit":"R15:P:P4:DEF_R","meaning":"internal representation of reality"},
+      {"unit":"R15:P:P4:HORIZON_COMPONENTS","meaning":"representational capacity inside H(S)"},
+      {"unit":"R15:P:P5:REP_FORMAL","meaning":"representation shorthand R=f(Environment)"}
+    ],
+    "E_or_E_t":[
+      {"unit":"R15:P:P00:DEF_E_EVOLVABILITY","meaning":"evolvability mechanisms"},
+      {"unit":"R15:P:P1:DEF_E","meaning":"environment"},
+      {"unit":"R15:P:P4:DEF_E","meaning":"external environment state"}
+    ],
+    "Omega":[
+      {"unit":"R15:P:P00:DEF_OMEGA","meaning":"controllable reachability"},
+      {"unit":"R15:P:P1:OMEGA_DEF","meaning":"set of possible future states"},
+      {"unit":"R15:P:P4:OMEGA_SET_DEF","meaning":"environment states reachable from S_t"},
+      {"unit":"R15:P:P5:REACH_DEF","meaning":"reachable future space"}
+    ]
+  },
+  "derived_audit_views":[
+    {"id":"R15:AUDIT:SYMBOL_OVERLOAD_A","primary_references":["R15:P:P00:DEF_A","R15:P:P1:DEF_A_ACTION","R15:P:P1:DEF_A_ALIGNMENT","R15:P:P4:DEF_A_ACTION_SPACE","R15:P:P4:ALIGN_DEF_A"],"content":"Token A/A_t has multiple source-local meanings, including two different meanings within PAGE_1 and PAGE_4 respectively.","authority_effect":"NONE"},
+    {"id":"R15:AUDIT:SYMBOL_OVERLOAD_C","primary_references":["R15:P:P00:DEF_C","R15:P:P1:DEF_C_CAPABILITY","R15:P:P4:QR_C_DEF","R15:P:P4:HORIZON_COMPONENTS","R15:P:P4:ALIGN_DEF_C"],"content":"Token C/C_t is overloaded across correction, capability, representation complexity and computational capacity meanings.","authority_effect":"NONE"},
+    {"id":"R15:AUDIT:ALIGNMENT_FORM_VARIANTS","primary_references":["R15:P:P00:STABILITY_RATE","R15:P:P1:ALIGN_STABLE","R15:P:P4:ALIGN_STABLE","R15:P:P5:ALIGN_CONDITION"],"content":"Source expresses alignment/stability constraints in multiple forms; formal equivalence among them is not established by the parser.","authority_effect":"NONE"},
+    {"id":"R15:AUDIT:SOURCE_SYNTHESIS_CLAIMS","primary_references":["R15:P:P2:OVERVIEW","R15:P:P2:UNIFYING_FACETS","R15:P:P5:IDENTITY"],"content":"Source presents AIT as unified/final synthesis; this is source standing and does not establish program-level synthesis authority or supersession.","authority_effect":"NONE"},
+    {"id":"R15:AUDIT:CROSS_REPO_REFERENCE_SURFACE","content":"R15 names multiple prior framework/concept labels. Exact endpoint identity, relation type, edge warrant and program-map admission remain unresolved.","authority_effect":"NONE"}
+  ],
+  "standing_boundaries":[
+    "TOKEN_IDENTITY != FORMAL_IDENTITY",
+    "SAME_TOKEN_WITHIN_ONE_ARTIFACT != SAME_LOCAL_MEANING",
+    "SOURCE_UNIFIED_FRAMEWORK_LABEL != PROGRAM_SYNTHESIS_ESTABLISHED",
+    "SOURCE_FINAL_SYNTHESIS_LABEL != SUPERSESSION",
+    "SOURCE_REFERENCE_ASSERTION != EXACT_ENDPOINT_IDENTITY",
+    "SOURCE_REFERENCE_ASSERTION != PROGRAM_MAP_EDGE",
+    "THEMATIC_SIMILARITY != FORMAL_EQUIVALENCE",
+    "RECURRENCE != INDEPENDENT_WARRANT",
+    "DEFINITION != HYPOTHESIS != PREDICTION != METHOD"
+  ],
+  "reported_empirical_results":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+  "reported_negative_results":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+  "executable_implementation":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+  "execution_records":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "r16_parse_access_opened":false
+}
