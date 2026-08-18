@@ -1,0 +1,110 @@
+{
+  "object": "CEREBRO_R01_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type": "frozen compression overlay repair",
+  "persistent_record_state": "FROZEN",
+  "base_compression": {
+    "path": "program/research_object_compression/R01_COMPRESSION_V0.1.json",
+    "commit": "66045c165950ffc47d89992699619cd24fab20fb"
+  },
+  "trigger_death_test": {
+    "path": "program/research_object_compression/R01_COMPRESSION_DEATH_TEST_V0.1.md",
+    "commit": "da27a83dafc18304d300835ec9a1b400cb933fa9"
+  },
+  "contract_amendment": {
+    "path": "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001.md",
+    "commit": "b320a8275ad5cdd41ef27eb1d5b35f877b6f2e75"
+  },
+  "amendment_semantics": "When reconstructing the effective R01 V0.1 compression, add the source-described scope/purpose record and apply the item-level source-locator overrides below. No other base-compression content or standing changes.",
+  "source_described_scope_or_purpose": [
+    {
+      "item_id": "R01:SCOPE:01",
+      "content": "A formal framework for analyzing how representations, tools, and interfaces alter the computational reach of bounded agents.",
+      "standing_in_compression": "SOURCE_DESCRIBED_SCOPE_OR_PURPOSE_ONLY",
+      "source_locator": {
+        "source_repository": "bjoern-janson/interface-induced-computational-geometry",
+        "source_commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "source_path": "README.md",
+        "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "source_section_path": "ROOT > opening description",
+        "exact_source_excerpt": "A formal framework for analyzing how representations, tools, and interfaces alter the computational reach of bounded agents.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    }
+  ],
+  "item_level_source_locator_overrides": [
+    {
+      "item_id": "R01:STATUS:01",
+      "source_section_path": "README.md > Status"
+    },
+    {
+      "item_id": "R01:DEF:TASK",
+      "source_section_path": "formalism.md > 1. Core Objects > Task (T)"
+    },
+    {
+      "item_id": "R01:DEF:INTERFACE",
+      "source_section_path": "formalism.md > 1. Core Objects > Interface (rho)"
+    },
+    {
+      "item_id": "R01:DEF:ARCHITECTURE",
+      "source_section_path": "formalism.md > 1. Core Objects > Architecture (A)"
+    },
+    {
+      "item_id": "R01:DEF:EXECUTOR",
+      "source_section_path": "formalism.md > 1. Core Objects > Executor"
+    },
+    {
+      "item_id": "R01:FORMAL:COST",
+      "source_section_path": "formalism.md > 2. Resource Cost Functional"
+    },
+    {
+      "item_id": "R01:FORMAL:REACHABILITY",
+      "source_section_path": "formalism.md > 3. Reachability"
+    },
+    {
+      "item_id": "R01:HYP:TRACTABILITY_RELATIONAL",
+      "source_section_path": "README.md > Abstract"
+    },
+    {
+      "item_id": "R01:HYP:INTERFACE_PROGRESS_README",
+      "source_section_path": "README.md > Abstract"
+    },
+    {
+      "item_id": "R01:HYP:INTERFACE_PROGRESS_FORMALISM",
+      "source_section_path": "formalism.md > 4. Central Hypothesis"
+    },
+    {
+      "item_id": "R01:APP:DOMAINS",
+      "source_section_path": "README.md > Applications"
+    },
+    {
+      "item_id": "R01:APP:EXAMPLES",
+      "source_section_path": "README.md > Examples"
+    },
+    {
+      "item_id": "R01:REF:README_TO_FORMALISM",
+      "source_section_path": "README.md > Core Model > reference following Reachability Condition"
+    }
+  ],
+  "supporting_text_field_interpretation": "Existing base-compression supporting_text fields are normalized locating aids/payload support summaries, not exact source excerpts. Exact source support is reconstructed using immutable repository/commit/path/blob coordinates plus the source_section_path overlays in this amendment.",
+  "repaired_failures": [
+    "SOURCE_OMISSION_BY_COMPRESSION",
+    "PARAPHRASE_AS_SOURCE_SPAN"
+  ],
+  "preserved_unaffected_structure": [
+    "DEFINITION_HYPOTHESIS_RESULT_SEPARATION",
+    "SOURCE_BOUNDED_EMPTY_CATEGORY_SEMANTICS",
+    "APPLICATION_NOT_VALIDATION",
+    "NO_CROSS_REPOSITORY_EDGE_EMISSION",
+    "NO_README_FORMALISM_EQUIVALENCE_INFERENCE",
+    "ZERO_COMPRESSION_AUTHORITY",
+    "ZERO_MAP_AUTHORITY",
+    "ZERO_SCIENTIFIC_AUTHORITY",
+    "CEREBRO_STEP_2_REMAINS_CLOSED"
+  ],
+  "map_edge_emission": "NONE",
+  "compression_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false,
+  "r02_compression_authorized_by_this_amendment": false
+}
