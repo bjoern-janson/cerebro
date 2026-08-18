@@ -1,0 +1,90 @@
+{
+  "object":"CEREBRO_R15_EXHAUSTIVE_PARSE_V0.1_PART_B",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R15",
+  "frozen_head_commit":"20ac0fe1f085a35ce44effd92056df848919f16c",
+  "source_paths":["PAGE_2.md","PAGE_3.md"],
+  "units":50,
+  "sources":[
+    {"path":"PAGE_2.md","units":[
+      {"id":"R15:P:P2:IDENTITY","role":"IDENTITY_TITLE","content":"Adaptive Intelligence Theory (AIT)."},
+      {"id":"R15:P:P2:OVERVIEW","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"AIT is presented as a unified framework for intelligence as an adaptive process rather than static capability."},
+      {"id":"R15:P:P2:CENTRAL_PREMISE","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source proposes one cycle: observe reality -> build representations -> expand reachable futures -> act -> receive feedback -> adapt."},
+
+      {"id":"R15:P:P2:RAD_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Recursive Adaptive Dynamics (RAD)","content":"RAD is described as addressing how systems improve the processes by which they improve; exact program endpoint unresolved here."},
+      {"id":"R15:P:P2:RAD_RECURSIVE_CLAIM","role":"SOURCE_INTERPRETATION","content":"Source characterizes recursive improvement rather than static optimization as the defining characteristic of intelligence in its RAD subsection."},
+
+      {"id":"R15:P:P2:CPP_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Causal Permeability Principle (CPP)","content":"CPP is described as measuring how effectively reality can modify a system; exact endpoint unresolved here."},
+      {"id":"R15:P:P2:CPP_HIGH_LOW","role":"SOURCE_INTERPRETATION","content":"Source summarizes high permeability as learning and low permeability as drift."},
+
+      {"id":"R15:P:P2:ALIGN_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Alignment Spine","content":"Alignment Spine is described as maintaining coupling between increasing capability and increasing correction; exact endpoint unresolved."},
+      {"id":"R15:P:P2:ALIGN_CONDITION","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Source states capability must never outpace error-detection/correction mechanisms and writes Alignment Capacity >= Capability Growth."},
+      {"id":"R15:P:P2:ALIGN_INTERP","role":"SOURCE_INTERPRETATION","content":"Source calls this relation the structural backbone of safe recursive improvement."},
+
+      {"id":"R15:P:P2:CGET_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Causal Generative Equilibrium Theory (CGET)","content":"CGET is described as explaining balance between expansion and stability; exact endpoint and acronym reconciliation unresolved."},
+      {"id":"R15:P:P2:CGET_FORCES","role":"SOURCE_INTERPRETATION","content":"Source describes generative forces as creating new possibilities and constraining forces as preserving coherence/preventing destructive trajectories."},
+      {"id":"R15:P:P2:CGET_EQUILIBRIUM","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Source proposes sustained intelligence requires equilibrium between generative and constraining forces."},
+
+      {"id":"R15:P:P2:AMC_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Adaptive Metric Compiler (AMC)","content":"AMC is described as explaining how intelligent systems improve metrics they optimize; exact endpoint unresolved."},
+      {"id":"R15:P:P2:AMC_UPDATES","role":"SOURCE_INTERPRETATION","content":"Source says AMC continually updates what is measured, how it is measured, and what constitutes successful optimization as environments change."},
+      {"id":"R15:P:P2:AMC_EVOLVES","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Optimization is stated to evolve alongside understanding."},
+
+      {"id":"R15:P:P2:RE_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Representation Elasticity","content":"Representation Elasticity is described as measuring how readily internal models adapt to new evidence; exact endpoint unresolved."},
+      {"id":"R15:P:P2:RE_RIGID_ELASTIC","role":"SOURCE_INTERPRETATION","content":"Rigid representations are said to preserve outdated assumptions; elastic representations reorganize to reflect newly discovered structure."},
+      {"id":"R15:P:P2:RE_GENERALIZATION","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Higher elasticity is stated generally to enable faster adaptation."},
+
+      {"id":"R15:P:P2:RH_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Resolution Horizon (RH)","content":"Resolution Horizon is described as boundary beyond which reliable inference becomes impossible; exact endpoint unresolved."},
+      {"id":"R15:P:P2:RH_DEPENDENCIES","role":"SOURCE_INTERPRETATION","content":"Source says resolution horizon depends on information, representation quality, computational resources, and observational fidelity."},
+      {"id":"R15:P:P2:RH_BEYOND","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Beyond the resolution horizon, additional reasoning is stated to yield increasingly speculative conclusions."},
+
+      {"id":"R15:P:P2:CPB_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Computational Phase Boundary (CPB)","content":"CPB is described as qualitative transition in capability; exact endpoint unresolved."},
+      {"id":"R15:P:P2:CPB_NONLINEAR","role":"SOURCE_INTERPRETATION","content":"Small improvements in representation, accessibility, or computation are said to produce disproportionately large increases in achievability."},
+      {"id":"R15:P:P2:CPB_CLASS_CHANGE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Crossing a computational phase boundary is stated to change the class of solvable problems rather than merely improve performance."},
+
+      {"id":"R15:P:P2:IICG_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Interface-Induced Computational Geometry (IICG)","content":"IICG is described as explaining how interfaces reshape computation itself; exact endpoint unresolved."},
+      {"id":"R15:P:P2:IICG_EFFECT","role":"SOURCE_INTERPRETATION","content":"Source says interfaces redefine which operations are natural, efficient, or possible and thereby change search-space geometry."},
+
+      {"id":"R15:P:P2:CM_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Causal Mass","content":"Causal Mass is described as measuring a system's contribution to future outcomes; exact endpoint unresolved."},
+      {"id":"R15:P:P2:CM_COUNTERFACTUAL","role":"SOURCE_INTERPRETATION","content":"Source conceptualizes causal mass through difference between worlds with and without the system."},
+
+      {"id":"R15:P:P2:CI_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Causal Influence","content":"Causal Influence is described as direction/structure of causal effects; exact endpoint unresolved."},
+      {"id":"R15:P:P2:CI_DISTINCTION","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source distinguishes causal mass magnitude from causal influence direction/propagation structure."},
+
+      {"id":"R15:P:P2:CRM_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Counterfactual Reachability Mass (CRM)","content":"CRM is described as measuring how much future possibility depends on a particular system; exact endpoint unresolved."},
+      {"id":"R15:P:P2:CRM_DEPENDENCY","role":"SOURCE_INTERPRETATION","content":"Source says high CRM means many desirable futures disappear if the system is removed and calls it counterfactual dependency."},
+
+      {"id":"R15:P:P2:CVF_PURPOSE","role":"SOURCE_REFERENCE_ASSERTION","source_term":"Causal Vector Field","content":"Causal Vector Field is described as representing adaptation as interacting fields of influence; exact endpoint unresolved."},
+      {"id":"R15:P:P2:CVF_COMPONENTS","role":"SOURCE_INTERPRETATION","content":"Source describes Generative Mass (+) as expanding future possibilities and Constraining Mass (-) as suppressing instability/preserving coherence."},
+
+      {"id":"R15:P:P2:PSE_PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Possibility Space Expansion is called the central object of AIT."},
+      {"id":"R15:P:P2:PSE_DELTA","role":"FORMAL_STRUCTURE","content":"Intelligence/capability expansion is represented as Delta Omega > 0."},
+      {"id":"R15:P:P2:PSE_OBJECTIVE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Directional expansion objective: Delta Omega_beneficial > Delta Omega_harmful."},
+
+      {"id":"R15:P:P2:UNIFYING_FACETS","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source claims all named AIT components describe different facets of one adaptive process."},
+      {"id":"R15:P:P2:UNIFYING_PROCESS","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Unifying six-step process: observe reality, build representations, expand reachable possibilities, act, receive corrective feedback, improve mechanisms repeating the cycle."},
+      {"id":"R15:P:P2:FINAL_OBJECTIVE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"AIT objective is stated as maximum adaptive capability while preserving capacity for continued correction, not maximum intelligence."},
+      {"id":"R15:P:P2:FINAL_GENERAL","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source generalizes intelligent systems as continually expanding ability to shape the future without losing ability to learn from reality."}
+    ]},
+    {"path":"PAGE_3.md","units":[
+      {"id":"R15:P:P3:IDENTITY","role":"IDENTITY_TITLE","content":"Adaptive Intelligence Theory (AIT) — diagrammatic page."},
+      {"id":"R15:P:P3:LOOP_DIAGRAM","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Self-improving intelligence loop diagram: reality -> observation -> representation -> compression -> search/model -> action -> changed reality -> feedback -> updated representation."},
+      {"id":"R15:P:P3:ALIGNMENT_DIAGRAM","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Alignment Spine diagram places capability expansion/reachable futures, beneficial/harmful futures, and correction capacity with reality feedback, interpretability, evaluation, human values, and self-correction."},
+      {"id":"R15:P:P3:ALIGNMENT_PRINCIPLE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Capability should expand only as quickly as correction can keep pace."},
+      {"id":"R15:P:P3:POSSIBILITY_DIAGRAM","role":"APPLICATION_OR_EXAMPLE","content":"Possibility-space illustration depicts capability growth expanding the interval from worst to best reachable futures."},
+      {"id":"R15:P:P3:POSSIBILITY_OBJECTIVE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Objective stated as Delta Omega_beneficial > Delta Omega_harmful rather than simply making the reachable space larger."},
+      {"id":"R15:P:P3:AIT_STACK","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"AIT Stack diagram orders Values/Alignment -> Feedback/Correction -> Causality/Influence -> Intelligence/Search & Planning -> Representation/Compression & Abstraction."},
+      {"id":"R15:P:P3:SUMMARY","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"One-sentence summary: intelligent systems improve representations, expand controllable futures, and preserve feedback mechanisms required to keep expansion beneficial."}
+    ]}
+  ],
+  "source_path_accounting":{"admitted_source_paths":2,"payload_source_paths":2,"unaccounted_source_paths":0},
+  "standing_boundaries":[
+    "SOURCE_REFERENCE_ASSERTION != RESOLVED_ENDPOINT_IDENTITY",
+    "SOURCE_REFERENCE_ASSERTION != PROGRAM_MAP_EDGE",
+    "SOURCE_UNIFYING_CLAIM != PROGRAM_LEVEL_SYNTHESIS_AUTHORITY",
+    "DIAGRAM_ORDER != TEMPORAL_OR_CAUSAL_ORDER_BY_DEFAULT",
+    "RECURRENCE != CORROBORATION"
+  ],
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
