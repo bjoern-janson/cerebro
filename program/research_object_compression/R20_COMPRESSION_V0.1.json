@@ -1,0 +1,61 @@
+{
+  "object":"CEREBRO_R20_COMPRESSION_V0.1",
+  "record_type":"research-object compression candidate manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R20",
+  "repository":"bjoern-janson/ancestor-architecture",
+  "frozen_head_commit":"49ca0aec00a6cc90c5e6c99e0c625b5b336f69cc",
+  "effective_parse":"R20_EXHAUSTIVE_PARSE_V0.1 + R20_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "effective_parse_units":289,
+  "payload_parts":[
+    {"path":"program/research_object_compression/R20_COMPRESSION_V0.1_PART_A.json","items":123,"role":"THEORY_PROTOCOL_CONFIG"},
+    {"path":"program/research_object_compression/R20_COMPRESSION_V0.1_PART_B.json","items":55,"role":"IMPLEMENTATION"},
+    {"path":"program/research_object_compression/R20_COMPRESSION_V0.1_PART_C.json","items":13,"role":"TEST_SOURCE"}
+  ],
+  "primary_compressed_items":191,
+  "reported_empirical_results":[],
+  "reported_negative_results":[],
+  "source_occurrence_policy":"Repeated theory/formalism across files remains separate source-local compression branches in V0.1. No recurrence is counted as independent warrant. For any future grouped recurrence: WARRANT_INDEPENDENCE_STATUS defaults NOT_ESTABLISHED and WARRANT_MULTIPLICITY_EFFECT=NONE.",
+  "formal_variant_policy":"No canonicalization across documentary/config/implementation variants. kappa domains/steps, protocol-runner differences, formula variants, and implementation proxies remain source-local until a separate relation/identity process earns comparison semantics.",
+  "secondary_audit_views":[
+    {"id":"R20:AUDIT:IMPLEMENTATION_EXECUTION_CEILING","role":"SECONDARY_AUDIT","content":"Frozen head contains executable implementation, training/evaluation/test/result/plot plumbing but no persisted execution record. Implementation presence therefore carries no execution/result standing.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R20:AUDIT:PROTOCOL_CONFIG_RUNNER_DIVERGENCE","role":"SECONDARY_AUDIT","content":"Agency-transfer docs/config/main disagree on episode/phasing detail; permeability protocol constrains kappa to [0,1], config/main extend to 2.0, config step .05/100 trials while main uses .1/no trial loop, and main plots deterministic kappa/(1+kappa) rather than the documented changing-environment experiment.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R20:AUDIT:TEST_EXECUTION_CEILING","role":"SECONDARY_AUDIT","content":"Pytest source exists, but frozen head has no associated GitHub Actions runs or combined status records. test source != test execution != pass. tests/test_agents.py also attempts abstract BaseAgent construction under ordinary ABC semantics, but no frozen run artifact establishes an observed failure.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R20:AUDIT:RESULT_AND_PLOT_ABSENCE","role":"SECONDARY_AUDIT","content":"Experiment logger/results/serialization/visualization code can create artifacts if run; the 81-path frozen head contains no results directory, run manifest, persisted metric file, or plot image.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R20:AUDIT:CROSS_MODULE_INTERFACE_DEFECTS","role":"SECONDARY_AUDIT","content":"Frozen source exposes package export name mismatch in environments; registry names/import expectations diverge from current helper modules; EvaluationLoop calls act_without_assistance absent from parsed agents; AncestorTrainer calls generic update while current agent subclasses inherit no-op model update; these are implementation/integration defects, not scientific negative results.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R20:AUDIT:PROXY_CONSTRUCT_VALIDITY_CEILING","role":"SECONDARY_AUDIT","content":"Agency/dependency/permeability/diversity/sovereignty metrics and reward code implement arithmetic proxies. TransferTaskEnv awards 1.0 for independent_reasoning=True and agency helper supplies that flag; permeability helper counts error-triggered update calls although BaseAgent update_model may be no-op. Objective/proxy implementation does not establish construct validity.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R20:AUDIT:NAME_IDENTITY_COLLISIONS","role":"SECONDARY_AUDIT","content":"Two different ExperimentLogger classes exist under src/experiments/logger.py and src/utils/logger.py with filesystem versus in-memory semantics. Same class name does not establish object identity.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R20:AUDIT:EXTERNAL_AND_CROSS_FRAMEWORK_RELATION_CEILING","role":"SECONDARY_AUDIT","content":"Citations and related-framework comparisons are conceptual context. They do not create endpoint identity, dependency, support, authority transfer or Program Map edges to external frameworks.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"}
+  ],
+  "derived_bounded_absences":[
+    {"id":"R20:ABSENCE:EXECUTION_RESULTS_PLOTS_CI","scope":"FROZEN_HEAD_RECURSIVE_INVENTORY_PLUS_HEAD_STATUS_ONLY","content":"No persisted run/result/plot path among 81 frozen-head blobs; zero associated GitHub Actions workflow runs and zero combined status records for the frozen head.","authority_effect":"NONE"}
+  ],
+  "temporal_provenance_view":{
+    "id":"R20:HISTORY:REPOSITORY_LINEAGE",
+    "source":"R20_SOURCE_SURFACE_V0.1 developmental_provenance",
+    "content":"Initial README/theory -> experiment protocols -> code scaffolding -> metrics/models/rewards/trainers/visualization/tests/configs -> runner/result plumbing -> late environment/base-agent/main/requirements patches -> frozen head.",
+    "authority_effect":"NONE"
+  },
+  "historical_repairs":[
+    "R20_SOURCE_SURFACE_V0.1_AMENDMENT_001 corrects one blob coordinate without mutating historical manifest",
+    "R20_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001 demotes derived audit material and splits config predictions without changing the global contract"
+  ],
+  "non_inferences":[
+    "THEORY != IMPLEMENTATION",
+    "DOCUMENTED_PROTOCOL != CONFIGURATION != RUNNER_IMPLEMENTATION",
+    "IMPLEMENTATION != EXECUTION_RECORD != REPORTED_RESULT",
+    "TEST_SOURCE != TEST_EXECUTION != TEST_PASS",
+    "CONFIGURATION != RUN_MANIFEST",
+    "RESULT_OR_PLOT_PLUMBING != RESULT_OR_PLOT_ARTIFACT",
+    "IMPLEMENTATION_DEFECT != EMPIRICAL_NEGATIVE_RESULT != THEORY_FALSIFICATION",
+    "PROXY_IMPLEMENTATION != CONSTRUCT_VALIDATION",
+    "SAME_CLASS_NAME != SAME_IMPLEMENTATION_OBJECT",
+    "SOURCE_RECURRENCE != INDEPENDENT_WARRANT",
+    "CROSS_FRAMEWORK_COMPARISON != PROGRAM_EDGE"
+  ],
+  "map_edge_emission":"NONE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagate_kernel":"NOT_EARNED",
+  "r21_parse_access_opened":false
+}
