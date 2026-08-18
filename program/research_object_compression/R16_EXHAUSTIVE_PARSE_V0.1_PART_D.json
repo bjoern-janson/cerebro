@@ -1,0 +1,175 @@
+{
+  "object":"CEREBRO_R16_EXHAUSTIVE_PARSE_V0.1_PART_D",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R16",
+  "frozen_head_commit":"29914ee25f7ab64820508ac6f59098f9a146fb88",
+  "source_family":"EXECUTABLE_IMPLEMENTATION_LINEAGE",
+  "source_paths":15,
+  "unit_count":132,
+  "sources":[
+    {"path":"src/minimal_simulation.py","units":[
+      ["R16:P:PY02:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source; directly executable in principle with standard library."],
+      ["R16:P:PY02:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","v0.2 recoverable distribution-shift simulation with lambda-controlled adaptation correction."],
+      ["R16:P:PY02:ENV_IMPL","EXECUTABLE_IMPLEMENTATION","Implements noisy hidden theta environment, gradual shift and reward by distance to theta."],
+      ["R16:P:PY02:AGENT_IMPL","EXECUTABLE_IMPLEMENTATION","Implements R representation, scalar A learning rate, R update and policy."],
+      ["R16:P:PY02:LAMBDA_IMPL","IMPLEMENTATION_ASSUMPTION","A update includes lam*0.01*prediction_error; lambda operationalizes reality influence on adaptation rate."],
+      ["R16:P:PY02:RUN_IMPL","EXECUTABLE_IMPLEMENTATION","run uses fixed environment seed 42 for each lambda, 300 steps and shift at 150; returns timestep trace."],
+      ["R16:P:PY02:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","summarize computes pre/post reward, final R/A/error and total adaptation; main prints summaries only, with no persisted output artifact."]
+    ]},
+    {"path":"src/minimal_simulation_v0.3.py","units":[
+      ["R16:P:PY03:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:PY03:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Stress test expanding Omega/action influence with low constitutional correction."],
+      ["R16:P:PY03:ENV_IMPL","EXECUTABLE_IMPLEMENTATION","Binary hidden theta flips at step 100; reward exact action match."],
+      ["R16:P:PY03:AGENT_IMPL","EXECUTABLE_IMPLEMENTATION","R, scalar A, policy and mutable action list; reachability proxy is len(actions)."],
+      ["R16:P:PY03:A_SYMBOL_COLLISION","IMPLEMENTATION_ASSUMPTION","Code uses A as adaptation mechanism while stress specification also uses A_t for action space; local meanings not unified."],
+      ["R16:P:PY03:EXPANSION_IMPL","EXECUTABLE_IMPLEMENTATION","R>0.75 unlocks additional actions; expansion depends on representation threshold, not A directly."],
+      ["R16:P:PY03:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints pre/post rewards, final R/A/Omega and total adaptation; no persisted run record."]
+    ]},
+    {"path":"src/minimal_simulation_v0.4.py","units":[
+      ["R16:P:PY04:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:PY04:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Implements recursive capability growth A->Omega under lambda-controlled adaptation correction."],
+      ["R16:P:PY04:ENV_IMPL","EXECUTABLE_IMPLEMENTATION","Noisy theta observations, shift at t=50, reward by rounded action match."],
+      ["R16:P:PY04:R_IMPL","EXECUTABLE_IMPLEMENTATION","R update uses A*0.1*error."],
+      ["R16:P:PY04:A_IMPL","EXECUTABLE_IMPLEMENTATION","A increases by lam*0.01*error and is bounded."],
+      ["R16:P:PY04:OMEGA_IMPL","EXECUTABLE_IMPLEMENTATION","Probability of Omega increment is min(0.5,A), making adaptation state a driver of expansion."],
+      ["R16:P:PY04:SEED_BEHAVIOR","IMPLEMENTATION_ASSUMPTION","Environment constructor reseeds global random with 42 for each lambda condition, making condition randomness aligned rather than independent."],
+      ["R16:P:PY04:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Returns trace plus summary; main prints summary without persisted trace artifact."]
+    ]},
+    {"path":"src/minimal_simulation_v0.5.py","units":[
+      ["R16:P:PY05:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:PY05:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Tests recursively self-modifying A under reduced lambda."],
+      ["R16:P:PY05:ENV_IMPL","EXECUTABLE_IMPLEMENTATION","Binary environment with exact-match reward and single shift."],
+      ["R16:P:PY05:A_MODEL","EXECUTABLE_IMPLEMENTATION","A is dict(alpha,beta), modified by internal self-improvement pressure plus lambda*reward correction."],
+      ["R16:P:PY05:OPTIMUM_DEF","IMPLEMENTATION_ASSUMPTION","Adaptation distance uses hard-coded environmental optimum alpha=.2,beta=.1."],
+      ["R16:P:PY05:DRIFT_MEASURE","EXECUTABLE_IMPLEMENTATION","Euclidean D from hard-coded optimum."],
+      ["R16:P:PY05:STABILITY_RISK","IMPLEMENTATION_BEHAVIOR","Unbounded positive self-modification pressure can increase alpha/beta without contractive stabilization."],
+      ["R16:P:PY05:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints pre/post reward, final R/A/D and total adaptation; no persisted raw history."]
+    ]},
+    {"path":"src/minimal_simulation_v0.5.1.py","units":[
+      ["R16:P:PY051:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:PY051:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Stabilize v0.5 recursive self-modification with bounded, contractive updates and finite divergence."],
+      ["R16:P:PY051:A_MODEL","EXECUTABLE_IMPLEMENTATION","A=(alpha,beta), internal targets change both parameters; lambda-dependent reward correction pulls toward optimal_A."],
+      ["R16:P:PY051:BOUNDS","EXECUTABLE_IMPLEMENTATION","A components clamped to [0,1], R bounded [-10,10]."],
+      ["R16:P:PY051:OPTIMUM_DEF","IMPLEMENTATION_ASSUMPTION","optimal_A fixed at alpha=.2,beta=.1."],
+      ["R16:P:PY051:D_IMPL","EXECUTABLE_IMPLEMENTATION","D is Euclidean distance from optimal_A."],
+      ["R16:P:PY051:RUN_IMPL","EXECUTABLE_IMPLEMENTATION","200-step deterministic environment with shift at 100; no random source imported."],
+      ["R16:P:PY051:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints condition summaries; no persisted raw run artifact."]
+    ]},
+    {"path":"src/minimal_simulation_v0.6.py","units":[
+      ["R16:P:PY06:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:PY06:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Combines self-modifying A with A-dependent Omega expansion."],
+      ["R16:P:PY06:A_MODEL","EXECUTABLE_IMPLEMENTATION","Internal alpha/beta pressure plus lambda*reward correction toward fixed optimal_A."],
+      ["R16:P:PY06:OMEGA_IMPL","EXECUTABLE_IMPLEMENTATION","Omega increments when alpha+beta exceeds .5; growth quantity does not encode capability quality."],
+      ["R16:P:PY06:D_IMPL","EXECUTABLE_IMPLEMENTATION","D remains Euclidean distance to fixed optimal_A."],
+      ["R16:P:PY06:ENV_IMPL","EXECUTABLE_IMPLEMENTATION","Binary shift environment and exact-match reward."],
+      ["R16:P:PY06:MECHANISM_BOUNDARY","IMPLEMENTATION_ASSUMPTION","Drifted A can still increase Omega; implementation does not yet model quality of expansion."],
+      ["R16:P:PY06:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints lambda summaries; no persisted execution record."]
+    ]},
+    {"path":"src/minimal_simulation_v0.7.py","units":[
+      ["R16:P:PY07:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:PY07:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Adds capability quality Q_Omega to test harmful expansion under drift."],
+      ["R16:P:PY07:CAP_MODEL","EXECUTABLE_IMPLEMENTATION","Capabilities carry value and quality; policy scores quality by alpha/beta bias."],
+      ["R16:P:PY07:A_IMPL","EXECUTABLE_IMPLEMENTATION","Internal pressure and lambda-dependent reward correction update alpha/beta."],
+      ["R16:P:PY07:EXPANSION_IMPL","EXECUTABLE_IMPLEMENTATION","Expansion probability depends on mean alpha/beta; appended capabilities get derived quality."],
+      ["R16:P:PY07:DIRECT_LAMBDA_PENALTY","IMPLEMENTATION_ASSUMPTION","If lam==0, capability quality is multiplied by 0.2 directly; this creates a direct lambda->quality pathway later identified as partially artificial."],
+      ["R16:P:PY07:Q_IMPL","EXECUTABLE_IMPLEMENTATION","Q_Omega is mean capability quality; D uses distance of alpha/beta from .2."],
+      ["R16:P:PY07:SEED","IMPLEMENTATION_ASSUMPTION","Environment seeds global PRNG to 42 for each run."],
+      ["R16:P:PY07:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints summary metrics; no raw persisted trace."]
+    ]},
+    {"path":"src/minimal_simulation_v0.8.py","units":[
+      ["R16:P:PY08:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source; top-level execution occurs on import because print/run loop is not guarded by __main__."],
+      ["R16:P:PY08:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Reworks selection so drifted A affects capability choice without explicit lam==0 quality multiplier."],
+      ["R16:P:PY08:ENV_IMPL","EXECUTABLE_IMPLEMENTATION","Fixed capability qualities and hidden theta shift."],
+      ["R16:P:PY08:A_MODEL","EXECUTABLE_IMPLEMENTATION","A=(quality_bias,expansion_bias); lambda-dependent correction and (1-lambda) drift update quality_bias."],
+      ["R16:P:PY08:SELECTION_IMPL","EXECUTABLE_IMPLEMENTATION","Capability score uses quality_bias*true_quality plus random noise; highest score selected."],
+      ["R16:P:PY08:OMEGA_IMPL","EXECUTABLE_IMPLEMENTATION","Omega expands by fixed function of expansion_bias, independent of selected capability quality."],
+      ["R16:P:PY08:Q_IMPL","EXECUTABLE_IMPLEMENTATION","Q_Omega is average true quality of selected capabilities."],
+      ["R16:P:PY08:LIMIT","IMPLEMENTATION_BEHAVIOR","Although direct lambda quality penalty is removed, selection-quality degradation is not guaranteed to track D; later source reports this as v0.8 limitation."],
+      ["R16:P:PY08:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Top-level code prints all three condition summaries when module executes/imports; no persisted output artifact."]
+    ]},
+    {"path":"src/minimal_simulation_v0.9.py","units":[
+      ["R16:P:PY09:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:PY09:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Attempts lambda->adaptation drift->capability-selection quality."],
+      ["R16:P:PY09:CAP_POOL","EXECUTABLE_IMPLEMENTATION","500 random hidden capability qualities generated from fixed global seed 42."],
+      ["R16:P:PY09:A_MODEL","EXECUTABLE_IMPLEMENTATION","A has quality/expansion biases with optimum .5/.5."],
+      ["R16:P:PY09:SELECTION_IMPL","EXECUTABLE_IMPLEMENTATION","Selection accuracy=max(0,1-D): high accuracy chooses max quality, otherwise min quality."],
+      ["R16:P:PY09:DRIFT_IMPL","EXECUTABLE_IMPLEMENTATION","Internal drift is proportional to deviation from .5, so starting exactly at optimum yields zero internal drift absent another perturbation."],
+      ["R16:P:PY09:CORRECTION_IMPL","EXECUTABLE_IMPLEMENTATION","lambda*reward correction contracts A toward optimum."],
+      ["R16:P:PY09:MECHANISM_LIMIT","IMPLEMENTATION_BEHAVIOR","Because A starts exactly at optimum and drift is multiplicative on deviation, this implementation can fail to generate the intended divergence pathway."],
+      ["R16:P:PY09:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints summary metrics; no persisted raw execution artifact."]
+    ]},
+    {"path":"src/minimal_simulation_v0.9.1.py","units":[
+      ["R16:P:PY091:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:PY091:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Repair lambda->drift control->D->selection error->Q_Omega."],
+      ["R16:P:PY091:CAP_POOL","EXECUTABLE_IMPLEMENTATION","500 hidden capability qualities generated with fixed seed 42."],
+      ["R16:P:PY091:A_MODEL","EXECUTABLE_IMPLEMENTATION","A starts at optimum .5/.5; drift=0.03*(1-lambda) directly moves both components away before correction."],
+      ["R16:P:PY091:SELECTION_IMPL","EXECUTABLE_IMPLEMENTATION","accuracy=max(0,1-D); accurate branch selects max capability quality, error branch selects min."],
+      ["R16:P:PY091:CORRECTION_IMPL","EXECUTABLE_IMPLEMENTATION","lambda*0.2*reward contracts A back toward optimum."],
+      ["R16:P:PY091:OMEGA_IMPL","EXECUTABLE_IMPLEMENTATION","Omega increment depends on expansion_bias, so drift can increase raw reach while selection quality falls."],
+      ["R16:P:PY091:RUN_PROVENANCE","IMPLEMENTATION_ASSUMPTION","Single fixed random seed 42 is shared across lambda conditions in one process; code does not persist per-step traces."],
+      ["R16:P:PY091:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints per-lambda summaries matching the form used by results_v0.9.1; output itself is not stored as a raw execution artifact."]
+    ]},
+    {"path":"src/robustness_suite_v1.0.py","units":[
+      ["R16:P:ROB10:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:ROB10:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Runner framework for seed/environment/parameter/null tests against v0.9.1 failure surface."],
+      ["R16:P:ROB10:PLACEHOLDER_STATUS","SOURCE_DESCRIBED_STATUS","Code explicitly says run_simulation is a temporary placeholder and should be replaced by an import of v0.9.1 when available."],
+      ["R16:P:ROB10:PLACEHOLDER_DYNAMICS","EXECUTABLE_IMPLEMENTATION","Implements D=(1-lambda)*drift_rate*10, Q=max(0,1-D), Omega=200+D*100, reward=Q rather than invoking v0.9.1."],
+      ["R16:P:ROB10:SEEDS","IMPLEMENTATION_ASSUMPTION","SEEDS=range(10); only random-selection null actually uses randomness in placeholder dynamics, so main seed variation is deterministic."],
+      ["R16:P:ROB10:NULLS","EXECUTABLE_IMPLEMENTATION","Implements drift-without-selection, random-selection and frozen-A switches."],
+      ["R16:P:ROB10:PARAM_SWEEPS","EXECUTABLE_IMPLEMENTATION","Loops drift rate, expansion rate and shift time, but placeholder equations do not use expansion_rate or shift_time in output generation."],
+      ["R16:P:ROB10:INSTRUMENT_MISMATCH","ARTIFACT_CONTENT_STATE","Runner is executable but is not the claimed v0.9.1 baseline mechanism; robustness-to-baseline transport is not established."],
+      ["R16:P:ROB10:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints aggregate mean/std tables for main/null/sweeps; does not persist raw runs."],
+      ["R16:P:ROB10:AUTHORITY_BOUNDARY","SOURCE_DESCRIBED_STATUS","Executable placeholder result can support claims about placeholder dynamics, not automatically robustness of v0.9.1."]
+    ]},
+    {"path":"src/robustness_suite_v1.1.py","units":[
+      ["R16:P:ROB11:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:ROB11:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Adds stochastic capability generation, noisy drift, randomized shift timing/magnitude, 100 seeds and null controls."],
+      ["R16:P:ROB11:ENV_IMPL","EXECUTABLE_IMPLEMENTATION","create_environment(seed) generates 20 random capability qualities plus random shift time/strength."],
+      ["R16:P:ROB11:A_IMPL","EXECUTABLE_IMPLEMENTATION","quality_bias drifts stochastically in proportion to (1-lambda) and is corrected toward .5 in proportion to lambda."],
+      ["R16:P:ROB11:SELECTION_IMPL","EXECUTABLE_IMPLEMENTATION","Main selection mixes true quality and random score using current bias; nulls support random, perfect-quality, and frozen-A cases."],
+      ["R16:P:ROB11:SEED_MODEL","IMPLEMENTATION_ASSUMPTION","SEEDS=range(100); environment and agent both reseed global PRNG with the same seed, coupling random streams within each run."],
+      ["R16:P:ROB11:SHIFT_IMPL","EXECUTABLE_IMPLEMENTATION","Post-hoc quality degradation applies shift_strength based on position relative to shift_time; environment does not causally alter capability pool during selection loop."],
+      ["R16:P:ROB11:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Computes and prints mean/std/min/max for D,Q,Omega,reward for main and null controls."],
+      ["R16:P:ROB11:RAW_RECORD_STATUS","SOURCE_DESCRIBED_STATUS","No raw per-seed records are persisted on repository head."],
+      ["R16:P:ROB11:WARRANT_BOUNDARY","SOURCE_DESCRIBED_STATUS","100 nominal seeds in code do not by themselves establish independent scientific warrants."]
+    ]},
+    {"path":"src/robustness_suite_v1.2.py","units":[
+      ["R16:P:ROB12:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:ROB12:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Replaces v1.1 exploratory selection with divergence-dependent selection bias while retaining stochastic environment/drift and 100 seeds."],
+      ["R16:P:ROB12:ENV_IMPL","EXECUTABLE_IMPLEMENTATION","Random capability pool, shift time and shift strength per seed."],
+      ["R16:P:ROB12:A_IMPL","EXECUTABLE_IMPLEMENTATION","quality_bias drift/noise with lambda-dependent correction; frozen null disables update."],
+      ["R16:P:ROB12:SELECTION_IMPL","EXECUTABLE_IMPLEMENTATION","Exponent=1-2D weights qualities: D=0 favors high quality, D=.5 random-like, D=1 favors low quality; nulls override."],
+      ["R16:P:ROB12:OMEGA_IMPL","EXECUTABLE_IMPLEMENTATION","One selected capability appended per step, so Omega=len(omega)=100 for every run; dynamic expansion magnitude is not tested."],
+      ["R16:P:ROB12:SHIFT_IMPL","EXECUTABLE_IMPLEMENTATION","Shift affects only post-shift reward by multiplying last 20 selected qualities; Q_Omega is pre-shift-unadjusted average of all selected qualities."],
+      ["R16:P:ROB12:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints summary statistics for main/null conditions; result file v1.2 on head does not contain populated numeric tables."],
+      ["R16:P:ROB12:RAW_RECORD_STATUS","SOURCE_DESCRIBED_STATUS","No persisted per-seed raw outputs."],
+      ["R16:P:ROB12:LIMIT","IMPLEMENTATION_BEHAVIOR","Code itself confirms fixed Omega count, matching result-document limitation that dynamic capability expansion is not tested."]
+    ]},
+    {"path":"src/expansion_dynamics_v1.0.py","units":[
+      ["R16:P:EXP10:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source."],
+      ["R16:P:EXP10:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Extends v1.2 with selected capability -> Delta Omega while preserving stochastic drift/selection/nulls/multiseed evaluation."],
+      ["R16:P:EXP10:SEED_MODEL","IMPLEMENTATION_ASSUMPTION","SEEDS=100 means seed integers 0..99 are run; each run reseeds Python random."],
+      ["R16:P:EXP10:CAP_IMPL","EXECUTABLE_IMPLEMENTATION","Capabilities carry hidden_quality and expansion_value sampled independently."],
+      ["R16:P:EXP10:A_IMPL","EXECUTABLE_IMPLEMENTATION","Scalar A drifts with (1-lambda)*rate plus correction/noise; D=|A-A*|."],
+      ["R16:P:EXP10:SELECTION_IMPL","EXECUTABLE_IMPLEMENTATION","Main selection score inverts quality increasingly with D; null A removes selection influence, null B uses random weights, null C freezes A."],
+      ["R16:P:EXP10:OMEGA_IMPL","EXECUTABLE_IMPLEMENTATION","Selected expansion_value directly adds to Omega; Q_Omega is expansion-weighted selected capability quality."],
+      ["R16:P:EXP10:REWARD_IMPL","IMPLEMENTATION_ASSUMPTION","RewardAfter = Q_Omega * min(1,Omega/300); pre-shift reward is hard-coded 1.0 and no explicit environmental shift process is simulated."],
+      ["R16:P:EXP10:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Prints aggregate statistics across 100 nominal seeds for main and nulls; no raw runs persisted."],
+      ["R16:P:EXP10:PROVENANCE_BOUNDARY","SOURCE_DESCRIBED_STATUS","Reported expansion-results aggregates have executable source counterpart but no stored run-level execution history."]
+    ]},
+    {"path":"src/feedback_dynamics_v1.0.py","units":[
+      ["R16:P:FDB10:CONTENT","ARTIFACT_CONTENT_STATE","Ordinary Python source requiring NumPy."],
+      ["R16:P:FDB10:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Implements quality-feedback coupling from accumulated capability quality to future expansion capacity."],
+      ["R16:P:FDB10:SEED_MODEL","IMPLEMENTATION_ASSUMPTION","SEEDS=range(100); each agent uses independent NumPy Generator initialized by nominal integer seed."],
+      ["R16:P:FDB10:A_IMPL","EXECUTABLE_IMPLEMENTATION","Scalar A with lambda correction, internal drift and Gaussian noise; D=|A-A_env|; frozen null disables drift."],
+      ["R16:P:FDB10:CAP_IMPL","EXECUTABLE_IMPLEMENTATION","Each step generates 10 beta(5,2) capability qualities."],
+      ["R16:P:FDB10:SELECTION_IMPL","EXECUTABLE_IMPLEMENTATION","Main weighted selection depends on D via exponent=max(.1,1-D); random/null-drift-only controls alter selection."],
+      ["R16:P:FDB10:FEEDBACK_IMPL","EXECUTABLE_IMPLEMENTATION","Expansion multiplier interpolates between 1 and recent mean quality q; delta=expansion_rate*multiplier."],
+      ["R16:P:FDB10:OUTPUT","IMPLEMENTED_OUTPUT_BEHAVIOR","Runs 100 nominal seeds per lambda and prints mean/std/min/max for D,Q,Omega,reward and nulls."],
+      ["R16:P:FDB10:RAW_RECORD_STATUS","SOURCE_DESCRIBED_STATUS","No per-seed execution records or output logs persisted on frozen head."],
+      ["R16:P:FDB10:WARRANT_BOUNDARY","SOURCE_DESCRIBED_STATUS","Distinct PRNG seeds/streams in implementation do not by themselves establish independent warrants; prose's 'independent seeds' remains source claim."]
+    ]}
+  ],
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
