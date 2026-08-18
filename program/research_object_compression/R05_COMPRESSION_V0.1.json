@@ -1,0 +1,110 @@
+{
+  "object": "CEREBRO_R05_RESEARCH_OBJECT_COMPRESSION_V0.1",
+  "record_type": "loss-bounded compression projected from exhaustive parse",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "repository_id": "R05",
+  "repository": "bjoern-janson/resolution-horizon",
+  "frozen_head_commit": "3ea1c49c7afde90ff81003e4908f9705ba33fea3",
+  "effective_parse": [
+    "program/research_object_compression/R05_EXHAUSTIVE_PARSE_V0.1.json",
+    "program/research_object_compression/R05_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001.json"
+  ],
+  "effective_compression_contract": [
+    "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1.md",
+    "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001.md",
+    "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_002.md",
+    "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_003.md"
+  ],
+  "identity": [
+    {"item_id":"R05:IDENTITY:TITLE","item_kind":"IDENTITY_TITLE","content":"Resolution Horizon","source_parse_units":["R05:P:README:TITLE"]}
+  ],
+  "source_described_scope_or_purpose": [
+    {"item_id":"R05:SCOPE:PROJECT","item_kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Experimental framework for measuring limits of invariant discovery from finite noisy observations under bounded computation.","source_parse_units":["R05:P:README:PURPOSE"]},
+    {"item_id":"R05:SCOPE:NOTEBOOK_DEMO","item_kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Notebook is presented as a live demo that the reader must run to simulate and plot horizon curves.","source_parse_units":["R05:P:NOTEBOOK:TITLE_INTENT"]}
+  ],
+  "source_described_status": [
+    {"item_id":"R05:STATUS:NOTEBOOK_STORED_EXECUTION","item_kind":"ARTIFACT_EXECUTION_METADATA","content":{"execution_count":null,"outputs":[]},"standing_in_compression":"STORED_NOTEBOOK_STATE_ONLY","source_parse_units":["R05:P:NOTEBOOK:EXECUTION_COUNT","R05:P:NOTEBOOK:OUTPUTS"]}
+  ],
+  "definitions_and_formal_structures": [
+    {"item_id":"R05:FORMAL:ETA","item_kind":"FORMAL_STRUCTURE","content":"eta(k)=DeltaL(k)/C_G(k).","source_parse_units":["R05:P:README:EFFICIENCY","R05:P:MATH:ETA"]},
+    {"item_id":"R05:FORMAL:KSTAR","item_kind":"FORMAL_STRUCTURE","content":"k*=argmax_k eta(k).","source_parse_units":["R05:P:README:KSTAR","R05:P:MATH:KSTAR"]},
+    {"item_id":"R05:FORMAL:RESPONSE_SURFACE","item_kind":"FORMAL_STRUCTURE","content":"k*=f(N,sigma,E_cov,lambda_min(Gamma)).","source_parse_units":["R05:P:README:RESPONSE_SURFACE"]},
+    {"item_id":"R05:FORMAL:OBSERVER_RECONSTRUCTION","item_kind":"FORMAL_STRUCTURE","content":"A bounded observer reconstructs F_hat from finite trajectory samples and probes deeper Lie structure.","source_parse_units":["R05:P:THEORY:ESTIMATOR"]},
+    {"item_id":"R05:DEF:DYNAMIC_GENERATOR","item_kind":"DEFINITION","content":"M is the state manifold; F is the unobserved generator; F_hat is reconstructed from D_N^sigma.","source_parse_units":["R05:P:MATH:DYNAMIC_GENERATOR"]},
+    {"item_id":"R05:DEF:LIE_TREE","item_kind":"DEFINITION","content":"Lie_0=span{F_hat}; Lie_k is built from iterated brackets with lower-depth algebra elements.","source_parse_units":["R05:P:MATH:LIE_TREE"]},
+    {"item_id":"R05:DEF:INVARIANT_CLASS","item_kind":"DEFINITION","content":"Inv_hat_k is the kernel of Lie derivatives over the estimated depth-k algebra.","source_parse_units":["R05:P:MATH:INVARIANT_CLASS"]},
+    {"item_id":"R05:DEF:GAUGE_STABILIZER","item_kind":"DEFINITION","content":"The empirical gauge stabilizer is the compact-domain transformation set preserving estimated invariants within epsilon_k under the jet metric.","source_parse_units":["R05:P:MATH:GAUGE_STABILIZER"]},
+    {"item_id":"R05:FORMAL:EPSILON","item_kind":"FORMAL_STRUCTURE","content":"epsilon_k=C_k*(sigma^2/N)^(1/2)+epsilon_model.","source_parse_units":["R05:P:MATH:EPSILON_MODEL"]},
+    {"item_id":"R05:DEF:DELTA_L","item_kind":"DEFINITION","content":"DeltaL(k) is description-length reduction relative to a baseline model.","source_parse_units":["R05:P:MATH:DELTA_L"]},
+    {"item_id":"R05:DEF:C_G","item_kind":"DEFINITION","content":"C_G(k) is the description cost of residual coordinate ambiguity via stabilizer parameter and covering-number terms.","source_parse_units":["R05:P:MATH:C_G"]},
+    {"item_id":"R05:DEF:NOTATION_DICTIONARY","item_kind":"DEFINITION_DICTIONARY","content":"Source-local dictionary of geometric/dynamic primitives, statistical estimators and information-currency symbols.","source_parse_units":["R05:P:NOTATION:DICTIONARY"]}
+  ],
+  "assertions_or_hypotheses_and_interpretations": [
+    {"item_id":"R05:ASSERT:CENTRAL","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","source_standing_label":"central hypothesis","content":"Finite observation processes have a measurable k* beyond which extra structural depth models uncertainty rather than genuine invariants.","source_parse_units":["R05:P:README:CENTRAL_HYPOTHESIS"]},
+    {"item_id":"R05:ASSERT:RESOURCE_PREDICTIONS","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","source_standing_label":"primary falsifiable claims","content":{"d_kstar_d_N":">0","d_kstar_d_sigma":"<0","d_kstar_d_E_cov":"<0","d_kstar_d_excitation":">0"},"source_parse_units":["R05:P:README:RESOURCE_PREDICTIONS"]},
+    {"item_id":"R05:ASSERT:THREE_REGIMES","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Source predicts discovery, horizon and misresolution regimes defined by coupled DeltaL, C_G and eta behavior.","source_parse_units":["R05:P:README:THREE_REGIMES"]},
+    {"item_id":"R05:ASSERT:PHILOSOPHY","item_kind":"SOURCE_ASSERTION_CONCEPTUAL","content":"Scientific discovery is framed as bounded recovery of structure rather than access to all structure present.","source_parse_units":["R05:P:README:PHILOSOPHY"]},
+    {"item_id":"R05:ASSERT:BOUNDED_ONTOLOGY","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Structure is treated as emergent at the finite-resource observer-system boundary.","source_parse_units":["R05:P:THEORY:PREMISE"]},
+    {"item_id":"R05:ASSERT:SYMMETRY_STANCE","item_kind":"SOURCE_ASSERTION_CONCEPTUAL","content":"For finite observers, symmetries should be modeled as resolution-dependent confidence regions rather than binary absolutes.","source_parse_units":["R05:P:THEORY:SYMMETRY_STANCE"]},
+    {"item_id":"R05:ASSERT:DERIVATIVE_VARIANCE","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"High-order differentiation amplifies estimation noise according to a depth-dependent variance envelope.","source_parse_units":["R05:P:THEORY:DERIVATIVE_VARIANCE"]},
+    {"item_id":"R05:INTERP:TOLERANCE","item_kind":"SOURCE_INTERPRETATION","content":"The source interprets depth-dependent variance as requiring wider epsilon_k tolerance at deeper structural levels.","source_parse_units":["R05:P:THEORY:TOLERANCE"]},
+    {"item_id":"R05:ASSERT:MISRESOLUTION","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","source_standing_label":"most critical theoretical prediction","content":"Beyond k*, uncertainty inflation causes the estimated stabilizer to expand and admit distorted transformations as apparent symmetry.","source_parse_units":["R05:P:THEORY:MISRESOLUTION"]},
+    {"item_id":"R05:ASSERT:OVERFITTING_DISTINCTION","item_kind":"SOURCE_ASSERTION_CONCEPTUAL","content":"Misresolution is framed as overfitting the equivalence relation rather than ordinary trajectory overfitting.","source_parse_units":["R05:P:THEORY:OVERFITTING_DISTINCTION"]},
+    {"item_id":"R05:INTERP:KSTAR","item_kind":"SOURCE_INTERPRETATION","content":"k* is interpreted as the point where marginal structural gain matches marginal ambiguity cost.","source_parse_units":["R05:P:THEORY:KSTAR_INTERPRETATION"]},
+    {"item_id":"R05:ASSERT:RIG1_EXPECTED","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Canonical oscillator rig is expected to yield clean SO(2) symmetry with zero gauge coordinate-deformation error.","source_parse_units":["R05:P:PROTOCOL:RIG1_EXPECTED"]},
+    {"item_id":"R05:ASSERT:SWEEP_PREDICTIONS","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Protocol predicts k* rises with N, falls with sigma, and uses lambda_N as a bypass diagnostic.","source_parse_units":["R05:P:PROTOCOL:SWEEP_PREDICTIONS"]},
+    {"item_id":"R05:INTERP:BYPASS_OBSERVER_BRANCH","item_kind":"SOURCE_CONDITIONAL_INTERPRETATION","content":"If k* moves with lambda_N, source interprets derivative-reconstruction instability as the active bottleneck.","source_parse_units":["R05:P:PROTOCOL:BYPASS_OBSERVER_BRANCH"]},
+    {"item_id":"R05:INTERP:BYPASS_STRUCTURE_BRANCH","item_kind":"SOURCE_CONDITIONAL_INTERPRETATION","content":"If k* stays fixed, source interprets the limit as structural or invariant-class limited.","source_parse_units":["R05:P:PROTOCOL:BYPASS_STRUCTURE_BRANCH"]}
+  ],
+  "methodology_or_test_protocol": [
+    {"item_id":"R05:METHOD:PROTOCOL_PURPOSE","item_kind":"METHODOLOGICAL_RATIONALE","content":"Calibration, synthetic rigs and validation metrics are specified to isolate the horizon.","source_parse_units":["R05:P:PROTOCOL:PURPOSE"]},
+    {"item_id":"R05:METHOD:RIG1","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Canonical linear oscillator baseline.","source_parse_units":["R05:P:PROTOCOL:RIG1_METHOD"]},
+    {"item_id":"R05:METHOD:RIG2_PROCEDURE","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Apply nonlinear coordinate warp y1=x+gamma p^2, y2=p+gamma x^3.","source_parse_units":["R05:P:PROTOCOL:RIG2_METHOD"]},
+    {"item_id":"R05:METHOD:RIG2_RATIONALE","item_kind":"METHODOLOGICAL_RATIONALE","content":"Use coordinate warping to separate representation capacity from gauge invariance.","source_parse_units":["R05:P:PROTOCOL:RIG2_PURPOSE"]},
+    {"item_id":"R05:METHOD:RIG3_PROCEDURE","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Use Euler-top/SO(3) rigid-body calibration.","source_parse_units":["R05:P:PROTOCOL:RIG3_METHOD"]},
+    {"item_id":"R05:METHOD:RIG3_RATIONALE","item_kind":"METHODOLOGICAL_RATIONALE","content":"Probe nonlinear brackets and non-trivial curvature.","source_parse_units":["R05:P:PROTOCOL:RIG3_PURPOSE"]},
+    {"item_id":"R05:METHOD:SWEEPS","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"N":"10^3 to 10^6","sigma":"0.00 to 0.50","lambda_N":"0.1 to 10.0"},"source_parse_units":["R05:P:PROTOCOL:SWEEPS"]},
+    {"item_id":"R05:METHOD:BYPASS_FREEZE","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Freeze N=100000,sigma=0.02 and coverage profiles.","source_parse_units":["R05:P:PROTOCOL:BYPASS_FREEZE"]},
+    {"item_id":"R05:METHOD:BYPASS_INTERVENTION","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Shift lambda_N from 1.0 to 8.0.","source_parse_units":["R05:P:PROTOCOL:BYPASS_INTERVENTION"]},
+    {"item_id":"R05:METHOD:INSTRUMENT_CLASS","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"StructuralHorizonEstimator implements synthetic epsilon_k, DeltaL, C_G, eta and k* calculations.","source_parse_units":["R05:P:INSTRUMENT:CLASS"]},
+    {"item_id":"R05:METHOD:INSTRUMENT_TOLERANCE","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Implements A_k=(1.5^k)lambda_N and epsilon_k=A_k sqrt(sigma^2/N)+epsilon_model.","source_parse_units":["R05:P:INSTRUMENT:TOLERANCE"]},
+    {"item_id":"R05:METHOD:INSTRUMENT_TRUE_K","item_kind":"IMPLEMENTATION_ASSUMPTION","content":"Synthetic instrument hard-codes true_k=3.","source_parse_units":["R05:P:INSTRUMENT:TRUE_K"]},
+    {"item_id":"R05:METHOD:INSTRUMENT_DELTA_L","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Implements synthetic piecewise DeltaL response around true_k.","source_parse_units":["R05:P:INSTRUMENT:DELTA_L_SYNTHETIC"]},
+    {"item_id":"R05:METHOD:INSTRUMENT_C_G","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Implements synthetic ambiguity cost from contraction, epsilon inflation and covering proxy.","source_parse_units":["R05:P:INSTRUMENT:C_G_SYNTHETIC"]},
+    {"item_id":"R05:METHOD:INSTRUMENT_ETA_KSTAR","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Computes eta and selects k* by argmax.","source_parse_units":["R05:P:INSTRUMENT:ETA_KSTAR"]},
+    {"item_id":"R05:METHOD:INSTRUMENT_DIRECT_RUN","item_kind":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct run can print a string labeled 'Measured Optimal Horizon k*'.","source_parse_units":["R05:P:INSTRUMENT:DIRECT_RUN"]},
+    {"item_id":"R05:METHOD:EXPERIMENT_PURPOSE","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Implements regularization-bypass comparison over the synthetic estimator.","source_parse_units":["R05:P:EXPERIMENT:PURPOSE"]},
+    {"item_id":"R05:METHOD:EXPERIMENT_FIXED_ENV","item_kind":"IMPLEMENTATION_ASSUMPTION","content":"Executable comparison fixes N=100000 and sigma=0.04.","source_parse_units":["R05:P:EXPERIMENT:FIXED_ENV"]},
+    {"item_id":"R05:METHOD:EXPERIMENT_LAMBDAS","item_kind":"IMPLEMENTATION_ASSUMPTION","content":"Executable comparison fixes lambda values 1.0 and 8.0.","source_parse_units":["R05:P:EXPERIMENT:LAMBDAS"]},
+    {"item_id":"R05:METHOD:EXPERIMENT_MEASURE","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Calls the synthetic estimator at both regularization values and formats k*/eta output.","source_parse_units":["R05:P:EXPERIMENT:MEASURE_BRANCHES"]},
+    {"item_id":"R05:METHOD:EXPERIMENT_FORK","item_kind":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Program labels differing k* values observer-limited and equal values structure-limited.","source_parse_units":["R05:P:EXPERIMENT:FORK"]},
+    {"item_id":"R05:METHOD:EXPERIMENT_DIRECT_RUN","item_kind":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct execution invokes the bypass routine.","source_parse_units":["R05:P:EXPERIMENT:DIRECT_RUN"]},
+    {"item_id":"R05:METHOD:TEST_SUITE","item_kind":"EXECUTABLE_TEST_IMPLEMENTATION","content":"Defines unittest harness over the synthetic estimator.","source_parse_units":["R05:P:TEST:SUITE"]},
+    {"item_id":"R05:METHOD:TEST_SETUP","item_kind":"IMPLEMENTATION_ASSUMPTION","content":"Test setup uses N=100000,sigma=0.02,max_k=6,lambda_N=1.0.","source_parse_units":["R05:P:TEST:SETUP"]},
+    {"item_id":"R05:METHOD:TEST_PHASE_ASSERTIONS","item_kind":"IMPLEMENTED_TEST_ASSERTION","content":"Implements monotonic discovery/misresolution assertions around computed k*.","source_parse_units":["R05:P:TEST:PHASE_ASSERTIONS"]},
+    {"item_id":"R05:METHOD:TEST_NOISE_ASSERTION","item_kind":"IMPLEMENTED_TEST_ASSERTION","content":"Implements high-noise k* <= nominal k* assertion.","source_parse_units":["R05:P:TEST:NOISE_ASSERTION"]},
+    {"item_id":"R05:METHOD:TEST_DIRECT_RUN","item_kind":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct execution invokes unittest.main(); no stored run output is present.","source_parse_units":["R05:P:TEST:DIRECT_RUN"]},
+    {"item_id":"R05:METHOD:NOTEBOOK_CODE","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Notebook code configures the synthetic estimator and plots eta with a k* marker.","source_parse_units":["R05:P:NOTEBOOK:CODE"]}
+  ],
+  "reported_results": [],
+  "reported_negative_results_or_failed_tests": [],
+  "methodological_limitations": [],
+  "open_questions": [],
+  "applications_or_examples": [],
+  "internal_references": [],
+  "unresolved_references": [],
+  "explicit_compression_exclusions": [
+    {"parse_unit_id":"R05:P:README:REPO_STRUCTURE","reason":"PROJECT_PROCESS_METADATA"},
+    {"parse_unit_id":"R05:P:THEORY:TITLE","reason":"DOCUMENT_LOCAL_NAVIGATION_TITLE"},
+    {"parse_unit_id":"R05:P:MATH:TITLE","reason":"DOCUMENT_LOCAL_NAVIGATION_TITLE"},
+    {"parse_unit_id":"R05:P:PROTOCOL:TITLE","reason":"DOCUMENT_LOCAL_NAVIGATION_TITLE"},
+    {"parse_unit_id":"R05:P:NOTATION:TITLE","reason":"DOCUMENT_LOCAL_NAVIGATION_TITLE"}
+  ],
+  "secondary_aliases": [],
+  "reported_empirical_results_status": "NONE_ON_FROZEN_SOURCE_SURFACE",
+  "map_edge_emission": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "propagation_authorized": false,
+  "cerebro_step_2_reopened": false
+}
