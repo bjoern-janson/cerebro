@@ -1,0 +1,21 @@
+{
+  "object": "CEREBRO_R05_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002",
+  "record_type": "frozen source-provenance repair overlay",
+  "persistent_record_state": "FROZEN",
+  "base_parse": "program/research_object_compression/R05_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger": "program/research_object_compression/R05_EXHAUSTIVE_PARSE_REAUDIT_V0.1.md",
+  "repair_scope": "SOURCE_LOCAL_VS_APERTURE_LEVEL_PROVENANCE_ONLY",
+  "item_replacements": [
+    {
+      "parse_unit_id": "R05:P:TEST:DIRECT_RUN",
+      "replacement_normalized_content": "Direct execution invokes unittest.main().",
+      "reason": "Repository-wide absence of stored test-run records remains represented only in category_absence_dispositions."
+    }
+  ],
+  "parse_unit_count_change": 0,
+  "new_parse_units": [],
+  "standing_changes": "NONE",
+  "new_parser_roles": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
