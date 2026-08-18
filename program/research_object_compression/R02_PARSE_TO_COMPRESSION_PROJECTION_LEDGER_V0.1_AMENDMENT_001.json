@@ -1,0 +1,30 @@
+{
+  "object": "CEREBRO_R02_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_AMENDMENT_001",
+  "record_type": "frozen projection-ledger remap overlay",
+  "persistent_record_state": "FROZEN",
+  "base_ledger": "program/research_object_compression/R02_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "trigger": "program/research_object_compression/R02_COMPRESSION_AMENDMENT_003_REGRESSION_V0.1.md",
+  "compression_repair": "program/research_object_compression/R02_COMPRESSION_V0.1_AMENDMENT_002.json",
+  "replacement_entries": [
+    {
+      "parse_unit_id": "R02:P:README:MOTIVATION",
+      "prior_destination": "R02:ASSERT:MOTIVATION",
+      "disposition": "DIRECT_TO_COMPRESSION_ITEM",
+      "destination": "R02:METHOD:MOTIVATION"
+    },
+    {
+      "parse_unit_id": "R02:P:README:WEIGHT_RATIONALE",
+      "prior_destination": "R02:ASSERT:WEIGHT_RATIONALE",
+      "disposition": "DIRECT_TO_COMPRESSION_ITEM",
+      "destination": "R02:METHOD:WEIGHT_RATIONALE"
+    }
+  ],
+  "all_other_projection_entries": "UNCHANGED",
+  "effective_parse_unit_count": 39,
+  "effective_projection_entry_count": 39,
+  "unmapped_parse_units": 0,
+  "secondary_aliases_for_repaired_units": [],
+  "projection_complete": true,
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
