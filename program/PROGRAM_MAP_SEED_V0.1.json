@@ -1,0 +1,807 @@
+{
+  "object": "CEREBRO_PROGRAM_MAP_SEED_V0.1",
+  "persistent_record_state": "FROZEN",
+  "parent_contract": {
+    "path": "program/PROGRAM_CONSOLIDATION_V0.1.md",
+    "commit": "9b810d20df1e3ead6bddd443789744d6a8712b35"
+  },
+  "map_authority": "NONE",
+  "constitutional_authority": "NONE",
+  "scientific_authority": "NONE",
+  "step_2_reopened": false,
+  "r01_r43_semantic_ingestion_opened": false,
+  "program_map_completeness": "NOT_ESTABLISHED",
+  "coverage": {
+    "pre_cerebro_repository_membership": "FROZEN_43_OF_43",
+    "pre_cerebro_repository_chronology": "FROZEN_43_OF_43",
+    "r01_r42_semantic_relations": "NOT_INGESTED",
+    "r43_ssi_semantic_relations": "FR001_LINEAGE_ONLY",
+    "cerebro_internal_relations": "SELECTED_FROZEN_OBJECTS_ONLY",
+    "all_other_program_relations": "UNMAPPED_NOT_REJECTED"
+  },
+  "global_non_inference_rules": [
+    "VISIBLE_PATH_DOES_NOT_COMPOSE_BY_DEFAULT",
+    "CHRONOLOGY_DOES_NOT_IMPLY_CAUSALITY_SUPPORT_OR_AUTHORITY",
+    "RECENCY_DOES_NOT_IMPLY_SUPERSESSION",
+    "NAME_OVERLAP_DOES_NOT_IMPLY_IDENTITY",
+    "MENTION_MULTIPLICITY_DOES_NOT_IMPLY_INDEPENDENT_WARRANT",
+    "MAP_OMISSION_DOES_NOT_IMPLY_REJECTION",
+    "MAP_RELATION_DOES_NOT_CREATE_OBJECT_STANDING",
+    "METHODOLOGICAL_PRECEDENT_DOES_NOT_IMPLY_DEPENDENCY"
+  ],
+  "nodes": [
+    {
+      "node_id": "PROGRAM:RESEARCH_PROGRAM",
+      "kind": "PROGRAM",
+      "label": "Research program",
+      "source_coverage": "PARTIAL"
+    },
+    {
+      "node_id": "ENV:PRE_CEREBRO_R01_R43",
+      "kind": "ENVIRONMENT_SET",
+      "label": "Frozen 43-repository pre-Cerebro environment",
+      "source_coverage": "MEMBERSHIP_AND_CHRONOLOGY_ONLY"
+    },
+    {
+      "node_id": "R01",
+      "kind": "REPOSITORY",
+      "label": "interface-induced-computational-geometry",
+      "repository": "bjoern-janson/interface-induced-computational-geometry",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R02",
+      "kind": "REPOSITORY",
+      "label": "computational-leverage",
+      "repository": "bjoern-janson/computational-leverage",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R03",
+      "kind": "REPOSITORY",
+      "label": "computational-phase-boundary",
+      "repository": "bjoern-janson/computational-phase-boundary",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R04",
+      "kind": "REPOSITORY",
+      "label": "computational-resolution-horizon",
+      "repository": "bjoern-janson/computational-resolution-horizon",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R05",
+      "kind": "REPOSITORY",
+      "label": "resolution-horizon",
+      "repository": "bjoern-janson/resolution-horizon",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R06",
+      "kind": "REPOSITORY",
+      "label": "representation-elasticity",
+      "repository": "bjoern-janson/representation-elasticity",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R07",
+      "kind": "REPOSITORY",
+      "label": "adaptive-metric-compiler",
+      "repository": "bjoern-janson/adaptive-metric-compiler",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R08",
+      "kind": "REPOSITORY",
+      "label": "adaptive-evolutionary-dynamics",
+      "repository": "bjoern-janson/adaptive-evolutionary-dynamics",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R09",
+      "kind": "REPOSITORY",
+      "label": "Research-State-Restoration-Protocol",
+      "repository": "bjoern-janson/Research-State-Restoration-Protocol",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R10",
+      "kind": "REPOSITORY",
+      "label": "cget",
+      "repository": "bjoern-janson/cget",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R11",
+      "kind": "REPOSITORY",
+      "label": "alignment-spine",
+      "repository": "bjoern-janson/alignment-spine",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R12",
+      "kind": "REPOSITORY",
+      "label": "causal-permeability-principle",
+      "repository": "bjoern-janson/causal-permeability-principle",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R13",
+      "kind": "REPOSITORY",
+      "label": "rpb_v0_1",
+      "repository": "bjoern-janson/rpb_v0_1",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R14",
+      "kind": "REPOSITORY",
+      "label": "recursive-adaptive-dynamics",
+      "repository": "bjoern-janson/recursive-adaptive-dynamics",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R15",
+      "kind": "REPOSITORY",
+      "label": "adaptive-intelligence-theory",
+      "repository": "bjoern-janson/adaptive-intelligence-theory",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R16",
+      "kind": "REPOSITORY",
+      "label": "constitutional-correction-capacity",
+      "repository": "bjoern-janson/constitutional-correction-capacity",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R17",
+      "kind": "REPOSITORY",
+      "label": "meta-process-framework",
+      "repository": "bjoern-janson/meta-process-framework",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R18",
+      "kind": "REPOSITORY",
+      "label": "adaptive-permeability",
+      "repository": "bjoern-janson/adaptive-permeability",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R19",
+      "kind": "REPOSITORY",
+      "label": "adaptive-stability-framework",
+      "repository": "bjoern-janson/adaptive-stability-framework",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R20",
+      "kind": "REPOSITORY",
+      "label": "ancestor-architecture",
+      "repository": "bjoern-janson/ancestor-architecture",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R21",
+      "kind": "REPOSITORY",
+      "label": "grounded-recursive-adaptation",
+      "repository": "bjoern-janson/grounded-recursive-adaptation",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R22",
+      "kind": "REPOSITORY",
+      "label": "causal-transition-condition",
+      "repository": "bjoern-janson/causal-transition-condition",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R23",
+      "kind": "REPOSITORY",
+      "label": "ctre_simulator",
+      "repository": "bjoern-janson/ctre_simulator",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R24",
+      "kind": "REPOSITORY",
+      "label": "ree",
+      "repository": "bjoern-janson/ree",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R25",
+      "kind": "REPOSITORY",
+      "label": "adaptive-intelligence-framework",
+      "repository": "bjoern-janson/adaptive-intelligence-framework",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R26",
+      "kind": "REPOSITORY",
+      "label": "aseb-framework",
+      "repository": "bjoern-janson/aseb-framework",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R27",
+      "kind": "REPOSITORY",
+      "label": "axiom-forge-mk1",
+      "repository": "bjoern-janson/axiom-forge-mk1",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R28",
+      "kind": "REPOSITORY",
+      "label": "adaptive-inheritance",
+      "repository": "bjoern-janson/adaptive-inheritance",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R29",
+      "kind": "REPOSITORY",
+      "label": "rahu-benchmark",
+      "repository": "bjoern-janson/rahu-benchmark",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R30",
+      "kind": "REPOSITORY",
+      "label": "theory-of-adaptive-epistemic-systems",
+      "repository": "bjoern-janson/theory-of-adaptive-epistemic-systems",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R31",
+      "kind": "REPOSITORY",
+      "label": "law-of-adaptive-authority-dynamics",
+      "repository": "bjoern-janson/law-of-adaptive-authority-dynamics",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R32",
+      "kind": "REPOSITORY",
+      "label": "arc-reactor",
+      "repository": "bjoern-janson/arc-reactor",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R33",
+      "kind": "REPOSITORY",
+      "label": "interface-theory",
+      "repository": "bjoern-janson/interface-theory",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R34",
+      "kind": "REPOSITORY",
+      "label": "the-correctable-lineage",
+      "repository": "bjoern-janson/the-correctable-lineage",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R35",
+      "kind": "REPOSITORY",
+      "label": "dostoevskian-cybernetics",
+      "repository": "bjoern-janson/dostoevskian-cybernetics",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R36",
+      "kind": "REPOSITORY",
+      "label": "controlled-adaptation-thesis",
+      "repository": "bjoern-janson/controlled-adaptation-thesis",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R37",
+      "kind": "REPOSITORY",
+      "label": "negative-space-search",
+      "repository": "bjoern-janson/negative-space-search",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R38",
+      "kind": "REPOSITORY",
+      "label": "magikarp",
+      "repository": "bjoern-janson/magikarp",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R39",
+      "kind": "REPOSITORY",
+      "label": "cars",
+      "repository": "bjoern-janson/cars",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R40",
+      "kind": "REPOSITORY",
+      "label": "correction-capable-adaptation",
+      "repository": "bjoern-janson/correction-capable-adaptation",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R41",
+      "kind": "REPOSITORY",
+      "label": "tevpp",
+      "repository": "bjoern-janson/tevpp",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R42",
+      "kind": "REPOSITORY",
+      "label": "future-sufficiency",
+      "repository": "bjoern-janson/future-sufficiency",
+      "semantic_coverage": "NOT_INGESTED"
+    },
+    {
+      "node_id": "R43",
+      "kind": "REPOSITORY",
+      "label": "ssi",
+      "repository": "bjoern-janson/ssi",
+      "semantic_coverage": "FR001_LINEAGE_ONLY"
+    },
+    {
+      "node_id": "REPO:CEREBRO",
+      "kind": "REPOSITORY",
+      "label": "cerebro",
+      "repository": "bjoern-janson/cerebro",
+      "semantic_coverage": "SELECTED_FROZEN_OBJECTS_ONLY"
+    },
+    {
+      "node_id": "STAGE:CEREBRO_STEP_2",
+      "kind": "DEVELOPMENTAL_STAGE",
+      "label": "Cerebro Step 2",
+      "descriptive_status": "CLOSED_LOCAL_DEVELOPMENTAL_FIXED_POINT"
+    },
+    {
+      "node_id": "ART:CEREBRO_CONSTITUTION_V0.1",
+      "kind": "FROZEN_ARTIFACT",
+      "label": "CEREBRO_CONSTITUTION_V0.1",
+      "repository": "bjoern-janson/cerebro",
+      "path": "CEREBRO_CONSTITUTION_V0.1.md",
+      "commit": "1f394d196e3fb16620793b889516e71bfa68c690",
+      "blob": "9b5488afe7f1ebcae1ef9059f2e29d7a8526b02e",
+      "descriptive_status": "FROZEN"
+    },
+    {
+      "node_id": "ART:CEREBRO_ENVIRONMENT_CHRONOLOGY_V0.1",
+      "kind": "FROZEN_ARTIFACT",
+      "label": "ENVIRONMENT_CHRONOLOGY_V0.1",
+      "repository": "bjoern-janson/cerebro",
+      "path": "environment/ENVIRONMENT_CHRONOLOGY_V0.1.md",
+      "commit": "95d44138268408f5d834c663367583de26878578",
+      "blob": "962c41630bb367a91c9c9b96feff530d9cbbe4bb",
+      "descriptive_status": "FROZEN"
+    },
+    {
+      "node_id": "ART:CEREBRO_STEP_2_FIXED_POINT_V0.1",
+      "kind": "FROZEN_RESULT",
+      "label": "STEP_2_LOCAL_DEVELOPMENTAL_FIXED_POINT_V0.1",
+      "repository": "bjoern-janson/cerebro",
+      "path": "perception/STEP_2_LOCAL_DEVELOPMENTAL_FIXED_POINT_V0.1.md",
+      "commit": "6a8c5d564f54d0b84cd492db50ddef7f813060f8",
+      "blob": "59237527d13b55444b7f77c5bc3ad154fcc876a7",
+      "descriptive_status": "FROZEN"
+    },
+    {
+      "node_id": "ART:CEREBRO_DEVELOPMENTAL_ACCOUNTABILITY_V0.1",
+      "kind": "DERIVED_INTERPRETATION",
+      "label": "DEVELOPMENTAL_ACCOUNTABILITY_INTERPRETATION_V0.1",
+      "repository": "bjoern-janson/cerebro",
+      "path": "research/DEVELOPMENTAL_ACCOUNTABILITY_INTERPRETATION_V0.1.md",
+      "commit": "c16801a0a7130bb9f0057bacebc9e6f97c6aa3af",
+      "blob": "ca15c938a74fc2ef01daf08cb90a345fec1bc358",
+      "descriptive_status": "FROZEN_NO_CONSTITUTIONAL_AUTHORITY"
+    },
+    {
+      "node_id": "ART:CEREBRO_FRONTIER_LEDGER",
+      "kind": "ADMINISTRATIVE_LEDGER",
+      "label": "FRONTIER_RESEARCH_LEDGER",
+      "repository": "bjoern-janson/cerebro",
+      "path": "frontier/FRONTIER_RESEARCH_LEDGER.md",
+      "commit": "21ea22e191442aaa9f1508531dd797e259e890dc",
+      "blob": "071db764cb18125921c49434f0ee04a097b50dec",
+      "descriptive_status": "ADMINISTRATIVE_NO_EPISTEMIC_AUTHORITY"
+    },
+    {
+      "node_id": "ART:PROGRAM_CONSOLIDATION_V0.1",
+      "kind": "DERIVED_ORGANIZATIONAL_CONTRACT",
+      "label": "PROGRAM_CONSOLIDATION_V0.1",
+      "repository": "bjoern-janson/cerebro",
+      "path": "program/PROGRAM_CONSOLIDATION_V0.1.md",
+      "commit": "9b810d20df1e3ead6bddd443789744d6a8712b35",
+      "descriptive_status": "FROZEN_NO_AUTHORITY"
+    },
+    {
+      "node_id": "Q:FR001",
+      "kind": "FRONTIER_QUESTION",
+      "label": "Authority invariance under internal cognitive acceleration",
+      "descriptive_status": "NOT_ESTABLISHED",
+      "scientific_state": "LIVE",
+      "experimental_state": "DORMANT",
+      "execution_status": "EXECUTION_UNAVAILABLE"
+    },
+    {
+      "node_id": "ART:SSI_FR001_SPEC_V0.1",
+      "kind": "FROZEN_BENCHMARK_PREREGISTRATION",
+      "label": "FR-001 Authority Invariance SPEC V0.1",
+      "repository": "bjoern-janson/ssi",
+      "path": "research/frontier/authority_invariance_v0_1/SPEC.md",
+      "commit": "e32979fc7c66ea01903c4e2beeea9f37dddf13f7",
+      "blob": "2d3d9f63e170657889dabaa60790fc977281a8ff",
+      "descriptive_status": "FROZEN_NOT_EXECUTED"
+    },
+    {
+      "node_id": "ART:SSI_FR001_SPEC_DEATH_TEST_V0.1",
+      "kind": "FROZEN_NEGATIVE_RESULT",
+      "label": "FR-001 Benchmark Death Test V0.1",
+      "repository": "bjoern-janson/ssi",
+      "path": "research/frontier/authority_invariance_v0_1/DEATH_TEST_V0.1.md",
+      "commit": "dadd2283f5d9b9cca06c37e45e56260de5b0c2e8",
+      "blob": "171334c2fe8cf68b859bf336adde3b09c6ca67cd",
+      "descriptive_status": "FROZEN_EXECUTION_READINESS_NOT_YET_EARNED"
+    },
+    {
+      "node_id": "ART:SSI_FR001_EXACT_CASE_ORACLE_SPEC_V0.1",
+      "kind": "FROZEN_BENCHMARK_CONSTITUTION",
+      "label": "FR001_EXACT_CASE_ORACLE_V0.1 SPEC",
+      "repository": "bjoern-janson/ssi",
+      "path": "research/frontier/authority_invariance_v0_1/exact_case_oracle_v0_1/SPEC.md",
+      "commit": "4da43c511f1027b2847b316800f31c8935a5050f",
+      "blob": "895d90f69e924f7584b689b8a4222b38d2036f77",
+      "descriptive_status": "FROZEN_NOT_EXECUTED"
+    },
+    {
+      "node_id": "ART:SSI_FR001_EXACT_CASE_ORACLE_JSON_V0.1",
+      "kind": "FROZEN_MACHINE_READABLE_BENCHMARK",
+      "label": "FR001_EXACT_CASE_ORACLE_V0.1",
+      "repository": "bjoern-janson/ssi",
+      "path": "research/frontier/authority_invariance_v0_1/exact_case_oracle_v0_1/EXACT_CASE_ORACLE_V0.1.json",
+      "commit": "d27fffc8f08c80630bcd854bd9b150833637207d",
+      "blob": "877cce202681b5823d6a1ce3d3d48e00ada9ba35",
+      "descriptive_status": "FROZEN_NOT_EXECUTED"
+    },
+    {
+      "node_id": "ART:SSI_FR001_EXACT_CASE_ORACLE_DEATH_TEST_V0.1",
+      "kind": "FROZEN_DEATH_TEST_RESULT",
+      "label": "FR001_EXACT_CASE_ORACLE_V0.1 Death Test",
+      "repository": "bjoern-janson/ssi",
+      "path": "research/frontier/authority_invariance_v0_1/exact_case_oracle_v0_1/DEATH_TEST_V0.1.md",
+      "commit": "d3d2fe45131ecfabd4cd9479eda8966f197c4551",
+      "blob": "0cbe64437ceecceb4220f8d8a6f7d1fe9c3f4b0b",
+      "descriptive_status": "FROZEN_BENCHMARK_CONSTITUTION_CLOSED_EXECUTION_BINDING_NOT_YET_FROZEN"
+    },
+    {
+      "node_id": "ART:SSI_FR001_EXECUTION_BINDING_JSON_V0.1",
+      "kind": "FROZEN_EXECUTION_BINDING_ATTEMPT",
+      "label": "FR001_EXECUTION_BINDING_V0.1",
+      "repository": "bjoern-janson/ssi",
+      "path": "research/frontier/authority_invariance_v0_1/execution_binding_v0_1/FR001_EXECUTION_BINDING_V0.1.json",
+      "commit": "fd35b9c996e56d5e2898141cee66e6f588213fa3",
+      "blob": "ba133986bc09eddf8110bcb1f0b4c71f97d2dd69",
+      "descriptive_status": "FROZEN_BINDING_ATTEMPT_INCOMPLETE"
+    },
+    {
+      "node_id": "ART:SSI_FR001_EXECUTION_BINDING_DEATH_TEST_V0.1",
+      "kind": "FROZEN_INSTRUMENT_NEGATIVE_RESULT",
+      "label": "FR001_EXECUTION_BINDING_V0.1 Death Test",
+      "repository": "bjoern-janson/ssi",
+      "path": "research/frontier/authority_invariance_v0_1/execution_binding_v0_1/DEATH_TEST_V0.1.md",
+      "commit": "362594d4337a1c72556b501b6477ff624db919e1",
+      "blob": "ebcca957da396efee18f6c50ff59ab3e29592b6a",
+      "descriptive_status": "FROZEN_EXECUTION_UNAVAILABLE_FR001_NOT_ESTABLISHED"
+    },
+    {
+      "node_id": "BOUNDARY:FR001_INSTRUMENT",
+      "kind": "FAILURE_LOCALIZATION",
+      "label": "FR-001 execution instrument boundary",
+      "descriptive_status": "CURRENT_FAILURE_LOCUS"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "REL:PRE_CEREBRO_MEMBERSHIP",
+      "relation_type": "MEMBER_OF_ENVIRONMENT",
+      "relation_shape": "SET_MEMBERSHIP",
+      "container": "ENV:PRE_CEREBRO_R01_R43",
+      "members": [
+        "R01", "R02", "R03", "R04", "R05", "R06", "R07", "R08", "R09", "R10",
+        "R11", "R12", "R13", "R14", "R15", "R16", "R17", "R18", "R19", "R20",
+        "R21", "R22", "R23", "R24", "R25", "R26", "R27", "R28", "R29", "R30",
+        "R31", "R32", "R33", "R34", "R35", "R36", "R37", "R38", "R39", "R40",
+        "R41", "R42", "R43"
+      ],
+      "meaning": "Membership only in the frozen pre-Cerebro research environment; no semantic relation is implied.",
+      "provenance": {
+        "repository": "bjoern-janson/cerebro",
+        "path": "environment/ENVIRONMENT_CHRONOLOGY_V0.1.md",
+        "commit": "95d44138268408f5d834c663367583de26878578",
+        "blob": "962c41630bb367a91c9c9b96feff530d9cbbe4bb"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:PRE_CEREBRO_CHRONOLOGY",
+      "relation_type": "CHRONOLOGICAL_TOTAL_ORDER",
+      "relation_shape": "ORDER",
+      "ordered_members": [
+        "R01", "R02", "R03", "R04", "R05", "R06", "R07", "R08", "R09", "R10",
+        "R11", "R12", "R13", "R14", "R15", "R16", "R17", "R18", "R19", "R20",
+        "R21", "R22", "R23", "R24", "R25", "R26", "R27", "R28", "R29", "R30",
+        "R31", "R32", "R33", "R34", "R35", "R36", "R37", "R38", "R39", "R40",
+        "R41", "R42", "R43"
+      ],
+      "meaning": "Frozen total order induced by repository creation and research-anchor chronology. It does not imply semantic ancestry, dependency, causality, support, or authority.",
+      "provenance": {
+        "repository": "bjoern-janson/cerebro",
+        "path": "environment/ENVIRONMENT_CHRONOLOGY_V0.1.md",
+        "commit": "95d44138268408f5d834c663367583de26878578",
+        "blob": "962c41630bb367a91c9c9b96feff530d9cbbe4bb"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:CEREBRO_CONSTITUTION_OF",
+      "relation_type": "CONSTITUTION_OF",
+      "relation_shape": "BINARY",
+      "source": "ART:CEREBRO_CONSTITUTION_V0.1",
+      "target": "REPO:CEREBRO",
+      "meaning": "Describes the frozen Cerebro constitutional artifact. The map does not extend its authority.",
+      "provenance": {
+        "repository": "bjoern-janson/cerebro",
+        "path": "CEREBRO_CONSTITUTION_V0.1.md",
+        "commit": "1f394d196e3fb16620793b889516e71bfa68c690",
+        "blob": "9b5488afe7f1ebcae1ef9059f2e29d7a8526b02e"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:CEREBRO_STEP2_CLOSURE",
+      "relation_type": "CLOSES_DEVELOPMENTAL_STAGE",
+      "relation_shape": "BINARY",
+      "source": "ART:CEREBRO_STEP_2_FIXED_POINT_V0.1",
+      "target": "STAGE:CEREBRO_STEP_2",
+      "meaning": "Records the frozen local developmental fixed-point closure of Cerebro Step 2.",
+      "provenance": {
+        "repository": "bjoern-janson/cerebro",
+        "path": "perception/STEP_2_LOCAL_DEVELOPMENTAL_FIXED_POINT_V0.1.md",
+        "commit": "6a8c5d564f54d0b84cd492db50ddef7f813060f8",
+        "blob": "59237527d13b55444b7f77c5bc3ad154fcc876a7"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:DEVELOPMENTAL_ACCOUNTABILITY_INTERPRETS_STEP2",
+      "relation_type": "DERIVED_INTERPRETATION_OF",
+      "relation_shape": "BINARY",
+      "source": "ART:CEREBRO_DEVELOPMENTAL_ACCOUNTABILITY_V0.1",
+      "target": "ART:CEREBRO_STEP_2_FIXED_POINT_V0.1",
+      "meaning": "Preserves a derived developmental interpretation of the already-frozen Step 2 lineage without constitutional authority.",
+      "provenance": {
+        "repository": "bjoern-janson/cerebro",
+        "path": "research/DEVELOPMENTAL_ACCOUNTABILITY_INTERPRETATION_V0.1.md",
+        "commit": "c16801a0a7130bb9f0057bacebc9e6f97c6aa3af",
+        "blob": "ca15c938a74fc2ef01daf08cb90a345fec1bc358"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:CEREBRO_LEDGER_PARKS_FR001",
+      "relation_type": "PARKS_QUESTION",
+      "relation_shape": "BINARY",
+      "source": "ART:CEREBRO_FRONTIER_LEDGER",
+      "target": "Q:FR001",
+      "meaning": "Records FR-001's historical Cerebro state as PARKED_UNTESTED / NOT_ESTABLISHED. It does not overwrite later SSI continuation.",
+      "provenance": {
+        "repository": "bjoern-janson/cerebro",
+        "path": "frontier/FRONTIER_RESEARCH_LEDGER.md",
+        "commit": "21ea22e191442aaa9f1508531dd797e259e890dc",
+        "blob": "071db764cb18125921c49434f0ee04a097b50dec"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:SSI_SPEC_CONTINUES_FR001",
+      "relation_type": "CONTINUES_FRONTIER_QUESTION",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_SPEC_V0.1",
+      "target": "Q:FR001",
+      "meaning": "Constitutes a separate SSI benchmark research object for the previously parked FR-001 question; does not modify the Cerebro ledger historically.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/SPEC.md",
+        "commit": "e32979fc7c66ea01903c4e2beeea9f37dddf13f7",
+        "blob": "2d3d9f63e170657889dabaa60790fc977281a8ff"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:CEREBRO_STEP2_PRECEDENT_FOR_SSI_FR001",
+      "relation_type": "METHODOLOGICAL_PRECEDENT_FOR",
+      "relation_shape": "BINARY",
+      "source": "ART:CEREBRO_STEP_2_FIXED_POINT_V0.1",
+      "target": "ART:SSI_FR001_SPEC_V0.1",
+      "meaning": "Cerebro Step 2 discipline is used as methodological precedent only. This relation carries no dependency or authority transfer.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/SPEC.md",
+        "commit": "e32979fc7c66ea01903c4e2beeea9f37dddf13f7",
+        "blob": "2d3d9f63e170657889dabaa60790fc977281a8ff"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:SSI_FR001_SPEC_DEATH_TEST",
+      "relation_type": "DEATH_TESTS",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_SPEC_DEATH_TEST_V0.1",
+      "target": "ART:SSI_FR001_SPEC_V0.1",
+      "meaning": "Death-tests the first FR-001 preregistration and localizes four benchmark-constitution/execution-design gaps without falsifying FR-001.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/DEATH_TEST_V0.1.md",
+        "commit": "dadd2283f5d9b9cca06c37e45e56260de5b0c2e8",
+        "blob": "171334c2fe8cf68b859bf336adde3b09c6ca67cd"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:EXACT_CASE_ORACLE_REPAIRS_SPEC_GAPS",
+      "relation_type": "SUCCESSOR_REPAIR_FOR",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_EXACT_CASE_ORACLE_SPEC_V0.1",
+      "target": "ART:SSI_FR001_SPEC_DEATH_TEST_V0.1",
+      "meaning": "Provides the shallow benchmark-constitution repair identified by the first death test; does not rewrite that negative result.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/exact_case_oracle_v0_1/SPEC.md",
+        "commit": "4da43c511f1027b2847b316800f31c8935a5050f",
+        "blob": "895d90f69e924f7584b689b8a4222b38d2036f77"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:EXACT_JSON_INSTANTIATES_EXACT_SPEC",
+      "relation_type": "MACHINE_READABLE_INSTANTIATION_OF",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_EXACT_CASE_ORACLE_JSON_V0.1",
+      "target": "ART:SSI_FR001_EXACT_CASE_ORACLE_SPEC_V0.1",
+      "meaning": "Machine-readable frozen exact cases/oracle corresponding to the exact-case/oracle contract.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/exact_case_oracle_v0_1/EXACT_CASE_ORACLE_V0.1.json",
+        "commit": "d27fffc8f08c80630bcd854bd9b150833637207d",
+        "blob": "877cce202681b5823d6a1ce3d3d48e00ada9ba35"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:EXACT_DEATH_TESTS_SPEC",
+      "relation_type": "DEATH_TESTS",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_EXACT_CASE_ORACLE_DEATH_TEST_V0.1",
+      "target": "ART:SSI_FR001_EXACT_CASE_ORACLE_SPEC_V0.1",
+      "meaning": "Retests whether the exact-case/oracle successor closes the benchmark-constitution gaps.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/exact_case_oracle_v0_1/DEATH_TEST_V0.1.md",
+        "commit": "d3d2fe45131ecfabd4cd9479eda8966f197c4551",
+        "blob": "0cbe64437ceecceb4220f8d8a6f7d1fe9c3f4b0b"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:EXACT_DEATH_TESTS_JSON",
+      "relation_type": "DEATH_TESTS",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_EXACT_CASE_ORACLE_DEATH_TEST_V0.1",
+      "target": "ART:SSI_FR001_EXACT_CASE_ORACLE_JSON_V0.1",
+      "meaning": "Retests the machine-readable exact case/oracle surface as part of the same bounded benchmark-constitution death test.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/exact_case_oracle_v0_1/DEATH_TEST_V0.1.md",
+        "commit": "d3d2fe45131ecfabd4cd9479eda8966f197c4551",
+        "blob": "0cbe64437ceecceb4220f8d8a6f7d1fe9c3f4b0b"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:EXECUTION_BINDING_FOR_EXACT_BENCHMARK",
+      "relation_type": "EXECUTION_BINDING_FOR",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_EXECUTION_BINDING_JSON_V0.1",
+      "target": "ART:SSI_FR001_EXACT_CASE_ORACLE_JSON_V0.1",
+      "meaning": "Attempts to bind a concrete runtime to the already-frozen benchmark without changing the benchmark.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/execution_binding_v0_1/FR001_EXECUTION_BINDING_V0.1.json",
+        "commit": "fd35b9c996e56d5e2898141cee66e6f588213fa3",
+        "blob": "ba133986bc09eddf8110bcb1f0b4c71f97d2dd69"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:EXECUTION_BINDING_DEATH_TEST",
+      "relation_type": "DEATH_TESTS",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_EXECUTION_BINDING_DEATH_TEST_V0.1",
+      "target": "ART:SSI_FR001_EXECUTION_BINDING_JSON_V0.1",
+      "meaning": "Death-tests the execution binding and returns EXECUTION_UNAVAILABLE without producing an FR-001 experiment result.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/execution_binding_v0_1/DEATH_TEST_V0.1.md",
+        "commit": "362594d4337a1c72556b501b6477ff624db919e1",
+        "blob": "ebcca957da396efee18f6c50ff59ab3e29592b6a"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:EXECUTION_FAILURE_LOCALIZATION",
+      "relation_type": "LOCALIZES_FAILURE_TO",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_EXECUTION_BINDING_DEATH_TEST_V0.1",
+      "target": "BOUNDARY:FR001_INSTRUMENT",
+      "meaning": "Localizes current FR-001 execution unavailability to the instrument/execution-binding layer, not to the hypothesis or frozen benchmark.",
+      "provenance": {
+        "repository": "bjoern-janson/ssi",
+        "path": "research/frontier/authority_invariance_v0_1/execution_binding_v0_1/DEATH_TEST_V0.1.md",
+        "commit": "362594d4337a1c72556b501b6477ff624db919e1",
+        "blob": "ebcca957da396efee18f6c50ff59ab3e29592b6a"
+      },
+      "relation_standing": "SUPPORTED_BY_FROZEN_SOURCE",
+      "map_authority_effect": "NONE"
+    }
+  ],
+  "frontier": [
+    {
+      "frontier_id": "FRONTIER:PROGRAM_SEMANTIC_CONSOLIDATION",
+      "status": "NOT_OPENED",
+      "question": "What typed semantic, dependency, scope, authority, negative-history, and frontier relations across R01-R43 survive source-by-source provenance audit?",
+      "authority": "NONE"
+    },
+    {
+      "frontier_id": "FRONTIER:FR001_EXECUTION",
+      "status": "EXPERIMENTALLY_DORMANT",
+      "question": "Can a genuinely bound execution environment satisfy the frozen FR-001 execution contract and survive death test before model exposure?",
+      "scientific_standing": "NOT_ESTABLISHED",
+      "authority": "NONE"
+    }
+  ],
+  "unresolved": [
+    "FULL_CROSS_REPOSITORY_SEMANTIC_LINEAGE",
+    "FULL_RESEARCH_DEPENDENCY_GRAPH",
+    "FULL_AUTHORITY_ROUTING_GRAPH",
+    "FULL_SCOPE_RELATION_GRAPH",
+    "FULL_NEGATIVE_HISTORY_INDEX",
+    "TERM_EQUIVALENCE_AND_TERM_COLLISION_MAP",
+    "PROGRAM_WIDE_FRONTIER_COMPLETENESS",
+    "PROGRAM_MAP_COMPLETENESS"
+  ],
+  "frozen_status": {
+    "PROGRAM_MAP_SEED_V0.1": "FROZEN",
+    "MAP_AUTHORITY": "NONE",
+    "PROGRAM_SYNTHESIS": "NOT_ESTABLISHED",
+    "R01_CONTENT_ACCESS": "CLOSED",
+    "R01_SEMANTIC_ACCESS": "CLOSED",
+    "STEP_2": "CLOSED",
+    "NEXT": "PROGRAM_MAP_SEED_DEATH_TEST"
+  }
+}
