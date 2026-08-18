@@ -1,0 +1,42 @@
+{
+  "object":"CEREBRO_R26_SOURCE_SURFACE_V0.1",
+  "repository_id":"R26",
+  "repository":"bjoern-janson/aseb-framework",
+  "persistent_record_state":"FROZEN",
+  "parse_contract":"CEREBRO_EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1+AMENDMENT_001",
+  "frozen_default_branch":"main",
+  "frozen_head_commit":"09abf2ee64bcf4488ba4e093162405c516422d37",
+  "frozen_tree_sha":"4965f2a9d7740c41dee2f48d797ad2e9ebc23375",
+  "tree_truncated":false,
+  "summary":{"total_blob_paths":11,"parse_included":11,"parse_excluded_by_frozen_scope":0,"parse_failed":0,"parse_unsupported":0,"unenumerated_paths":0},
+  "paths":[
+    ["README.md","97e741393d3cc4ec19b895714323ac07fd9343fb",3697,"PARSE_INCLUDED"],
+    ["docs/01-core-principles.md","9c6ba394ddc8d282fe1824b39283237ba7ce1998",5048,"PARSE_INCLUDED"],
+    ["docs/02-permeability.md","fddc81ea1e181d386752331c5918eede19bc3ebc",5353,"PARSE_INCLUDED"],
+    ["docs/03-representation-boundaries.md","6ca73e5bd199eec2c8dfa26c5068788901a326d7",5438,"PARSE_INCLUDED"],
+    ["docs/04-computational-phase-boundaries.md","7a9df0c56c4fc5dcbff1173601a6283ce4e570bc",6098,"PARSE_INCLUDED"],
+    ["docs/05-formal-models.md","d1c10ae159a0aba9c76fd090d8d728c422cef731",6847,"PARSE_INCLUDED"],
+    ["docs/06-testable-hypotheses.md","16a3b1e93b781e84b4a262fd8efc875b10d4fc6f",7613,"PARSE_INCLUDED"],
+    ["docs/07-experimental-program.md","d271df499cef8312c957198aa73c1d50125d50a0",7216,"PARSE_INCLUDED"],
+    ["docs/08-case-studies.md","6eb07b09481b3dfbfc8ae43d37649bc5d834e132",7799,"PARSE_INCLUDED"],
+    ["docs/09-limitations-and-open-problems.md","2261db66981491fb263b05c77954e3d092fa4b73",8160,"PARSE_INCLUDED"],
+    ["docs/10-conclusion-and-research-direction.md","d515d615b6324494afebb59aa6e5ff716d90ce3f",6707,"PARSE_INCLUDED"]
+  ],
+  "developmental_history":[
+    ["23da5bb21d63933cdaeef4ec19875fcc149addf5","Initial commit","2026-07-28T17:14:45Z"],
+    ["9e8aa19d8ba5c891c5522f5623ec761dd1b0634d","Update README.md","2026-07-28T17:16:36Z"],
+    ["cb503419e2bf45fa6a65e3c2b2d26643419985eb","Create 01-core-principles.md","2026-07-28T17:19:27Z"],
+    ["27766a3324b593a939919755ddffdcc9ce58adb6","Create 02-permeability.md","2026-07-28T17:20:19Z"],
+    ["51b07b208a68f451898fce08b31f9c47a9881333","Create 03-representation-boundaries.md","2026-07-28T17:25:31Z"],
+    ["dd56527c47992402f636842a512c7ca7bc78c26e","Create 04-computational-phase-boundaries.md","2026-07-28T17:32:10Z"],
+    ["47434a5624cfd6f4f023df8652652482cd882383","Create 05-formal-models.md","2026-07-28T17:33:35Z"],
+    ["d383286009f94a41a2d66b9d7a550114b559efd8","Create 06-testable-hypotheses.md","2026-07-28T18:28:59Z"],
+    ["ceb7c75041f3ecaac9f901d14c5d5353c3261e82","Create 07-experimental-program.md","2026-07-28T19:22:05Z"],
+    ["cb4eadda856efaff574f58ac1b00381f08eab892","Create 08-case-studies.md","2026-07-28T19:22:36Z"],
+    ["de2346cd68657521b2aa22d190e141e55b517fdd","Create 09-limitations-and-open-problems.md","2026-07-28T19:23:04Z"],
+    ["09abf2ee64bcf4488ba4e093162405c516422d37","Create 10-conclusion-and-research-direction.md","2026-07-28T19:23:34Z"]
+  ],
+  "bounded_artifact_presence":{"markdown_paths":11,"executable_source_paths":0,"data_paths":0,"test_paths":0,"execution_record_paths":0,"result_paths":0,"github_actions_runs_at_head":0,"combined_status_records_at_head":0},
+  "source_surface_note":"Current head is a theoretical/experimental-framework corpus. Testable hypotheses, prospective experiments and historical case studies are present; no source-reported executed experiment/result artifact is present.",
+  "map_edge_emission":"NONE","map_authority":"NONE","scientific_authority":"NONE","propagation_authorized":false
+}
