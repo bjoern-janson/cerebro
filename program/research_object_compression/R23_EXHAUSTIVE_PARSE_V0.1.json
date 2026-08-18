@@ -1,0 +1,49 @@
+{
+  "object": "CEREBRO_R23_EXHAUSTIVE_PARSE_V0.1",
+  "repository_id": "R23",
+  "repository": "bjoern-janson/ctre_simulator",
+  "frozen_head_commit": "a3ef7b068a8b93c1892d082d63f35eaf0eae31b6",
+  "effective_source_surface": "R23_SOURCE_SURFACE_V0.1.json + R23_SOURCE_SURFACE_V0.1_AMENDMENT_001.json",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "parts": ["R23_EXHAUSTIVE_PARSE_V0.1_PART_A.json","R23_EXHAUSTIVE_PARSE_V0.1_PART_B.json"],
+  "candidate_counts": {
+    "frozen_head_paths": 8,
+    "parsed_representations": 73,
+    "explicitly_unresolved": 39,
+    "candidate_parse_units": 112,
+    "parser_failures": 0,
+    "unmapped_source_paths": 0
+  },
+  "standing_boundaries": {
+    "implementation_present": true,
+    "test_source_present": false,
+    "execution_record_present": false,
+    "github_actions_runs_at_head": 0,
+    "combined_status_records_at_head": 0,
+    "source_reported_empirical_results": 0,
+    "source_reported_negative_results": 0,
+    "assertion_code_present": true
+  },
+  "preserved_pressures": [
+    "README_ENVIRONMENT_VS_IMPLEMENTED_ENVIRONMENT",
+    "HIDDEN_CONTEXT_VS_OBSERVED_CONTEXT",
+    "README_BASELINE_VS_IMPLEMENTED_BASELINE",
+    "README_HOLDOUT_COMMIT_RULE_VS_INTERNAL_MUTATION_COMMIT",
+    "HYPOTHESIS_TRANSFORM_VS_REE_FEATURE_INTERFACE",
+    "STOCHASTIC_AUGMENT_REPRESENTATION",
+    "HETEROGENEOUS_SLEEP_SCORE_COMPARABILITY",
+    "EVALUATOR_TRAIN_DATA_NONUSE",
+    "EVALUATOR_FIT_AND_SCORE_ON_VALIDATION",
+    "OFFLINE_CANDIDATE_TUPLE_INTERFACE",
+    "STATE_VS_REE_BASELINE_CONTROL",
+    "RNG_TRAJECTORY_CONTROL",
+    "FALSE_MUTATION_METRIC_VALIDITY",
+    "EXECUTABLE_ASSERTION_VS_OBSERVED_RESULT",
+    "SOURCE_SURFACE_COORDINATE_REPAIR_LINEAGE"
+  ],
+  "source_coordinate_policy": "Primary parse units must be reversible to an actual frozen blob coordinate. Repository-level derived audits are not source units and must be secondary if they have no source blob.",
+  "map_edge_emission": "NONE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation_authorized": false
+}
