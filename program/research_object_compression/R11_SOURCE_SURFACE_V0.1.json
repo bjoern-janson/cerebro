@@ -1,0 +1,40 @@
+{
+  "object":"CEREBRO_R11_SOURCE_SURFACE_V0.1",
+  "record_type":"frozen full recursive repository source surface",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R11",
+  "repository":"bjoern-janson/alignment-spine",
+  "default_branch":"main",
+  "frozen_head_commit":"7b7c484e9b81db394e2f759b849d9a17548ce80d",
+  "frozen_head_tree":"3b1aea98edcd988ee4ebac635485eb3159cc1fdf",
+  "tree_truncated":false,
+  "inventory":{
+    "total_blob_paths":3,
+    "research_bearing_blob_paths":2,
+    "excluded_non_research_blob_paths":1,
+    "unique_research_bearing_blobs":2,
+    "markdown_blob_paths":2,
+    "other_research_formats":0,
+    "duplicate_content_path_groups":0
+  },
+  "paths":[
+    {"path":"LICENSE","blob":"af602b2e8e83970d54a4a588e0fbdd14768cb691","size":1063,"source_format":"TEXT","disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"legal metadata only"},
+    {"path":"README.md","blob":"02ac31dcb143f3f7934db03f7df12bee47902efc","size":7201,"source_format":"MARKDOWN","disposition":"PARSE_INCLUDED"},
+    {"path":"core_equation.md","blob":"59faa12d4428e59829a4247e0e638258d0aa156b","size":1449,"source_format":"MARKDOWN","disposition":"PARSE_INCLUDED"}
+  ],
+  "coverage_claim":"EXHAUSTIVE_RELATIVE_TO_FROZEN_RECURSIVE_HEAD_INVENTORY",
+  "source_surface_complete":true,
+  "semantic_parse_performed":false,
+  "non_inferences":[
+    "SMALL_SOURCE_SURFACE != LOW_SEMANTIC_DENSITY",
+    "SMALL_SOURCE_SURFACE != LICENSE_TO_COLLAPSE_STANDING",
+    "CONNECTED_RESEARCH_DIRECTIONS != CROSS_REPOSITORY_EDGES",
+    "FORMAL_EQUATION_FILENAME != PROVEN_THEOREM"
+  ],
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "r12_parse_access_opened":false
+}
