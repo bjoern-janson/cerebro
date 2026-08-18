@@ -1,0 +1,34 @@
+{
+  "object":"CEREBRO_R17_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "record_type":"explicit parse-to-compression projection ledger manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R17",
+  "effective_parse_units":231,
+  "projection_parts":[
+    {"path":"program/research_object_compression/R17_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_A.json","mappings":127},
+    {"path":"program/research_object_compression/R17_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_B.json","mappings":104}
+  ],
+  "primary_projection_entries":231,
+  "primary_compressed_items":88,
+  "unmapped_parse_units":0,
+  "duplicate_primary_owners":0,
+  "projection_completeness":"COMPLETE_BY_EXPLICIT_PARSE_UNIT_ID",
+  "effective_unresolved_source_units":21,
+  "derived_audit_views":3,
+  "audit_views":[
+    "R17:AUDIT:FRAMEWORK_IDENTITY_EQUIVALENCE",
+    "R17:AUDIT:RECURRENCE_WARRANT_CEILING",
+    "R17:AUDIT:EXPERIMENTAL_STANDING_CEILING"
+  ],
+  "derived_bounded_absences":1,
+  "temporal_provenance_views":1,
+  "source_identity_policy":"META_PROCESS_FRAMEWORK_AND_RAD_REMAIN_SEPARATE_SOURCE_IDENTITIES_UNLESS_EXPLICIT_EQUIVALENCE_IS_EARNED",
+  "occurrence_accounting_policy":"REPEATED_SOURCE_PROPOSITIONS_RETAIN_OCCURRENCE_PROVENANCE_WITHOUT_INDEPENDENT_WARRANT_INFERENCE",
+  "experimental_standing_policy":"BENCHMARK_EXPERIMENT_AND_SIMULATOR_SPECIFICATIONS_DO_NOT_ACQUIRE_EXECUTION_OR_RESULT_STANDING_BY_NAME_OR_PREDICTION",
+  "history_policy":"CURRENT_HEAD_PARSE_AND_DEVELOPMENTAL_PROVENANCE_REMAIN_DISTINCT_RECONSTRUCTIBLE_VIEWS",
+  "standing_preservation":"NOT_YET_ESTABLISHED_PENDING_COMPRESSION_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "r18_parse_access_opened":false
+}
