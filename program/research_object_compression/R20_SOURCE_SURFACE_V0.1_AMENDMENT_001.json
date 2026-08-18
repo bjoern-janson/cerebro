@@ -1,0 +1,29 @@
+{
+  "object":"CEREBRO_R20_SOURCE_SURFACE_V0.1_AMENDMENT_001",
+  "record_type":"repository-local frozen source-coordinate repair overlay",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R20",
+  "base_surface":"program/research_object_compression/R20_SOURCE_SURFACE_V0.1.json",
+  "repair_locus":"ONE_BLOB_COORDINATE_ONLY",
+  "historical_base_mutated":false,
+  "repair":{
+    "path":"src/utils/config.py",
+    "historical_manifest_blob":"19d3db1ec453ae39196aa5cc1865814c9869840",
+    "effective_blob":"19d3db1ec453ae39196f008d08962c354e63bce3",
+    "warrant":"frozen-head recursive tree plus direct file fetch",
+    "semantic_content_change":false,
+    "path_disposition_change":false
+  },
+  "effective_inventory":{
+    "total_blob_paths":81,
+    "parse_included":81,
+    "unenumerated_paths":0,
+    "coordinate_repairs":1
+  },
+  "contract_effect":"NONE",
+  "authority_effect":"NONE",
+  "map_edge_emission":"NONE",
+  "propagation_authorized":false,
+  "r20_parse_access":"AUTHORIZED_AGAINST_EFFECTIVE_SOURCE_SURFACE",
+  "r21_parse_access_opened":false
+}
