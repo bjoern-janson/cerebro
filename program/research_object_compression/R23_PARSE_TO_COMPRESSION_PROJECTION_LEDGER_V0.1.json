@@ -1,0 +1,28 @@
+{
+  "object": "CEREBRO_R23_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "repository_id": "R23",
+  "frozen_head_commit": "a3ef7b068a8b93c1892d082d63f35eaf0eae31b6",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "effective_parse": "R23_EXHAUSTIVE_PARSE_V0.1 + AMENDMENT_001 + RETEST",
+  "compression": "R23_COMPRESSION_V0.1 + effective Parts A/B",
+  "primary_ownership_materialization": "Each effective compression item's SOURCE_UNITS array is its exact primary ownership set.",
+  "effective_parse_id_set": {
+    "represented": "R23P0001-R23P0073 inclusive",
+    "unresolved_included": ["R23U0001-R23U0034 inclusive","R23U0037-R23U0039 inclusive"],
+    "unresolved_demoted_to_secondary_audit": ["R23U0035","R23U0036"]
+  },
+  "validation": {
+    "effective_parse_units": 110,
+    "primary_projection_entries": 110,
+    "primary_compressed_items": 25,
+    "unmapped_parse_units": 0,
+    "duplicate_primary_owners": 0,
+    "extra_projection_units": 0,
+    "reciprocal_source_unit_count": 110
+  },
+  "secondary_reuse_policy": "Secondary bounded-absence/endpoint/source-coordinate/serialization/construct/execution audits are non-owning and zero-authority.",
+  "warrant_independence_status": "NOT_ESTABLISHED",
+  "warrant_multiplicity_effect": "NONE",
+  "map_edge_emission": "NONE",
+  "authority_effect": "NONE"
+}
