@@ -1,0 +1,62 @@
+{
+  "object":"CEREBRO_R20_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type":"repository-local parse repair overlay",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R20",
+  "trigger":"program/research_object_compression/R20_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "base_candidate":"program/research_object_compression/R20_EXHAUSTIVE_PARSE_V0.1.json",
+  "repair_scope":"DERIVED_AUDIT_DEMOTION + TWO_MIXED_STANDING_CONFIG_SPLITS + ONE_CONTENT_NARROWING",
+  "historical_candidates_mutated":false,
+  "effective_content_narrowing":[
+    {"unit_id":"R20P0008","effective_content":"Proposes removal tests, independent-capability measurement, permeability tests, agency transfer, ecosystem comparison, and explicit falsification conditions."},
+    {"unit_id":"R20P0018","effective_content":"Agency-transfer configuration specifies 500 episodes, evaluation interval 50, 300 assisted episodes, 200 removal episodes, and named metrics."},
+    {"unit_id":"R20P0019","effective_content":"Permeability-transition configuration specifies kappa sweep 0..2 step .05, 100 trials, and requested phase-curve/transition output settings."}
+  ],
+  "source_coincident_added_units":[
+    {"unit_id":"R20P0322","kind":"PREDICTION","source_path":"configs/agency_transfer.yaml","source_section_path":"expected behavior","content":"Configuration encodes the expectation that independent performance increases while dependency decreases.","coincident_with":"R20P0018"},
+    {"unit_id":"R20P0323","kind":"PREDICTION","source_path":"configs/permeability_transition.yaml","source_section_path":"expected regimes","content":"Configuration encodes the expectation that low-kappa behavior is unstable while high-kappa behavior is adaptive.","coincident_with":"R20P0019"}
+  ],
+  "demoted_primary_parsed_units":[
+    "R20P0143",
+    "R20P0150","R20P0155","R20P0160","R20P0165","R20P0168","R20P0172","R20P0176","R20P0179","R20P0184","R20P0187","R20P0190","R20P0191","R20P0195","R20P0198","R20P0201","R20P0202","R20P0205","R20P0209","R20P0212","R20P0216","R20P0220","R20P0225","R20P0229","R20P0232","R20P0236","R20P0239","R20P0242","R20P0244","R20P0247","R20P0251","R20P0255","R20P0259","R20P0263","R20P0268","R20P0271","R20P0274","R20P0275","R20P0277","R20P0280","R20P0281","R20P0285","R20P0288","R20P0291","R20P0294","R20P0295",
+    "R20P0299","R20P0300","R20P0303","R20P0304","R20P0307","R20P0308","R20P0312","R20P0313","R20P0316","R20P0317","R20P0320","R20P0321"
+  ],
+  "demoted_primary_unresolved_units":[
+    "R20U0008","R20U0009","R20U0010","R20U0013","R20U0015","R20U0023","R20U0024","R20U0025","R20U0026","R20U0027","R20U0029","R20U0030","R20U0032","R20U0033","R20U0035","R20U0036","R20U0037",
+    "R20U0039","R20U0040","R20U0041","R20U0042","R20U0044","R20U0045","R20U0046","R20U0048","R20U0049","R20U0050","R20U0051","R20U0052","R20U0053","R20U0054","R20U0055","R20U0056","R20U0058","R20U0059","R20U0060","R20U0061","R20U0062","R20U0063",
+    "R20U0064","R20U0065","R20U0066"
+  ],
+  "demotion_policy":"Demoted records remain historical candidate parse records but are excluded from the effective primary source parse and represented through secondary audit families in later compression/retest artifacts.",
+  "secondary_audit_families":[
+    "R20:AUDIT:IMPLEMENTATION_EXECUTION_CEILING",
+    "R20:AUDIT:PROTOCOL_CONFIG_RUNNER_DIVERGENCE",
+    "R20:AUDIT:TEST_EXECUTION_CEILING",
+    "R20:AUDIT:RESULT_AND_PLOT_ABSENCE",
+    "R20:AUDIT:CROSS_MODULE_INTERFACE_DEFECTS",
+    "R20:AUDIT:PROXY_CONSTRUCT_VALIDITY_CEILING",
+    "R20:AUDIT:NAME_IDENTITY_COLLISIONS",
+    "R20:AUDIT:EXTERNAL_AND_CROSS_FRAMEWORK_RELATION_CEILING"
+  ],
+  "effective_counts":{
+    "parsed_representations":265,
+    "unresolved_source_units":24,
+    "primary_parse_units":289,
+    "parser_failures":0,
+    "source_paths_accounted":81,
+    "demoted_parsed_audit_candidates":58,
+    "demoted_unresolved_audit_candidates":42,
+    "source_coincident_units_added":2
+  },
+  "contract_effect":{
+    "new_epistemic_distinction":"NO",
+    "new_global_parser_role":"NONE",
+    "new_top_level_compression_coordinate":"NONE",
+    "base_parse_contract_amendment":"NOT_EARNED",
+    "compression_amendment_005":"NOT_EARNED"
+  },
+  "authority_effect":"NONE",
+  "map_edge_emission":"NONE",
+  "propagation_authorized":false,
+  "r20_compression_access":"PENDING_PARSE_RETEST",
+  "r21_parse_access_opened":false
+}
