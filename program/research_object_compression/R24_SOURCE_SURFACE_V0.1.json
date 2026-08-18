@@ -1,0 +1,57 @@
+{
+  "object": "CEREBRO_R24_SOURCE_SURFACE_V0.1",
+  "repository_id": "R24",
+  "repository": "bjoern-janson/ree",
+  "persistent_record_state": "FROZEN",
+  "parse_contract": "CEREBRO_EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1+AMENDMENT_001",
+  "frozen_default_branch": "main",
+  "frozen_head_commit": "855432a9f55be699e2747e7aaea38a34285cf5a8",
+  "frozen_tree_sha": "77300d842b7b24c24cdc7a30ad112b1e043f63e3",
+  "tree_truncated": false,
+  "source_surface_policy": "Current-head blobs only. Developmental history is retained separately and does not add current-head semantic content.",
+  "summary": {
+    "total_blob_paths": 4,
+    "parse_included": 3,
+    "parse_excluded_by_frozen_scope": 1,
+    "parse_failed": 0,
+    "parse_unsupported": 0,
+    "unenumerated_paths": 0
+  },
+  "paths": [
+    ["README.md", "0e02ab1ee8f013ba2a50bbb11f052a4332b5d122", 3572, "PARSE_INCLUDED"],
+    ["docs/ecosystem.md", "6d286b609e0900e01f2f4f62109349bb15c5c524", 3222, "PARSE_INCLUDED"],
+    ["docs/validation.md", "706699f5a017bfc2d873d881ec1d59f73fbabae0", 3412, "PARSE_INCLUDED"],
+    ["LICENSE", "7535e8358a8fd232f1169b81bd8dc226ad133ac8", 11336, "PARSE_EXCLUDED_BY_FROZEN_SCOPE"]
+  ],
+  "exclusion_rationale": {
+    "LICENSE": "Legal text is retained in source-surface accounting but excluded from scientific/research semantic parsing under the frozen aperture."
+  },
+  "developmental_history": [
+    ["e2866d6709d9de0a71d1a134b2522601a16ca511", "Initial commit", "2026-07-28T09:17:19Z"],
+    ["c285972548a855cc01cca94009a06c3815578a17", "Create README.md", "2026-07-28T09:19:34Z"],
+    ["674d315af050074d23ce59e74130dfb2f3e6761c", "Create validation.md", "2026-07-28T09:32:33Z"],
+    ["a6bc948b3368be51f616a1656d830f93669ab22e", "Create requirements.txt", "2026-07-28T09:33:08Z"],
+    ["07790d00f5ede1318e4b293667a0fddd62ef75d5", "Update and rename requirements.txt to docs/ecosystem.md", "2026-07-28T09:40:33Z"],
+    ["855432a9f55be699e2747e7aaea38a34285cf5a8", "Update LICENSE", "2026-07-30T19:36:28Z"]
+  ],
+  "history_notes": [
+    "A one-line requirements.txt containing numpy>=1.26.0 existed briefly and was removed when docs/ecosystem.md was created.",
+    "The visible commit chain contains no commit adding the implementation paths named in README.md's repository-structure section.",
+    "Historical repository trajectory is provenance only; it does not repair or augment the current-head parse."
+  ],
+  "bounded_artifact_presence": {
+    "current_head_executable_source_paths": 0,
+    "current_head_data_paths": 0,
+    "current_head_test_paths": 0,
+    "current_head_execution_record_paths": 0,
+    "current_head_result_document_paths": 1,
+    "current_head_reported_result_document": "docs/validation.md",
+    "github_actions_runs_at_head": 0,
+    "combined_status_records_at_head": 0
+  },
+  "semantic_parse_performed_at_source_surface_stage": false,
+  "map_edge_emission": "NONE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation_authorized": false
+}
