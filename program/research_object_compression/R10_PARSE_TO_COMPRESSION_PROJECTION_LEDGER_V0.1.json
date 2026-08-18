@@ -1,0 +1,25 @@
+{
+  "object":"CEREBRO_R10_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "record_type":"explicit parse-to-compression projection ledger manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R10",
+  "effective_parse_units":251,
+  "primary_projection_parts":[
+    {"path":"program/research_object_compression/R10_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_A.json","mappings":59},
+    {"path":"program/research_object_compression/R10_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_B.json","mappings":62},
+    {"path":"program/research_object_compression/R10_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_C.json","mappings":68},
+    {"path":"program/research_object_compression/R10_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_D.json","mappings":62}
+  ],
+  "primary_projection_entries":251,
+  "unmapped_parse_units":0,
+  "duplicate_primary_owners":0,
+  "projection_completeness":"COMPLETE_BY_EXPLICIT_PARSE_UNIT_ID",
+  "secondary_view_accounting":"program/research_object_compression/R10_COMPRESSION_V0.1_CONFORMANCE_003.json",
+  "secondary_view_count":3,
+  "derived_bounded_absence_count":2,
+  "occurrence_accounting_policy":"SOURCE_OCCURRENCE_COUNT_RECONSTRUCTIBLE_FROM_PRIMARY_LEDGER; WARRANT_INDEPENDENCE_NOT_INFERRED_FROM_MULTIPLICITY",
+  "standing_preservation":"NOT_YET_ESTABLISHED_PENDING_COMPRESSION_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false
+}
