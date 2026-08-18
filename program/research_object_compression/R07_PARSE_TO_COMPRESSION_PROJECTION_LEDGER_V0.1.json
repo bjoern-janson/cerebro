@@ -1,0 +1,26 @@
+{
+  "object":"CEREBRO_R07_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "record_type":"frozen parse-to-compression projection ledger candidate",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R07",
+  "effective_parse_unit_count":158,
+  "parsed_unit_count":157,
+  "unresolved_parse_unit_count":1,
+  "compression_candidate":"program/research_object_compression/R07_COMPRESSION_V0.1.json",
+  "primary_ownership_source":"Each compression item's source_branches array is the canonical primary-projection ownership list for this candidate.",
+  "audit":{
+    "primary_projection_entries":156,
+    "unresolved_at_compression_entries":1,
+    "unmapped_parse_units":1,
+    "duplicate_primary_owners":0,
+    "unmapped_ids":["R07:P:DO:SEARCH_HIERARCHY"],
+    "unresolved_ids":["R07:P:EX:DL_TERMINAL_FRAGMENT"]
+  },
+  "item_branch_accounting_note":"R07:ASSERT:KERNEL_INTERPRETATION contains five source branches but the frozen candidate serializes conflicting source_occurrence_count declarations; this ledger does not repair the candidate.",
+  "projection_completion_claim":"NOT_ESTABLISHED",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false
+}
