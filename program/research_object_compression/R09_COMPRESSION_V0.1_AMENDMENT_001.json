@@ -1,0 +1,73 @@
+{
+  "object":"CEREBRO_R09_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type":"local compression standing-preservation repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_compression":"program/research_object_compression/R09_COMPRESSION_V0.1.json",
+  "death_test":"program/research_object_compression/R09_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "repair_scope":"STANDING_PURE_DESTINATION_VIEWS_ONLY",
+  "new_items":[
+    {
+      "id":"R09:SCOPE:LAYER_PURPOSES",
+      "coordinate":"SOURCE_DESCRIBED_STATUS",
+      "standing":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE",
+      "content":"Indexed standing-pure view over the 74 source-local layer purpose statements. The purposes remain distinguishable by parse-unit ID and source layer while being grouped into foundation/restoration, hypothesis/experiment, AGI/alignment, representation/causal, universal/formal, empirical-validation and engineering/terminal families. No purpose is replaced by repository-level mission alone."
+    },
+    {
+      "id":"R09:DEF:SPECIALIZED_LOCAL",
+      "coordinate":"DEFINITIONS",
+      "standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY",
+      "content":"Indexed standing-pure view over specialized source-local definitions beyond the core ontology, including AGI criteria, causal-identification variables, field/thermodynamic objects, later depth hierarchies, bottleneck/metric objects, representation geometry, causal velocity/mass quantities, truth-coupling variables and formal validation states. Semantic identity across repeated tokens is NOT_ESTABLISHED unless separately recorded."
+    },
+    {
+      "id":"R09:STATUS:LAYER_STANDINGS",
+      "coordinate":"SOURCE_DESCRIBED_STATUS",
+      "standing":"SOURCE_DESCRIBED_STATUS",
+      "content":"Indexed standing-pure view over layer-level status/qualifier statements: axiom provisionality, theory/proposal standing, absence of execution/results, source-relative scope, and other qualifiers. It reports what a source says its object is; it does not merge the status statement into the object it qualifies."
+    },
+    {
+      "id":"R09:ASSERT:CONCEPTUAL_PRINCIPLES",
+      "coordinate":"ASSERTIONS_OR_HYPOTHESES",
+      "standing":"SOURCE_ASSERTION_CONCEPTUAL",
+      "content":"Standing-pure conceptual assertions that motivate, constrain or interpret architectures/definitions without themselves being architecture proposals or definitions. Branches include restoration principles, ontology/axiom non-inferences, alignment/control principles, memory/anchor principles, safety/failure-mode assertions, conservation cautions and operating-system claims."
+    },
+    {
+      "id":"R09:HYP:SPECIALIZED_FAMILIES",
+      "coordinate":"ASSERTIONS_OR_HYPOTHESES",
+      "standing":"SOURCE_ASSERTION_HYPOTHESIS",
+      "content":"Standing-pure explicit hypothesis view for specialized branches such as substrate independence, conservation-like causal-mass behavior, thermodynamic/resource constraints and truth-alignment/reality-coupling hypotheses. These remain hypotheses regardless of universal/conservation/thermodynamic rhetoric."
+    },
+    {
+      "id":"R09:ASSERT:UNIFIED_INTERPRETATIONS",
+      "coordinate":"ASSERTIONS_OR_HYPOTHESES",
+      "standing":"SOURCE_ASSERTION_CONCEPTUAL",
+      "content":"Standing-pure source-level synthesis/interpretation statements from layers describing unified, complete or final conceptual views. This preserves the conceptual content separately from both formal equations and source-status/supersession labels."
+    }
+  ],
+  "effective_item_repairs":[
+    {"item":"R09:SCOPE:RESTORATION","effective_state":"REPLACED_AS_PRIMARY_PURPOSE_DESTINATION_BY_R09:SCOPE:LAYER_PURPOSES","historical_candidate_preserved":true},
+    {"item":"R09:ARCH:RESTORATION_MEMORY","effective_standing":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL_ONLY"},
+    {"item":"R09:ARCH:ALIGNMENT_CONTROL","effective_standing":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL_ONLY"},
+    {"item":"R09:ARCH:AGI_RECURSIVE","effective_standing":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL_ONLY"},
+    {"item":"R09:ARCH:ENGINEERING_OS","effective_standing":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL_ONLY"},
+    {"item":"R09:FORMAL:CORE_DEPENDENCY","effective_standing":"SOURCE_FORMALIZATION_ONLY"},
+    {"item":"R09:FORMAL:UNIFIED_EQUATION_FAMILY","effective_standing":"SOURCE_FORMALIZATION_ONLY"},
+    {"item":"R09:THEORY:REPRESENTATION_GEOMETRY","effective_standing":"SOURCE_ASSERTION_CONCEPTUAL_ONLY"},
+    {"item":"R09:THEORY:COMPRESSION_GENERATION","effective_standing":"SOURCE_ASSERTION_CONCEPTUAL_ONLY"},
+    {"item":"R09:THEORY:TRUTH_COUPLING","effective_standing":"SOURCE_ASSERTION_CONCEPTUAL_ONLY"},
+    {"item":"R09:THEORY:CAUSAL_MASS_VELOCITY","effective_standing":"SOURCE_ASSERTION_CONCEPTUAL_ONLY"},
+    {"item":"R09:THEORY:UNIVERSAL_FIELD_THERMO","effective_standing":"SOURCE_ASSERTION_CONCEPTUAL_ONLY"},
+    {"item":"R09:THEORY:EVOLUTION_METALEARNING","effective_standing":"SOURCE_ASSERTION_CONCEPTUAL_ONLY"},
+    {"item":"R09:THEORY:CIVILIZATION","effective_standing":"SOURCE_ASSERTION_CONCEPTUAL_ONLY"},
+    {"item":"R09:THEORY:ECONOMY","effective_standing":"SOURCE_ASSERTION_CONCEPTUAL_ONLY"},
+    {"item":"R09:STATUS:SELF_COMPLETION_LABELS","effective_standing":"SOURCE_DESCRIBED_STATUS_ONLY"},
+    {"item":"R09:TENSION:LOCAL_SYMBOL_SEMANTICS","effective_branch_policy":"EVERY_BRANCH_RETAINS_ORIGINATING_PARSE_ROLE_AND_LOCAL_SOURCE_MEANING; TENSION_RECORD_DOES_NOT_RECLASSIFY_DEFINITION_OR_FORMAL_STRUCTURE_AS THEORY"}
+  ],
+  "repair_invariant":"SAME_TOPIC_IS_NOT_SUFFICIENT_FOR_SAME_COMPRESSION_DESTINATION_WHEN_SOURCE_STANDING_DIFFERS",
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false
+}
