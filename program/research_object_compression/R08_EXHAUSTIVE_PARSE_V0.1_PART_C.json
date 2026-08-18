@@ -1,0 +1,70 @@
+{
+  "object":"CEREBRO_R08_EXHAUSTIVE_PARSE_V0.1_PART_C",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R08",
+  "frozen_head_commit":"14eb5daf01edb086b0fb29f3860bf730d55a850f",
+  "source_family":"EXECUTABLE_LIBRARY_CODE",
+  "sources":[
+    {"path":"src/state_space.py","blob":"1d8a134f60f6643cd6adedeebbd9b2d7231eca05","units":[
+      {"id":"R08:P:SRC_STATE:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Code states its purpose is a stable representation layer for empirical/computational experiments, not a complete adaptive-system simulation."},
+      {"id":"R08:P:SRC_STATE:SCALE","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements Scale enum MICRO, MESO, MACRO, CIVILIZATIONAL and docstring assertion that scale is orthogonal to adaptive depth."},
+      {"id":"R08:P:SRC_STATE:DEPTH","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements AdaptiveDepth enum D0_STATE through D3_GENERATOR_DYNAMICS."},
+      {"id":"R08:P:SRC_STATE:CONFIG","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements InternalConfiguration fields Z,M,policy,value_function,capability,search_mechanism,generator_mechanism,resources."},
+      {"id":"R08:P:SRC_STATE:TRAJECTORY","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements Trajectory histories for state, capability, generator and omega."},
+      {"id":"R08:P:SRC_STATE:ADAPTIVE_SYSTEM","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements AdaptiveSystem structural container, state_vector and describe methods."},
+      {"id":"R08:P:SRC_STATE:TRANSITION_STUB","role":"IMPLEMENTATION_ASSUMPTION","content":"state_transition intentionally raises NotImplementedError and instructs domain-specific implementations; no domain dynamics are implemented here."},
+      {"id":"R08:P:SRC_STATE:DIRECT_RUN","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct run constructs a MICRO/D2 example with capability/resources and prints describe(); this is programmed example behavior, not execution record or result."}
+    ]},
+    {"path":"src/causal_analysis.py","blob":"1f1a7ee02289bd84c6a39eaf0c17e660a5df4a64","units":[
+      {"id":"R08:P:SRC_CAUSAL:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Causal-identification layer intended to attribute capability acceleration to generator dynamics rather than resources/ordinary improvement; source says goal is attribution, not correlation."},
+      {"id":"R08:P:SRC_CAUSAL:DATA_MODELS","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements Intervention, CausalObservation, GrowthDecomposition, ConfoundAssessment, PhaseOrdering, SystemComparison and FalsificationResult data structures."},
+      {"id":"R08:P:SRC_CAUSAL:DELTA_REACHABLE","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements simple delta() and log reachable_growth() estimators with zero returns for invalid/degenerate inputs."},
+      {"id":"R08:P:SRC_CAUSAL:GENERATOR_EFFECT","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements generator_effect as Delta C / Delta G_m with zero when Delta G_m is zero."},
+      {"id":"R08:P:SRC_CAUSAL:OMEGA_ESTIMATE","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements estimate_omega as change in efficiency divided by dt; zero for nonpositive dt."},
+      {"id":"R08:P:SRC_CAUSAL:CONFOUND_HEURISTIC","role":"IMPLEMENTATION_ASSUMPTION","content":"generator_dominant uses absolute component share > threshold default 0.5; this threshold is implementation choice, not validated causal criterion."},
+      {"id":"R08:P:SRC_CAUSAL:ORDERING_TEST","role":"EXECUTABLE_IMPLEMENTATION","content":"PhaseOrdering.supported returns t_generator < t_omega < t_capability."},
+      {"id":"R08:P:SRC_CAUSAL:COMPARATIVE_TEST","role":"IMPLEMENTATION_ASSUMPTION","content":"causal_prediction treats resource/capability differences <0.1 as controls and records whether omega_a>omega_b; fixed 0.1 tolerance is implementation assumption."},
+      {"id":"R08:P:SRC_CAUSAL:FALSIFICATION_ENGINE","role":"EXECUTABLE_IMPLEMENTATION","content":"evaluate_case thresholds delta_gm, delta_omega, delta_c at >0 and marks resource_explanation when delta_r>delta_gm; framework_supported is a programmed Boolean conjunction."},
+      {"id":"R08:P:SRC_CAUSAL:DIRECT_RUN","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct-run hard-coded example prints labels 'Temporal prediction' and 'Framework supported'; no frozen run output is present, so labels/results are not scientific support."}
+    ]},
+    {"path":"src/generator_metrics.py","blob":"08ebe0c46eb4d9d18cb74b64b6812c0e02027304","units":[
+      {"id":"R08:P:SRC_GM:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Generator Dynamics measurement layer; estimates whether system became better at improving capability-generation process, explicitly not intelligence measurement."},
+      {"id":"R08:P:SRC_GM:PROXY_VECTOR","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"PROPOSED_PROXY_VECTOR","content":"GeneratorMetrics implements iteration-cost reduction, approach expansion, representation compression, reusable infrastructure and improvement automation."},
+      {"id":"R08:P:SRC_GM:TRANSITION","role":"EXECUTABLE_IMPLEMENTATION","content":"GeneratorTransition computes componentwise change and Euclidean magnitude as scalar approximation |Delta G_m|."},
+      {"id":"R08:P:SRC_GM:GENERATOR_STATE","role":"EXECUTABLE_IMPLEMENTATION","content":"GeneratorState stores name/domain/mechanisms plus proxy metrics; docstring says G_m is process/operator, not scalar capability."},
+      {"id":"R08:P:SRC_GM:PROXY_ESTIMATORS","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements normalized estimators for iteration gain, representation compression, reusable infrastructure, approach expansion and improvement automation."},
+      {"id":"R08:P:SRC_GM:GENERATOR_SCORE","role":"IMPLEMENTATION_ASSUMPTION","content":"generator_score computes weighted scalar sum, default equal weights; code explicitly says this is only empirical estimator, not definition of G_m."},
+      {"id":"R08:P:SRC_GM:TRANSITION_DETECTOR","role":"IMPLEMENTATION_ASSUMPTION","content":"detect_generator_transition uses magnitude > threshold default 0.1; threshold is implementation choice."},
+      {"id":"R08:P:SRC_GM:EVENT_SCHEMA","role":"EXECUTABLE_IMPLEMENTATION","content":"GeneratorEvent implements dataset-compatible historical event with before/after GeneratorState and optional year."},
+      {"id":"R08:P:SRC_GM:DIRECT_RUN_INPUTS","role":"IMPLEMENTATION_ASSUMPTION","content":"Direct-run compiler example supplies manually chosen proxy values 0.8,0.7,0.9,0.8,0.6; these are synthetic/example inputs, not observations."},
+      {"id":"R08:P:SRC_GM:DIRECT_RUN_OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct-run prints 'Generator change' from example inputs; no frozen execution record makes this a reported result."}
+    ]},
+    {"path":"src/omega.py","blob":"40261fad54db1c3abad42183d25c5c4d5341819a","units":[
+      {"id":"R08:P:SRC_OMEGA:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Evolutionary Velocity measurement layer; distinguishes total reachable-space expansion, resource/capability/generator components, and Omega as measured evolutionary contribution."},
+      {"id":"R08:P:SRC_OMEGA:REACHABLE_STATE","role":"EXECUTABLE_IMPLEMENTATION","content":"ReachableState stores timestamp, reachable_size, capability, generator_score and resources; docstring calls it empirical proxy because true P_reach cannot be enumerated."},
+      {"id":"R08:P:SRC_OMEGA:LAMBDA","role":"EXECUTABLE_IMPLEMENTATION","content":"log_growth_rate computes log reachable-size growth rate with zero for nonpositive previous space or dt."},
+      {"id":"R08:P:SRC_OMEGA:DECOMPOSITION","role":"EXECUTABLE_IMPLEMENTATION","content":"ExpansionComponents/decompose_expansion store resource, capability and generator causal-attribution estimates; code notes values would come from experimental identification."},
+      {"id":"R08:P:SRC_OMEGA:MEASUREMENT","role":"EXECUTABLE_IMPLEMENTATION","content":"OmegaMeasurement estimates (Delta C/Delta G_m)/Delta t with zero on zero denominator; its docstring calls this approximation Omega_hat."},
+      {"id":"R08:P:SRC_OMEGA:TRACKER","role":"EXECUTABLE_IMPLEMENTATION","content":"OmegaTracker stores measurements and computes current/trend differences."},
+      {"id":"R08:P:SRC_OMEGA:BOUNDARY_SIGNAL","role":"IMPLEMENTATION_ASSUMPTION","content":"PhaseBoundarySignal.detected requires generator_change, omega_change and capability_change all above configurable threshold default 0."},
+      {"id":"R08:P:SRC_OMEGA:RESIDUAL","role":"EXECUTABLE_IMPLEMENTATION","content":"omega_residual estimates Omega as total growth minus resource and capability growth when direct generator attribution unavailable."},
+      {"id":"R08:P:SRC_OMEGA:COMPARISON","role":"EXECUTABLE_IMPLEMENTATION","content":"compare_systems labels prediction_supported when higher omega and higher future capability co-occur; does not establish causality."},
+      {"id":"R08:P:SRC_OMEGA:DIRECT_RUN","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct run uses hard-coded Delta C=100, Delta generator=10, dt=5 and boundary changes 0.8/0.5/1.2, printing Omega estimate and phase-boundary detection; no run artifact present."}
+    ]},
+    {"path":"src/reachability.py","blob":"cdaeb2ff2e5003c8b500faef4b67d8294cdc5dce","units":[
+      {"id":"R08:P:SRC_REACH:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Reachable-space geometry layer; defines accessible future transformations under constraints and explicitly does not enumerate all possible futures."},
+      {"id":"R08:P:SRC_REACH:TRANSFORMATION","role":"EXECUTABLE_IMPLEMENTATION","content":"Transformation immutable dataclass stores name/source/target/cost/metadata and distinguishes transition from state."},
+      {"id":"R08:P:SRC_REACH:CONSTRAINTS","role":"EXECUTABLE_IMPLEMENTATION","content":"ReachabilityConstraints stores representation, policy, value function, capability, search/generator mechanisms and resources."},
+      {"id":"R08:P:SRC_REACH:SPACE","role":"EXECUTABLE_IMPLEMENTATION","content":"ReachableSpace stores a set of transformations and optional constraints; size/add/contains implement finite proxy operations."},
+      {"id":"R08:P:SRC_REACH:EXPANSION_CAPABILITY","role":"EXECUTABLE_IMPLEMENTATION","content":"reachable_expansion computes set difference and capability(space) returns finite set size as current-capability approximation."},
+      {"id":"R08:P:SRC_REACH:DISTANCE","role":"IMPLEMENTATION_ASSUMPTION","content":"frontier_distance implements simple symmetric Jaccard-style distance; source says future versions may use KL, graph, Wasserstein or manifold distance."},
+      {"id":"R08:P:SRC_REACH:SEARCH_GENERATOR","role":"EXECUTABLE_IMPLEMENTATION","content":"explore_reachable_space applies provided search operator; modify_reachability_generator delegates to generator operator."},
+      {"id":"R08:P:SRC_REACH:VELOCITY","role":"EXECUTABLE_IMPLEMENTATION","content":"log_reachability_velocity approximates d/dt log|P_reach| using finite set sizes."},
+      {"id":"R08:P:SRC_REACH:DIRECT_RUN","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct run creates two example transformations and prints 'Reachable capability'; no frozen execution output is present."}
+    ]}
+  ],
+  "non_inferences":["IMPLEMENTED_EVALUATOR_NOT_EXECUTED_EVALUATOR","PROGRAMMED_SUPPORT_LABEL_NOT_SCIENTIFIC_SUPPORT","HARDCODED_EXAMPLE_VALUES_NOT_EMPIRICAL_OBSERVATIONS","PROXY_CODE_NOT_PROXY_VALIDATION","NO_REPORTED_RESULT_INFERRED_FROM_DIRECT_RUN_BLOCK"],
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE"
+}
