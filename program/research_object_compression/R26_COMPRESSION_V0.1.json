@@ -1,0 +1,25 @@
+{
+  "object":"CEREBRO_R26_COMPRESSION_V0.1",
+  "repository_id":"R26",
+  "repository":"bjoern-janson/aseb-framework",
+  "frozen_head_commit":"09abf2ee64bcf4488ba4e093162405c516422d37",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "effective_parse_units":359,
+  "parts":["R26_COMPRESSION_V0.1_PART_A.json","R26_COMPRESSION_V0.1_PART_B.json","R26_COMPRESSION_V0.1_PART_C.json"],
+  "candidate_item_accounting":{"part_a_declared":33,"part_a_enumerated":33,"part_b_declared":34,"part_b_enumerated":36,"part_c_declared":26,"part_c_enumerated":27,"declared_total":93,"enumerated_total":96},
+  "candidate_metadata_defect":"Part B and Part C item_count fields undercount enumerated items by 2 and 1 respectively. Payload item identities, SOURCE_UNITS arrays and standing assignments are unaffected; repair must be explicit before final transport credit.",
+  "grouping_rule":"Same frozen source path plus same semantic standing only; no cross-file semantic canonicalization. Every grouped item's exact source occurrences remain listed in SOURCE_UNITS.",
+  "standing_policy":"Candidate formulas remain formal hypotheses, historical case studies remain applications, limitations remain limitations, experimental designs remain methodology/specification, predictions remain predictions, and no empirical-result standing is present.",
+  "secondary_audits":[
+    {"audit":"FORMAL_WARRANT","authority":"NONE","content":"Candidate variables/equations are not fixed laws, validated metrics or identified causal relations."},
+    {"audit":"PERMEABILITY_HIERARCHY","authority":"NONE","content":"P_C->P_E->O_C remains a source hypothesis; causal necessity/sufficiency is not established."},
+    {"audit":"PHASE_BOUNDARY","authority":"NONE","content":"Capability jumps and historical examples do not establish identified structural phase boundaries."},
+    {"audit":"CASE_STUDY","authority":"NONE","content":"Historical/domain cases are interpretive applications and explicitly not proof."},
+    {"audit":"EXPERIMENTAL_STANDING","authority":"NONE","content":"Experiments/falsification criteria are prospective; no run/result/negative-result artifacts exist."},
+    {"audit":"RELATION_ENDPOINT","authority":"NONE","content":"Ancestor Intelligence relation assertions remain unresolved endpoints and emit no map edge."},
+    {"audit":"RECURRENCE_WARRANT","authority":"NONE","content":"Repeated ASEB motifs do not multiply warrant."}
+  ],
+  "bounded_absence":{"aperture":"11 frozen-head Markdown blobs","executable_implementation_paths":0,"data_paths":0,"test_paths":0,"execution_record_paths":0,"reported_empirical_result_paths":0,"reported_negative_result_paths":0,"github_actions_runs_at_head":0,"combined_status_records_at_head":0},
+  "temporal_provenance":"12-commit developmental history retained separately through R26_SOURCE_SURFACE_V0.1.",
+  "map_edge_emission":"NONE","map_authority":"NONE","scientific_authority":"NONE","propagation_authorized":false
+}
