@@ -1,0 +1,40 @@
+{
+  "object":"CEREBRO_R19_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_AMENDMENT_001",
+  "record_type":"repository-local projection-ledger repair overlay",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R19",
+  "base_projection":"program/research_object_compression/R19_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "parse_repair":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002.json",
+  "compression_repair":"program/research_object_compression/R19_COMPRESSION_V0.1_AMENDMENT_001.json",
+  "historical_base_mutated":false,
+  "new_primary_projection_entries":[
+    ["R19P0288","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:README:CONCEPT"],
+    ["R19P0289","DIRECT_TO_COMPRESSION_ITEM","R19:README:STATUS"],
+    ["R19P0290","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:BENCH:PRED"],
+    ["R19P0291","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:BENCH:METHOD"],
+    ["R19P0292","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:D01:CONCEPT"],
+    ["R19P0293","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:D02:CONCEPT"],
+    ["R19P0294","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:EX:FORMAL"],
+    ["R19P0295","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:EX:CONCEPT"],
+    ["R19P0296","DIRECT_TO_COMPRESSION_ITEM","R19:SIM:SCOPE"],
+    ["R19P0297","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:SIM:HYP"],
+    ["R19P0298","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:TP:CONCEPT"],
+    ["R19P0299","LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","R19:EQ:HYP"]
+  ],
+  "effective_projection":{
+    "base_primary_projection_entries":345,
+    "added_primary_projection_entries":12,
+    "primary_projection_entries":357,
+    "effective_parse_units":357,
+    "effective_compressed_items":122,
+    "unmapped_parse_units":0,
+    "duplicate_primary_owners":0,
+    "projection_completeness":"COMPLETE_BY_EXPLICIT_EFFECTIVE_PARSE_UNIT_ID"
+  },
+  "effective_content_narrowing_policy":"The twelve historical original units retain their existing primary destinations, but their effective source content is narrowed by R19_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002. This overlay adds only the twelve newly emitted source-coincident units and their primary dispositions.",
+  "occurrence_accounting_policy":"New source-coincident units are additional source occurrences, not additional independent warrants. Grouped destinations retain WARRANT_INDEPENDENCE_STATUS=NOT_ESTABLISHED and WARRANT_MULTIPLICITY_EFFECT=NONE.",
+  "authority_effect":"NONE",
+  "map_edge_emission":"NONE",
+  "propagation_authorized":false,
+  "r20_parse_access_opened":false
+}
