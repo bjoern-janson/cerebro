@@ -1,0 +1,50 @@
+{
+  "object":"CEREBRO_R07_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type":"frozen R07 compression repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_compression":"program/research_object_compression/R07_COMPRESSION_V0.1.json",
+  "trigger":"program/research_object_compression/R07_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "repair_scope":"PRIMARY_PROJECTION_PLUS_OCCURRENCE_ACCOUNTING_ONLY",
+  "item_replacements":[
+    {
+      "item_id":"R07:ASSERT:OPTIMIZATION_VS_DISCOVERY",
+      "replacement_content":"AMP distinguishes optimization inside a fixed metric from discovery/search that changes the metric or representation itself, including a hierarchy in which representation search changes subsequent solution spaces.",
+      "source_occurrence_count":8,
+      "warrant_independence_status":"NOT_ESTABLISHED",
+      "warrant_multiplicity_effect":"NONE",
+      "source_branches":[
+        {"parse_unit":"R07:P:README:FIXED_METRIC_PROBLEM","role":"SOURCE_ASSERTION_CONCEPTUAL"},
+        {"parse_unit":"R07:P:README:OPT_VS_DISCOVERY","role":"SOURCE_ASSERTION_CONCEPTUAL"},
+        {"parse_unit":"R07:P:FORM:DISCOVERY_DISTINCTION","role":"SOURCE_ASSERTION_CONCEPTUAL"},
+        {"parse_unit":"R07:P:MQ:DISCOVERY_RELATION","role":"SOURCE_ASSERTION_CONCEPTUAL"},
+        {"parse_unit":"R07:P:MQ:OPT_RELATION","role":"SOURCE_ASSERTION_CONCEPTUAL"},
+        {"parse_unit":"R07:P:DO:OPT_EXAMPLES","role":"SOURCE_ASSERTION_CONCEPTUAL"},
+        {"parse_unit":"R07:P:DO:OPT_VS_DISC","role":"SOURCE_ASSERTION_CONCEPTUAL"},
+        {"parse_unit":"R07:P:DO:SEARCH_HIERARCHY","role":"SOURCE_ASSERTION_CONCEPTUAL"}
+      ]
+    },
+    {
+      "item_id":"R07:ASSERT:KERNEL_INTERPRETATION",
+      "replacement_content":"Source interprets the kernel as a staged cycle of detection, causal estimation, selection, metric construction/evaluation and discovery; evaluation identifies metrics worth improving rather than proving a perfect representation.",
+      "source_occurrence_count":5,
+      "warrant_independence_status":"NOT_ESTABLISHED",
+      "warrant_multiplicity_effect":"NONE",
+      "source_branches":[
+        {"parse_unit":"R07:P:README:KERNEL_INTERPRETATION","role":"SOURCE_INTERPRETATION"},
+        {"parse_unit":"R07:P:DEF:KERNEL_INTERPRETATION","role":"SOURCE_INTERPRETATION"},
+        {"parse_unit":"R07:P:KERNEL:CENTRAL_HYPOTHESIS","role":"SOURCE_ASSERTION_HYPOTHESIS"},
+        {"parse_unit":"R07:P:KERNEL:STAGES","role":"SOURCE_ASSERTION_CONCEPTUAL"},
+        {"parse_unit":"R07:P:KERNEL:EVAL_PURPOSE","role":"SOURCE_INTERPRETATION"}
+      ]
+    }
+  ],
+  "content_change":"NONE_BEYOND_INCLUSION_OF_PREVIOUSLY_UNMAPPED_SOURCE_DISTINCTION",
+  "source_standing_change":"NONE",
+  "scientific_standing_change":"NONE",
+  "semantic_top_level_coordinate_changes":"NONE",
+  "global_contract_change":"NONE",
+  "map_edge_emission":"NONE",
+  "compression_authority_effect":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE"
+}
