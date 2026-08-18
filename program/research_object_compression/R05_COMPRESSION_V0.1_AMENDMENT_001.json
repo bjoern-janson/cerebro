@@ -1,0 +1,41 @@
+{
+  "object": "CEREBRO_R05_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type": "frozen R05 compression repair overlay",
+  "persistent_record_state": "FROZEN",
+  "base_compression": "program/research_object_compression/R05_COMPRESSION_V0.1.json",
+  "trigger": "program/research_object_compression/R05_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "repair_scope": "ROLE_BRANCH_PROVENANCE_PLUS_PARSE_SYNCHRONIZATION_ONLY",
+  "effective_parse_addition": "program/research_object_compression/R05_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002.json",
+  "item_replacements": [
+    {
+      "item_id": "R05:FORMAL:ETA",
+      "replacement_content": "eta(k)=DeltaL(k)/C_G(k).",
+      "source_role_branches": [
+        {"parse_unit_id":"R05:P:README:EFFICIENCY","source_role":"FORMAL_STRUCTURE"},
+        {"parse_unit_id":"R05:P:MATH:ETA","source_role":"DEFINITION"}
+      ],
+      "role_preservation": "EXPLICIT"
+    },
+    {
+      "item_id": "R05:FORMAL:KSTAR",
+      "replacement_content": "k*=argmax_k eta(k).",
+      "source_role_branches": [
+        {"parse_unit_id":"R05:P:README:KSTAR","source_role":"FORMAL_STRUCTURE"},
+        {"parse_unit_id":"R05:P:MATH:KSTAR","source_role":"DEFINITION"}
+      ],
+      "role_preservation": "EXPLICIT"
+    },
+    {
+      "item_id": "R05:METHOD:TEST_DIRECT_RUN",
+      "replacement_content": "Direct execution invokes unittest.main().",
+      "source_parse_units": ["R05:P:TEST:DIRECT_RUN"],
+      "repository_wide_test_run_absence": "PRESERVED_ONLY_AT_EFFECTIVE_PARSE_APERTURE_METADATA"
+    }
+  ],
+  "semantic_top_level_coordinate_changes": "NONE",
+  "scientific_standing_changes": "NONE",
+  "map_edge_emission": "NONE",
+  "compression_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
