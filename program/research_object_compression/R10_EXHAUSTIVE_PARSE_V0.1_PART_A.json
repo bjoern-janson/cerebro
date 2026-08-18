@@ -1,0 +1,91 @@
+{
+  "object":"CEREBRO_R10_EXHAUSTIVE_PARSE_V0.1_PART_A",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R10",
+  "frozen_head_commit":"942de6bda50fb61d6a66b82811ceff6ab3ad1784",
+  "source_family":"ROOT_AND_DOCS_00_06",
+  "source_paths":9,
+  "units":59,
+  "sources":[
+    {"path":"README.md","units":[
+      {"id":"R10:P:README:IDENTITY","role":"IDENTITY_TITLE","content":"CGET / Causal Generative Equilibrium Theory; subtitle: intelligence as invariant-preserving compression under self-modifying dynamics."},
+      {"id":"R10:P:README:SCOPE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Theoretical framework studying intelligence through causal compression, controllable future expansion and invariant-preserving self-transformation."},
+      {"id":"R10:P:README:CENTRAL_CLAIM","role":"SOURCE_ASSERTION_HYPOTHESIS","source_standing":"CENTRAL_CLAIM","content":"Intelligence is proposed as the ability to increase controllable future reach while preserving structures that make agency possible."},
+      {"id":"R10:P:README:DUAL_COMPRESSION","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"External reality->causal model and internal experience->value model are presented as mirrored compression problems preserving causal vs identity invariants."},
+      {"id":"R10:P:README:AGENCY","role":"DEFINITION_DICTIONARY","content":{"reachable_futures":"possible outcomes","steerable_futures":"outcomes coupled to policy selection","A_control":"|W_steerable|/|W_reachable|"}},
+      {"id":"R10:P:README:OBJECTIVE","role":"FORMAL_STRUCTURE","content":"Psi_stable combines leverage, causal fidelity, closure, viability, identity preservation and transition stability; capability is subordinate to structural constraints."},
+      {"id":"R10:P:README:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Framework weakened if causal compression has no advantage, steering fails to distinguish agency, identity constraints provide no self-modification benefit, or metrics collapse into existing optimization measures."},
+      {"id":"R10:P:README:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Research framework in development; current focus formal definitions, toy environments, measurable benchmarks and falsification; next step is testing against reality."}
+    ]},
+    {"path":"ROADMAP.md","units":[
+      {"id":"R10:P:ROADMAP:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines progression from current theory toward experimentally testable implementations."},
+      {"id":"R10:P:ROADMAP:PHASE0","role":"SOURCE_DESCRIBED_STATUS","content":"Phase 0 Formal Foundation marked Completed for named conceptual/formal objects including G, closure, value split, viability/agency kernels, A_control and Theta*."},
+      {"id":"R10:P:ROADMAP:PHASE1","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Phase 1 toy benchmark validation in MazeWorld comparing Random, Shortest Path and CGET agents with expected profiles."},
+      {"id":"R10:P:ROADMAP:FUTURE_PHASES","role":"SOURCE_DESCRIBED_RESEARCH_DIRECTION","content":"Phases 2-6 propose representation-transfer, self-modification, value-learning, alignment and larger-system experiments."},
+      {"id":"R10:P:ROADMAP:OPEN_QUESTIONS","role":"OPEN_QUESTION","content":"Core invariants, objective measurement of value closure, sufficiency of causal compression, and agency-intelligence relationship remain open."},
+      {"id":"R10:P:ROADMAP:LONG_TERM","role":"SOURCE_DESCRIBED_RESEARCH_DIRECTION","content":"Long-term goal is a mathematical language for systems that understand environments, modify themselves, maintain coherent identity and expand influence over futures."},
+      {"id":"R10:P:ROADMAP:CURRENT_STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Repository stage explicitly: theoretical framework + toy benchmark specification; next milestone: run experiments and replace conceptual metrics with measured quantities."}
+    ]},
+    {"path":"docs/00_overview.md","units":[
+      {"id":"R10:P:D00:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Framework studies compact executable causal models plus invariant preservation during self-modification."},
+      {"id":"R10:P:D00:CENTRAL_HYPOTHESIS","role":"SOURCE_ASSERTION_HYPOTHESIS","source_standing":"CENTRAL_HYPOTHESIS","content":"Intelligence is proposed as discovery of executable causal representations that expand controllable reach while preserving coherent transformation invariants."},
+      {"id":"R10:P:D00:EPI_NORM","role":"DEFINITION_DICTIONARY","content":{"epistemic_compression":"X->G=(Z,B,Omega,rho)","normative_compression":"V_O=V_core xor/plus V_adaptive as source representation","epistemic_question":"what is true?","normative_question":"which futures should remain reachable?"}},
+      {"id":"R10:P:D00:GUIDING_PRINCIPLE","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Remove unnecessary degrees of freedom while preserving invariant degrees of freedom; source proposes cross-domain recurrence of this operation."},
+      {"id":"R10:P:D00:SCOPE","role":"SOURCE_DESCRIBED_STATUS","content":"Not intended to replace existing theories; active research project; definitions, formalizations, proofs and empirical validation expected to evolve."},
+      {"id":"R10:P:D00:REPOSITORY_STRUCTURE","role":"SOURCE_DESCRIBED_STATUS","content":"Source presents repository as progression from high-level concepts toward formal mathematical development; displayed tree contains formatting/path irregularity around relationship/open-problems entries."},
+      {"id":"R10:P:D00:LONG_TERM","role":"SOURCE_DESCRIBED_RESEARCH_DIRECTION","content":"Develop falsifiable mathematics for representation, reasoning, agency, alignment and self-modification; success depends on testable predictions/explanatory power beyond existing approaches."}
+    ]},
+    {"path":"docs/01_core_primitives.md","units":[
+      {"id":"R10:P:D01:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines a minimal, composable, operational, replaceable primitive vocabulary for CGET."},
+      {"id":"R10:P:D01:WORLD_CAUSAL_PRIMITIVES","role":"DEFINITION_DICTIONARY","content":{"X":"world/observation state","Z":"latent causal representation","B":"primitive executable operators","Omega":"composition algebra","rho":"latent transition dynamics","G":"executable causal language (Z,B,Omega,rho)"}},
+      {"id":"R10:P:D01:NORMATIVE_PRIMITIVES","role":"DEFINITION_DICTIONARY","content":{"V_O":"viability function","V_core":"slow identity constraints","V_adaptive":"learned instrumental preferences/strategies"}},
+      {"id":"R10:P:D01:AGENCY_PRIMITIVES","role":"DEFINITION_DICTIONARY","content":{"pi/Pi":"policy/policy space","W_reachable":"possible futures","W_steerable":"policy-selectable futures","A_control":"steering bandwidth","K_viable":"viability kernel","K_agency":"viable states with intentional steering"}},
+      {"id":"R10:P:D01:SELF_MODIFICATION","role":"DEFINITION","content":"T:(G_t,O_t)->(G_t+1,O_t+1) is the self-modification operator governing learning/improvement."},
+      {"id":"R10:P:D01:DEPENDENCY","role":"FORMAL_STRUCTURE","content":"Source dependency sketch flows world->latents->operators->composition->dynamics->causal language->reachable futures/policies->steerable futures->viability->self-modification->agency; later theory is described as constraints on these primitives rather than new objects."}
+    ]},
+    {"path":"docs/02_mathematical_framework.md","units":[
+      {"id":"R10:P:D02:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines intelligence as constrained optimization over coupled epistemic and normative systems, separating reality discovery, execution and coherent self-transformation."},
+      {"id":"R10:P:D02:STATE_AND_LANGUAGE","role":"DEFINITION_DICTIONARY","content":{"X":"observations","Z":"compressed latent state","G":"(Z,B,Omega,rho)","W_reachable":"futures consistent with causal language","V_O":"future viability evaluator"}},
+      {"id":"R10:P:D02:EPI_CONSTRAINTS","role":"FORMAL_STRUCTURE","content":"Epistemic constraints: minimize K(G) and K_execution while causal fidelity I_causal and compositional closure C(Omega) approach one."},
+      {"id":"R10:P:D02:NORM_CONSTRAINTS","role":"FORMAL_STRUCTURE","content":"Normative constraints: viability, value closure C_O and identity continuity I(V_core), with self-modification T and transition stability S_T."},
+      {"id":"R10:P:D02:KERNELS_AGENCY","role":"DEFINITION_DICTIONARY","content":"Defines viability kernel, agency kernel and A_control as source mathematical constructs distinguishing persistence from intentional steering."},
+      {"id":"R10:P:D02:LEXICOGRAPHIC_OBJECTIVE","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Proposes hierarchy identity > causal truth > closure > transition stability > computational leverage, with capability optimized only in feasible region."},
+      {"id":"R10:P:D02:WORKING_DEFINITION","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Working model of intelligence: constrained dynamics compressing observations into executable causal representations, expanding controllable reach, preserving causal fidelity/identity and remaining viable over time."}
+    ]},
+    {"path":"docs/03_epistemic_engine.md","units":[
+      {"id":"R10:P:D03:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Epistemic Engine aims to discover a minimal executable causal language for intervention, composition and future simulation, not prediction alone."},
+      {"id":"R10:P:D03:INTERVENTIONAL_EQUIV","role":"DEFINITION","content":"x_i ~ x_j iff admissible interventions cannot distinguish outcome distributions; Z=X/~ proposed as quotient latent representation."},
+      {"id":"R10:P:D03:LAYERS","role":"FORMAL_STRUCTURE","content":"Observation compression X->Z, primitive action discovery A->B, composition Omega:B×B->B and transition rho:Z×B->Z form G=(Z,B,Omega,rho)."},
+      {"id":"R10:P:D03:EVALUATION","role":"FORMAL_STRUCTURE","content":"Candidate languages evaluated by description length, execution cost, causal fidelity and compositional closure."},
+      {"id":"R10:P:D03:FAILURE_MODES","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source rejects over-parameterization, computational intractability, hallucinated/correlation-only structure and memorized trajectories as epistemic failure modes."},
+      {"id":"R10:P:D03:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Epistemic-engine formal/theoretical specification; no learned quotient representation or measured causal-language quality is reported here."}
+    ]},
+    {"path":"docs/04_normative_engine.md","units":[
+      {"id":"R10:P:D04:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Normative Engine evaluates which reachable futures preserve continued coherent agency rather than arbitrary reward."},
+      {"id":"R10:P:D04:VIABILITY_MODEL","role":"DEFINITION_DICTIONARY","content":{"H_to_V":"experience compressed into V_O","V_O":"W->[0,1] viability","V_core":"slow identity structure","V_adaptive":"fast instrumental values"}},
+      {"id":"R10:P:D04:VALUE_CLOSURE","role":"DEFINITION","content":"C_O proposed to measure predictable value composition across combined operations rather than preference lookup."},
+      {"id":"R10:P:D04:TIMESCALES_STABILITY","role":"FORMAL_STRUCTURE","content":"tau_state << tau_adaptive << tau_core plus conceptual I(V_core)≈1 and S_T≈1 constrain value/self-modification dynamics."},
+      {"id":"R10:P:D04:FAILURE_MODES","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Reward memorization, proxy lock-in, goal drift, normative collapse and frozen identity are proposed normative failure classes."},
+      {"id":"R10:P:D04:DUALITY","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Epistemic and normative engines are proposed as dual compression systems preserving causal vs identity invariants; neither alone is claimed sufficient."}
+    ]},
+    {"path":"docs/05_agency.md","units":[
+      {"id":"R10:P:D05:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines agency as the bridge from representation to intentional transformation of reachable futures."},
+      {"id":"R10:P:D05:REACH_STEER","role":"DEFINITION_DICTIONARY","content":{"W_reachable":"futures allowed by causal language","W_steerable":"subset selectable through policy","A_control":"steerable/reachable ratio"}},
+      {"id":"R10:P:D05:AGENCY_KERNEL","role":"DEFINITION","content":"K_agency subset K_viable requiring viability, executable policy and intentional steering."},
+      {"id":"R10:P:D05:AGENCY_SPECTRUM","role":"SOURCE_INTERPRETATION","content":"Source stages chaos, passive objects, fixed controllers and adaptive agents as conceptual agency spectrum examples."},
+      {"id":"R10:P:D05:RECURSIVE_AGENCY","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Strongest agency is proposed as recursive self-modification of representations/policies/architecture constrained by identity, stability and viability."},
+      {"id":"R10:P:D05:FAILURE_MODES","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Passive persistence, random exploration, illusory control and runaway optimization are agency failure modes."}
+    ]},
+    {"path":"docs/06_alignment.md","units":[
+      {"id":"R10:P:D06:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Alignment is proposed as preservation of coherent agency under recursive self-modification, internal to intelligence rather than an external safety layer."},
+      {"id":"R10:P:D06:CORE_ADAPTIVE","role":"DEFINITION_DICTIONARY","content":"V_O=V_core plus V_adaptive; core encodes identity/safety/self-correction constraints while adaptive values encode learned preferences and strategies."},
+      {"id":"R10:P:D06:ALIGNMENT_CONSTRAINTS","role":"FORMAL_STRUCTURE","content":"Identity invariance, value closure, transition stability, viability kernel and agency kernel form source alignment constraints."},
+      {"id":"R10:P:D06:LEXICOGRAPHIC","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Alignment is treated as feasibility; capability cannot compensate for identity, truth, closure or transition-stability violations."},
+      {"id":"R10:P:D06:FAILURE_MODES","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Goal drift, wireheading, proxy lock-in, frozen alignment and normative collapse are proposed failures."},
+      {"id":"R10:P:D06:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Alignment chapter defines CGET's theoretical position; it does not report an implemented or empirically validated alignment mechanism."}
+    ]}
+  ],
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
