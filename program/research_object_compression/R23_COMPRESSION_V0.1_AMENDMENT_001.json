@@ -1,0 +1,30 @@
+{
+  "object": "CEREBRO_R23_COMPRESSION_V0.1_AMENDMENT_001",
+  "repository_id": "R23",
+  "base_compression": "R23_COMPRESSION_V0.1.json + effective Parts A/B",
+  "trigger": "R23_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "persistent_record_state": "FROZEN",
+  "repair_scope": "LOCAL_CONTENT_WORDING_ONLY",
+  "replacements": [
+    {
+      "item_id": "R23:C006",
+      "old_fragment": "evaluate on purported holdout with complexity control",
+      "new_fragment": "evaluate on held-out data as described by the source with complexity control",
+      "standing_unchanged": "METHODOLOGY_OR_TEST_PROTOCOL",
+      "coordinate_unchanged": "METHODOLOGY_OR_TEST_PROTOCOL",
+      "source_units_unchanged": ["R23P0006","R23P0010","R23P0011","R23P0012","R23P0013"],
+      "reason": "Audit criticism belongs to unresolved item R23:C024, not inside the source-standing README methodology summary."
+    }
+  ],
+  "effective_counts": {
+    "primary_compressed_items": 25,
+    "primary_projection_entries": 110,
+    "projection_remaps": 0,
+    "item_count_change": 0
+  },
+  "new_epistemic_distinction_required": false,
+  "new_top_level_compression_coordinate": null,
+  "amendment_005": "NOT_EARNED",
+  "map_edge_emission": "NONE",
+  "authority_effect": "NONE"
+}
