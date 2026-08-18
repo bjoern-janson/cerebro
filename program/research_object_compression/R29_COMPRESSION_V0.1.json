@@ -1,0 +1,26 @@
+{
+  "object":"CEREBRO_R29_COMPRESSION_V0.1",
+  "repository_id":"R29",
+  "repository":"bjoern-janson/rahu-benchmark",
+  "frozen_head_commit":"63368297857a1f5d67c7e522f812255c8c84041f",
+  "effective_parse":"R29_EXHAUSTIVE_PARSE_V0.1.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "parts":["R29_COMPRESSION_V0.1_PART_A.json","R29_COMPRESSION_V0.1_PART_B.json","R29_COMPRESSION_V0.1_PART_C.json"],
+  "compression_rule":"ONE_SOURCE_PATH_X_SOURCE_STANDING",
+  "payload_materialization":"For each item, concatenate NORMALIZED_CONTENT of SOURCE_UNITS in listed order from the frozen exhaustive parse. PAYLOAD_SHA256 in each item freezes the resulting payload.",
+  "accounting":{
+    "effective_parse_units":266,
+    "compressed_items":83,
+    "single_unit_items":28,
+    "loss_bounded_group_items":55,
+    "documentary_items":37,
+    "implementation_items":22,
+    "test_fixture_items":24
+  },
+  "canonical_item_set_sha256":"5099faead1ed6885b003c5af1968b9f6d0266679cf44116b1a8a0919765311aa",
+  "grouping_guards":["NO_CROSS_PATH_GROUPING","NO_CROSS_STANDING_GROUPING","SOURCE_OCCURRENCE_MULTIPLICITY_DOES_NOT_CREATE_INDEPENDENT_WARRANT"],
+  "map_edge_emission":"NONE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation_authorized":false
+}
