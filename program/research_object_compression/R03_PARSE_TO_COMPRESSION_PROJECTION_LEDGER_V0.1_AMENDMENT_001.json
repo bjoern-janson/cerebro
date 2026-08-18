@@ -1,0 +1,98 @@
+{
+  "object": "CEREBRO_R03_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_AMENDMENT_001",
+  "record_type": "frozen primary-projection remap and secondary-reuse accounting overlay",
+  "persistent_record_state": "FROZEN",
+  "base_ledger": "program/research_object_compression/R03_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "compression_repair": "program/research_object_compression/R03_COMPRESSION_V0.1_AMENDMENT_001.json",
+  "replacement_semantics": "For every parse unit in replacement_groups, replace its base-ledger primary destination with the named destination. All parse units not listed retain their original primary disposition. The groups are disjoint.",
+  "replacement_groups": [
+    {"destination":"R03:METHOD:ROOT_FALSIFICATION","parse_unit_ids":["R03:P:003"]},
+    {"destination":"R03:METHOD:MEASUREMENT","parse_unit_ids":["R03:P:013","R03:P:014","R03:P:015A","R03:P:016"]},
+    {"destination":"R03:METHOD:DATASET_AND_FALSIFICATION","parse_unit_ids":["R03:P:017","R03:P:018B","R03:P:020","R03:P:021","R03:P:022","R03:P:023","R03:P:024A","R03:P:026","R03:P:028"]},
+    {"destination":"R03:METHOD:AUTODIFF_CASE","parse_unit_ids":["R03:P:032","R03:P:033A"]},
+    {"destination":"R03:METHOD:ADVERSARIAL_SWEEP","parse_unit_ids":["R03:P:047"]},
+    {"destination":"R03:METHOD:CONVERGENT_VALIDITY","parse_unit_ids":["R03:P:052"]},
+    {"destination":"R03:METHOD:CONSCIOUSNESS_FALSIFICATION","parse_unit_ids":["R03:P:065A"]},
+    {"destination":"R03:METHOD:EXTERNAL_TRANSFER","parse_unit_ids":["R03:P:074A"]},
+
+    {"destination":"R03:CASE:AUTODIFF_SCOPE","parse_unit_ids":["R03:P:029A"]},
+    {"destination":"R03:CASE:AUTODIFF_HYPOTHESIS","parse_unit_ids":["R03:P:029B","R03:P:034"]},
+    {"destination":"R03:CASE:AUTODIFF_MODEL","parse_unit_ids":["R03:P:030"]},
+    {"destination":"R03:CASE:AUTODIFF_PREDICTION","parse_unit_ids":["R03:P:031"]},
+    {"destination":"R03:CASE:AUTODIFF_INTERPRETATION","parse_unit_ids":["R03:P:035","R03:P:036"]},
+    {"destination":"R03:CASE:AUTODIFF_VERDICT","parse_unit_ids":["R03:P:037"]},
+
+    {"destination":"R03:CASE:COMPILERS_HYPOTHESIS","parse_unit_ids":["R03:P:038"]},
+    {"destination":"R03:CASE:COMPILERS_INTERPRETATION","parse_unit_ids":["R03:P:039","R03:P:040"]},
+    {"destination":"R03:CASE:COMPILERS_VERDICT","parse_unit_ids":["R03:P:041"]},
+
+    {"destination":"R03:CASE:DEEP_SCALING_HYPOTHESIS","parse_unit_ids":["R03:P:042"]},
+    {"destination":"R03:CASE:DEEP_SCALING_HISTORY","parse_unit_ids":["R03:P:043"]},
+    {"destination":"R03:CASE:DEEP_SCALING_ASSESSMENT","parse_unit_ids":["R03:P:044"]},
+    {"destination":"R03:CASE:DEEP_SCALING_VERDICT","parse_unit_ids":["R03:P:045B"]},
+
+    {"destination":"R03:REFINE:BASIN_REGIMES_PROPOSAL","parse_unit_ids":["R03:P:046","R03:P:050"]},
+    {"destination":"R03:REFINE:APPLICABILITY_VERDICT","parse_unit_ids":["R03:P:051"]},
+
+    {"destination":"R03:CONVERGENT:INTERPRETATION","parse_unit_ids":["R03:P:053B","R03:P:054"]},
+    {"destination":"R03:CONVERGENT:VERDICT","parse_unit_ids":["R03:P:056"]},
+
+    {"destination":"R03:CASE:ALPHABETA_HYPOTHESIS","parse_unit_ids":["R03:P:057"]},
+    {"destination":"R03:CASE:ALPHABETA_INTERPRETATION","parse_unit_ids":["R03:P:058","R03:P:059"]},
+    {"destination":"R03:CASE:ALPHABETA_VERDICT","parse_unit_ids":["R03:P:060"]},
+
+    {"destination":"R03:SPEC:CONSCIOUSNESS_SCOPE","parse_unit_ids":["R03:P:061A","R03:P:065C"]},
+    {"destination":"R03:SPEC:CONSCIOUSNESS_HYPOTHESES","parse_unit_ids":["R03:P:061B","R03:P:063","R03:P:064"]},
+
+    {"destination":"R03:CROSS_DOMAIN:OBSERVATION","parse_unit_ids":["R03:P:066"]},
+    {"destination":"R03:CROSS_DOMAIN:INTERPRETATION","parse_unit_ids":["R03:P:067"]},
+    {"destination":"R03:CROSS_DOMAIN:HYPOTHESIS","parse_unit_ids":["R03:P:068"]},
+
+    {"destination":"R03:SYNTH:CORE_ASSERTIONS","parse_unit_ids":["R03:P:070","R03:P:071","R03:P:076","R03:P:079B"]},
+    {"destination":"R03:SYNTH:NAVIGATION_CAPABILITY","parse_unit_ids":["R03:P:072B"]},
+    {"destination":"R03:SYNTH:RECURSIVE_HYPOTHESES","parse_unit_ids":["R03:P:074B","R03:P:075","R03:P:077","R03:P:078A"]},
+
+    {"destination":"R03:TRAJECTORY:HYPOTHESES","parse_unit_ids":["R03:P:080","R03:P:081","R03:P:083C"]},
+    {"destination":"R03:TRAJECTORY:ANALOGY","parse_unit_ids":["R03:P:082"]},
+    {"destination":"R03:TRAJECTORY:FORMALIZATION","parse_unit_ids":["R03:P:083A"]},
+
+    {"destination":"R03:REF:PROGRAM_LINEAGE","parse_unit_ids":["R03:P:062","R03:P:065B","R03:P:069A","R03:P:073"]}
+  ],
+  "replaced_primary_projection_count": 72,
+  "unchanged_primary_projection_count": 33,
+  "effective_parse_unit_count": 105,
+  "effective_primary_projection_count": 105,
+  "unmapped_parse_units": 0,
+  "secondary_representations": [
+    {
+      "alias_id":"R03:EXAMPLES:TRANSITIONS_V2",
+      "disposition":"TYPED_SECONDARY_ALIAS",
+      "secondary_role":"NAVIGATION_EXAMPLE_SET",
+      "primary_items":["R03:CASE:AUTODIFF_SCOPE","R03:CASE:COMPILERS_HYPOTHESIS","R03:CASE:DEEP_SCALING_HYPOTHESIS","R03:CASE:ALPHABETA_HYPOTHESIS"],
+      "raw_parse_unit_reuse":"NONE",
+      "authority_effect":"NONE",
+      "warrant_multiplicity_effect":"NONE"
+    },
+    {
+      "alias_id":"R03:EXAMPLES:CROSS_DOMAIN_V2",
+      "disposition":"TYPED_SECONDARY_ALIAS",
+      "secondary_role":"NAVIGATION_EXAMPLE_SET",
+      "primary_items":["R03:SPEC:CONSCIOUSNESS_HYPOTHESES","R03:CROSS_DOMAIN:OBSERVATION","R03:SYNTH:RECURSIVE_HYPOTHESES","R03:TRAJECTORY:ANALOGY"],
+      "raw_parse_unit_reuse":"NONE",
+      "authority_effect":"NONE",
+      "warrant_multiplicity_effect":"NONE"
+    },
+    {
+      "alias_id":"R03:UNRESOLVED_REFERENCE_VIEW_V2",
+      "disposition":"REFERENCE_TO_PRIMARY_COMPRESSION_ITEM",
+      "secondary_role":"UNRESOLVED_REFERENCE_NAVIGATION_VIEW",
+      "primary_items":["R03:REF:PROGRAM_LINEAGE"],
+      "raw_parse_unit_reuse":"NONE",
+      "authority_effect":"NONE",
+      "warrant_multiplicity_effect":"NONE"
+    }
+  ],
+  "projection_complete": true,
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
