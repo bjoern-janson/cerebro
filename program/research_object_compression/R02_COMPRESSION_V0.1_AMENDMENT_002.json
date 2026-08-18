@@ -1,0 +1,60 @@
+{
+  "object": "CEREBRO_R02_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_002",
+  "record_type": "frozen R02 compression relocation overlay",
+  "persistent_record_state": "FROZEN",
+  "base_compression": "program/research_object_compression/R02_COMPRESSION_V0.1.json",
+  "prior_amendment": "program/research_object_compression/R02_COMPRESSION_V0.1_AMENDMENT_001.json",
+  "trigger": "program/research_object_compression/R02_COMPRESSION_AMENDMENT_003_REGRESSION_V0.1.md",
+  "contract_amendment": "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_003.md",
+  "repair_scope": "TWO_METHOD_ITEMS_ONLY",
+  "effective_supersessions": [
+    {
+      "legacy_item_id": "R02:ASSERT:MOTIVATION",
+      "legacy_coordinate": "ASSERTIONS_OR_HYPOTHESES",
+      "effective_status": "SUPERSEDED_BY_METHOD_COORDINATE",
+      "replacement_item_id": "R02:METHOD:MOTIVATION"
+    },
+    {
+      "legacy_item_id": "R02:ASSERT:WEIGHT_RATIONALE",
+      "legacy_coordinate": "ASSERTIONS_OR_HYPOTHESES",
+      "effective_status": "SUPERSEDED_BY_METHOD_COORDINATE",
+      "replacement_item_id": "R02:METHOD:WEIGHT_RATIONALE"
+    }
+  ],
+  "methodology_or_test_protocol": [
+    {
+      "item_id": "R02:METHOD:MOTIVATION",
+      "item_kind": "METHODOLOGICAL_MOTIVATION",
+      "content": "IICG shifts the unit of analysis from resource accumulation to computational reachability under fixed constraints.",
+      "source_locator": {
+        "source_repository": "bjoern-janson/computational-leverage",
+        "source_commit": "ef5f604ffec0922420c41f9921dee235583f3339",
+        "source_path": "README.md",
+        "source_blob": "39f4d4937d73ac1fc67796b3b12aff3d84d4ef42",
+        "source_section_path": "README.md > Motivation",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    },
+    {
+      "item_id": "R02:METHOD:WEIGHT_RATIONALE",
+      "item_kind": "METHODOLOGICAL_RATIONALE",
+      "content": "The weighted measure is motivated as distinguishing raw reachable volume from meaningful reachable computation.",
+      "source_locator": {
+        "source_repository": "bjoern-janson/computational-leverage",
+        "source_commit": "ef5f604ffec0922420c41f9921dee235583f3339",
+        "source_path": "README.md",
+        "source_blob": "39f4d4937d73ac1fc67796b3b12aff3d84d4ef42",
+        "source_section_path": "README.md > Why a Weighted Measure?",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    }
+  ],
+  "parse_changes": "NONE",
+  "content_changes": "NONE",
+  "source_standing_changes": "NONE",
+  "scientific_standing_changes": "NONE",
+  "secondary_reuse_changes": "NONE_REQUIRED",
+  "map_edge_emission": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
