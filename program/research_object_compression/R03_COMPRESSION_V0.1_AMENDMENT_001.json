@@ -1,0 +1,134 @@
+{
+  "object": "CEREBRO_R03_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type": "frozen R03 compression repair overlay",
+  "persistent_record_state": "FROZEN",
+  "base_compression": "program/research_object_compression/R03_COMPRESSION_V0.1.json",
+  "trigger": "program/research_object_compression/R03_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "contract_amendment": "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_003.md",
+  "repair_scope": [
+    "METHODOLOGY_AS_ASSERTION",
+    "PARSE_STANDING_RECOLLAPSE_IN_COMPRESSION",
+    "SECONDARY_REUSE_WITHOUT_ROLE"
+  ],
+  "effective_supersessions": [
+    {"legacy_item_id":"R03:ASSERT:METHODOLOGY","effective_status":"SUPERSEDED_BY_METHOD_COORDINATE"},
+    {"legacy_item_id":"R03:ASSERT:AUTODIFF","effective_status":"SUPERSEDED_BY_STANDING_PRESERVING_CASE_ITEMS"},
+    {"legacy_item_id":"R03:ASSERT:COMPILERS","effective_status":"SUPERSEDED_BY_STANDING_PRESERVING_CASE_ITEMS"},
+    {"legacy_item_id":"R03:ASSERT:DEEP_SCALING","effective_status":"SUPERSEDED_BY_STANDING_PRESERVING_CASE_ITEMS"},
+    {"legacy_item_id":"R03:REFINE:BASIN_REGIMES","effective_status":"SUPERSEDED_BY_REFINEMENT_AND_VERDICT_ITEMS"},
+    {"legacy_item_id":"R03:ASSERT:CONVERGENT","effective_status":"SUPERSEDED_BY_INTERPRETATION_AND_VERDICT_ITEMS"},
+    {"legacy_item_id":"R03:ASSERT:ALPHABETA","effective_status":"SUPERSEDED_BY_STANDING_PRESERVING_CASE_ITEMS"},
+    {"legacy_item_id":"R03:SPEC:CONSCIOUSNESS","effective_status":"SUPERSEDED_BY_SCOPE_AND_HYPOTHESIS_ITEMS"},
+    {"legacy_item_id":"R03:ASSERT:CROSS_DOMAIN","effective_status":"SUPERSEDED_BY_OBSERVATION_INTERPRETATION_HYPOTHESIS_ITEMS"},
+    {"legacy_item_id":"R03:SYNTH:EMERGING","effective_status":"SUPERSEDED_BY_SYNTHESIS_CAPABILITY_AND_HYPOTHESIS_ITEMS"},
+    {"legacy_item_id":"R03:SPEC:TRAJECTORY","effective_status":"SUPERSEDED_BY_HYPOTHESIS_ANALOGY_AND_FORMALIZATION_ITEMS"},
+    {"legacy_item_id":"R03:REF:IICG","effective_status":"SUPERSEDED_BY_SINGLE_PROGRAM_REFERENCE_ITEM"},
+    {"legacy_item_id":"R03:REF:CAUSAL_MASS","effective_status":"SUPERSEDED_BY_SINGLE_PROGRAM_REFERENCE_ITEM"},
+    {"legacy_item_id":"R03:EXAMPLES:TRANSITIONS","effective_status":"SUPERSEDED_BY_TYPED_SECONDARY_ALIAS_COLLECTION"},
+    {"legacy_item_id":"R03:EXAMPLES:CROSS_DOMAIN","effective_status":"SUPERSEDED_BY_TYPED_SECONDARY_ALIAS_COLLECTION"}
+  ],
+  "item_replacements": [
+    {
+      "item_id": "R03:FORMAL:ACCESSIBILITY",
+      "replacement_source_units": ["R03:P:008"],
+      "reason": "R03:P:015B is a model-form limitation and remains represented only in R03:LIMIT:PROXIES; it must not be reused as part of the formal-model item."
+    }
+  ],
+  "methodology_or_test_protocol": [
+    {"item_id":"R03:METHOD:ROOT_FALSIFICATION","item_kind":"FALSIFICATION_PROTOCOL","content":"Repository-level falsification rule specifies precursor variables and bounded delay required for a valid test.","source_units":["R03:P:003"]},
+    {"item_id":"R03:METHOD:MEASUREMENT","item_kind":"MEASUREMENT_AND_STRUCTURAL_EVENT_PROTOCOL","content":"Defines empirical objective, measurement architecture, Λ_E proxy components, accessibility estimation and operational structural-event criterion.","source_units":["R03:P:013","R03:P:014","R03:P:015A","R03:P:016"]},
+    {"item_id":"R03:METHOD:DATASET_AND_FALSIFICATION","item_kind":"DATASET_TEMPORAL_AND_FALSIFICATION_PROTOCOL","content":"Requires positive, false-positive and false-negative cases; defines temporal validation, rejection tests, survival criteria, dataset philosophy and case-record schema.","source_units":["R03:P:017","R03:P:018B","R03:P:020","R03:P:021","R03:P:022","R03:P:023","R03:P:024A","R03:P:026","R03:P:028"]},
+    {"item_id":"R03:METHOD:AUTODIFF_CASE","item_kind":"CASE_MEASUREMENT_AND_CONTROL_PROTOCOL","content":"Autodiff case specifies candidate measurements, competing explanations, controls and weakening conditions.","source_units":["R03:P:032","R03:P:033A"]},
+    {"item_id":"R03:METHOD:ADVERSARIAL_SWEEP","item_kind":"SYNTHETIC_ADVERSARIAL_TEST_PROTOCOL","content":"Synthetic 1000-transition stress test varies resource dominance, structural signal, proxy noise and ordering under predefined break conditions.","source_units":["R03:P:047"]},
+    {"item_id":"R03:METHOD:CONVERGENT_VALIDITY","item_kind":"HISTORICAL_CLASSIFICATION_COMPARISON_PROTOCOL","content":"Compares CPB binary classifications on 20 historical transitions against common historical interpretations with a 50% random baseline; source limitation about lack of live raters remains separate.","source_units":["R03:P:052"]},
+    {"item_id":"R03:METHOD:CONSCIOUSNESS_FALSIFICATION","item_kind":"SPECULATIVE_HYPOTHESIS_FALSIFICATION_PROTOCOL","content":"Defines integration/self-modeling/coordination countercases that would weaken the consciousness hypothesis.","source_units":["R03:P:065A"]},
+    {"item_id":"R03:METHOD:EXTERNAL_TRANSFER","item_kind":"EXTERNAL_TRANSFER_VALIDATION_REQUIREMENT","content":"Requires unfamiliar users or systems to use CPB to identify bottlenecks, generate interventions, recognize boundaries or outperform conventional approaches.","source_units":["R03:P:074A"]}
+  ],
+  "standing_preserving_items": {
+    "assertions_or_hypotheses": [
+      {"item_id":"R03:CASE:AUTODIFF_SCOPE","item_kind":"SOURCE_CASE_SCOPE","content":"Case target is manual gradient specification -> automated derivative generation, distinguished from backpropagation and a generic deep-learning transition.","source_units":["R03:P:029A"]},
+      {"item_id":"R03:CASE:AUTODIFF_HYPOTHESIS","item_kind":"SOURCE_CASE_HYPOTHESIS","content":"Autodiff is hypothesized to absorb derivative complexity into computational infrastructure.","source_units":["R03:P:029B","R03:P:034"]},
+      {"item_id":"R03:CASE:AUTODIFF_MODEL","item_kind":"SOURCE_CASE_MODEL","content":"Describes manual bottleneck and changed workflow after automatic gradient generation.","source_units":["R03:P:030"]},
+      {"item_id":"R03:CASE:AUTODIFF_PREDICTION","item_kind":"SOURCE_CASE_PREDICTION","content":"Predicts description-length absorption, increased aligned information velocity and expanded accessibility.","source_units":["R03:P:031"]},
+      {"item_id":"R03:CASE:AUTODIFF_INTERPRETATION","item_kind":"SOURCE_CASE_INTERPRETATION","content":"Source interprets CPB variable mappings and historical timing while acknowledging compute/data contributions.","source_units":["R03:P:035","R03:P:036"]},
+      {"item_id":"R03:CASE:AUTODIFF_VERDICT","item_kind":"SOURCE_CASE_VERDICT","content":"Source rates the case positively with compute/data confounding and concludes it provides positive evidence for CPB.","source_units":["R03:P:037"]},
+
+      {"item_id":"R03:CASE:COMPILERS_HYPOTHESIS","item_kind":"SOURCE_CASE_HYPOTHESIS","content":"Assembly -> compilers is hypothesized as a complexity-absorbing structural transition.","source_units":["R03:P:038"]},
+      {"item_id":"R03:CASE:COMPILERS_INTERPRETATION","item_kind":"SOURCE_CASE_INTERPRETATION","content":"Source maps compiler abstraction to description-length absorption, faster iteration and lower representational distance while acknowledging hardware contribution.","source_units":["R03:P:039","R03:P:040"]},
+      {"item_id":"R03:CASE:COMPILERS_VERDICT","item_kind":"SOURCE_CASE_VERDICT","content":"Source concludes assembly -> compilers supports the recurring CPB pattern with hardware confound noted.","source_units":["R03:P:041"]},
+
+      {"item_id":"R03:CASE:DEEP_SCALING_HYPOTHESIS","item_kind":"FALSIFICATION_CASE_HYPOTHESIS","content":"Tests whether major capability growth can occur without a prior structural increase in information velocity.","source_units":["R03:P:042"]},
+      {"item_id":"R03:CASE:DEEP_SCALING_HISTORY","item_kind":"SOURCE_REPORTED_HISTORICAL_INTERPRETATION","content":"Source describes staged post-2012 scaling and increasingly resource-driven mature-regime gains.","source_units":["R03:P:043"]},
+      {"item_id":"R03:CASE:DEEP_SCALING_ASSESSMENT","item_kind":"SOURCE_CASE_EVIDENTIAL_ASSESSMENT","content":"Source rates structural evidence mixed and resource confounding strong.","source_units":["R03:P:044"]},
+      {"item_id":"R03:CASE:DEEP_SCALING_VERDICT","item_kind":"SOURCE_CASE_VERDICT_AND_INTERPRETATION","content":"Source classifies mixed/weak falsification pressure and says CPB is weaker in mature optimization regimes while surviving with refinement.","source_units":["R03:P:045B"]},
+
+      {"item_id":"R03:REFINE:BASIN_REGIMES_PROPOSAL","item_kind":"SOURCE_PROPOSED_FRAMEWORK_REFINEMENT","content":"Proposes basin-opening versus basin-mining/exploitation regimes, historical structural-stack accounting and context-sensitive transition horizons.","source_units":["R03:P:046","R03:P:050"]},
+      {"item_id":"R03:REFINE:APPLICABILITY_VERDICT","item_kind":"SOURCE_CASE_VERDICT","content":"Source says the adversarial test identifies a boundary of applicability and narrows the strongest CPB claim toward phase boundaries rather than all capability improvement.","source_units":["R03:P:051"]},
+
+      {"item_id":"R03:CONVERGENT:INTERPRETATION","item_kind":"SOURCE_INTERPRETATION_OF_RESULT","content":"Source interprets the reported agreement and hypothetical kappa-style estimate as a convergent-validity signal overlapping historical intuition.","source_units":["R03:P:053B","R03:P:054"]},
+      {"item_id":"R03:CONVERGENT:VERDICT","item_kind":"SOURCE_CASE_VERDICT","content":"Source calls the exercise a positive validation signal but not proof and says genuine external testing remains next.","source_units":["R03:P:056"]},
+
+      {"item_id":"R03:CASE:ALPHABETA_HYPOTHESIS","item_kind":"SOURCE_CASE_HYPOTHESIS","content":"Alpha-beta pruning is hypothesized as a search-geometry transformation that reduces effective search without changing perfect-condition minimax result.","source_units":["R03:P:057"]},
+      {"item_id":"R03:CASE:ALPHABETA_INTERPRETATION","item_kind":"SOURCE_CASE_INTERPRETATION_AND_HISTORY","content":"Source maps pruning to efficiency/accessibility gains and reports historical timing/resource-control interpretation.","source_units":["R03:P:058","R03:P:059"]},
+      {"item_id":"R03:CASE:ALPHABETA_VERDICT","item_kind":"SOURCE_CASE_VERDICT","content":"Source rates the case strongly with low resource confound and concludes it supports CPB.","source_units":["R03:P:060"]},
+
+      {"item_id":"R03:SPEC:CONSCIOUSNESS_SCOPE","item_kind":"SOURCE_SCOPE_LIMIT","content":"Document does not claim subjective experience solved and frames itself as a falsifiable computational exploration.","source_units":["R03:P:061A","R03:P:065C"]},
+      {"item_id":"R03:SPEC:CONSCIOUSNESS_HYPOTHESES","item_kind":"SOURCE_SPECULATIVE_HYPOTHESIS","content":"Proposes consciousness-like organization through shared representation, self-modeling, internal coordination and recursive optimization.","source_units":["R03:P:061B","R03:P:063","R03:P:064"]},
+
+      {"item_id":"R03:CROSS_DOMAIN:OBSERVATION","item_kind":"SOURCE_CROSS_DOMAIN_OBSERVATION","content":"Source reports an unexpected transfer of the CPB lens to a pre-existing playlist taxonomy and explicitly says this does not establish CPB correctness.","source_units":["R03:P:066"]},
+      {"item_id":"R03:CROSS_DOMAIN:INTERPRETATION","item_kind":"SOURCE_INTERPRETATION","content":"Source interprets the transfer as a shift from object/aesthetic categories to induced process trajectories.","source_units":["R03:P:067"]},
+      {"item_id":"R03:CROSS_DOMAIN:HYPOTHESIS","item_kind":"SOURCE_HYPOTHESIS_WITH_NONVALIDATION_QUALIFIER","content":"Proposes a possible domain-general process-taxonomy principle while retaining the explicit non-validation qualifier.","source_units":["R03:P:068"]},
+
+      {"item_id":"R03:SYNTH:CORE_ASSERTIONS","item_kind":"SOURCE_SYNTHESIS_ASSERTIONS","content":"Synthesizes bottleneck relocation, process classification, transformation invariants and the recursive claim that systems improve by improving mechanisms of improvement.","source_units":["R03:P:070","R03:P:071","R03:P:076","R03:P:079B"]},
+      {"item_id":"R03:SYNTH:NAVIGATION_CAPABILITY","item_kind":"SOURCE_CURRENT_CAPABILITY_CLAIM","content":"Source says the strongest demonstrated CPB capability is currently reframing/navigation rather than prediction.","source_units":["R03:P:072B"]},
+      {"item_id":"R03:SYNTH:RECURSIVE_HYPOTHESES","item_kind":"SOURCE_HYPOTHESES","content":"Proposes CPB as a possible cognitive/navigation interface, high-value interactions as search transformations and trajectory-based cross-domain abstraction.","source_units":["R03:P:074B","R03:P:075","R03:P:077","R03:P:078A"]},
+
+      {"item_id":"R03:TRAJECTORY:HYPOTHESES","item_kind":"SOURCE_SPECULATIVE_HYPOTHESES","content":"Proposes trajectory/attractor coherence and authenticity as predictive properties of dynamical systems.","source_units":["R03:P:080","R03:P:081","R03:P:083C"]},
+      {"item_id":"R03:TRAJECTORY:ANALOGY","item_kind":"SOURCE_CROSS_DOMAIN_ANALOGY","content":"Relates trajectory coherence to CPB and playlist taxonomy without establishing identity or dependency.","source_units":["R03:P:082"]},
+      {"item_id":"R03:TRAJECTORY:FORMALIZATION","item_kind":"SOURCE_PROPOSED_FORMALIZATION","content":"Proposes authenticity as negative divergence between internal and behavioral distributions and explicitly does not claim an established measurement.","source_units":["R03:P:083A"]}
+    ]
+  },
+  "program_references": [
+    {
+      "item_id":"R03:REF:PROGRAM_LINEAGE",
+      "item_kind":"EXPLICIT_PROGRAM_REFERENCE_AND_SOURCE_DESCRIBED_CONCEPTUAL_RELATION",
+      "referents":[
+        {"name":"Interface-Induced Computational Geometry (IICG)","endpoint_resolution":"UNRESOLVED_REFERENCE"},
+        {"name":"Causal Mass","endpoint_resolution":"UNRESOLVED_REFERENCE"}
+      ],
+      "content":"R03 source surfaces describe conceptual/developmental relationships among Causal Mass, IICG and CPB. Exact program endpoints are not resolved from atlas knowledge.",
+      "source_units":["R03:P:062","R03:P:065B","R03:P:069A","R03:P:073"],
+      "map_edge_emission":"NONE"
+    }
+  ],
+  "typed_secondary_aliases": [
+    {
+      "alias_id":"R03:EXAMPLES:TRANSITIONS_V2",
+      "secondary_role":"NAVIGATION_EXAMPLE_SET",
+      "primary_compression_items":["R03:CASE:AUTODIFF_SCOPE","R03:CASE:COMPILERS_HYPOTHESIS","R03:CASE:DEEP_SCALING_HYPOTHESIS","R03:CASE:ALPHABETA_HYPOTHESIS"],
+      "authority_effect":"NONE",
+      "warrant_multiplicity_effect":"NONE",
+      "raw_parse_unit_reuse":"NONE"
+    },
+    {
+      "alias_id":"R03:EXAMPLES:CROSS_DOMAIN_V2",
+      "secondary_role":"NAVIGATION_EXAMPLE_SET",
+      "primary_compression_items":["R03:SPEC:CONSCIOUSNESS_HYPOTHESES","R03:CROSS_DOMAIN:OBSERVATION","R03:SYNTH:RECURSIVE_HYPOTHESES","R03:TRAJECTORY:ANALOGY"],
+      "authority_effect":"NONE",
+      "warrant_multiplicity_effect":"NONE",
+      "raw_parse_unit_reuse":"NONE"
+    }
+  ],
+  "unresolved_reference_view": {
+    "source_item": "R03:REF:PROGRAM_LINEAGE",
+    "referents": ["Interface-Induced Computational Geometry (IICG)","Causal Mass"],
+    "secondary_role": "UNRESOLVED_REFERENCE_NAVIGATION_VIEW",
+    "authority_effect": "NONE",
+    "warrant_multiplicity_effect": "NONE",
+    "raw_parse_unit_reuse": "NONE"
+  },
+  "map_edge_emission": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "propagation_authorized": false
+}
