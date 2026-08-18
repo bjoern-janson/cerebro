@@ -1,0 +1,29 @@
+{
+  "object":"CEREBRO_R18_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "record_type":"explicit parse-to-compression projection ledger manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R18",
+  "effective_parse_units":75,
+  "projection_parts":[
+    {"path":"program/research_object_compression/R18_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_A.json","mappings":75}
+  ],
+  "primary_projection_entries":75,
+  "primary_compressed_items":40,
+  "unmapped_parse_units":0,
+  "duplicate_primary_owners":0,
+  "projection_completeness":"COMPLETE_BY_EXPLICIT_PARSE_UNIT_ID",
+  "effective_unresolved_source_units":15,
+  "derived_audit_views":1,
+  "audit_views":["R18:AUDIT:EXPERIMENTAL_STANDING_CEILING"],
+  "derived_bounded_absences":1,
+  "temporal_provenance_views":1,
+  "source_locator_policy":"ALL_PRIMARY_ITEMS_RETAIN_REPOSITORY_COMMIT_PATH_BLOB_AND_SOURCE_SECTION_PATH; PARSE_UNIT_IDS_RETAIN SOURCE-LOCAL SECTION ROLE",
+  "occurrence_accounting_policy":"FOR_EVERY_MULTI_UNIT_DESTINATION_SOURCE_OCCURRENCE_COUNT_IS_RECONSTRUCTIBLE_AND_DEFAULT_WARRANT_INDEPENDENCE_IS_NOT_ESTABLISHED_WITH_NO_WARRANT_MULTIPLICITY_EFFECT",
+  "experimental_standing_policy":"THEORY_AND_APE_SPECIFICATION_DO_NOT_ACQUIRE_EXECUTION_OR_RESULT_STANDING_BY FORMALISM_PREDICTION_OR_FALSIFICATION_LANGUAGE",
+  "history_policy":"CURRENT_HEAD_PARSE_AND_DEVELOPMENTAL_PROVENANCE_REMAIN_DISTINCT_RECONSTRUCTIBLE_VIEWS",
+  "standing_preservation":"NOT_YET_ESTABLISHED_PENDING_COMPRESSION_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "r19_parse_access_opened":false
+}
