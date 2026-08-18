@@ -1,0 +1,38 @@
+{
+  "object": "CEREBRO_R06_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type": "local exhaustive-parse repair overlay",
+  "persistent_record_state": "FROZEN",
+  "base_parse": "R06_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger": "R06_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope": [
+    "SOURCE_PATH_INTEGRITY",
+    "SECTION_HEADING_AS_EPISTEMIC_STANDING"
+  ],
+  "effective_parse_unit_count": 112,
+  "replacement_units": [
+    {
+      "id": "R06:P:MATH:FERTILITY",
+      "path": "03_Mathematical_Formalization.md",
+      "blob": "5f2dc22a34629262633deea648457bb3dd159ae4",
+      "source_locator": {"section": "Generative Fertility"},
+      "semantic_role": "FORMAL_STRUCTURE",
+      "payload": "F = L(zero-shot consequences)/L(T*) is proposed as generative fertility.",
+      "standing_qualifier": "CANDIDATE_METRIC"
+    },
+    {
+      "id": "R06:P:README:NONCLAIM_UNIFYING_HYPOTHESIS",
+      "path": "README.md",
+      "blob": "56684cd97824573c6bcaf30d84f98164373bcf28",
+      "source_locator": {"section": "Non-Claims"},
+      "semantic_role": "HYPOTHESIS",
+      "payload": "Framework proposes a unifying hypothesis about adaptive epistemic dynamics.",
+      "standing_qualifier": "SOURCE_SELF_CHARACTERIZATION"
+    }
+  ],
+  "amendment_semantics": "replacement records replace only same-ID units during effective reconstruction; all other parse units remain as frozen in the base candidate",
+  "semantic_content_change": "NONE_EXCEPT_ROLE_CORRECTION_OF_POSITIVE_SOURCE_PROPOSITION",
+  "global_contract_change": "NONE",
+  "map_edge_emission": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
