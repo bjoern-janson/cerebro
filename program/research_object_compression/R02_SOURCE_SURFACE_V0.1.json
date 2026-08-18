@@ -1,0 +1,51 @@
+{
+  "object": "CEREBRO_R02_RESEARCH_OBJECT_COMPRESSION_SOURCE_SURFACE_V0.1",
+  "record_type": "frozen repository-head source manifest",
+  "persistent_record_state": "FROZEN",
+  "repository_id": "R02",
+  "repository_full_name": "bjoern-janson/computational-leverage",
+  "default_branch": "main",
+  "frozen_head_commit": "ef5f604ffec0922420c41f9921dee235583f3339",
+  "frozen_head_tree": "5873f3afeb7ef59da1c2f4746fd81e005286ab5b",
+  "head_commit_message": "update benchmarks with new empirical tests and data clarifications",
+  "head_commit_author_time": "2026-07-17T23:23:12Z",
+  "surface_completeness": "FULL_REPOSITORY_HEAD_SURFACE",
+  "enumerated_path_count": 3,
+  "paths": [
+    {
+      "path": "README.md",
+      "blob": "39f4d4937d73ac1fc67796b3b12aff3d84d4ef42",
+      "size_bytes": 6878,
+      "role": "RESEARCH_BEARING_TEXT",
+      "parse_included": true
+    },
+    {
+      "path": "BENCHMARKS.md",
+      "blob": "738091c92cd9ae41f244e9e1d5721ef299991787",
+      "size_bytes": 6823,
+      "role": "RESEARCH_BEARING_TEXT_WITH_REPORTED_EMPIRICAL_TESTS_AND_LIMITATIONS",
+      "parse_included": true
+    },
+    {
+      "path": "LICENSE",
+      "blob": "af602b2e8e83970d54a4a588e0fbdd14768cb691",
+      "size_bytes": 1063,
+      "role": "LEGAL_METADATA",
+      "parse_included": false,
+      "disposition": "PARSE_EXCLUDED_BY_FROZEN_SCOPE",
+      "exclusion_reason": "MIT license text is inventoried for complete head coverage but contributes no research assertion/result/failure/frontier under the V0.1 semantic parse aperture."
+    }
+  ],
+  "research_bearing_paths": ["README.md", "BENCHMARKS.md"],
+  "semantic_exclusions": ["LICENSE"],
+  "source_surface_non_inferences": [
+    "FULL_HEAD_ENUMERATION_DOES_NOT_IMPLY_PERFECT_SEMANTIC_UNDERSTANDING",
+    "BENCHMARK_FILE_TITLE_DOES_NOT_PREJUDGE_EMPIRICAL_VALIDITY",
+    "SOURCE_LABEL_VALIDATION_DOES_NOT_EQUAL_INDEPENDENT_VALIDATION",
+    "R02_AFTER_R01_DOES_NOT_CREATE_SEMANTIC_LINEAGE",
+    "PROGRAM_PARSE_ACCESS_DOES_NOT_REOPEN_CEREBRO_STEP_2"
+  ],
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
