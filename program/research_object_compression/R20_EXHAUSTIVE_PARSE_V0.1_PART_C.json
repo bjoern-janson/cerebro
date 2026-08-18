@@ -1,0 +1,48 @@
+{
+  "object":"CEREBRO_R20_EXHAUSTIVE_PARSE_V0.1_PART_C",
+  "repository_id":"R20",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "format":"[UNIT_ID,KIND,SOURCE_PATH,SECTION_OR_ROLE,CONTENT]",
+  "units":[
+    ["R20P0296","EXECUTABLE_IMPLEMENTATION","tests/__init__.py","test package marker","Empty/minimal test package initializer; admitted as source path even though it contributes no test assertions."],
+
+    ["R20P0297","EXECUTABLE_IMPLEMENTATION","tests/test_agency_transfer.py","test source","Defines source-level unit tests for agency-transfer helper/metric behavior using deterministic toy inputs."],
+    ["R20P0298","METHODOLOGY_OR_TEST_PROTOCOL","tests/test_agency_transfer.py","assertions","Assertions encode expected arithmetic/ordering behavior for prototype agency-transfer outputs rather than the full documentary human-learning protocol."],
+    ["R20P0299","DISTINCTION","tests/test_agency_transfer.py","standing","Presence of pytest assertions is test implementation, not evidence that pytest was executed or passed at the frozen head."],
+    ["R20P0300","DISTINCTION","tests/test_agency_transfer.py","scientific boundary","Passing these unit-level assertions, if executed, would validate local code behavior only and would not establish the ancestor capability-transfer hypothesis."],
+
+    ["R20P0301","EXECUTABLE_IMPLEMENTATION","tests/test_agents.py","test source","Defines tests for agent initialization/action/update behavior, including direct construction attempts and prototype responses."],
+    ["R20P0302","METHODOLOGY_OR_TEST_PROTOCOL","tests/test_agents.py","assertions","Tests encode expected agent API/state behavior under small deterministic cases."],
+    ["R20P0303","DISTINCTION","tests/test_agents.py","standing","Test source does not establish execution/pass status."],
+    ["R20P0304","DISTINCTION","tests/test_agents.py","theory boundary","Agent API unit behavior is distinct from validated agency/dependency learning."],
+    ["R20U0064","UNRESOLVED_SOURCE_FRAGMENT","tests/test_agents.py","abstract-instantiation defect","Test source attempts to instantiate BaseAgent even though BaseAgent defines abstract act(); under ordinary Python ABC semantics this path should raise before the intended assertions, but no frozen test execution record establishes the observed failure state."],
+
+    ["R20P0305","EXECUTABLE_IMPLEMENTATION","tests/test_integration.py","integration test source","Defines integration-style tests combining selected agents, environments, rewards/trainers or experiment components."],
+    ["R20P0306","METHODOLOGY_OR_TEST_PROTOCOL","tests/test_integration.py","integration assertions","Assertions encode expected compatibility/data-flow for prototype components."],
+    ["R20P0307","DISTINCTION","tests/test_integration.py","standing","Integration-test source is not an execution record; no GitHub Actions run/status is associated with the frozen head."],
+    ["R20P0308","DISTINCTION","tests/test_integration.py","scope","Even successful component integration would not prove documentary benchmark protocols, construct validity, or scientific hypotheses."],
+    ["R20U0065","UNRESOLVED_SOURCE_FRAGMENT","tests/test_integration.py","coverage","Test coverage is partial relative to the documentary architecture and does not exercise every config/protocol/registry path."],
+
+    ["R20P0309","EXECUTABLE_IMPLEMENTATION","tests/test_models.py","test source","Defines tests for BeliefState, CognitiveModel, compression/update-related model primitives."],
+    ["R20P0310","METHODOLOGY_OR_TEST_PROTOCOL","tests/test_models.py","belief/update assertions","Tests fixed confidence strengthening/weakening, model state operations and simple update behavior."],
+    ["R20P0311","METHODOLOGY_OR_TEST_PROTOCOL","tests/test_models.py","compression/update assertions","Tests local arithmetic/state invariants of prototype compression/update machinery."],
+    ["R20P0312","DISTINCTION","tests/test_models.py","standing","These tests target code semantics and do not establish empirical model quality/permeability."],
+    ["R20P0313","DISTINCTION","tests/test_models.py","execution","No frozen test report establishes that these assertions were run or passed."],
+
+    ["R20P0314","EXECUTABLE_IMPLEMENTATION","tests/test_permeability_transition.py","test source","Defines unit tests for permeability-transition helper calculations using controlled toy values."],
+    ["R20P0315","METHODOLOGY_OR_TEST_PROTOCOL","tests/test_permeability_transition.py","assertions","Assertions check local coupling/permeability/revision metric behavior rather than a changing-environment phase-transition experiment."],
+    ["R20P0316","DISTINCTION","tests/test_permeability_transition.py","standing","A local formula/unit test is not evidence that a phase transition exists or that the protocol ran."],
+    ["R20P0317","DISTINCTION","tests/test_permeability_transition.py","execution","No CI/status/run artifact at the frozen head establishes pass/fail."],
+
+    ["R20P0318","EXECUTABLE_IMPLEMENTATION","tests/test_rewards.py","test source","Defines tests for agency reward, ancestor reward, dependency penalty and reward tracking arithmetic."],
+    ["R20P0319","METHODOLOGY_OR_TEST_PROTOCOL","tests/test_rewards.py","assertions","Tests expected weighted-objective calculations for supplied proxy inputs."],
+    ["R20P0320","DISTINCTION","tests/test_rewards.py","construct boundary","Correct reward arithmetic is distinct from validity of agency/dependency/future-capability proxies being optimized."],
+    ["R20P0321","DISTINCTION","tests/test_rewards.py","execution","No frozen execution provenance establishes test pass/fail."],
+    ["R20U0066","UNRESOLVED_SOURCE_FRAGMENT","tests","CI provenance","Frozen head has test source but zero associated GitHub Actions workflow runs and zero combined status records; external/local test executions, if any, are not established by this repository aperture."]
+  ],
+  "counts":{"parsed_representations":26,"unresolved":3,"units":29},
+  "parser_failures":0,
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
