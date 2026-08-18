@@ -1,0 +1,24 @@
+{
+  "object": "CEREBRO_R04_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_AMENDMENT_001",
+  "record_type": "frozen primary-projection ownership repair",
+  "persistent_record_state": "FROZEN",
+  "trigger": "R04_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "base_ledger": "R04_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "primary_projection_replacements": [
+    {
+      "parse_unit_id": "R04:P:MATH:PHASE_ERRORS",
+      "old_destination": "R04:FORMAL:PHASE_MODEL",
+      "new_destination": "R04:FORMAL:MATH_PHASE_ERRORS_SOURCE"
+    }
+  ],
+  "unchanged_primary_projection_count": 79,
+  "effective_parse_unit_count": 80,
+  "effective_primary_projection_count": 80,
+  "unmapped_parse_units": [],
+  "duplicate_primary_projection_owners": [],
+  "secondary_representation_rule": "All non-primary appearances of R04:P:MATH:PHASE_ERRORS and broad notation units are represented only through typed aliases in R04_COMPRESSION_V0.1_AMENDMENT_001.json.",
+  "raw_parse_unit_secondary_reuse": "NONE_AFTER_OVERLAY",
+  "projection_complete": true,
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
