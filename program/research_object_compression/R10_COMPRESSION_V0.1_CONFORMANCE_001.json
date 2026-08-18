@@ -1,0 +1,18 @@
+{
+  "object":"CEREBRO_R10_COMPRESSION_V0.1_CONFORMANCE_001",
+  "record_type":"pre-death-test inherited-contract conformance overlay",
+  "persistent_record_state":"FROZEN",
+  "base_compression":"program/research_object_compression/R10_COMPRESSION_V0.1.json",
+  "trigger":"INHERITED_R09_STANDING_PRESERVATION_REQUIREMENT_NOT_NEW_R10_FAILURE",
+  "repair_authority":"ALREADY_EARNED_CONTRACT_REQUIREMENT",
+  "added_items":[
+    {"id":"R10:IDENTITY:PROJECT","coordinate":"IDENTITY","standing":"IDENTITY_TITLE","content":"CGET; source expansion variants Equilibrium / Execution / Executable are preserved separately in R10:TENSION:NAME rather than silently canonicalized."},
+    {"id":"R10:SCOPE:LOCAL_PURPOSES","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Indexed standing-pure destination for source-local purpose statements across the 41 admitted research artifacts. Each purpose remains reconstructible by parse-unit ID and source path; repository-level scope does not replace local research/instrument/experiment/tool purposes."}
+  ],
+  "effective_item_rule":"R10:SCOPE:PROGRAM remains repository-level scope only; source-local purpose parse units project to R10:SCOPE:LOCAL_PURPOSES.",
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
