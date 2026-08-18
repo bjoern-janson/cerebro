@@ -1,0 +1,30 @@
+{
+  "object": "CEREBRO_R22_COMPRESSION_V0.1_AMENDMENT_001",
+  "repository_id": "R22",
+  "base_compression": "R22_COMPRESSION_V0.1.json + Parts A-D",
+  "trigger": "R22_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "persistent_record_state": "FROZEN",
+  "repair_scope": "LOCAL_COORDINATE_ONLY",
+  "replacements": [
+    {
+      "item_id": "R22:C090",
+      "old_coordinate": "PROJECT_PROCESS_METADATA",
+      "new_coordinate": "SOURCE_DESCRIBED_STATUS",
+      "standing": "PROJECT_PROCESS_METADATA",
+      "source_units_unchanged": ["R22P0161","R22P0162","R22P0163"],
+      "content_unchanged": true,
+      "reason": "Project/process metadata is informative but does not earn a new top-level compression coordinate; existing source-status coordinate preserves it without ontology growth."
+    }
+  ],
+  "effective_counts": {
+    "primary_compressed_items": 120,
+    "primary_projection_entries": 278,
+    "projection_remaps": 0,
+    "item_count_change": 0
+  },
+  "new_epistemic_distinction_required": false,
+  "new_top_level_compression_coordinate": null,
+  "amendment_005": "NOT_EARNED",
+  "map_edge_emission": "NONE",
+  "authority_effect": "NONE"
+}
