@@ -1,0 +1,32 @@
+{
+  "object":"CEREBRO_R14_COMPRESSION_V0.1_AMENDMENT_002",
+  "record_type":"minimal compression-granularity repair overlay",
+  "persistent_record_state":"FROZEN",
+  "parents":["R14_COMPRESSION_V0.1.json","R14_COMPRESSION_V0.1_AMENDMENT_001.json"],
+  "trigger":"R14_COMPRESSION_PREPROJECTION_DEATH_TEST_V0.1.md",
+  "repair_scope":"11 omitted source distinctions + 1 derived variant view",
+  "existing_compressed_items_modified":0,
+  "added_compressed_items":[
+    {"id":"R14:STATUS:README_CURRENT","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":["ontology defined","variables operationalized","simulator specification in progress","empirical hypothesis untested"],"source_scope":"README.md > Status"},
+    {"id":"R14:INTERP:FALSIFICATION_ALTERNATIVES","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"SOURCE_INTERPRETATION_OF_PROSPECTIVE_OUTCOME","content":["adaptive-space evolution may be unnecessary","another mechanism may perform the same function","the decomposition may be descriptive rather than causal"],"source_scope":"agent/state.md > Falsification","authority_effect":"NONE"},
+    {"id":"R14:DEF:OMEGA_QUALITY","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"Omega_t_quality_assumption":"not assumed perfect","possible_states":["complete","incomplete","delayed","noisy","misrepresented"]},"source_scope":"core/formalism2.md"},
+    {"id":"R14:INTERP:OPENNESS_CASES","coordinate":"DEFINITIONS","standing":"SOURCE_INTERPRETATION_OF_DEFINITION","content":{"high_accessibility_low_viability":"options remain reachable but are brittle","low_accessibility_high_viability":"good mechanisms exist but access is poor","high_accessibility_high_viability":"adaptable possibility is maintained"},"source_scope":"core/metrics.md","authority_effect":"NONE"},
+    {"id":"R14:DEF:METRIC_FORMULAS","coordinate":"DEFINITIONS","standing":"SOURCE_FORMALIZATION","content":{"recovery":"R=(P(t+Delta)-P_min)/(P_pre-P_min)","mechanism_discovery_rate":"E_m=|newly activated G_i|/T","mechanism_diversity":"E_d=H_q(t)"},"source_scope":"core/metrics.md"},
+    {"id":"R14:EXAMPLE:PSEUDOCODE_STRUCTURE","coordinate":"APPLICATIONS_OR_EXAMPLES","standing":"ILLUSTRATIVE_EXAMPLE","content":{"environment_readme_sketch":"Python-like Environment class with regime/constraints state, step(t) regime_change/next_regime, and observe(X) consequence_signal(X,regime,constraints)","environment_design_sketch":"list-like schedule of R1 stable, R2 shifted, R3 novel phases"},"implementation_effect":"NONE"},
+    {"id":"R14:EXAMPLE:MECHANISM_PROFILES","coordinate":"APPLICATIONS_OR_EXAMPLES","standing":"ILLUSTRATIVE_EXAMPLE","content":{"G1":{"label":"Exploit","strength":"high short-term performance","weakness":"low adaptation under regime change"},"G2":{"label":"Explore","strength":"maintains discovery capability","weakness":"higher immediate cost"},"G3":{"label":"Reuse","strength":"fast recovery","weakness":"depends on historical relevance"},"G4":{"label":"Abstract","strength":"potential transfer through reusable structures","weakness":"higher complexity cost"}},"source_scope":"mechanisms/library.md"},
+    {"id":"R14:METHOD:MECHANISM_LIBRARY_DESIGN","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":["mechanisms should have different adaptation profiles","performance optimization must not guarantee future adaptability","some mechanisms should become valuable after regime changes","library should remain simple enough for causal differences to be interpretable"],"source_scope":"mechanisms/library.md"},
+    {"id":"R14:STATUS:INVARIANT_LABELS","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":{"core_formalism2":"source label Core Invariant applied to X->F->G->Gspace","simulator_spec2":"source label Final Invariant applied to X->F->G->Gspace with G_t in Gspace_t","standing_boundary":"source labels do not establish independent theorem/invariance proof"}},
+    {"id":"R14:METHOD:UPDATE_RULE_VARIANT_G","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"SOURCE_FORMAL_VARIANT","content":{"grounded":"J(G,Omega)","decoupled":"J(G)"},"source_scope":"environment/README.md","canonicalization":"NONE"},
+    {"id":"R14:METHOD:SIMULATOR_MODEL_LAYERS","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"source_distinction":"available mechanisms != selected mechanism != current performance != future adaptive capacity","modeled_layers":["accessibility","viability","selection","execution"]},"source_scope":"docs/simulator-spec.md"}
+  ],
+  "added_secondary_views":[
+    {"id":"R14:VIEW:UPDATE_RULE_VARIANTS","secondary_role":"CROSS_SOURCE_FORMAL_VARIANT_VIEW","primary_references":["R14:METHOD:GROUNDING_INTERVENTION","R14:METHOD:UPDATE_RULE_VARIANT_G"],"content":"Dominant source surfaces use J(q,v,Omega) vs J(q,v); environment/README.md uses J(G,Omega) vs J(G). Same methodological purpose does not establish identical formal argument structure.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"}
+  ],
+  "effective_primary_parse_units":133,
+  "effective_secondary_views":5,
+  "projection_ledger_required":true,
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "amendment_005":"NOT_EARNED"
+}
