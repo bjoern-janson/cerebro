@@ -1,0 +1,40 @@
+{
+  "object":"CEREBRO_R07_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type":"frozen R07 parse repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_parse":"program/research_object_compression/R07_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger":"program/research_object_compression/R07_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope":"R07_ACCOUNTING_AND_COVERAGE_ONLY",
+  "effective_counts":{
+    "parse_unit_count":158,
+    "parsed_units":157,
+    "unresolved_units":1,
+    "parser_failures":0
+  },
+  "unit_additions":[
+    {"id":"R07:P:DEF:ENVIRONMENT_STRUCTURE","role":"SOURCE_ASSERTION_CONCEPTUAL","path":"definitions.md","section":"Environment","content":"Source says the environment contains underlying structure that the agent attempts to model."},
+    {"id":"R07:P:DEF:VIABLE_SPACE_EXPANDS","role":"SOURCE_ASSERTION_HYPOTHESIS","path":"definitions.md","section":"Viable Computational Space","content":"Source states that metric discovery expands Omega_viable."},
+    {"id":"R07:P:DEF:KERNEL_INTERPRETATION","role":"SOURCE_INTERPRETATION","path":"definitions.md","section":"Kernel Sequence","content":["detect differences","estimate causal importance","select computationally valuable information","construct metrics","evaluate metrics","discover improved metrics"]},
+    {"id":"R07:P:CM:COMPONENT_INDEPENDENCE","role":"SOURCE_ASSERTION_CONCEPTUAL","path":"causal-mass.md","section":"Definition of Causal Mass","content":"Source describes action sensitivity and surprisal as two independent quantities whose product defines computational importance.","warrant_independence_effect":"NONE"},
+    {"id":"R07:P:KERNEL:CAUSAL_MASS_FORMULA","role":"FORMAL_STRUCTURE","path":"kernel.md","section":"2. Causal Mass","content":"M_C integrates action sensitivity to Delta times surprisal over Omega."},
+    {"id":"R07:P:KERNEL:SALIENCE_FORMULA","role":"FORMAL_STRUCTURE","path":"kernel.md","section":"3. Salience","content":"chi(Delta)=rho=sigma(M_C-theta)."},
+    {"id":"R07:P:KERNEL:GATE_FORMULA","role":"FORMAL_STRUCTURE","path":"kernel.md","section":"4. Computational Gate","content":"B(rho)=1 when rho>=rho_crit and 0 otherwise."}
+  ],
+  "unit_replacements":[
+    {"id":"R07:P:README:CENTRAL_HYPOTHESIS","role":"SOURCE_ASSERTION_HYPOTHESIS","path":"README.md","section":"Overview/Central Hypothesis","source_standing":"central hypothesis","content":{"claim":"Intelligence is fundamentally a process of adaptive metric compilation in which bounded agents transform meaningful differences into increasingly informative internal metrics.","source_process":["detect meaningful differences","allocate computational resources","construct internal mappings","evaluate mapping quality","discover improved mappings","recursively repeat"]}},
+    {"id":"R07:P:README:KERNEL","role":"FORMAL_STRUCTURE","path":"README.md","section":"Kernel","content":{"pipeline":"Delta --[chi,B,F]--> M_Q --[Q_M,D_Omega]--> M_Q'","terminal_expression":"lim_{K(M_Q)->K(I_true)} d Omega_viable / d K(M_Q) -> infinity"}},
+    {"id":"R07:P:README:MAPPING_QUALITY","role":"SOURCE_ASSERTION_CONCEPTUAL","path":"README.md","section":"Core Components/Mapping Quality","content":{"claim":"Mapping quality is multidimensional and measures support for future computation.","criteria":["information compression","search efficiency","invariant preservation","predictive improvement","scalability","representational alignment","computational complexity"]}},
+    {"id":"R07:P:README:REPO_STRUCTURE","role":"SOURCE_DESCRIBED_STATUS","path":"README.md","section":"Repository Structure","content":{"source_described_paths":["README.md","formalism.md","causal-mass.md","salience.md","mapping-quality.md","discovery-operator.md","phase-transitions.md","examples/","simulations/"],"tree_reconciliation":"NOT_PERFORMED_IN_PARSE"}},
+    {"id":"R07:P:DEF:INTELLIGENCE","role":"SOURCE_ASSERTION_HYPOTHESIS","path":"definitions.md","section":"Intelligence","content":"AMP defines intelligence as recursive execution of D_Omega and interprets this as repeated construction of better computational representations."},
+    {"id":"R07:P:CM:DESIDERATA","role":"METHODOLOGY_OR_TEST_PROTOCOL","path":"causal-mass.md","section":"Properties","source_standing":"desirable properties","content":{"properties":["behavioral sensitivity","information weighting","context dependence","scale independence"],"intended_scales":["sensory processing","concept formation","scientific discovery","machine learning","planning","adaptive control"]}},
+    {"id":"R07:P:MQ:COMPONENTS","role":"DEFINITION_DICTIONARY","path":"mapping-quality.md","section":"Components","content":{"C":"search compression","T":{"meaning":"task performance","application_dependent_examples":["prediction accuracy","planning success","control performance","scientific explanatory power"]},"K_predictive":"predictive improvement","G_L":"viable-computation growth","R_a":"adaptability","I_c":"invariant preservation","D":"complexity penalty written K(M_Q)"}},
+    {"id":"R07:P:PHASE:HISTORICAL_FRAME","role":"APPLICATION_OR_ANALOGUE","path":"phase-transitions.md","section":"Motivation","content":{"source_examples":["positional notation","Cartesian coordinates","calculus","automatic differentiation","compilers","deep neural network architectures"],"standing":"examples used to motivate the proposed computational-phase-transition framing; not AMP experimental results"}}
+  ],
+  "preserved_unresolved_unit":"R07:P:EX:DL_TERMINAL_FRAGMENT",
+  "global_parser_role_changes":"NONE",
+  "top_level_compression_coordinate_changes":"NONE",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "cerebro_step_2_reopened":false
+}
