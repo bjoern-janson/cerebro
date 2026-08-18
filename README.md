@@ -1,2 +1,1 @@
-# cerebro
-A provenance-preserving research memory for reconstructing and evolving complex research programs.
+Cerebro is a provenance-preserving computational memory of a research program: it reconstructs what was observed, what was concluded, why standing changed, and what remained unresolved as the program evolved.
