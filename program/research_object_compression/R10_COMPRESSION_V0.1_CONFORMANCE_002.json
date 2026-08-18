@@ -1,0 +1,15 @@
+{
+  "object":"CEREBRO_R10_COMPRESSION_V0.1_CONFORMANCE_002",
+  "record_type":"pre-death-test inherited-contract conformance overlay",
+  "persistent_record_state":"FROZEN",
+  "base_effective_compression":["program/research_object_compression/R10_COMPRESSION_V0.1.json","program/research_object_compression/R10_COMPRESSION_V0.1_CONFORMANCE_001.json"],
+  "trigger":"BASE_CONTRACT_REQUIRES_APPLICATION_EXAMPLE_STANDING_SEPARATION",
+  "added_items":[
+    {"id":"R10:EXAMPLE:GENERAL","coordinate":"APPLICATIONS_OR_EXAMPLES","standing":"APPLICATION_OR_EXAMPLE","content":"Standing-pure destination for non-synthetic illustrative applications, hypothetical target systems, example output schemas and benchmark/example tables that are not source interpretations or measured results."}
+  ],
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
