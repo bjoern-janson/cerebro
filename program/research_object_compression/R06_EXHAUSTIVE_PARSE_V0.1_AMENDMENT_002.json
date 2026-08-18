@@ -1,0 +1,25 @@
+{
+  "object": "CEREBRO_R06_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002",
+  "record_type": "local exhaustive-parse coverage repair overlay",
+  "persistent_record_state": "FROZEN",
+  "base_parse": "R06_EXHAUSTIVE_PARSE_V0.1.json",
+  "prior_amendment": "R06_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001.json",
+  "trigger": "R06_EXHAUSTIVE_PARSE_REAUDIT_V0.1.md",
+  "repair_scope": "REPOSITORY_IDENTITY_OMITTED_FROM_PARSE_ONLY",
+  "added_units": [
+    {
+      "id": "R06:P:README:TITLE",
+      "path": "README.md",
+      "blob": "56684cd97824573c6bcaf30d84f98164373bcf28",
+      "source_locator": {"section": "Document title"},
+      "semantic_role": "IDENTITY_TITLE",
+      "payload": "Representation Elasticity"
+    }
+  ],
+  "effective_parse_unit_count": 113,
+  "amendment_semantics": "additive overlay after Amendment 001; all prior effective units remain unchanged",
+  "global_contract_change": "NONE",
+  "map_edge_emission": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
