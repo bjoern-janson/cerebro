@@ -1,0 +1,71 @@
+{
+  "object":"CEREBRO_R16_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type":"local compression secondary-provenance separation repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_compression":"program/research_object_compression/R16_COMPRESSION_V0.1.json",
+  "base_conformance":"program/research_object_compression/R16_COMPRESSION_V0.1_CONFORMANCE_001.json",
+  "death_test":"program/research_object_compression/R16_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "effective_item_repairs":[
+    {
+      "item":"R16:RESULT:ROB10",
+      "standing":"REPORTED_EMPIRICAL_RESULT",
+      "effective_content":"robustness_results_v1.0 reports deterministic seed/null/parameter/environment robustness tables and associated measurements. Cross-artifact conclusions about the paired runner's placeholder status are excluded from this primary result object."
+    },
+    {
+      "item":"R16:RESULT:FDB10",
+      "standing":"REPORTED_EMPIRICAL_RESULT",
+      "effective_content":"feedback_results_v1.0 reports aggregate main-system and null-control tables for D, Q_Omega, Omega and reward. The source's seed-independence qualifier remains owned by source-status standing rather than this primary result object."
+    },
+    {
+      "item":"R16:IMPL:ROB10_PLACEHOLDER",
+      "standing":"EXECUTABLE_IMPLEMENTATION",
+      "effective_content":"Executable robustness v1.0 placeholder dynamics implement simplified D/Q_Omega/Omega/reward calculations, null switches and parameter/environment sweep loops. The source-status statement that this runner is temporary relative to the intended baseline remains separately owned."
+    }
+  ],
+  "typed_secondary_aliases":[
+    {
+      "id":"R16:ALIAS:ROB10_PLACEHOLDER_STATUS_TO_IMPLEMENTATION",
+      "primary_compression_item":"R16:STATUS:SOURCE_STANDINGS",
+      "secondary_target":"R16:IMPL:ROB10_PLACEHOLDER",
+      "secondary_role":"IMPLEMENTATION_CONTEXT__SOURCE_LABELS_RUNNER_TEMPORARY_PLACEHOLDER",
+      "authority_effect":"NONE",
+      "warrant_multiplicity_effect":"NONE"
+    },
+    {
+      "id":"R16:ALIAS:ROB10_AUDIT_CEILING_TO_RESULT",
+      "primary_audit_view":"R16:AUDIT:ROB10_BASELINE_AUTHORITY_CEILING",
+      "secondary_target":"R16:RESULT:ROB10",
+      "secondary_role":"PROVENANCE_CEILING__PLACEHOLDER_RESULT_DOES_NOT_ESTABLISH_V091_ROBUSTNESS",
+      "authority_effect":"NONE",
+      "warrant_multiplicity_effect":"NONE"
+    },
+    {
+      "id":"R16:ALIAS:FDB10_SEED_STATUS_TO_RESULT",
+      "primary_compression_item":"R16:STATUS:SOURCE_STANDINGS",
+      "secondary_target":"R16:RESULT:FDB10",
+      "secondary_role":"SOURCE_REPORTED_SEED_QUALIFIER__100_INDEPENDENT_SEEDS",
+      "authority_effect":"NONE",
+      "warrant_multiplicity_effect":"NONE",
+      "warrant_independence_status":"NOT_ESTABLISHED"
+    },
+    {
+      "id":"R16:ALIAS:SEED_WARRANT_CEILING_TO_MULTI_SEED_RESULTS",
+      "primary_audit_view":"R16:AUDIT:SEED_WARRANT_CEILING",
+      "secondary_targets":["R16:RESULT:ROB10","R16:RESULT:EXP10","R16:RESULT:FDB10"],
+      "secondary_role":"WARRANT_INDEPENDENCE_CEILING",
+      "authority_effect":"NONE",
+      "warrant_multiplicity_effect":"NONE",
+      "warrant_independence_status":"NOT_ESTABLISHED"
+    }
+  ],
+  "primary_projection_changes":0,
+  "effective_primary_projection_entries":419,
+  "unmapped_parse_units":0,
+  "duplicate_primary_owners":0,
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false
+}
