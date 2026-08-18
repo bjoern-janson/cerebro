@@ -1,0 +1,21 @@
+{
+  "object":"CEREBRO_R08_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "record_type":"exhaustive parse-to-compression projection ledger manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R08",
+  "effective_parse_units":396,
+  "parsed_units":395,
+  "unresolved_units":1,
+  "parts":[
+    {"path":"R08_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_A.json","mappings":184,"primary":184,"unresolved":0},
+    {"path":"R08_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_B.json","mappings":96,"primary":95,"unresolved":1},
+    {"path":"R08_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_C.json","mappings":47,"primary":47,"unresolved":0},
+    {"path":"R08_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_D.json","mappings":69,"primary":69,"unresolved":0}
+  ],
+  "accounting":{"mapping_entries":396,"primary_projection_entries":395,"unresolved_dispositions":1,"unmapped_parse_units":0,"duplicate_primary_owners":0},
+  "unresolved_disposition":{"parse_unit":"R08:P:EXP:TEMPLATE_TERMINAL","destination":"R08:LIMIT:EXPERIMENT_TEMPLATE_FRAGMENT","disposition":"UNRESOLVED_AT_COMPRESSION_DUE_TO_SOURCE_BLOB_TERMINATION","authority_effect":"NONE","warrant_effect":"NONE"},
+  "branch_role_policy":"EVERY_MAPPING_RECORDS_EFFECTIVE_PARSE_ROLE",
+  "amendment_004_policy":"MULTI_SOURCE_ITEM_OCCURRENCE_COUNT_IS_RECONSTRUCTIBLE_FROM_LEDGER; WARRANT_INDEPENDENCE_STATUS_DEFAULTS_TO_NOT_ESTABLISHED; WARRANT_MULTIPLICITY_EFFECT_DEFAULTS_TO_NONE ABSENT SEPARATE INDEPENDENCE PROVENANCE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE"
+}
