@@ -1,0 +1,53 @@
+{
+  "object":"CEREBRO_R13_COMPRESSION_V0.1",
+  "record_type":"research-object compression candidate",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R13",
+  "repository":"bjoern-janson/rpb_v0_1",
+  "frozen_head_commit":"88e5f045bcd50da608867623bc9be1adf284c997",
+  "effective_parse":"R13_EXHAUSTIVE_PARSE_V0.1 + Amendments 001-003",
+  "effective_primary_parse_units":34,
+  "derived_audit_views":4,
+  "compression_contract":"EFFECTIVE_RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "compressed_items":[
+    {"id":"R13:IDENTITY:BENCHMARK","coordinate":"IDENTITY","standing":"IDENTITY_TITLE","content":"RPB v0.1 Benchmark / RPB v0.1 Results Summary source identity family; distinct file titles remain source-reconstructible."},
+    {"id":"R13:SCOPE:TEST","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Benchmark test concerns adaptation allocation under environmental disruption."},
+    {"id":"R13:STATUS:SEED42_SCOPE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":"README and RESULTS_SUMMARY explicitly identify Seed 42; this standing does not extend either narrative artifact to nominal raw seeds 43-50."},
+    {"id":"R13:DEF:BENCHMARK","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"metrics":{"rho_M":"world update fraction","rho_V":"self-update fraction","K_E":"error elasticity","H_F":"falsifiability horizon","C_rev":"capability retention"},"agents":{"A":"world adaptation only","B":"self-update allowed","C":"world adaptation control","D":"self-update replication control","E":"mixed control"}}},
+    {"id":"R13:RESULT:SEED42_REPORTED","coordinate":"REPORTED_RESULTS","standing":"REPORTED_EMPIRICAL_RESULT","content":{"README_observed":"A/C/E primarily update world parameters; B/D allocate updates to self-modification","summary_main_observation":"B and D repeatedly selected V updates","summary_signature":{"rho_M":"->0","rho_V":"->1","K_E":"->0","H_F":"->0"}},"source_scope":"Seed 42","warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"id":"R13:INTERP:SEED42","coordinate":"REPORTED_RESULTS","standing":"SOURCE_INTERPRETATION_OF_RESULT","content":{"README_result":"benchmark distinguishes world-model adaptation from evaluator/self-update adaptation","summary_interpretation":"short-term capability preserved while adaptation shifts toward evaluator/self-state change","summary_control_claim":"controls did not reproduce same pattern"},"source_scope":"Seed 42","authority_effect":"NONE"},
+
+    {"id":"R13:IMPL:ARTIFACT_STATE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"ARTIFACT_CONTENT_STATE","content":{"runner_blob":"ordinary Python source","serialized_seed_provenance":"seed/run-id absent inside raw JSON payload schema; runner encodes seed in output filename"}},
+    {"id":"R13:IMPL:RUNNER","coordinate":"FORMAL_STRUCTURES","standing":"EXECUTABLE_IMPLEMENTATION","content":{"environment":"rule shifts at t=50 and t=150","agent":"M/P/V states and mode-specific V permission","prediction_action":"M/P threshold rules","candidate_updates":"M/P/V candidate costs and effective errors","mode_selection":"E random choice; A/C non-V min; B/D total-loss min","metrics":"K_E/I_iso/H_F plus rho_M/rho_V/C_rev","trace_schema":"per-timestep state/update/outcome fields"}},
+    {"id":"R13:IMPL:ASSUMPTIONS","coordinate":"FORMAL_STRUCTURES","standing":"IMPLEMENTATION_ASSUMPTION","content":{"randomness":"random.seed(seed); explicit random.choice occurs in mode E","run_shape":"five modes A-E, fresh state per mode, default total_steps=200"}},
+    {"id":"R13:IMPL:OUTPUT","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Runner writes indent-2 JSON to results/raw_seed_<seed>.json and prints an execution/save message; output behavior alone does not establish any particular stored invocation."},
+
+    {"id":"R13:EXEC:RAW:F693","coordinate":"REPORTED_RESULTS","standing":"EXECUTION_RECORD_ARTIFACT","content":{"blob":"f693aa8bbac981dab56552a5b452411698bb9eee","path_occurrences":["results/raw_seed_42.json","results/raw_seed_42_backup.json"],"structure":"mode-keyed per-timestep trace compatible with frozen runner schema","payload_internal_seed":"ABSENT","mode_E_sample_t67":{"outcome":"failure","M":0.5,"P":1.0,"V":0.2,"H_F":0.0,"C_rev":0.7313}},"scientific_authority_effect":"NONE"},
+    {"id":"R13:EXEC:RAW:CC1D","coordinate":"REPORTED_RESULTS","standing":"EXECUTION_RECORD_ARTIFACT","content":{"blob":"cc1da4e79a4328406966ab2a719e9de0aace4c19","path_occurrences":["results/raw_seed_43.json","results/raw_seed_46.json","results/raw_seed_49.json"],"structure":"mode-keyed per-timestep trace compatible with frozen runner schema","payload_internal_seed":"ABSENT","mode_E_sample_t67":{"outcome":"failure","M":0.5,"P":1.0,"V":1.0,"H_F":0.3333,"C_rev":0.7313}},"scientific_authority_effect":"NONE"},
+    {"id":"R13:EXEC:RAW:3093","coordinate":"REPORTED_RESULTS","standing":"EXECUTION_RECORD_ARTIFACT","content":{"blob":"30932c9c646f8a390441e917fb928e4ec929a608","path_occurrences":["results/raw_seed_44.json","results/raw_seed_45.json","results/raw_seed_47.json","results/raw_seed_50.json"],"structure":"mode-keyed per-timestep trace compatible with frozen runner schema","payload_internal_seed":"ABSENT","mode_E_sample_t67":{"outcome":"success","M":1.0,"P":0.5,"V":1.0,"H_F":0.6667,"C_rev":0.9851}},"scientific_authority_effect":"NONE"},
+    {"id":"R13:EXEC:RAW:CCC9","coordinate":"REPORTED_RESULTS","standing":"EXECUTION_RECORD_ARTIFACT","content":{"blob":"ccc922d5d71b2f22a16f47a3a7c78b57e93e0e3f","path_occurrences":["results/raw_seed_48.json"],"structure":"mode-keyed per-timestep trace compatible with frozen runner schema","payload_internal_seed":"ABSENT","mode_E_sample_t67":{"outcome":"success","M":1.0,"P":0.5,"V":0.2,"H_F":0.0,"C_rev":0.9701}},"scientific_authority_effect":"NONE"},
+    {"id":"R13:STATUS:RAW_PATH_OCCURRENCES","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":{"seed42":"f693 blob","seed42_backup":"f693 blob","seed43_seed46_seed49":"cc1d blob","seed44_seed45_seed47_seed50":"3093 blob","seed48":"ccc9 blob"},"invariant":"PATH_OCCURRENCE != UNIQUE_CONTENT_BLOB != INDEPENDENT_EXECUTION"}
+  ],
+  "secondary_audit_views":[
+    {"id":"R13:AUDIT:RAW_MULTIPLICITY","primary_references":["R13:STATUS:RAW_PATH_OCCURRENCES","R13:EXEC:RAW:F693","R13:EXEC:RAW:CC1D","R13:EXEC:RAW:3093","R13:EXEC:RAW:CCC9"],"content":"10 nominal raw-result paths; 4 unique raw-result blobs.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R13:AUDIT:DISTINCT_E_TRACE","primary_references":["R13:EXEC:RAW:F693","R13:EXEC:RAW:CC1D","R13:EXEC:RAW:3093","R13:EXEC:RAW:CCC9"],"content":"Four unique blobs differ on sampled mode-E t=67 state/outcome values.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R13:AUDIT:DETERMINISTIC_MODE_STRUCTURE","primary_references":["R13:IMPL:RUNNER","R13:IMPL:ASSUMPTIONS"],"content":"Explicit stochastic selection is localized to mode E in the frozen runner; A-D use deterministic selection logic relative to state/costs.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R13:AUDIT:EXECUTION_PROVENANCE_CEILING","primary_references":["R13:IMPL:ARTIFACT_STATE","R13:STATUS:RAW_PATH_OCCURRENCES","R13:EXEC:RAW:F693","R13:EXEC:RAW:CC1D","R13:EXEC:RAW:3093","R13:EXEC:RAW:CCC9"],"content":{"independent_execution_count":"NOT_ESTABLISHED","independent_warrant_count":"NOT_ESTABLISHED"},"authority_effect":"NONE","warrant_multiplicity_effect":"NONE"}
+  ],
+  "non_inferences":[
+    "EXECUTION_RECORD_ARTIFACT != REPORTED_EMPIRICAL_RESULT",
+    "REPORTED_EMPIRICAL_RESULT != SOURCE_INTERPRETATION_OF_RESULT",
+    "RAW_PATH != INDEPENDENT_EXECUTION",
+    "DISTINCT_BLOB != INDEPENDENT_WARRANT",
+    "BYTE_IDENTICAL_PATHS != REPLICATION",
+    "SEED42_SUMMARY != MULTI_SEED_AGGREGATE",
+    "RUNNER_OUTPUT_CAPABILITY != STORED_RUN_PROVENANCE",
+    "PERSISTED_EXECUTION_RECORD != SCIENTIFIC_VALIDATION",
+    "DERIVED_AUDIT_VIEW != SOURCE_EVIDENCE"
+  ],
+  "compression_standing":"CANDIDATE_PENDING_EXPLICIT_PROJECTION_LEDGER_AND_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "amendment_005":"NOT_EARNED"
+}
