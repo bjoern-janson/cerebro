@@ -1,0 +1,36 @@
+{
+  "object": "CEREBRO_R07_SOURCE_SURFACE_V0.1",
+  "record_type": "frozen full recursive repository source surface",
+  "persistent_record_state": "FROZEN",
+  "repository_id": "R07",
+  "repository": "bjoern-janson/adaptive-metric-compiler",
+  "frozen_head_commit": "47e6423d0da177730d1553d48df74510501778ab",
+  "frozen_head_tree": "ec6bc86017f5ecf0569c493d35bf78880a6ee83f",
+  "tree_truncated": false,
+  "inventory": {
+    "total_blobs": 11,
+    "research_bearing_blobs": 10,
+    "excluded_non_research_blobs": 1,
+    "markdown_blobs": 10
+  },
+  "paths": [
+    {"path":"LICENSE","blob":"0a68efa7511e20f30263bf67588ccf4cbc403dca","disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"legal metadata"},
+    {"path":"README.md","blob":"78dd6d5ac7464cd4162556a0388076857c2f79c1","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"causal-mass.md","blob":"6b2827c5509a6f59ba53bde53845a1dbeffb685c","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"definitions.md","blob":"2bde83de5e1e8543e2c110a80cc63c8666fda78f","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"discovery-operator.md","blob":"dc08bf71a8fb6987e431524f4ef57f456b198531","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"examples.md","blob":"6fdf27c116d5b4f12573ed8b659f920ee4ba2eca","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN","source_integrity_note":"FROZEN_BLOB_ENDS_MID_FENCED_TEXT_BLOCK_AFTER_HUMAN_DESIGNED_FEATURES"},
+    {"path":"formalism.md","blob":"d7c8a419f46adcbe8226bb0995c173c11ae1ab3a","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"kernel.md","blob":"c77791d5419b10586304e2f285f6ed15308970ae","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"mapping-quality.md","blob":"eb979b27c00aac1bda7c8cd4f11c8635f6aed2ca","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"phase-transitions.md","blob":"d62ceaf0bbff75abfedbdbccc940408edc07f3c0","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"salience.md","blob":"79f6dc78e1881d1d8bfab401ce47dd439cb1c4cc","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"}
+  ],
+  "coverage_claim": "EXHAUSTIVE_RELATIVE_TO_FROZEN_RECURSIVE_HEAD_INVENTORY",
+  "source_surface_complete": true,
+  "source_content_completeness_claim": "NONE",
+  "map_edge_emission": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
