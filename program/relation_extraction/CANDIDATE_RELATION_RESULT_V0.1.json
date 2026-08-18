@@ -1,0 +1,50 @@
+{
+  "object": "CEREBRO_SOURCE_BOUNDED_RELATION_CANDIDATE_RESULT_V0.1",
+  "persistent_record_state": "FROZEN",
+  "parent_contract": {
+    "path": "program/relation_extraction/SOURCE_BOUNDED_RELATION_EXTRACTION_V0.1.md",
+    "commit": "71c491062765d3f275a7ca8c7b4a5404a603cbe4"
+  },
+  "source_surface": {
+    "path": "program/relation_extraction/BOUNDED_SOURCE_SURFACE_V0.1.json",
+    "commit": "334e0d42b2b64ae8fd0b3563ac7b2115349cfe00"
+  },
+  "candidate_id": "CANDREL:SSI_FR001_USES_CEREBRO_STEP2_DISCIPLINE_AS_METHODOLOGICAL_PRECEDENT",
+  "asserting_source_object": "SSI_FRONTIER_FR001_AUTHORITY_INVARIANCE_V0.1",
+  "relation_disposition": "EXPLICIT_RELATION",
+  "relation_type_literal": "METHODOLOGICAL_PRECEDENT",
+  "source_relation_phrase": "is used only as methodological precedent",
+  "source_referenced_endpoint_phrase": "Cerebro's Step 2 discipline",
+  "supporting_source": {
+    "repository": "bjoern-janson/ssi",
+    "path": "research/frontier/authority_invariance_v0_1/SPEC.md",
+    "commit": "e32979fc7c66ea01903c4e2beeea9f37dddf13f7",
+    "blob": "2d3d9f63e170657889dabaa60790fc977281a8ff",
+    "line_range": "17-21"
+  },
+  "preserved_methodological_content": "freeze the test surface before execution and do not manufacture the criterion that makes a desired mechanism necessary",
+  "negative_qualifiers": [
+    "Cerebro is not a dependency of this benchmark",
+    "Cerebro supplies no authority to this benchmark"
+  ],
+  "graph_endpoint_candidate": {
+    "from_reference_phrase": "Cerebro's Step 2 discipline",
+    "to_object": "SSI_FRONTIER_FR001_AUTHORITY_INVARIANCE_V0.1",
+    "from_exact_object": null
+  },
+  "endpoint_resolution_status": "UNRESOLVED_REFERENCE",
+  "endpoint_resolution_reason": "The bounded source explicitly names Cerebro's Step 2 discipline but does not identify one exact Cerebro artifact, commit, or file. Resolving the phrase to the existing PROGRAM MAP endpoint would use the map to complete the candidate and is forbidden by the V0.1 extraction contract.",
+  "endpoint_resolution_provenance": [],
+  "map_edge_provenance_used": false,
+  "existing_map_relation_consulted_as_warrant": false,
+  "relation_recurrence_used_as_warrant": false,
+  "transitive_edges_emitted": [],
+  "scientific_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "map_admission_status": "NOT_ADMITTED_AS_RESOLVED_BINARY_EDGE",
+  "result_scope": "ONE_BOUNDED_SOURCE_EXPLICIT_RELATION_ASSERTION_WITH_UNRESOLVED_ENDPOINT",
+  "operator_blindness": "NOT_ESTABLISHED",
+  "derivation_independence_from_existing_map_edge": "CANDIDATE_SUPPORTED_BY_FROZEN_SOURCE_SPAN_ONLY",
+  "r01_r42_semantic_ingestion_opened": false,
+  "step_2_reopened": false
+}
