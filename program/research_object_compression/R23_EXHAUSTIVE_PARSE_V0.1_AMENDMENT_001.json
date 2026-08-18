@@ -1,0 +1,33 @@
+{
+  "object": "CEREBRO_R23_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "repository_id": "R23",
+  "base_parse": "R23_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger": "R23_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "persistent_record_state": "FROZEN",
+  "repair_scope": "PRIMARY_SOURCE_LOCALITY_ONLY",
+  "demoted_primary_units": [
+    {
+      "unit_id": "R23U0035",
+      "new_location": "SECONDARY_BOUNDED_ABSENCE_AUDIT",
+      "content": "No test file or test framework surface exists among the eight frozen blobs; this does not establish that the script was never run manually.",
+      "authority": "NONE"
+    },
+    {
+      "unit_id": "R23U0036",
+      "new_location": "SECONDARY_ENDPOINT_AUDIT",
+      "content": "CTRE's name overlaps earlier causal-transition/representation-evolution vocabulary, but the frozen repository does not explicitly resolve CTRE to R22, R24, or another corpus repository identity.",
+      "authority": "NONE"
+    }
+  ],
+  "effective_primary_parse": {
+    "represented": 73,
+    "unresolved": 37,
+    "total": 110,
+    "excluded_candidate_unit_ids": ["R23U0035","R23U0036"]
+  },
+  "source_content_loss": 0,
+  "new_epistemic_distinction_required": false,
+  "base_parse_contract_amendment": "NOT_EARNED",
+  "map_edge_emission": "NONE",
+  "authority_effect": "NONE"
+}
