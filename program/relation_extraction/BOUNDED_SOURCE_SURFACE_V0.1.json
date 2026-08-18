@@ -1,0 +1,51 @@
+{
+  "object": "CEREBRO_RELATION_EXTRACTION_BOUNDED_SOURCE_SURFACE_V0.1",
+  "persistent_record_state": "FROZEN",
+  "parent_contract": {
+    "path": "program/relation_extraction/SOURCE_BOUNDED_RELATION_EXTRACTION_V0.1.md",
+    "commit": "71c491062765d3f275a7ca8c7b4a5404a603cbe4"
+  },
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "step_2_reopened": false,
+  "r01_r42_semantic_ingestion_opened": false,
+  "source_surface": {
+    "repository": "bjoern-janson/ssi",
+    "path": "research/frontier/authority_invariance_v0_1/SPEC.md",
+    "commit": "e32979fc7c66ea01903c4e2beeea9f37dddf13f7",
+    "blob": "2d3d9f63e170657889dabaa60790fc977281a8ff",
+    "line_range": "17-21",
+    "bounded_text": "It does not implement an evaluator, execute a model, add an SSI-CALC rule, establish authority invariance, or modify Cerebro.\n\nCerebro's Step 2 discipline is used only as methodological precedent: freeze the test surface before execution and do not manufacture the criterion that makes a desired mechanism necessary. Cerebro is not a dependency of this benchmark and supplies no authority to it.\n\n---"
+  },
+  "extraction_target": {
+    "maximum_candidates": 1,
+    "allowed_disposition": "EXPLICIT_RELATION_OR_UNRESOLVED_REFERENCE",
+    "derived_relation_extraction": "FORBIDDEN",
+    "existing_program_map_access_as_evidence": "FORBIDDEN",
+    "transitive_graph_completion": "FORBIDDEN"
+  },
+  "source_assertion_components": {
+    "asserting_object": "SSI_FRONTIER_FR001_AUTHORITY_INVARIANCE_V0.1",
+    "referenced_endpoint_phrase": "Cerebro's Step 2 discipline",
+    "relation_phrase": "is used only as methodological precedent",
+    "methodological_content": "freeze the test surface before execution and do not manufacture the criterion that makes a desired mechanism necessary",
+    "negative_qualifiers": [
+      "Cerebro is not a dependency of this benchmark",
+      "Cerebro supplies no authority to this benchmark"
+    ]
+  },
+  "endpoint_resolution_input": {
+    "source_phrase": "Cerebro's Step 2 discipline",
+    "exact_file_identifier_present_in_source": false,
+    "exact_commit_identifier_present_in_source": false,
+    "exact_artifact_title_present_in_source": false,
+    "resolution_from_source_surface_alone": "NOT_POSSIBLE"
+  },
+  "frozen_non_inferences": [
+    "DO_NOT_RESOLVE_STEP2_PHRASE_FROM_EXISTING_PROGRAM_MAP_EDGE",
+    "DO_NOT_TREAT_CEREBRO_AS_DEPENDENCY",
+    "DO_NOT_TREAT_METHODOLOGICAL_PRECEDENT_AS_SCIENTIFIC_SUPPORT",
+    "DO_NOT_INFER_ANY_SECOND_EDGE",
+    "DO_NOT_USE_PRIOR_RELATION_RECURRENCE_AS_WARRANT"
+  ]
+}
