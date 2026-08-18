@@ -1,0 +1,54 @@
+{
+  "object":"CEREBRO_R17_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type":"local compression-content repair overlay",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R17",
+  "base_compression":"program/research_object_compression/R17_COMPRESSION_V0.1.json",
+  "trigger":"program/research_object_compression/R17_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "repair_scope":"PRIMARY_ITEM_STANDING_PURITY_AND_LOSS_BOUNDS_ONLY",
+  "primary_projection_remaps":0,
+  "new_compressed_items":0,
+  "deleted_compressed_items":0,
+  "replacements":[
+    {
+      "id":"R17:ASSERT:META_CAUSAL_ACCESS",
+      "coordinate":"ASSERTIONS_OR_HYPOTHESES",
+      "standing":"SOURCE_ASSERTION_CONCEPTUAL",
+      "replacement_content":"Reality may influence self-change rules; open-endedness is not mere ability to change. Closed recursion permits self-modification while reality cannot modify the source of modification, yielding a trajectory that moves through a space. Open recursion lets reality participate in changing future transformation rules, yielding lineage that changes the space through which the system can evolve."
+    },
+    {
+      "id":"R17:ASSERT:RAD_CORE",
+      "coordinate":"ASSERTIONS_OR_HYPOTHESES",
+      "standing":"SOURCE_ASSERTION_CONCEPTUAL",
+      "replacement_content":"A system is not open merely because it changes; openness requires reality to change how it changes. The deepest source-described transition is change of the transformation-selection mechanism, and the causal target is not merely whether the system adapts."
+    },
+    {
+      "id":"R17:DEF:RAD_GENERATOR_IMPROVEMENT",
+      "coordinate":"DEFINITIONS",
+      "standing":"DEFINITION",
+      "replacement_content":"Normal improvement is capability C increasing. Evolutionary improvement is G_m increasing. Higher-order improvement means improving the machinery that improves mechanisms. Omega is the rate at which a system improves its ability to generate future improvements; it is not capability, growth rate, resources, or current performance, and is described as the internally generated component of reachable-space expansion."
+    },
+    {
+      "id":"R17:FORMAL:RAD_GENERATOR_IMPROVEMENT",
+      "coordinate":"FORMAL_STRUCTURES",
+      "standing":"FORMAL_STRUCTURE",
+      "replacement_content":"Higher-order formal transition: G_m -> Gbar_m."
+    }
+  ],
+  "preserved_invariants":[
+    "R17_EFFECTIVE_PRIMARY_PARSE_UNITS = 231",
+    "R17_PRIMARY_PROJECTION_ENTRIES = 231",
+    "R17_UNMAPPED_PARSE_UNITS = 0",
+    "R17_DUPLICATE_PRIMARY_OWNERS = 0",
+    "R17_PRIMARY_COMPRESSED_ITEMS = 88",
+    "R17_UNRESOLVED_SOURCE_UNITS = 21"
+  ],
+  "new_epistemic_distinction_required":false,
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "compression_contract_amendment":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "r18_parse_access_opened":false
+}
