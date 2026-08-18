@@ -1,0 +1,19 @@
+{
+  "object": "CEREBRO_R05_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_AMENDMENT_001",
+  "record_type": "frozen projection-ledger revalidation overlay",
+  "persistent_record_state": "FROZEN",
+  "base_ledger": "program/research_object_compression/R05_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "effective_compression_repair": "program/research_object_compression/R05_COMPRESSION_V0.1_AMENDMENT_001.json",
+  "primary_projection_destination_changes": [],
+  "role_preservation_revalidations": [
+    {"destination":"R05:FORMAL:ETA","source_units":["R05:P:README:EFFICIENCY","R05:P:MATH:ETA"],"distinct_source_roles_preserved":true},
+    {"destination":"R05:FORMAL:KSTAR","source_units":["R05:P:README:KSTAR","R05:P:MATH:KSTAR"],"distinct_source_roles_preserved":true}
+  ],
+  "effective_parse_unit_count": 67,
+  "effective_primary_projection_count": 67,
+  "unmapped_parse_units": [],
+  "duplicate_primary_owners": [],
+  "projection_complete": true,
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
