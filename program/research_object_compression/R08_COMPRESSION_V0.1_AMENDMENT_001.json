@@ -1,0 +1,37 @@
+{
+  "object":"CEREBRO_R08_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type":"frozen R08 compression repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_compression":"program/research_object_compression/R08_COMPRESSION_V0.1.json",
+  "trigger":"program/research_object_compression/R08_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "repair_scope":"STANDING_PRESERVATION_AND_DESTINATION_ADEQUACY_ONLY",
+  "added_items":[
+    {"item_id":"R08:INTERP:CROSS_DOMAIN_EXAMPLES","item_kind":"SOURCE_INTERPRETATION","content":"Source uses scientific method, programming languages, compilers, automatic differentiation, printing press, automated research systems and depth examples as illustrative/cross-domain interpretations. These examples are preserved without becoming independent validation or map edges."},
+
+    {"item_id":"R08:HYP:HISTORICAL_AD","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Historical AD hypothesis predicts generator modification precedes acceleration and later capability expansion; t_Gm<t_Omega<t_C remains a source hypothesis, not a historical result."},
+    {"item_id":"R08:HYP:HISTORICAL_COMPILER","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Compiler case predicts reusable transformation/generator mechanisms precede faster capability growth and that generator-mechanism improvements precede major capability jumps."},
+    {"item_id":"R08:HYP:HISTORICAL_ML","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"ML case proposes possible D3 transition when systems improve machinery producing learning systems; generator changes should precede future capability acceleration."},
+    {"item_id":"R08:HYP:HISTORICAL_SCIENCE","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Scientific-method case predicts formalized discovery machinery precedes increasing evolutionary velocity and later capability growth."},
+    {"item_id":"R08:METHOD:HISTORICAL_CASE_TESTS","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Historical-case source units propose case-specific proxy families and measurement procedures for AD, ML and scientific-method hypotheses; these remain test methods rather than historical evidence."},
+
+    {"item_id":"R08:CODE:MODULE_PURPOSES","item_kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Executable source surfaces state purposes including structural representation, causal attribution, generator proxy estimation, Omega measurement, reachable-space approximation and synthetic phase-boundary exploration."},
+    {"item_id":"R08:CODE:IMPLEMENTATION_ASSUMPTIONS","item_kind":"IMPLEMENTATION_ASSUMPTION","content":"Source-local assumptions include thresholds, equal proxy weights, synthetic parameter values, heuristic control tolerances, finite-set distances and file-specific Omega proxies. They remain implementation choices, not validated scientific criteria."},
+    {"item_id":"R08:CODE:IMPLEMENTED_OUTPUT_BEHAVIORS","item_kind":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct-run/programmed behaviors can print structural summaries, proxy estimates, phase-boundary detections and phrases such as 'Framework supported' or 'Evidence consistent with'. These are potential runtime strings/branches only."},
+    {"item_id":"R08:HYP:SIMULATION_HYPOTHESES","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Simulation comments/source assertions encode synthetic hypotheses about generator improvement, adoption, reachable-frontier expansion, temporal ordering and resource controls. No execution result is inferred."}
+  ],
+  "item_replacements":[
+    {"item_id":"R08:CODE:SIMULATION_SUITE","replacement_content":"Executable simulation dynamics only: synthetic baseline/resource/generator/adoption/frontier systems and their update rules. Purposes, assumptions, hypotheses and programmed output interpretations are represented in separate standing-pure items."},
+    {"item_id":"R08:CODE:CAUSAL_ANALYSIS","replacement_content":"Executable causal-analysis data structures and estimator/evaluation operations only. Heuristic thresholds and direct-run output labels are represented separately."},
+    {"item_id":"R08:CODE:GENERATOR_METRICS","replacement_content":"Executable GeneratorMetrics/Transition/State/Event structures and proxy-estimator functions only. Weight/threshold assumptions and direct-run synthetic inputs/output behavior are represented separately."},
+    {"item_id":"R08:CODE:OMEGA","replacement_content":"Executable Omega measurement/tracker/residual/comparison operations only. Threshold assumptions and direct-run synthetic output behavior are represented separately."},
+    {"item_id":"R08:CODE:REACHABILITY","replacement_content":"Executable reachability data structures, finite-set operations, search/generator operations and growth calculations only. Distance choice and direct-run output behavior are represented separately."},
+    {"item_id":"R08:CODE:STATE_SPACE","replacement_content":"Executable state-space enums/dataclasses and structural methods only. NotImplemented domain-transition boundary and direct-run output behavior are represented separately."},
+    {"item_id":"R08:ASSERT:ASSUMPTIONS","replacement_content":"The twenty source-labelled assumptions A1-A20 plus the source-labelled strongest empirical hinge are preserved as assumptions only; document purpose is represented under program scope."}
+  ],
+  "unchanged_boundaries":["NO_REPORTED_EMPIRICAL_RESULTS","NO_REPORTED_NEGATIVE_RESULTS","NO_FORMAL_TENSION_RECONCILIATION","NO_MAP_EDGE","NO_PROPAGATION","AMENDMENT_004_WARRANT_MULTIPLICITY_NONE_BY_DEFAULT"],
+  "new_top_level_coordinate":"NONE",
+  "new_parser_role":"NONE",
+  "global_contract_change":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE"
+}
