@@ -1,0 +1,30 @@
+{
+  "object":"CEREBRO_R15_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "record_type":"explicit parse-to-compression projection ledger manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R15",
+  "effective_parse_units":189,
+  "primary_projection_parts":[
+    {"path":"program/research_object_compression/R15_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_A.json","mappings":71},
+    {"path":"program/research_object_compression/R15_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_B.json","mappings":50},
+    {"path":"program/research_object_compression/R15_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_C.json","mappings":68}
+  ],
+  "primary_projection_entries":189,
+  "unmapped_parse_units":0,
+  "duplicate_primary_owners":0,
+  "projection_completeness":"COMPLETE_BY_EXPLICIT_PARSE_UNIT_ID",
+  "effective_compression":[
+    "program/research_object_compression/R15_COMPRESSION_V0.1.json",
+    "program/research_object_compression/R15_COMPRESSION_V0.1_CONFORMANCE_001.json",
+    "program/research_object_compression/R15_COMPRESSION_V0.1_CONFORMANCE_002.json"
+  ],
+  "secondary_view_count":8,
+  "derived_bounded_absence_count":4,
+  "symbol_namespace_policy":"LOCAL_SOURCE_CONTEXT_REQUIRED; TOKEN IDENTITY ALONE NEVER SELECTS A COMPRESSED DEFINITION.",
+  "occurrence_accounting_policy":"Repeated semantic content remains source-reconstructible; recurrence does not establish independent warrant.",
+  "reference_policy":"Source reference assertions remain unresolved endpoint candidates and emit no Program Map edge.",
+  "standing_preservation":"NOT_YET_ESTABLISHED_PENDING_COMPRESSION_TRANSPORT_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false
+}
