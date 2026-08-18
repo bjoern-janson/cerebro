@@ -1,0 +1,16 @@
+{
+  "object":"CEREBRO_R15_COMPRESSION_V0.1_CONFORMANCE_002",
+  "record_type":"pre-projection inherited-contract conformance overlay",
+  "persistent_record_state":"FROZEN",
+  "base_effective_compression":["R15_COMPRESSION_V0.1.json","R15_COMPRESSION_V0.1_CONFORMANCE_001.json"],
+  "trigger":"PAGE2_ROLE_PURE_PROJECTION_REQUIREMENTS",
+  "added_items":[
+    {"id":"R15:FORMAL:P2_POSSIBILITY_EXPANSION","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":"PAGE_2 possibility-space expansion recurrence: Delta Omega > 0. This occurrence remains distinct provenance from PAGE_1/PAGE_5 recurrences."},
+    {"id":"R15:ASSERT:P2_COMPONENT_CONCEPTS","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_CONCEPTUAL","content":"PAGE_2 conceptual component claims include optimization evolving alongside understanding and the distinction between causal-mass magnitude and causal-influence direction/propagation structure."}
+  ],
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
