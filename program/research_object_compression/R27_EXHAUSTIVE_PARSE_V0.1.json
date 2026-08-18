@@ -1,0 +1,16 @@
+{
+  "object":"CEREBRO_R27_EXHAUSTIVE_PARSE_V0.1",
+  "repository_id":"R27",
+  "repository":"bjoern-janson/axiom-forge-mk1",
+  "frozen_head_commit":"5a488d137c947df8eb8f88fba6dd74fc1b25985c",
+  "effective_source_surface":"R27_SOURCE_SURFACE_V0.1.json + R27_SOURCE_SURFACE_V0.1_AMENDMENT_001.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "parts":["R27_EXHAUSTIVE_PARSE_V0.1_PART_A.json","R27_EXHAUSTIVE_PARSE_V0.1_PART_B.json","R27_EXHAUSTIVE_PARSE_V0.1_PART_C.json"],
+  "candidate_counts":{"effective_source_paths":32,"parsed_representations":131,"explicitly_unresolved":25,"effective_candidate_units":156,"parser_failures":0},
+  "candidate_path_coverage":{"unique_unit_paths":32,"source_surface_paths_without_unit":0,"unit_paths_outside_source_surface":0,"part_a_covered_paths_header_missing":["src/__init__.py"]},
+  "standing_boundaries":{"theory_present":true,"benchmark_specification_present":true,"configuration_present":true,"executable_implementation_present":true,"test_source_present":true,"analysis_and_metric_implementation_present":true,"persisted_execution_record_present":false,"source_reported_empirical_results":0,"source_reported_negative_results":0,"github_actions_runs_at_head":0,"combined_status_records_at_head":0},
+  "preserved_pressures":["IMMUTABLE_TREE_VS_PATH_READ_OBSERVABILITY","THEORY_VARIABLE_VS_IMPLEMENTED_PROXY","CONSEQUENCE_INPUT_VS_CONSEQUENCE_USED_IN_MODIFICATION_SELECTION","METRIC_IMPLEMENTATION_VS_VALID_CAUSAL_MEASUREMENT","CORRELATION_VS_CAUSAL_COUPLING","STRUCTURAL_EVENT_LABEL_VS_TRUE_RECURSIVE_DEPTH","RETENTION_VS_BENEFICIAL_CONSOLIDATION","VIABILITY_HEURISTIC_VS_FUTURE_ADAPTIVE_CAPACITY","COMPOSITE_PRODUCT_VS_VALIDATED_CAUSAL_MODEL","CONFIGURATION_VS_RUN_MANIFEST","RUNNER_SOURCE_VS_RUNNER_EXECUTABILITY","EXPERIMENT_HELPER_VS_PROTOCOL_COMPLETENESS","TEST_SOURCE_VS_TEST_EXECUTION","ANALYSIS_FUNCTION_VS_IMPLEMENTED_STATISTICAL_TEST","REPORT_GENERATOR_VS_REPORT_ARTIFACT","IMPLEMENTATION_DEFECT_VS_EMPIRICAL_NEGATIVE_RESULT","PREDICTION_VS_RESULT","CURRENT_HEAD_VS_DEVELOPMENTAL_HISTORY"],
+  "software_audit_policy":"Cross-file interface mismatches and construct-validity diagnoses are secondary parser audits, not primary source-authored parse propositions. Primary units describe literal file semantics only.",
+  "experimental_policy":"Current head contains executable scaffolding and test source but no persisted benchmark run, CI execution, empirical result, negative result, raw trace, result table or generated report artifact.",
+  "map_edge_emission":"NONE","map_authority":"NONE","scientific_authority":"NONE","propagation_authorized":false
+}
