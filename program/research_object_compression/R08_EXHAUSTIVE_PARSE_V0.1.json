@@ -1,0 +1,42 @@
+{
+  "object":"CEREBRO_R08_EXHAUSTIVE_PARSE_V0.1",
+  "record_type":"exhaustive structured parse manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R08",
+  "repository":"bjoern-janson/adaptive-evolutionary-dynamics",
+  "frozen_head_commit":"14eb5daf01edb086b0fb29f3860bf730d55a850f",
+  "source_surface":"program/research_object_compression/R08_SOURCE_SURFACE_V0.1.json",
+  "parser_contract":"EFFECTIVE_RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "payload_parts":[
+    {"path":"program/research_object_compression/R08_EXHAUSTIVE_PARSE_V0.1_PART_A.json","source_paths":20,"units":181,"parsed_units":181,"unresolved_units":0},
+    {"path":"program/research_object_compression/R08_EXHAUSTIVE_PARSE_V0.1_PART_B.json","source_paths":10,"units":96,"parsed_units":95,"unresolved_units":1},
+    {"path":"program/research_object_compression/R08_EXHAUSTIVE_PARSE_V0.1_PART_C.json","source_paths":5,"units":47,"parsed_units":47,"unresolved_units":0},
+    {"path":"program/research_object_compression/R08_EXHAUSTIVE_PARSE_V0.1_PART_D.json","source_paths":13,"units":69,"parsed_units":69,"unresolved_units":0}
+  ],
+  "source_path_accounting":{"admitted_source_paths":48,"payload_source_paths":48,"unaccounted_source_paths":0},
+  "parse_unit_count":393,
+  "parsed_units":392,
+  "unresolved_units":1,
+  "parser_failures":0,
+  "unresolved_unit_ids":["R08:P:EXP:TEMPLATE_TERMINAL"],
+  "path_occurrence_policy":"EXHAUSTIVE_BY_FROZEN_PATH_OCCURRENCE",
+  "exact_duplicate_content_policy":"PRESERVE_EACH_PATH_OCCURRENCE_BUT_PARSE_IDENTICAL_BLOB_CONTENT_ONCE_WITH_EXACT_CONTENT_OCCURRENCE_LINK",
+  "known_cross_source_tensions":[
+    {"id":"R08:TENSION:OMEGA_FORMULATION","standing":"PRESERVED_UNRESOLVED_CROSS_SOURCE_FORMAL_TENSION","branches":["Omega=Delta_G=(partial log|P_reach|/partial G_m)*dot G_m","Omega=dG_m/dt in state_transition_equations.md","multiple file-local simulation/proxy estimators"],"reconciliation_authority":"NONE"},
+    {"id":"R08:TENSION:HISTORICAL_CASE_STANDING","standing":"PRESERVED_SOURCE_RELATIVE_TENSION","branches":["case-study files use canonical/demonstrates language","theory/phase_transitions.md explicitly says historical examples are hypotheses for testing, not confirmed demonstrations"],"reconciliation_authority":"NONE"}
+  ],
+  "standing_boundaries":[
+    "ASSUMPTION != HYPOTHESIS != DEFINITION != INTERPRETATION",
+    "PROPOSED_PROXY != VALIDATED_MEASURE",
+    "PROPOSED_DATASET != EMPIRICAL_DATA",
+    "SIMULATION_CODE != EXECUTION_RECORD != OBSERVED_RESULT",
+    "PROGRAMMED_SUPPORT_LABEL != SCIENTIFIC_SUPPORT",
+    "SOURCE_INTERNAL_INCOMPLETENESS != PARSER_FAILURE",
+    "PATH_OCCURRENCE != UNIQUE_CONTENT_IDENTITY != WARRANT_INDEPENDENCE"
+  ],
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false
+}
