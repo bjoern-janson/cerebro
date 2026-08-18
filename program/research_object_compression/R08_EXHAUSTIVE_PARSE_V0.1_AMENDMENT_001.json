@@ -1,0 +1,19 @@
+{
+  "object":"CEREBRO_R08_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type":"frozen R08 parse repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_parse":"program/research_object_compression/R08_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger":"program/research_object_compression/R08_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope":"ADMITTED_CFF_FIELD_OMISSION_ONLY",
+  "added_units":[
+    {"id":"R08:P:CITATION:CFF_VERSION","role":"SOURCE_DESCRIBED_STATUS","path":"CITATION.cff","blob":"5573abed0de095c9993b88723f0ef5219c666759","content":"CFF schema version 1.2.0."},
+    {"id":"R08:P:CITATION:MESSAGE","role":"SOURCE_DESCRIBED_STATUS","path":"CITATION.cff","blob":"5573abed0de095c9993b88723f0ef5219c666759","content":"If you use this framework in research, please cite this work."},
+    {"id":"R08:P:CITATION:KEYWORDS","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","path":"CITATION.cff","blob":"5573abed0de095c9993b88723f0ef5219c666759","content":["adaptive systems","evolutionary dynamics","complex systems","cybernetics","information theory","artificial intelligence","dynamical systems","innovation theory","search theory","self-improvement"]}
+  ],
+  "effective_accounting":{"base_units":393,"added_units":3,"effective_units":396,"parsed_units":395,"unresolved_units":1,"parser_failures":0},
+  "semantic_role_changes":"NONE",
+  "scientific_standing_changes":"NONE",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE"
+}
