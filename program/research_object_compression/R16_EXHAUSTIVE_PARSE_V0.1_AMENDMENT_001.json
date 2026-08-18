@@ -1,0 +1,51 @@
+{
+  "object":"CEREBRO_R16_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type":"local parse source-audit separation repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_parse":"program/research_object_compression/R16_EXHAUSTIVE_PARSE_V0.1.json",
+  "death_test":"program/research_object_compression/R16_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "replacement_count":15,
+  "replacements":[
+    ["R16:P:PY02:OUTPUT","R16:P:PY02:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","summarize computes pre/post reward, final R/A/error and total adaptation; main prints summaries."],
+    ["R16:P:PY03:OUTPUT","R16:P:PY03:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","main prints pre/post rewards, final R/A/Omega and total adaptation."],
+    ["R16:P:PY04:OUTPUT","R16:P:PY04:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","run returns a trace plus summary; main prints summary excluding trace."],
+    ["R16:P:PY05:OUTPUT","R16:P:PY05:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","main prints pre/post reward, final R/A/D and total adaptation."],
+    ["R16:P:PY051:OUTPUT","R16:P:PY051:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","main prints one summary per lambda condition."],
+    ["R16:P:PY06:OUTPUT","R16:P:PY06:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","main prints one summary per lambda condition."],
+    ["R16:P:PY07:OUTPUT","R16:P:PY07:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","main prints reward, R/A/D/Omega/Q and adaptation summary per lambda."],
+    ["R16:P:PY08:OUTPUT","R16:P:PY08:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","top-level module code prints all three condition summaries on execution/import."],
+    ["R16:P:PY09:OUTPUT","R16:P:PY09:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","main prints summary metrics per lambda."],
+    ["R16:P:PY091:OUTPUT","R16:P:PY091:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","main prints per-lambda summary values in the form used by the result report."],
+    ["R16:P:ROB10:OUTPUT","R16:P:ROB10:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","runner prints mean/std aggregates for main, nulls and parameter/environment sweeps."],
+    ["R16:P:ROB11:OUTPUT","R16:P:ROB11:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","runner prints mean/std/min/max aggregates for main and null controls."],
+    ["R16:P:ROB12:OUTPUT","R16:P:ROB12:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","runner prints aggregate statistics for main and three null controls."],
+    ["R16:P:EXP10:OUTPUT","R16:P:EXP10:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","runner prints 100-seed aggregate statistics for main and three null modes."],
+    ["R16:P:FDB10:OUTPUT","R16:P:FDB10:OUTPUT_LOCAL","IMPLEMENTED_OUTPUT_BEHAVIOR","run_suite prints 100-seed aggregate statistics for main and three null conditions."]
+  ],
+  "demoted_source_unit_count":8,
+  "demoted_units":[
+    "R16:P:PY03:A_SYMBOL_COLLISION",
+    "R16:P:ROB10:AUTHORITY_BOUNDARY",
+    "R16:P:ROB11:RAW_RECORD_STATUS",
+    "R16:P:ROB11:WARRANT_BOUNDARY",
+    "R16:P:ROB12:RAW_RECORD_STATUS",
+    "R16:P:EXP10:PROVENANCE_BOUNDARY",
+    "R16:P:FDB10:RAW_RECORD_STATUS",
+    "R16:P:FDB10:WARRANT_BOUNDARY"
+  ],
+  "derived_audit_views":[
+    {"id":"R16:AUDIT:NO_RAW_RUN_ARTIFACTS","content":"Across the exhaustive frozen 38-path surface, no per-step or per-seed raw execution log/output artifact is present; reported result documents and executable code remain separate source objects.","authority_effect":"NONE"},
+    {"id":"R16:AUDIT:V03_A_NAMESPACE_COLLISION","content":"stress_test_v0.3 uses A_t for available action space while implementation and other source spans use A/A_t for adaptation mechanism; semantic identity is not established.","authority_effect":"NONE"},
+    {"id":"R16:AUDIT:ROB10_BASELINE_AUTHORITY_CEILING","content":"robustness_suite_v1.0 explicitly uses placeholder dynamics instead of v0.9.1; its outputs cannot by themselves establish robustness of the v0.9.1 mechanism.","authority_effect":"NONE"},
+    {"id":"R16:AUDIT:SEED_WARRANT_CEILING","content":"Source/code seed multiplicity and lexical 'independent seeds' do not establish independent scientific warrants without separately grounded run/warrant provenance.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R16:AUDIT:C_COMPOSITE_VARIANTS","content":"operationalization.md defines C as tuple (C_obs,C_beh,C_rev), while minimal_environment.md defines C as product C_obs*C_beh*C_rev; equivalence/canonicalization not established.","authority_effect":"NONE"}
+  ],
+  "effective_primary_parse_units":419,
+  "effective_unresolved_source_units":8,
+  "parser_failures":0,
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
