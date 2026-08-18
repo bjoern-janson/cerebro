@@ -1,0 +1,82 @@
+{
+  "object":"CEREBRO_R12_EXHAUSTIVE_PARSE_V0.1",
+  "record_type":"exhaustive structured parse manifest and payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R12",
+  "repository":"bjoern-janson/causal-permeability-principle",
+  "frozen_head_commit":"c9b9b5581cdeb7dae49afd4b8e510ba838ec250a",
+  "source_surface":"program/research_object_compression/R12_SOURCE_SURFACE_V0.1.json",
+  "parser_contract":"EFFECTIVE_RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "source_paths":1,
+  "parse_unit_count":31,
+  "parsed_units":31,
+  "unresolved_units":0,
+  "parser_failures":0,
+  "sources":[
+    {
+      "path":"README.md",
+      "units":[
+        {"id":"R12:P:README:IDENTITY","role":"IDENTITY_TITLE","content":"The Causal Permeability Principle (CPP)."},
+        {"id":"R12:P:README:SUBTITLE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Source characterizes CPP as a graph-theoretic criterion for distinguishing self-modification from open-ended evolution."},
+        {"id":"R12:P:README:ABSTRACT_SCOPE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Note proposes a structural criterion intended to distinguish autonomous self-modification from genuine open-endedness."},
+        {"id":"R12:P:README:CENTRAL_CLAIM","role":"SOURCE_ASSERTION_HYPOTHESIS","source_standing":"CENTRAL_CLAIM","content":"A system is proposed to be open-ended only if external reality retains causal access to the mechanism governing future revision."},
+
+        {"id":"R12:P:README:DEF_GRAPH","role":"DEFINITION","content":"G=(V,E) is the directed causal graph of a system."},
+        {"id":"R12:P:README:DEF_EXTERNAL","role":"DEFINITION","content":"E* denotes external reality, characterized as environmental or ecological causal influences."},
+        {"id":"R12:P:README:DEF_REVISION","role":"DEFINITION","content":"C_rev denotes the constitutional revision mechanism: the process determining how future revision rules are generated."},
+        {"id":"R12:P:README:DEF_REACHABILITY","role":"DEFINITION","content":"The squiggly arrow denotes directed causal reachability within the graph."},
+        {"id":"R12:P:README:DEF_PERMEABILITY","role":"DEFINITION","content":"P_C is defined by E* directed-reachability C_rev."},
+        {"id":"R12:P:README:PERMEABILITY_INTERPRETATION","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"The source interprets P_C as reality retaining causal access to the mechanism of future change."},
+
+        {"id":"R12:P:README:CLOSED_EQUATION","role":"FORMAL_STRUCTURE","content":"Closed trajectory is represented as C_rev(t+1)=f(C_rev(t))."},
+        {"id":"R12:P:README:CLOSED_CAPABILITIES","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"A closed-trajectory system may still learn, optimize, redesign itself, and rewrite its own algorithms."},
+        {"id":"R12:P:README:CLOSED_BOUNDARY","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Source proposes that when every revision ultimately originates within existing constitutional structure, future possibilities remain bounded by internally generated rules."},
+
+        {"id":"R12:P:README:OPEN_EQUATION","role":"FORMAL_STRUCTURE","content":"Open lineage is represented as C_rev(t+1)=f(C_rev(t),E*(t))."},
+        {"id":"R12:P:README:OPEN_INTERPRETATION","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"In the open-lineage formulation, external reality is not merely observed but participates in determining how future revision itself occurs."},
+        {"id":"R12:P:README:CRITICAL_BRIDGE_OCCURRENCE","role":"FORMAL_STRUCTURE","content":"The source repeats E* directed-reachability C_rev as the critical causal bridge."},
+
+        {"id":"R12:P:README:CORE_NOT_CHANGE","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Open-endedness is stated not to be defined by continual change."},
+        {"id":"R12:P:README:CORE_POSSIBILITY","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Open-endedness is proposed to require preserving the possibility that sufficient environmental change can alter the mechanism governing future change."},
+        {"id":"R12:P:README:DELTA_NONIMPLICATION","role":"FORMAL_STRUCTURE","content":"Source states Delta C_rev != 0 does not imply P_C."},
+        {"id":"R12:P:README:SELF_MOD_INSUFFICIENT","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Self-modification alone is stated to be insufficient for open-endedness."},
+
+        {"id":"R12:P:README:CLOSURE_PREDICTION","role":"SOURCE_PREDICTION","content":"Framework predicts closure whenever the causal pathway from external reality to constitutional revision is severed."},
+        {"id":"R12:P:README:NONREACH_FORMAL","role":"FORMAL_STRUCTURE","content":"Closure-side condition is written as E* not directed-reachable C_rev."},
+        {"id":"R12:P:README:GRAPH_CUT_EQUIVALENCE","role":"SOURCE_ASSERTION_CONCEPTUAL","source_label":"or equivalently","content":"Source labels existence of a graph cut separating E* from C_rev as equivalent to the no-reachability formulation. No separate proof is supplied on the frozen surface."},
+        {"id":"R12:P:README:CLOSED_TOPOLOGY","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"A system with severed permeability may continue adapting internally while remaining confined to a fixed topology of future possibilities."},
+
+        {"id":"R12:P:README:ADAPTIVE_CAPACITY_PREDICTION","role":"SOURCE_PREDICTION","content":"Systems preserving E* directed-reachability C_rev are predicted to exhibit greater long-term adaptive capacity than systems with only internal self-modification."},
+        {"id":"R12:P:README:NOVEL_ENV_PREDICTION","role":"SOURCE_PREDICTION","content":"Two systems with similar intelligence and optimization ability are predicted to diverge under sufficiently novel environments if only one preserves constitutional permeability."},
+        {"id":"R12:P:README:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"CPP would be challenged by sustained open-ended evolution with no environmental-to-constitutional-revision causal pathway while future possibility space continues expanding indefinitely."},
+
+        {"id":"R12:P:README:SUMMARY_FORMAL_RECURRENCE","role":"FORMAL_STRUCTURE","content":"Summary repeats P_C as E* directed-reachability C_rev."},
+        {"id":"R12:P:README:INVARIANT_LABEL","role":"SOURCE_DESCRIBED_STATUS","source_label":"graph-theoretic invariant","content":"Source characterizes causal permeability as a graph-theoretic invariant shifting the criterion from internal complexity toward causal topology. The label is preserved as source characterization, not an independently proved invariance theorem."},
+        {"id":"R12:P:README:TOPOLOGY_CLAIM","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Source claims the criterion distinguishes closed trajectories from open lineages through topology rather than behavior or semantics."},
+        {"id":"R12:P:README:ONE_LINE_SUMMARY","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source compresses the proposal as: open-endedness is not the ability to rewrite yourself, but preservation of reality's ability to rewrite what rewriting yourself means."}
+      ]
+    }
+  ],
+  "source_path_accounting":{"admitted_source_paths":1,"payload_source_paths":1,"unaccounted_source_paths":0},
+  "known_local_recurrence":[
+    {"semantic_family":"E*_REACHES_C_REV","occurrences":["R12:P:README:DEF_PERMEABILITY","R12:P:README:CRITICAL_BRIDGE_OCCURRENCE","R12:P:README:SUMMARY_FORMAL_RECURRENCE"],"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"}
+  ],
+  "standing_boundaries":[
+    "DEFINITION != HYPOTHESIS != PREDICTION != METHOD",
+    "SOURCE_LABEL_EQUIVALENT != INDEPENDENTLY_PROVED_EQUIVALENCE",
+    "SOURCE_LABEL_GRAPH_THEORETIC_INVARIANT != INDEPENDENTLY_PROVED_INVARIANCE",
+    "FORMAL_REACHABILITY_EXPRESSION != EMPIRICAL_RESULT",
+    "RECURRENCE != CORROBORATION",
+    "SELF_MODIFICATION_CAPABILITY != OPEN_ENDEDNESS_BY_SOURCE_CLAIM"
+  ],
+  "reported_empirical_results":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+  "reported_negative_results":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+  "implementation":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+  "execution_records":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "r13_parse_access_opened":false
+}
