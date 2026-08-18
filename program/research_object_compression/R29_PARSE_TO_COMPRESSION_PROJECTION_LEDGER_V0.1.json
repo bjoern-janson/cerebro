@@ -1,0 +1,29 @@
+{
+  "object":"CEREBRO_R29_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "repository_id":"R29",
+  "repository":"bjoern-janson/rahu-benchmark",
+  "frozen_head_commit":"63368297857a1f5d67c7e522f812255c8c84041f",
+  "effective_parse":"R29_EXHAUSTIVE_PARSE_V0.1.json",
+  "effective_compression":"R29_COMPRESSION_V0.1.json",
+  "persistent_record_state":"FROZEN",
+  "materialization_rule":"The exact primary owner map is materialized from SOURCE_UNITS in R29_COMPRESSION_V0.1_PART_A/B/C. Each listed parse unit receives the compression item's ITEM_ID. A one-unit item receives DIRECT_TO_COMPRESSION_ITEM; an item with more than one SOURCE_UNIT receives LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM for every member. No additional or implicit mapping exists.",
+  "accounting":{
+    "effective_parse_units":266,
+    "primary_projection_entries":266,
+    "direct_projection_entries":28,
+    "loss_bounded_group_projection_entries":238,
+    "compressed_items":83,
+    "unmapped_parse_units":0,
+    "duplicate_primary_owners":0,
+    "extra_projection_units":0,
+    "source_path_mismatches":0,
+    "source_standing_mismatches":0
+  },
+  "canonical_owner_map_sha256":"3dc53e94d9edf00e6e8a63fcfe0ad0ceead0c594ba929dfea259f9c3261e6188",
+  "owner_map_schema":["UNIT_ID","COMPRESSION_ITEM_ID","PRIMARY_DISPOSITION","PATH","SOURCE_STANDING"],
+  "integrity_note":"The owner-map hash is over the 266 ordered materialized rows under owner_map_schema. Exact unit membership is independently persisted in each compression item's SOURCE_UNITS array, so the ledger does not duplicate the 266 rows textually.",
+  "map_edge_emission":"NONE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation_authorized":false
+}
