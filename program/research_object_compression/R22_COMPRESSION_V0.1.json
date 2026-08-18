@@ -1,0 +1,47 @@
+{
+  "object": "CEREBRO_R22_COMPRESSION_V0.1",
+  "repository_id": "R22",
+  "repository": "bjoern-janson/causal-transition-condition",
+  "frozen_head_commit": "fe899838979fcf0e6ee2f43011420a79b58daff8",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "effective_parse": "R22_EXHAUSTIVE_PARSE_V0.1 + R22_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001 + R22_EXHAUSTIVE_PARSE_RETEST_V0.1",
+  "effective_parse_units": 278,
+  "parts": [
+    "R22_COMPRESSION_V0.1_PART_A.json",
+    "R22_COMPRESSION_V0.1_PART_B.json",
+    "R22_COMPRESSION_V0.1_PART_C.json",
+    "R22_COMPRESSION_V0.1_PART_D.json"
+  ],
+  "primary_item_count": 120,
+  "grouping_rule": "Same frozen source path plus same semantic standing only; no cross-file semantic canonicalization.",
+  "standing_policy": "Predictions, methodology, formalism, implementation, test protocols, source relations, project metadata, conceptual assertions and unresolved fragments remain standing-distinct.",
+  "secondary_audits": [
+    {"audit":"NOMENCLATURE","authority":"NONE","content":"Causal Transition Condition, Constraint Transition Condition, Constraint–Trajectory Coupling and Causal Permeability Principle labels occur in different source surfaces; identity is not globally normalized."},
+    {"audit":"RELATION_ENDPOINT","authority":"NONE","content":"Source repeatedly relates CTC to Causal Permeability E*->C_rev; endpoint repository identity remains unresolved and no corpus edge is emitted."},
+    {"audit":"CONSTRUCT_VALIDITY","authority":"NONE","content":"mathcal G, Omega, weak/strong CTC, permeability and mechanism-space proxies lack general validated causal-identification/measurement semantics."},
+    {"audit":"IMPLEMENTATION_INTERFACE","authority":"NONE","content":"Frozen examples/runners/tests diverge from current ctc_core/environment/metrics/simulator APIs; defects are source-level implementation facts, not observed failed executions."},
+    {"audit":"PROTOCOL_CONFIGURATION","authority":"NONE","content":"YAML 100x500 protocol and many configured treatment/environment/output settings are not equivalent to runner-local defaults/consumed fields."},
+    {"audit":"INSTRUMENT_CIRCULARITY","authority":"NONE","content":"Current permeability proxy equals treatment assignment, and mechanism generation is directly enabled by the treatment switch; positive proxy separation cannot by itself validate the scientific causal claim."},
+    {"audit":"EXECUTION_STANDING","authority":"NONE","content":"Code/tests/runners exist, but no frozen CI/test/run result record exists; generated results are normally gitignored, so absence cannot establish no execution."},
+    {"audit":"EXAMPLE_RESULT_PROVENANCE","authority":"NONE","content":"Hard-coded export/plot examples and conditional runtime 'supported/Observed' labels are not source-reported empirical results."},
+    {"audit":"CONCEPTUAL_RESULT_PROVENANCE","authority":"NONE","content":"Evolution log Stage 6 result label is preserved under SOURCE_ASSERTION_CONCEPTUAL after local parse repair; no empirical/result authority is added."},
+    {"audit":"RECURRENCE","authority":"NONE","content":"Repeated Omega->Delta mathcal G and E*->C_rev statements retain source occurrence provenance without independent-warrant multiplication."}
+  ],
+  "bounded_absence": {
+    "frozen_aperture": "24 blobs",
+    "implementation_present": true,
+    "test_source_present": true,
+    "github_actions_runs_at_head": 0,
+    "combined_status_records_at_head": 0,
+    "persisted_test_reports": 0,
+    "persisted_generated_benchmark_results": 0,
+    "source_reported_empirical_results": 0,
+    "source_reported_negative_results": 0,
+    "scope_note": "Generated results/, figures/, CSV and JSON are ignored by repository policy. Current-head artifact absence cannot establish that no execution occurred off-repository or without commit."
+  },
+  "temporal_provenance": "Inherited from R22_SOURCE_SURFACE_V0.1; 25-commit development history remains separate from current-head semantics.",
+  "map_edge_emission": "NONE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation_authorized": false
+}
