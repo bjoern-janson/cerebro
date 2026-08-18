@@ -1,0 +1,30 @@
+{
+  "object": "CEREBRO_R23_COMPRESSION_V0.1",
+  "repository_id": "R23",
+  "repository": "bjoern-janson/ctre_simulator",
+  "frozen_head_commit": "a3ef7b068a8b93c1892d082d63f35eaf0eae31b6",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "effective_parse": "R23_EXHAUSTIVE_PARSE_V0.1 + AMENDMENT_001 + RETEST",
+  "effective_parse_units": 110,
+  "effective_parts": [
+    "R23_COMPRESSION_V0.1_PART_A_AMENDMENT_001.json",
+    "R23_COMPRESSION_V0.1_PART_B.json"
+  ],
+  "superseded_serialization_artifact": "R23_COMPRESSION_V0.1_PART_A.json",
+  "primary_item_count": 25,
+  "grouping_rule": "Same frozen source path plus same semantic standing only; no cross-file canonicalization.",
+  "secondary_audits": [
+    {"audit":"BOUNDED_ABSENCE","authority":"NONE","content":"No test file/test framework artifact occurs among the eight frozen blobs; no CI/status record exists at frozen head. This does not prove no manual/off-repository execution."},
+    {"audit":"ENDPOINT_IDENTITY","authority":"NONE","content":"CTRE name overlaps earlier causal-transition/representation-evolution vocabulary but source does not identify CTRE with R22, R24, or another corpus node."},
+    {"audit":"SOURCE_COORDINATE_LINEAGE","authority":"NONE","content":"Five stale source SHA/size coordinates in initial R23 source-surface artifact were repaired by R23_SOURCE_SURFACE_V0.1_AMENDMENT_001 without semantic change."},
+    {"audit":"SERIALIZATION_LINEAGE","authority":"NONE","content":"Initial R23 compression Part A candidate had malformed JSON array closure; corrected serialization is R23_COMPRESSION_V0.1_PART_A_AMENDMENT_001 with unchanged semantics/ownership."},
+    {"audit":"CONSTRUCT_VALIDITY","authority":"NONE","content":"Implemented experiment changes representation access, feature basis and mutation authority together; evaluator is not a genuine held-out validation gate; current code therefore cannot by itself identify the stated representation-evolution causal claim."},
+    {"audit":"EXECUTION_STANDING","authority":"NONE","content":"Executable script/assertions exist, but frozen head contains no run log/result/CI evidence; code criteria do not become observed results."}
+  ],
+  "reported_empirical_results": [],
+  "reported_negative_results": [],
+  "map_edge_emission": "NONE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation_authorized": false
+}
