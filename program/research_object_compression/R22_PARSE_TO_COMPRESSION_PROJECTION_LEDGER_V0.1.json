@@ -1,0 +1,28 @@
+{
+  "object": "CEREBRO_R22_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "repository_id": "R22",
+  "frozen_head_commit": "fe899838979fcf0e6ee2f43011420a79b58daff8",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "effective_parse": "R22_EXHAUSTIVE_PARSE_V0.1 + AMENDMENT_001 + RETEST",
+  "compression": "R22_COMPRESSION_V0.1 + Parts A-D",
+  "primary_ownership_materialization": "For each compression item, its frozen SOURCE_UNITS array is the complete explicit primary ownership record. A parse unit has the unique owner whose SOURCE_UNITS array contains that unit ID.",
+  "effective_parse_id_set": {
+    "represented": "R22P0001-R22P0206 inclusive",
+    "unresolved": "R22U0001-R22U0072 inclusive",
+    "effective_standing_overlay": "R22P0121 standing/kind replaced by R22_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001; unit identity unchanged"
+  },
+  "validation": {
+    "effective_parse_units": 278,
+    "primary_projection_entries": 278,
+    "primary_compressed_items": 120,
+    "unmapped_parse_units": 0,
+    "duplicate_primary_owners": 0,
+    "extra_projection_units": 0,
+    "reciprocal_source_unit_count": 278
+  },
+  "projection_rule": "Primary ownership depends only on the frozen SOURCE_UNITS arrays. Secondary audit reuse is non-owning and zero-authority.",
+  "warrant_independence_status": "NOT_ESTABLISHED",
+  "warrant_multiplicity_effect": "NONE",
+  "map_edge_emission": "NONE",
+  "authority_effect": "NONE"
+}
