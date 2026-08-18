@@ -1,0 +1,108 @@
+{
+  "object":"CEREBRO_R10_EXHAUSTIVE_PARSE_V0.1_PART_D",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R10",
+  "frozen_head_commit":"942de6bda50fb61d6a66b82811ceff6ab3ad1784",
+  "source_family":"TOOLS_ANALYZER_AND_QUALITATIVE_RESULTS",
+  "source_paths":10,
+  "units":62,
+  "sources":[
+    {"path":"tools/README.md","units":[
+      {"id":"R10:P:TOOLS:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Describes CGET tool suite as experimental instrumentation intended to evaluate hypothesized structural transformations, not directly measure intelligence."},
+      {"id":"R10:P:TOOLS:METRICS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes measurement of compression, causal fidelity, execution efficiency, closure, steering bandwidth and identity preservation."},
+      {"id":"R10:P:TOOLS:EXPERIMENT_STRUCTURE","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Each experiment should identify baseline, structural intervention, representation change, metric evaluation, capability change and failure analysis."},
+      {"id":"R10:P:TOOLS:EXPECTED_CASES","role":"SOURCE_PREDICTION","content":"Manual derivatives->AD, assembly->compilers, minimax->alpha-beta and external cognitive interfaces are listed with expected CGET signatures."},
+      {"id":"R10:P:TOOLS:ROADMAP","role":"SOURCE_DESCRIBED_RESEARCH_DIRECTION","content":"Measurement implementation, historical case studies, synthetic agents and open research are future phases."},
+      {"id":"R10:P:TOOLS:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Experimental research program intended to make CGET measurable/falsifiable; no claim that the listed expected signatures are measured results."}
+    ]},
+    {"path":"tools/cget_analyzer/README.md","units":[
+      {"id":"R10:P:ANREADME:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Specifies CGET Analyzer as primary experimental instrument concept for decomposing transformations into compression, causal, execution, composition, agency and identity effects."},
+      {"id":"R10:P:ANREADME:PIPELINE","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Proposed pipeline defines baseline S0, intervention S0->S1, structural differences and a CGET structural report rather than one intelligence score."},
+      {"id":"R10:P:ANREADME:METRICS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Defines intended analyzer modules/metrics for compression, causal fidelity, execution leverage, closure, steering bandwidth and identity stability."},
+      {"id":"R10:P:ANREADME:OUTPUT_SCHEMA","role":"APPLICATION_OR_EXAMPLE","content":"YAML-like structural report is an example output schema with empty metric fields/classification, not a produced report."},
+      {"id":"R10:P:ANREADME:AD_EXAMPLE","role":"SOURCE_INTERPRETATION","content":"Automatic-differentiation example qualitatively labels compression/fidelity/execution/composition/agency/identity effects; it is illustrative analysis, not instrument-generated measurement."},
+      {"id":"R10:P:ANREADME:SIGNATURE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Strong CGET signature is proposed when complexity falls, causal fidelity/closure/control rise and identity loss approaches zero."},
+      {"id":"R10:P:ANREADME:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Source explicitly calls CGET Analyzer a conceptual prototype specification; automated implementation, synthetic environments, simulations and stress tests are future work."}
+    ]},
+    {"path":"tools/cget_analyzer/architecture.md","units":[
+      {"id":"R10:P:ANARCH:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Designs modular analyzer architecture over coupled state S=(G,O,T) and transformations S_t->S_t+1."},
+      {"id":"R10:P:ANARCH:DATA_MODEL","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Proposes WorldModel, ObserverModel, Transformation and PolicyModel data structures corresponding to CGET formal objects."},
+      {"id":"R10:P:ANARCH:MODULES","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Proposes compression, causal, execution, composition, agency and identity engines with example interfaces."},
+      {"id":"R10:P:ANARCH:PIPELINE","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Input transformation -> represent S0/S1 -> measure structural differences -> constraints -> report."},
+      {"id":"R10:P:ANARCH:EXTENSIONS","role":"SOURCE_DESCRIBED_RESEARCH_DIRECTION","content":"Self-modification simulator, causal discovery, alignment stress tester and interface analysis are future extension points."},
+      {"id":"R10:P:ANARCH:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Architecture/design specification; example Python interfaces do not establish implemented modules or measured outputs."}
+    ]},
+    {"path":"tools/cget_analyzer/cget_metrics.py","units":[
+      {"id":"R10:P:ANMETRIC_CODE:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen blob is ordinary Python source without surrounding Markdown fences and is syntactically structured as importable toy metric functions."},
+      {"id":"R10:P:ANMETRIC_CODE:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Docstring calls functions toy implementations of CGET compression, causal fidelity, closure, agency, identity and transition metrics."},
+      {"id":"R10:P:ANMETRIC_CODE:IMPLEMENTATION","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements compression_score, causal_fidelity, closure_score, agency_bandwidth, identity_preservation, transition_stability and theta_star as arithmetic functions."},
+      {"id":"R10:P:ANMETRIC_CODE:ASSUMPTIONS","role":"IMPLEMENTATION_ASSUMPTION","content":"Functions operationalize theoretical quantities using simple ratios/scalar changes; implementation choices are not validated equivalences to the formal CGET constructs."},
+      {"id":"R10:P:ANMETRIC_CODE:EXECUTION","role":"SOURCE_DESCRIBED_STATUS","content":"Component code is executable in principle with standard Python/math, but no frozen execution record demonstrates use or empirical validity."},
+      {"id":"R10:P:ANMETRIC_CODE:NONINFERENCE","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Implemented proxy function != validated metric != observed measurement."}
+    ]},
+    {"path":"tools/cget_analyzer/experiments.py","units":[
+      {"id":"R10:P:ANEXP_CODE:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen blob is ordinary Python and imports local cget_metrics/toy_agents modules."},
+      {"id":"R10:P:ANEXP_CODE:IMPLEMENTATION","role":"EXECUTABLE_IMPLEMENTATION","content":"evaluate(agent) computes compression, causal, closure, agency, identity and theta from agent fields; run() constructs three toy agents and prints evaluation dictionaries."},
+      {"id":"R10:P:ANEXP_CODE:INPUT_PROVENANCE","role":"IMPLEMENTATION_ASSUMPTION","content":"All evaluation inputs come from hard-coded fields of toy_agents.py rather than environmental observations or logged interventions."},
+      {"id":"R10:P:ANEXP_CODE:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct run would print calculated synthetic agent dictionaries; no frozen run output is stored."},
+      {"id":"R10:P:ANEXP_CODE:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Executable synthetic calculator over programmed toy inputs; not an empirical experiment or instrument validation."}
+    ]},
+    {"path":"tools/cget_analyzer/metrics.md","units":[
+      {"id":"R10:P:ANMETRICS_DOC:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Documents structural metrics intended to decompose intelligence-like capability without a single scalar ranking."},
+      {"id":"R10:P:ANMETRICS_DOC:DEFINITIONS","role":"DEFINITION_DICTIONARY","content":"Defines DeltaK, I_causal, L_compute, C(Omega), C_O, A_control, identity/core-loss and S_T metrics."},
+      {"id":"R10:P:ANMETRICS_DOC:LEXICOGRAPHIC","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source proposes hard causal/closure/identity/stability constraints before maximizing execution leverage times agency."},
+      {"id":"R10:P:ANMETRICS_DOC:SIGNATURE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"A strong intelligence signature is proposed when compression, causal fidelity, closure and control increase while core loss tends to zero."},
+      {"id":"R10:P:ANMETRICS_DOC:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Metric specification/interpretation; no validation that these formulas measure the intended latent properties is reported."}
+    ]},
+    {"path":"tools/cget_analyzer/run_benchmark.py","units":[
+      {"id":"R10:P:ANRUN:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen .py blob is literally wrapped in Markdown code fences and is not directly executable Python as stored."},
+      {"id":"R10:P:ANRUN:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Embedded code describes a complete toy benchmark over compression, fidelity, closure, agency, identity and Theta*."},
+      {"id":"R10:P:ANRUN:IMPLEMENTATION","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Would import evaluate and hard-coded toy agents, print metrics, then rank Lookup/Causal/SelfModifying agents."},
+      {"id":"R10:P:ANRUN:SCALAR_RANKING","role":"IMPLEMENTATION_ASSUMPTION","content":"Ranks agents by Theta* despite documentation stating analyzer does not attempt a single intelligence score and benchmark design prefers lexicographic constraints; comment says future versions may replace scalar ranking."},
+      {"id":"R10:P:ANRUN:TENSION","role":"SOURCE_DESCRIBED_STATUS","content":"Implementation/specification tension preserved: anti-scalar documentation vs scalar Theta* ranking code. No reconciliation authority."},
+      {"id":"R10:P:ANRUN:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Intended code prints per-agent metrics and a CGET transformation ranking; no execution record exists."},
+      {"id":"R10:P:ANRUN:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Fenced intended runner over synthetic toy inputs; not an executed benchmark."}
+    ]},
+    {"path":"tools/cget_analyzer/toy_agents.py","units":[
+      {"id":"R10:P:ANTOYS:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen blob is ordinary Python defining minimal toy agent data objects."},
+      {"id":"R10:P:ANTOYS:IMPLEMENTATION","role":"EXECUTABLE_IMPLEMENTATION","content":"Defines Agent base plus LookupAgent, CausalAgent and SelfModifyingAgent/CGET Agent with fields consumed by analyzer metrics."},
+      {"id":"R10:P:ANTOYS:HARDCODED_INPUTS","role":"IMPLEMENTATION_ASSUMPTION","content":"Complexity, intervention counts, composition counts, reachable/steerable counts and identity changes are manually assigned constants, not measured observations."},
+      {"id":"R10:P:ANTOYS:EXPECTED_ORDERING","role":"SOURCE_PREDICTION","content":"Programmed values encode an intended ordering from Lookup to Causal to SelfModifying/CGET agent; this is construction, not independent confirmation of the theory."},
+      {"id":"R10:P:ANTOYS:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Executable synthetic fixtures, not empirical agents or data-generating experiments."}
+    ]},
+    {"path":"tools/experiments/benchmark_suite.md","units":[
+      {"id":"R10:P:BENCH_SUITE:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Explicitly describes CGET Benchmark Suite as a proposed evaluation framework for structural capability growth."},
+      {"id":"R10:P:BENCH_SUITE:METRICS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes RCS, CFS, OCS, EES, CSB, AKS, CIPS, ALS and TSS with representation, intervention, composition, agency and self-modification tasks."},
+      {"id":"R10:P:BENCH_SUITE:LEXICOGRAPHIC","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Benchmark avoids simple scalar optimization and proposes identity/causal/closure constraints before agency/efficiency optimization."},
+      {"id":"R10:P:BENCH_SUITE:EXAMPLE_TABLE","role":"APPLICATION_OR_EXAMPLE","content":"Rock/thermostat/ML/modern-agent/CGET-target table is example benchmark progression, not observed test output."},
+      {"id":"R10:P:BENCH_SUITE:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Lists representation, closure, agency, invariant-preservation and alignment conditions whose failure would challenge CGET predictions."},
+      {"id":"R10:P:BENCH_SUITE:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Proposed benchmark specification, not a completed benchmark or validation."}
+    ]},
+    {"path":"tools/experiments/test_results.md","units":[
+      {"id":"R10:P:TEST_RESULTS:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Source calls itself CGET Experimental Test Results and says it records evaluations of transformations through CGET structural metrics."},
+      {"id":"R10:P:TEST_RESULTS:STATUS_TABLE","role":"SOURCE_DESCRIBED_STATUS","content":"Status table labels automatic differentiation, compilers, alpha-beta and brute-force->learned-heuristic cases 'Initial Analysis'; raw->latent and static->self-modifying cases are 'Proposed'."},
+      {"id":"R10:P:TEST_RESULTS:AD","role":"SOURCE_INTERPRETATION","source_standing":"SOURCE_LABELED_INITIAL_ANALYSIS","source_labels":["Result","CGET Classification"],"content":"Qualitative retrospective analysis assigns positive compression, causal fidelity, execution gain, closure, agency and near-zero identity loss to automatic differentiation, classifying it Strong Intelligence-Enhancing Transformation."},
+      {"id":"R10:P:TEST_RESULTS:COMPILER","role":"SOURCE_INTERPRETATION","source_standing":"SOURCE_LABELED_INITIAL_ANALYSIS","source_labels":["Result","CGET Classification"],"content":"Qualitative retrospective analysis assigns positive CGET structural effects to compiler abstraction and labels it Strong Positive Transformation."},
+      {"id":"R10:P:TEST_RESULTS:ALPHABETA","role":"SOURCE_INTERPRETATION","source_standing":"SOURCE_LABELED_INITIAL_ANALYSIS","source_labels":["Result","CGET Classification"],"content":"Qualitative retrospective analysis assigns compression/fidelity/execution/closure/agency benefits and zero identity loss to alpha-beta pruning, labeling it Pure Computational Leverage Increase."},
+      {"id":"R10:P:TEST_RESULTS:LEARNED_SEARCH","role":"SOURCE_PREDICTION","content":"Brute-force->learned representation section states hypothesis, expected signature and failure condition rather than measured outcome."},
+      {"id":"R10:P:TEST_RESULTS:SELF_MOD","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Static optimizer->self-modifying agent section specifies identity, stability and agency tests plus expected success/failure signatures; source status remains proposed."},
+      {"id":"R10:P:TEST_RESULTS:CURRENT_FINDINGS","role":"SOURCE_INTERPRETATION","source_standing":"SOURCE_LABELED_QUALITATIVE_FINDINGS","content":"Source says initial qualitative experiments show a consistent pattern for AD, compilers and alpha-beta; learned representations are expected and self-modification remains unknown/central open problem."},
+      {"id":"R10:P:TEST_RESULTS:PROVENANCE_BOUNDARY","role":"SOURCE_DESCRIBED_STATUS","content":"No run metadata, raw measurements, seeds, logs, analyzer output or execution provenance accompanies the qualitative classifications; therefore SOURCE_LABELED_RESULT/FINDING != MEASURED_EXECUTION_RESULT."}
+    ]}
+  ],
+  "known_internal_tensions":[
+    {"id":"R10:TENSION:SCALAR_RANKING","branches":["Analyzer/benchmark documentation rejects or de-emphasizes a single scalar intelligence score and prescribes lexicographic constraints","run_benchmark.py ranks toy agents by Theta*"],"reconciliation_authority":"NONE"}
+  ],
+  "non_inferences":[
+    "VALID_PYTHON_MODULE != VALIDATED_MEASUREMENT_INSTRUMENT",
+    "EXECUTABLE_SYNTHETIC_CALCULATOR != EMPIRICAL_EXPERIMENT",
+    "HARDCODED_TOY_INPUT != OBSERVATION",
+    "SOURCE_LABELED_RESULT != MEASURED_EXECUTION_RESULT",
+    "INITIAL_ANALYSIS != INSTRUMENT_VALIDATION",
+    "IMPLEMENTATION_SPECIFICATION != IMPLEMENTED_MODULE",
+    "SCALAR_RANKING_CODE != FRAMEWORK-WIDE AUTHORITY"
+  ],
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
