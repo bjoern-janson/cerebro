@@ -1,0 +1,59 @@
+{
+  "object":"CEREBRO_R18_SOURCE_SURFACE_V0.1",
+  "record_type":"frozen full recursive repository source surface",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R18",
+  "repository":"bjoern-janson/adaptive-permeability",
+  "default_branch":"main",
+  "frozen_head_commit":"c00e1f19926bec838f983cc6e57ff7869f488c9d",
+  "tree_truncated":false,
+  "inventory":{
+    "total_blob_paths":1,
+    "research_bearing_blob_paths":1,
+    "excluded_non_research_blob_paths":0,
+    "unique_head_blobs":1,
+    "markdown_blob_paths":1,
+    "other_blob_paths":0,
+    "duplicate_content_path_groups":0
+  },
+  "admitted_paths":[
+    ["README.md","78fde194d02398caa80ecbb829714ce35f3f4fca",4822,"PARSE_INCLUDED"]
+  ],
+  "path_accounting":{
+    "parse_included":1,
+    "parse_excluded_by_frozen_scope":0,
+    "parse_failed":0,
+    "parse_unsupported":0,
+    "unenumerated_paths":0
+  },
+  "developmental_provenance":[
+    ["d3a12da42085fab1d8b9d2aa614e5283420526ba","Initial commit","README.md contains only repository title plus subtitle 'A Dynamical Theory of System Survival Under Changing Environments'."],
+    ["3f3990a08f359697890550c6e815cb17d579bc37","Update README.md","Full Adaptive Permeability theory, invariant, regimes, observable, adaptive capital, resource constraint, APE design and falsifiable prediction introduced."],
+    ["100c6552d75dc5e4a0a6922efb20a2e1d6b33872","Update README.md","Presentation expanded/reformatted; source also added expanded regime consequences and an additional final boxed adaptation/survival slogan."],
+    ["c00e1f19926bec838f983cc6e57ff7869f488c9d","Update README.md","Current head condensed/reformatted the README and removed some intermediate expanded wording; current-head parse is frozen only from this blob."]
+  ],
+  "source_surface_structural_observations":{
+    "single_current_theory_surface_present":true,
+    "ordinary_executable_source_present":false,
+    "datasets_present":false,
+    "notebooks_present":false,
+    "persisted_execution_artifacts_present":false,
+    "reported_result_documents_present":false,
+    "semantic_parse_performed":false
+  },
+  "non_inferences":[
+    "CURRENT_HEAD != COMPLETE_DEVELOPMENTAL_HISTORY",
+    "REMOVED_INTERMEDIATE_WORDING != CURRENT_HEAD_SOURCE_CONTENT",
+    "THEORY_FORMALISM != EMPIRICAL_VALIDATION",
+    "EXPERIMENT_SPECIFICATION != EXECUTION_RECORD",
+    "PREDICTION != REPORTED_RESULT",
+    "FALSIFICATION_CRITERION != FALSIFICATION_EVENT",
+    "SOURCE_VOCABULARY_OVERLAP != CROSS_REPOSITORY_IDENTITY",
+    "SOURCE_LINEAGE_PROXIMITY != PROGRAM_MAP_EDGE"
+  ],
+  "coverage_claim":"EXHAUSTIVE_RELATIVE_TO_FROZEN_RECURSIVE_HEAD_INVENTORY",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "r19_parse_access_opened":false
+}
