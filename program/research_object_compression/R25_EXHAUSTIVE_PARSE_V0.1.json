@@ -1,0 +1,19 @@
+{
+  "object":"CEREBRO_R25_EXHAUSTIVE_PARSE_V0.1",
+  "repository_id":"R25",
+  "repository":"bjoern-janson/adaptive-intelligence-framework",
+  "frozen_head_commit":"f3de2ce4305930abefb4bf095cb2ca00393fa6ab",
+  "source_surface":"R25_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "parse_contract":"CEREBRO_EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1+AMENDMENT_001",
+  "parts":["R25_EXHAUSTIVE_PARSE_V0.1_PART_A.json","R25_EXHAUSTIVE_PARSE_V0.1_PART_B.json"],
+  "candidate_counts":{"frozen_head_paths":5,"parsed_representations":137,"explicitly_unresolved":35,"effective_candidate_units":172,"parser_failures":0,"unmapped_source_paths":0},
+  "standing_boundaries":{"current_head_implementation_present":false,"test_source_present":false,"execution_record_present":false,"source_reported_empirical_results":0,"source_reported_negative_results":0,"validation_material":"FRAMEWORK_TEST_SPECIFICATION_AND_FALSIFIABLE_HYPOTHESES_ONLY","program_implementation_claims":"SOURCE_DESCRIBED_STATUS_ONLY"},
+  "preserved_pressures":["PROGRAM_RELATION_ASSERTION_VS_CORPUS_TOPOLOGY","LITERAL_REPOSITORY_SLUG_VS_IMMUTABLE_ENDPOINT_IDENTITY","SOURCE_DEPENDENCY_CHAIN_VS_VALIDATED_CAUSAL_DEPENDENCY","SOURCE_IMPLEMENTATION_STATUS_VS_LOCAL_IMPLEMENTATION_PRESENCE","VALIDATION_FRAMEWORK_VS_EXECUTION_OR_RESULT","I_PROPORTIONAL_C_IMPROVE_VS_OPERATIONAL_METRIC","REACHABILITY_CORRECTION_ADAPTATION_VS_VALIDATED_CONSTRUCTS","E_STAR_TO_C_REV_VS_CAUSAL_IDENTIFICATION","MECHANISM_SPACE_EXPANSION_VS_ORDINARY_UPDATE","PERSISTENT_RESIDUAL_VS_IDENTIFIED_REPRESENTATION_FAILURE","D_C_C_E_A_C_TO_G_V_VS_OPERATIONAL_TRANSITION","ADAPTIVE_THERMODYNAMICS_INEQUALITY_VS_DIMENSIONAL_VALIDITY","RESIDUAL_CAPABILITY_VS_VALIDATED_REMOVAL_METRIC","SOURCE_RECURRENCE_VS_INDEPENDENT_WARRANT","CURRENT_HEAD_VS_DEVELOPMENTAL_HISTORY"],
+  "relation_assertion_policy":"Program/module mappings, dependency-chain assertions and literal repository slugs are preserved as source-authored relations. Endpoint identity, map-edge authorization, causal dependency and authority transfer are not performed by the parser.",
+  "status_policy":"Claims of proof-of-concept simulators, benchmarks, open-source implementations and a module implementation collection are preserved as source-described program status. They do not create frozen-head implementation or execution standing for R25.",
+  "experimental_policy":"docs/validation.md specifies observables, named tests and falsifiable hypotheses but reports no execution, empirical result, negative result or reproduction record.",
+  "absence_policy":"The five-file frozen head is documentation-only. This bounded absence does not assert that named external modules lack implementations or results elsewhere.",
+  "temporal_policy":"Current-head semantic parse is separate from the 18-commit developmental trajectory.",
+  "map_edge_emission":"NONE","map_authority":"NONE","scientific_authority":"NONE","propagation_authorized":false
+}
