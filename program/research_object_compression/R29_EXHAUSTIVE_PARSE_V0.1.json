@@ -1,0 +1,44 @@
+{
+  "object":"CEREBRO_R29_EXHAUSTIVE_PARSE_V0.1",
+  "repository_id":"R29",
+  "repository":"bjoern-janson/rahu-benchmark",
+  "frozen_head_commit":"63368297857a1f5d67c7e522f812255c8c84041f",
+  "effective_source_surface":"R29_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "shards":[
+    "R29_EXHAUSTIVE_PARSE_V0.1_SHARD_01.json",
+    "R29_EXHAUSTIVE_PARSE_V0.1_SHARD_02.json",
+    "R29_EXHAUSTIVE_PARSE_V0.1_SHARD_03.json",
+    "R29_EXHAUSTIVE_PARSE_V0.1_SHARD_04.json",
+    "R29_EXHAUSTIVE_PARSE_V0.1_SHARD_05.json",
+    "R29_EXHAUSTIVE_PARSE_V0.1_SHARD_06.json",
+    "R29_EXHAUSTIVE_PARSE_V0.1_SHARD_07.json",
+    "R29_EXHAUSTIVE_PARSE_V0.1_SHARD_08.json",
+    "R29_EXHAUSTIVE_PARSE_V0.1_SHARD_09.json"
+  ],
+  "accounting":{
+    "admitted_source_paths":32,
+    "covered_source_paths":32,
+    "effective_parse_units":266,
+    "parsed_representations":201,
+    "explicitly_unresolved":65,
+    "parser_failures":0,
+    "missing_paths":0,
+    "duplicate_unit_ids":0
+  },
+  "canonical_unit_set_sha256":"60fec3675f0bb8e42c0f3d3dff36a036dcef42ebdf14cd89ceddbd9fe3bad2c5",
+  "standing_policy":"Primary units preserve authored documentary, implementation, and test-source semantics. Cross-file implementation/test incompatibilities are represented only where explicitly unresolved and are not promoted to execution or result standing.",
+  "execution_ceiling":{
+    "implementation":"PRESENT",
+    "test_source":"PRESENT",
+    "persisted_execution_records":"NONE_ON_FROZEN_SURFACE",
+    "reported_empirical_results":0,
+    "reported_negative_results":0,
+    "github_actions_runs_at_head":0,
+    "combined_status_records_at_head":0
+  },
+  "map_edge_emission":"NONE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation_authorized":false
+}
