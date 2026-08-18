@@ -1,0 +1,111 @@
+{
+  "object":"CEREBRO_R08_EXHAUSTIVE_PARSE_V0.1_PART_D",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R08",
+  "frozen_head_commit":"14eb5daf01edb086b0fb29f3860bf730d55a850f",
+  "source_family":"SIMULATION_EXECUTABLES",
+  "sources":[
+    {"path":"experiments/simulations/adoption_barrier_phase_boundary.py","blob":"df4eefd67e0f3195026d7d3741c0cf9d831c83fa","units":[
+      {"id":"R08:P:SIM_ADOPTION:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Implemented experiment tests Delta G_m != Delta Omega and whether adoption is required between generator improvement and realized phase transition."},
+      {"id":"R08:P:SIM_ADOPTION:SCENARIOS","role":"IMPLEMENTATION_ASSUMPTION","content":{"success":"generator improves, adoption succeeds, frontier expands","barrier":"generator improves, adoption friction blocks frontier","resource":"no effective adopted generator; frontier grows externally"}},
+      {"id":"R08:P:SIM_ADOPTION:PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"120 steps; initial C=1,P=10,G=1,A=1; alpha=.15,gamma=.15,G_capacity=20,rho_success=.08,rho_barrier=.08,friction=.10,beta=.04,P_capacity=10000."},
+      {"id":"R08:P:SIM_ADOPTION:DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"C tracks P; G grows logistically; A follows G or is friction-reduced; frontier growth depends on adopted generator except resource condition."},
+      {"id":"R08:P:SIM_ADOPTION:OMEGA_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"Lambda is C-old_C and Omega is change in Lambda, a simulation-specific acceleration proxy rather than validated Omega measurement."},
+      {"id":"R08:P:SIM_ADOPTION:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Program prints tables/final values and an interpretation predicting G_m growth in both adaptive cases but Omega/C transition only with successful adoption; no frozen run output is admitted."}
+    ]},
+    {"path":"experiments/simulations/baseline_adaptation.py","blob":"14d4cbe1c57584c22f9492537a781403c7278470","units":[
+      {"id":"R08:P:SIM_BASE:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Minimal baseline reference implementation separating resource-driven growth from generator-driven acceleration; explicitly says it does not model intelligence."},
+      {"id":"R08:P:SIM_BASE:STATE","role":"EXECUTABLE_IMPLEMENTATION","content":"AdaptiveState stores capability, search capacity, generator capacity, resources and history."},
+      {"id":"R08:P:SIM_BASE:PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"Defaults resource_growth=.05, search_learning=.02, generator_learning=0; direct-run sets generator_learning=.01 and 20 steps."},
+      {"id":"R08:P:SIM_BASE:REACHABLE_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"reachable_space proxy =1+resources*capability*(1+search)*(1+generator); source explicitly says this is not literal possibility-space measurement."},
+      {"id":"R08:P:SIM_BASE:OMEGA_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"omega_estimate returns generator_capacity as proxy for generator contribution; Lambda is log change of reachable proxy."},
+      {"id":"R08:P:SIM_BASE:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Direct run prints per-step capability/resources/search/generator/Lambda/Omega; no execution record is stored."}
+    ]},
+    {"path":"experiments/simulations/constrained_generator_phase_boundary.py","blob":"c125513937a6087e0fd044488c8acc20962d01b0","units":[
+      {"id":"R08:P:SIM_CONSTRAINED:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Tests Delta G_m->Delta Omega->Delta P_reach->Delta C under generator saturation, resource cost and diminishing frontier returns."},
+      {"id":"R08:P:SIM_CONSTRAINED:SCENARIOS","role":"IMPLEMENTATION_ASSUMPTION","content":"Implements fixed-frontier baseline, resource-scaling system and constrained evolutionary generator system."},
+      {"id":"R08:P:SIM_CONSTRAINED:PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"100 steps; alpha=.15,gamma=.25,G_capacity=100,beta=.03,resource_growth=1.05,generator_cost=.02 and chosen initial conditions."},
+      {"id":"R08:P:SIM_CONSTRAINED:DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"Evolutionary G grows logistically, expands P multiplicatively, consumes R, and capability tracks P; resource system grows R and adds frontier externally."},
+      {"id":"R08:P:SIM_CONSTRAINED:OMEGA_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"Omega stored as G-previous_G in evolutionary system, distinct from other simulation files' acceleration proxy definitions."},
+      {"id":"R08:P:SIM_CONSTRAINED:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Program prints final metrics/crossover and framework interpretation; no stored run outcome establishes that crossover or hypothesis support occurred."}
+    ]},
+    {"path":"experiments/simulations/delayed_generator_phase_boundary.py","blob":"22ecee187f41fe936b5645e5d1d99fc2ff34fc9a","units":[
+      {"id":"R08:P:SIM_DELAYED:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Tests temporal ordering t_Gm<t_Omega<t_C with adoption/activation lag between generator improvement and frontier/capability effects."},
+      {"id":"R08:P:SIM_DELAYED:SCENARIOS","role":"IMPLEMENTATION_ASSUMPTION","content":"Implements baseline, resource-scaling and delayed evolutionary system with G potential and slowly adapting A."},
+      {"id":"R08:P:SIM_DELAYED:PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"120 steps; alpha=.15,gamma=.12,G_capacity=20,rho=.05,beta=.04,P_capacity=10000 plus fixed initial values."},
+      {"id":"R08:P:SIM_DELAYED:DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"C tracks frontier; G logistic; A slowly catches G; adopted A drives logistic frontier growth."},
+      {"id":"R08:P:SIM_DELAYED:TRANSITION_EXTRACTOR","role":"IMPLEMENTATION_ASSUMPTION","content":"t_Gm is first G>initial, t_Omega is maximum Lambda acceleration, t_C is maximum Lambda; Omega=change in capability velocity."},
+      {"id":"R08:P:SIM_DELAYED:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Program prints 'Temporal ordering detected' / 'Evidence is consistent with' only if programmed inequality holds; no frozen execution record makes those observed results."}
+    ]},
+    {"path":"experiments/simulations/execution_barrier_phase_boundary.py","blob":"8b137891791fe96927ad78e64b0aad7bded08bdc","units":[
+      {"id":"R08:P:SIM_EXEC_BARRIER:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen Python blob contains exactly one newline and no executable statements, comments, hypotheses, parameters, outputs or results.","non_inferences":["NOT_A_FAILED_EXPERIMENT","NOT_A_NEGATIVE_RESULT","NOT_AN_EXECUTION_RECORD","NOT_ABSENT_ARTIFACT"]}
+    ]},
+    {"path":"experiments/simulations/failed_phase_boundary.py","blob":"9c3164f35184aee3df233c69c8c09924ced71025","units":[
+      {"id":"R08:P:SIM_FAILED:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Implemented experiment tests source hypothesis that generator improvement is necessary but not sufficient for phase boundary."},
+      {"id":"R08:P:SIM_FAILED:SCENARIOS","role":"IMPLEMENTATION_ASSUMPTION","content":{"success":"G improvement + higher adoption","failure":"G improvement + very low adoption rate","resource":"resource-style frontier growth"}},
+      {"id":"R08:P:SIM_FAILED:PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"100 steps; alpha=.15,gamma=.15,G_capacity=20,rho_success=.08,rho_failure=.005,beta=.04,P_capacity=10000."},
+      {"id":"R08:P:SIM_FAILED:DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"C tracks P; G grows in all modes; adoption rate differs; adaptive frontier depends on A; resource frontier uses external increment."},
+      {"id":"R08:P:SIM_FAILED:OMEGA_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"Omega=change in capability velocity, not direct generator contribution."},
+      {"id":"R08:P:SIM_FAILED:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Program prints success/failure/resource metrics and expected framework test narrative; filename/labels do not constitute a reported negative result without execution record."}
+    ]},
+    {"path":"experiments/simulations/generator_adaptation.py","blob":"00dbdd02405a5838e148badf4262b67479367e50","units":[
+      {"id":"R08:P:SIM_GEN:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Models transition from systems improving outputs to systems improving mechanisms producing outputs; isolates improvement of improvement mechanism."},
+      {"id":"R08:P:SIM_GEN:DEPTH_MAPPING","role":"IMPLEMENTATION_ASSUMPTION","content":{"D0":"Z->Z'","D1":"G_s->G_s'","D2":"G_m->G_m'","D3":"Omega->Omega'"}},
+      {"id":"R08:P:SIM_GEN:STATE","role":"EXECUTABLE_IMPLEMENTATION","content":"GeneratorState stores capability, search capacity, generator capacity, generator_dynamics and history."},
+      {"id":"R08:P:SIM_GEN:PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"GeneratorAdaptiveSystem defaults generator_learning_rate=.05, meta_learning_rate=0; comparison uses fixed system rates 0/0 and generator system .05/.01."},
+      {"id":"R08:P:SIM_GEN:DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"G_m grows from search; generator_dynamics grows by meta rate times Delta G_m; capability multiplies using search+generator; search grows from generator."},
+      {"id":"R08:P:SIM_GEN:OMEGA_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"omega() returns generator_dynamics; docstring maps framework Omega=Delta_G to local approximation dG_m/dt."},
+      {"id":"R08:P:SIM_GEN:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"compare_systems prints ten-step capability trajectories for fixed vs improving generator; no run artifact is stored."}
+    ]},
+    {"path":"experiments/simulations/recursive_improvement.py","blob":"00dbdd02405a5838e148badf4262b67479367e50","units":[
+      {"id":"R08:P:SIM_RECURSIVE:EXACT_CONTENT_OCCURRENCE","role":"ARTIFACT_CONTENT_STATE","content":"Path is an exact blob-identity occurrence of experiments/simulations/generator_adaptation.py; semantic units are inherited by exact content identity rather than reparsed as independent content.","content_identity":"EXACT_BLOB_IDENTITY","primary_content_parse":"R08:P:SIM_GEN:*","source_occurrence_count":2,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"}
+    ]},
+    {"path":"experiments/simulations/long_horizon_phase_boundary.py","blob":"25d998a628eecb62a09d39a6fa0a296649a9f4d8","units":[
+      {"id":"R08:P:SIM_LONG:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Compares resource scaling against self-improving generator over long horizon; predicts resource system may win early and generator system eventually cross."},
+      {"id":"R08:P:SIM_LONG:PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"100 steps; resource_growth=1.15 with exponential saturation; generator_growth=1.15; alpha=.05; fixed initial state."},
+      {"id":"R08:P:SIM_LONG:RESOURCE_DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"Resource capability multiplies with resources; resources grow then decay/saturate; generator fixed."},
+      {"id":"R08:P:SIM_LONG:GENERATOR_DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"Generator capability multiplies using G; G self-multiplies by generator_growth; resources fixed."},
+      {"id":"R08:P:SIM_LONG:OMEGA_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"Omega stored as generator - previous_generator."},
+      {"id":"R08:P:SIM_LONG:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Program searches for first capability crossover and can print 'Evidence consistent with' or 'No phase boundary detected'; no stored run outcome is admitted."}
+    ]},
+    {"path":"experiments/simulations/phase_boundary_test.py","blob":"4d88282fd25362bf7032a369c56b41a035cb7364","units":[
+      {"id":"R08:P:SIM_PBTEST:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Tests Delta G_m->Delta Omega->Delta C by comparing fixed generator with self-modifying improving generator."},
+      {"id":"R08:P:SIM_PBTEST:OMEGA_ESTIMATOR","role":"IMPLEMENTATION_ASSUMPTION","content":"compute_omega forms per-step Delta C/Delta G_m then returns final-minus-first efficiency; zero efficiencies when Delta G_m=0."},
+      {"id":"R08:P:SIM_PBTEST:FIXED_PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"fixed_generator starts capability 1.15, generator 1 and multiplies capability 1.15 each step with generator unchanged."},
+      {"id":"R08:P:SIM_PBTEST:IMPROVING_PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"improving_generator starts capability 1.20, generator 1, generator_growth .15; generator and growth rate compound and capability multiplies by generator."},
+      {"id":"R08:P:SIM_PBTEST:PROCEDURE","role":"EXECUTABLE_IMPLEMENTATION","content":"Runs both ten-step scenarios, computes local Omega proxy and compares improving_omega to fixed_omega."},
+      {"id":"R08:P:SIM_PBTEST:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Can print 'Evidence consistent with' and 'higher evolutionary velocity' based entirely on programmed synthetic trajectories; no frozen execution record or empirical standing."}
+    ]},
+    {"path":"experiments/simulations/phase_transition_control.py","blob":"e41fc1d2869fb44ddf64ceab9d60d5976ee1190c","units":[
+      {"id":"R08:P:SIM_CONTROL:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Tests core hypothesis against baseline and resource-scaling alternatives using three synthetic systems."},
+      {"id":"R08:P:SIM_CONTROL:SCENARIOS","role":"IMPLEMENTATION_ASSUMPTION","content":{"baseline":"fixed R, fixed G","resource":"resource_growth=.15, fixed G","evolutionary":"fixed R, generator_growth=.15"}},
+      {"id":"R08:P:SIM_CONTROL:DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"Resources and generator multiply by configured rates; capability productivity=.05*resources*generator."},
+      {"id":"R08:P:SIM_CONTROL:OMEGA_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"omega_proxy=capability_gain*delta_gm, a file-local proxy not the repository's unique Omega definition."},
+      {"id":"R08:P:SIM_CONTROL:PREDICTION","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Program comments predict Omega_evolutionary > Omega_resource > Omega_baseline and Delta G_m preceding Delta C."},
+      {"id":"R08:P:SIM_CONTROL:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Program runs systems at import/direct execution and prints phase-boundary analysis plus prediction narrative; repository presence does not prove execution."}
+    ]},
+    {"path":"experiments/simulations/reachable_frontier_phase_boundary.py","blob":"53981ff38e2b1107f7e30c6cbcfee484697bcf71","units":[
+      {"id":"R08:P:SIM_FRONTIER:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Tests stronger Delta G_m->Delta Omega->Delta P_reach->Delta C hypothesis; contrasts fixed frontier resource system with expanding-frontier evolutionary system."},
+      {"id":"R08:P:SIM_FRONTIER:PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"50 steps; alpha=.15,beta=.05,gamma=.10, initial C=1,P=10,G=1."},
+      {"id":"R08:P:SIM_FRONTIER:RESOURCE_DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"Resource condition actually keeps P and G fixed while C approaches P; source labels it resource system despite no explicit resource state variable."},
+      {"id":"R08:P:SIM_FRONTIER:EVOLUTIONARY_DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","content":"C tracks P; P multiplies by 1+beta*G_m; G_m multiplies by 1+gamma."},
+      {"id":"R08:P:SIM_FRONTIER:OMEGA_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"Omega=G_m-previous_G_m."},
+      {"id":"R08:P:SIM_FRONTIER:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Program finds synthetic crossover and prints framework interpretation that evolutionary system creates new reachable possibilities; no frozen run output is reported."}
+    ]},
+    {"path":"experiments/simulations/saturated_frontier_phase_boundary.py","blob":"c013e2fc059946c71b5504140803286f23dfc599","units":[
+      {"id":"R08:P:SIM_SAT:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Tests phase-boundary chain under generator saturation, frontier saturation and diminishing resource returns."},
+      {"id":"R08:P:SIM_SAT:PARAMETERS","role":"IMPLEMENTATION_ASSUMPTION","content":"100 steps; alpha=.20,gamma=.20,G_capacity=10,beta=.05,P_capacity=1000, resource_growth=1.08, resource_frontier_gain=.05."},
+      {"id":"R08:P:SIM_SAT:SCENARIOS","role":"EXECUTABLE_IMPLEMENTATION","content":"Implements fixed baseline, resource frontier expansion with saturation, and evolutionary logistic generator/frontier expansion."},
+      {"id":"R08:P:SIM_SAT:OMEGA_PROXY","role":"IMPLEMENTATION_ASSUMPTION","content":"Lambda=C-previous_C and Omega=Lambda-previous_lambda; this differs from generator-difference proxies in other simulation files."},
+      {"id":"R08:P:SIM_SAT:CROSSOVER","role":"EXECUTABLE_IMPLEMENTATION","content":"Program searches first evolutionary C > resource C crossover and reports final C/P/G/Lambda/Omega."},
+      {"id":"R08:P:SIM_SAT:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Prints expected signature and says a phase boundary exists if trajectory class changes; no stored run record turns this into an observed result."}
+    ]}
+  ],
+  "cross_source_implementation_tensions":[
+    {"object":"SIMULATION_OMEGA_PROXY_FAMILY","status":"MULTIPLE_FILE_LOCAL_PROXY_DEFINITIONS_PRESERVED","variants":["generator capacity","generator change","change in capability velocity","capability_gain*delta_gm","change in Delta C/Delta G_m efficiency"],"semantic_identity":"NOT_ESTABLISHED_AS_ONE_OPERATIONAL_ESTIMATOR"}
+  ],
+  "non_inferences":["CODE_PRESENCE_NOT_EXECUTION","PROGRAMMED_INTERPRETATION_NOT_OBSERVED_RESULT","FILENAME_FAILED_NOT_REPORTED_NEGATIVE_RESULT","ONE_BYTE_SCRIPT_NOT_FAILED_EXPERIMENT","EXACT_DUPLICATE_BLOB_NOT_INDEPENDENT_WARRANT","SIMULATION_PROXY_NOT_VALIDATED_MEASUREMENT"],
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE"
+}
