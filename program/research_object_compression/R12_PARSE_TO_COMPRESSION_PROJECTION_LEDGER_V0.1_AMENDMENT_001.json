@@ -1,0 +1,20 @@
+{
+  "object":"CEREBRO_R12_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_AMENDMENT_001",
+  "persistent_record_state":"FROZEN",
+  "base_ledger":"program/research_object_compression/R12_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "compression_repair":"program/research_object_compression/R12_COMPRESSION_V0.1_AMENDMENT_001.json",
+  "replacement_mapping_count":1,
+  "replacement_mappings":[
+    ["R12:P:README:DEF_PERMEABILITY","DEFINITION","R12:DEF:PERMEABILITY"]
+  ],
+  "unchanged_formal_recurrence_mappings":[
+    ["R12:P:README:CRITICAL_BRIDGE_OCCURRENCE","FORMAL_STRUCTURE","R12:FORMAL:PERMEABILITY"],
+    ["R12:P:README:SUMMARY_FORMAL_RECURRENCE","FORMAL_STRUCTURE","R12:FORMAL:PERMEABILITY"]
+  ],
+  "effective_primary_projection_entries":31,
+  "effective_unmapped_parse_units":0,
+  "effective_duplicate_primary_owners":0,
+  "standing_preservation_target":"REPAIRED_ON_DEMONSTRATED_FAILURE_SET",
+  "map_edge_effect":"NONE",
+  "scientific_authority_effect":"NONE"
+}
