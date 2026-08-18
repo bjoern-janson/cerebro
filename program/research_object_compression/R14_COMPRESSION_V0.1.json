@@ -1,0 +1,88 @@
+{
+  "object":"CEREBRO_R14_COMPRESSION_V0.1",
+  "record_type":"research-object compression candidate",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R14",
+  "repository":"bjoern-janson/recursive-adaptive-dynamics",
+  "frozen_head_commit":"5b305d2c7d7c4e342a484e59b0bb437727da2abf",
+  "effective_parse":"R14_EXHAUSTIVE_PARSE_V0.1 + AMENDMENT_001",
+  "effective_primary_parse_units":120,
+  "derived_audit_views":4,
+  "compression_contract":"EFFECTIVE_RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "compressed_items":[
+    {"id":"R14:IDENTITY:RAD","coordinate":"IDENTITY","standing":"IDENTITY_TITLE","content":"Recursive Adaptive Dynamics (RAD)."},
+    {"id":"R14:STATUS:FRAMEWORK","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":{"source_characterization":"Causal decomposition + empirical hypothesis","recurrent_status":"Ontology defined; hypothesis unverified","primary_object":"Evolution of reachable spaces of future adaptive mechanisms"},"source_occurrence_count":4,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"id":"R14:SCOPE:BOUNDARY","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"RAD is scoped as a causal framework for recursive systems where mechanisms of change become objects of change; source repeatedly excludes claims to define intelligence, learning, optimization, alignment, agency, or consciousness."},
+    {"id":"R14:QUESTION:CENTRAL","coordinate":"OPEN_PROBLEMS","standing":"SOURCE_DESCRIBED_RESEARCH_QUESTION","content":"Does consequence-shaped / constraint-bearing information causally influence evolution of future reachable adaptive mechanism spaces?"},
+
+    {"id":"R14:DEF:CORE_ONTOLOGY","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"X_t":"system state","F_t":"state transformation mechanism","G_t":"transformation-selection mechanism modifying future F","Gspace_t":"reachable space of possible G","M_t":"internal representation/model","Omega_t":"consequence/constraint-bearing information"}},
+    {"id":"R14:DEF:RECURSIVE_DISTINCTIONS","coordinate":"DEFINITIONS","standing":"SOURCE_FORMALIZATION","content":["change within a mechanism space != change of the mechanism space itself","G_t != F_t","G_t != Gspace_t","available mechanisms != selected mechanism","current performance != future adaptive capacity"]},
+    {"id":"R14:FORMAL:HIERARCHY","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":{"L0":"X_{t+1}=F_t(X_t)","L1":"F_{t+1}=G_t(F_t)","L2":"G_{t+1}=H_t(G_t,Omega_t)","L3":"Gspace_{t+1}=J_t(Gspace_t,Omega_t)"}},
+    {"id":"R14:FORMAL:CAUSAL_CHAINS","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":{"recursive":"X -> F -> G -> Gspace","constraint":"Omega -> M -> G -> F -> X","expanded":"Omega -> M -> (q,v) -> Gspace* -> pi -> G -> F -> X -> Omega_next"},"map_edge_effect":"NONE"},
+    {"id":"R14:HYP:CENTRAL","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_HYPOTHESIS","content":"Omega_t -> Delta Gspace_{t+1}: long-horizon recursive adaptation may depend on viability-relevant consequences continuing to shape reachable future adaptive mechanisms.","source_boundary":"repeatedly labeled hypothesis / empirical question, not established fact"},
+
+    {"id":"R14:DEF:TASK_BOUNDED_SPACE","coordinate":"DEFINITIONS","standing":"SOURCE_FORMALIZATION","content":{"library":"L={G_1,...,G_n}","task_space":"Gspace^(task)_t subset L","scope":"finite controlled approximation; complete mechanism universe not required"}},
+    {"id":"R14:DEF:MECHANISM","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"G_i":"(a_i,m_i,c_i,h_i)","a_i":"action behavior","m_i":"modification operator","c_i":"resource cost","h_i":"historical statistics"}},
+    {"id":"R14:DEF:ACCESSIBILITY","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"q_i":"P(G_i reachable at t)","reachable_space":"{G_i:q_i>theta_q}","N_q":"accessible count","H_q":"accessibility entropy","D_q":"between-system accessibility divergence"}},
+    {"id":"R14:DEF:VIABILITY","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"v_i":"P(G_i remains adaptive/useful under future perturbations)","viable_space":"{G_i:q_i>theta_q and v_i>theta_v}","N_v":"viable count","D_v":"viability divergence"}},
+    {"id":"R14:DEF:POLICY_STATE","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":{"state":"S_t=(X_t,F_t,pi_t,G_t,M_t,q_t,v_t)","selection":"pi_t(Gspace^(task)_t)->G_t","boundary":"availability and selection remain distinct"}},
+
+    {"id":"R14:DEF:ENVIRONMENT_VARIANT_RC","coordinate":"DEFINITIONS","standing":"SOURCE_FORMAL_VARIANT","content":{"definition":"E_t=(R_t,C_t)","R_t":"hidden regime/rule","C_t":"active/current constraints"},"source_scope":["docs/simulator-spec.md","environment/README.md"],"canonicalization":"NONE"},
+    {"id":"R14:DEF:ENVIRONMENT_VARIANT_RCN","coordinate":"DEFINITIONS","standing":"SOURCE_FORMAL_VARIANT","content":{"definition":"E_t=(R_t,C_t,N_t)","R_t":"hidden regime","C_t":"active constraints","N_t":"novelty structure"},"source_scope":"environment/design.md","canonicalization":"NONE"},
+    {"id":"R14:FORMAL:CONSEQUENCE_SIGNAL","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":{"Omega":"f(X_t,E_t)","boundary":"agent does not directly observe hidden regime/complete environment state","possible_signal_contents":["success/failure","delayed outcomes","feedback","resource changes","constraint violations"]}},
+    {"id":"R14:METHOD:GROUNDING_INTERVENTION","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"grounded":"(q,v)_{t+1}=J(q_t,v_t,Omega_t)","decoupled":"(q,v)_{t+1}=J(q_t,v_t)","intended_manipulation":"remove only consequence coupling into adaptive-space evolution"}},
+    {"id":"R14:METHOD:CONTROL_REQUIREMENTS","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"shared":["mechanism library","compute budget","initial capability","environment exposure","modification capacity"],"initial_equalities":["P_A(0) approx P_B(0)","q_A(0)=q_B(0)","v_A(0)=v_B(0)"],"standing":"design requirements; not execution-established controls"}},
+
+    {"id":"R14:DEF:OPENNESS","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"O_t":"sum_i q_i(t)v_i(t) / sum_i q_i(t)","interpretation":"future viability among currently reachable mechanisms","boundary":"accessibility and viability contribute separately"}},
+    {"id":"R14:DEF:PERFORMANCE_RECOVERY_EXPLORATION","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"P":"current competence/performance","R":"post-disruption recovery; one source gives normalized recovery formula","E":"exploration/discovery; source gives discovery-rate and diversity examples"}},
+    {"id":"R14:DEF:ADAPTIVE_VECTOR_DIVERGENCE","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":{"A":"(P,R,E,O)","D_G":"adaptive-space divergence","D_O":"|O_A-O_B|","possible_D_G_implementations":["Jaccard","distribution distance","embedding distance"]}},
+    {"id":"R14:DEF:ADAPTIVE_CLOSURE","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":"Adaptive closure: current performance P(t) rises while adaptive openness O(t) falls."},
+    {"id":"R14:PRED:SIGNATURE","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_PREDICTION","content":{"early":"P_A approx P_B; some surfaces also expect O_A approx O_B","later":"O_A > O_B","after_novelty":"R_A > R_B","possible":"P rises while O falls"},"result_status":"PREDICTED_NOT_OBSERVED"},
+
+    {"id":"R14:METHOD:ENVIRONMENT_DESIGN","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"requirements":["stable specialization periods","regime changes","hidden constraints","delayed consequences","later adaptation pressure","early comparability"],"phases":["stabilization","transition","novelty"],"purpose":"perturbation for future adaptive-capacity testing, not intelligence measurement"}},
+    {"id":"R14:METHOD:NOVELTY","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"N_t":"novelty control in environment-design variant","magnitude":"Delta_E=d(E_t,E_{t+1})","frequency":"f_N","predictability":"p_N","example_schedule":"1000 stable R1, 500 shifted R2, 500 novel R3"}},
+    {"id":"R14:EXAMPLE:MECHANISM_LIBRARY","coordinate":"APPLICATIONS_OR_EXAMPLES","standing":"ILLUSTRATIVE_EXAMPLE","content":{"G1":"Exploit","G2":"Explore","G3":"Reuse","G4":"Abstract"},"boundary":"illustrative initial library, not executed mechanism set"},
+    {"id":"R14:EXAMPLE:ENVIRONMENT","coordinate":"APPLICATIONS_OR_EXAMPLES","standing":"ILLUSTRATIVE_EXAMPLE","content":{"hidden_mapping":"R1:A->B then R2:C->D","mechanism_pressure":"early G1 success can give way to G2/G3/combinations","python_like_sketches":"environment generator and schedule appear only as Markdown examples"}},
+
+    {"id":"R14:STATUS:SIMULATOR","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":{"README_occurrence":"simulator specification in progress","simulator_spec_occurrence":"Specification defined; implementation pending","canonical_status":"NOT_ESTABLISHED"}},
+    {"id":"R14:STATUS:MECHANISM_SCOPE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":{"v0_1":"distributional evolution q_i(t),v_i(t) over fixed library","future_extension":"L_{t+1} != L_t","future_extension_current_status":"outside v0.1"}},
+    {"id":"R14:STATUS:REPOSITORY_LAYOUT_PROSE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"PROJECT_PROCESS_METADATA","content":{"README_described_layout":"core/, simulator/, docs/, experiments/results","spec2_minimal_layout":"RAD/RAD.md with future formalism/simulator/experiments/critiques/related-work","environment_future_paths":"regime.py, novelty.py, hidden_rules.py, delayed_feedback.py, evaluator.py"},"filesystem_effect":"NONE"},
+    {"id":"R14:METHOD:FALSIFICATION","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":"RAD is weakened if systems maintain long-horizon recovery/exploration/openness under novelty, regime shifts, changing constraints or adversarial perturbations while consequence coupling to adaptive-space evolution is absent."},
+    {"id":"R14:METHOD:IMPLEMENTATION_GOAL","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"question":"Can identical-present-capability systems diverge solely because adaptive spaces evolve differently?","source_evaluation_rule":{"if_yes":"source says measurable causal phenomenon identified","if_no":"source says decomposition may remain descriptive and hypothesis is weakened"},"standing":"prospective evaluation rule, not result"}},
+
+    {"id":"R14:STATUS:NO_EMPIRICAL_RESULT","coordinate":"REPORTED_RESULTS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No reported empirical result is observed on the exhaustive frozen 10-path research surface."},
+    {"id":"R14:STATUS:NO_NEGATIVE_RESULT","coordinate":"REPORTED_NEGATIVE_RESULTS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No reported negative result is observed; falsification sections are prospective protocols."},
+    {"id":"R14:STATUS:NO_EXECUTABLE_IMPLEMENTATION","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No executable research implementation is observed on the frozen head; code-like blocks are Markdown pseudocode/examples and simulator specification explicitly says implementation pending."},
+    {"id":"R14:STATUS:NO_EXECUTION","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No execution record or persisted run artifact is observed on the frozen research surface."}
+  ],
+  "secondary_views":[
+    {"id":"R14:VIEW:ENVIRONMENT_FORMAL_VARIANTS","secondary_role":"CROSS_SOURCE_FORMAL_VARIANT_VIEW","primary_references":["R14:DEF:ENVIRONMENT_VARIANT_RC","R14:DEF:ENVIRONMENT_VARIANT_RCN"],"content":"Same symbol E_t is defined with two different arities across source surfaces. No canonicalization, supersession, or equivalence is established.","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R14:VIEW:STATUS_VARIANTS","secondary_role":"CROSS_SOURCE_STATUS_VIEW","primary_references":["R14:STATUS:FRAMEWORK","R14:STATUS:SIMULATOR"],"content":"Source-scoped project-status statements coexist; no canonical repository status is inferred from filename, wording, or apparent maturity.","authority_effect":"NONE"},
+    {"id":"R14:VIEW:FILESYSTEM_VS_PROSE","secondary_role":"SOURCE_VS_APERTURE_VIEW","primary_references":["R14:STATUS:REPOSITORY_LAYOUT_PROSE"],"content":"Document-described current/minimal/future layouts are not substituted for the observed 12-path frozen filesystem aperture.","authority_effect":"NONE"},
+    {"id":"R14:VIEW:RECURRENCE","secondary_role":"SOURCE_OCCURRENCE_VIEW","primary_references":["R14:HYP:CENTRAL","R14:DEF:RECURSIVE_DISTINCTIONS","R14:DEF:OPENNESS","R14:METHOD:GROUNDING_INTERVENTION","R14:PRED:SIGNATURE"],"content":"Core RAD concepts recur across multiple source files.","warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE","authority_effect":"NONE"}
+  ],
+  "derived_bounded_absence_provenance":{"source_surface":"R14_SOURCE_SURFACE_V0.1.json","effective_parse":"120 primary units across 10/10 admitted research paths","executable_file_paths_observed":0,"execution_record_paths_observed":0},
+  "non_inferences":[
+    "SAME_SYMBOL != SAME_FORMAL_DEFINITION",
+    "E_t=(R,C) != E_t=(R,C,N) BY DEFAULT",
+    "SOURCE_VARIANT != SUPERSESSION",
+    "SOURCE_STATUS_OCCURRENCE != CANONICAL_STATUS",
+    "DOCUMENT_DESCRIBED_LAYOUT != OBSERVED_FILESYSTEM",
+    "PSEUDOCODE != EXECUTABLE_IMPLEMENTATION",
+    "SIMULATOR_SPECIFICATION != IMPLEMENTATION != EXECUTION_RECORD",
+    "HYPOTHESIS_RECURRENCE != INDEPENDENT_WARRANT",
+    "PREDICTION != REPORTED_RESULT",
+    "FALSIFICATION_PROTOCOL != NEGATIVE_RESULT",
+    "CONDITIONAL_SUCCESS_RULE != OBSERVED_CAUSAL_RESULT",
+    "INTERNAL_CAUSAL_ARROW != PROGRAM_MAP_EDGE",
+    "OMEGA_TO_DELTA_GSPACE != CONVERSE_RELATION",
+    "AVAILABLE != SELECTED != PERFORMANCE != FUTURE_ADAPTIVE_CAPACITY"
+  ],
+  "compression_standing":"CANDIDATE_PENDING_EXPLICIT_PROJECTION_LEDGER_AND_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "amendment_005":"NOT_EARNED"
+}
