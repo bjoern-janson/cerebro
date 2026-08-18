@@ -1,0 +1,50 @@
+{
+  "object": "CEREBRO_R24_EXHAUSTIVE_PARSE_V0.1",
+  "repository_id": "R24",
+  "repository": "bjoern-janson/ree",
+  "frozen_head_commit": "855432a9f55be699e2747e7aaea38a34285cf5a8",
+  "source_surface": "R24_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "parse_contract": "CEREBRO_EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1+AMENDMENT_001",
+  "parts": [
+    "R24_EXHAUSTIVE_PARSE_V0.1_PART_A.json",
+    "R24_EXHAUSTIVE_PARSE_V0.1_PART_B.json"
+  ],
+  "candidate_counts": {
+    "frozen_head_blob_paths": 4,
+    "admitted_research_paths": 3,
+    "excluded_paths": 1,
+    "parsed_representations": 87,
+    "explicitly_unresolved": 28,
+    "effective_candidate_units": 115,
+    "parser_failures": 0,
+    "unmapped_admitted_paths": 0
+  },
+  "standing_boundaries": {
+    "current_head_implementation_present": false,
+    "execution_record_present": false,
+    "test_source_present": false,
+    "source_reported_empirical_results_present": true,
+    "source_reported_negative_results_present": true,
+    "reported_result_document": "docs/validation.md",
+    "reported_results_reconstructible_from_execution_artifacts": false
+  },
+  "preserved_pressures": [
+    "REPORTED_RESULT_VS_EXECUTION_RECORD",
+    "REPORTED_RESULT_VS_INSTRUMENT_LINEAGE",
+    "README_DESCRIBED_REPOSITORY_STRUCTURE_VS_FROZEN_TREE",
+    "PERSISTENT_PREDICTION_ERROR_VS_REPRESENTATION_FAILURE_IDENTIFICATION",
+    "PREDEFINED_CANDIDATE_FAMILY_VS_AUTONOMOUS_REPRESENTATION_INVENTION",
+    "LOCAL_SYNTHETIC_VALIDATION_VS_GENERAL_INTERFACE_INVENTION",
+    "SOURCE_RELATION_ASSERTION_VS_ENDPOINT_IDENTITY",
+    "EXTERNAL_PROJECT_VALIDATED_STATUS_VS_R24_EVIDENCE",
+    "CURRENT_HEAD_VS_DEVELOPMENTAL_HISTORY"
+  ],
+  "relation_assertion_policy": "Connected-project and conceptual relation assertions remain source propositions only. No endpoint identity or Program Map edge is emitted.",
+  "result_policy": "Numerical and qualitative results reported by docs/validation.md are preserved as SOURCE_REPORTED empirical/negative results with a provenance ceiling. They are not downgraded to predictions and not upgraded to execution records or reproduced findings.",
+  "absence_policy": "Current frozen head has no executable implementation, test, data, run-log, checkpoint, or CI record. This does not negate source-reported results or claim no external/off-repository execution occurred.",
+  "map_edge_emission": "NONE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation_authorized": false
+}
