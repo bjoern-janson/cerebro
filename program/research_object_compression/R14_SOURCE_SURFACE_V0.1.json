@@ -1,0 +1,39 @@
+{
+  "object": "CEREBRO_R14_SOURCE_SURFACE_V0.1",
+  "record_type": "frozen recursive repository source surface",
+  "persistent_record_state": "FROZEN",
+  "repository_id": "R14",
+  "repository": "bjoern-janson/recursive-adaptive-dynamics",
+  "frozen_head_commit": "5b305d2c7d7c4e342a484e59b0bb437727da2abf",
+  "frozen_head_tree": "e6f1a0d9644d9d96973bcb4f81ac32087d12bd60",
+  "aperture": "full recursive file surface at frozen head",
+  "coverage": {
+    "head_file_paths": 12,
+    "unique_head_blobs": 12,
+    "research_bearing_paths": 10,
+    "excluded_non_research_paths": 2,
+    "unenumerated_paths": 0
+  },
+  "path_dispositions": [
+    {"path":".gitignore","blob":"83972fadc2724842e111d0d3e2829a59ae3d3f45","size_bytes":4628,"disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"repository/tooling ignore metadata; no research-semantic standing under current aperture"},
+    {"path":"LICENSE","blob":"261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64","size_bytes":11357,"disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"legal metadata only"},
+    {"path":"README.md","blob":"251a4e07e300a3d90ebf86a504206dfee9720c0c","size_bytes":4076,"disposition":"PARSE_INCLUDED"},
+    {"path":"agent/state.md","blob":"160aa48555f7e5a25a7681e82cd33625d83a88e2","size_bytes":5882,"disposition":"PARSE_INCLUDED"},
+    {"path":"core/formalism.md","blob":"6a54570e06c44ad416a51456e1db474733961531","size_bytes":5090,"disposition":"PARSE_INCLUDED"},
+    {"path":"core/formalism2.md","blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","size_bytes":5669,"disposition":"PARSE_INCLUDED"},
+    {"path":"core/metrics.md","blob":"107ca648f6163b096e6a54c2e970c3b0aea7990e","size_bytes":4663,"disposition":"PARSE_INCLUDED"},
+    {"path":"docs/simulator-spec.md","blob":"57e33676888f9f6a7bb54bae81be54210f187483","size_bytes":6362,"disposition":"PARSE_INCLUDED"},
+    {"path":"docs/simulator-spec2.md","blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","size_bytes":5374,"disposition":"PARSE_INCLUDED"},
+    {"path":"environment/README.md","blob":"b133ab8b919634c868de1000d594e913041d157b","size_bytes":2880,"disposition":"PARSE_INCLUDED"},
+    {"path":"environment/design.md","blob":"1dd41ca954002dad1f70935fb460f61d61a6944c","size_bytes":4639,"disposition":"PARSE_INCLUDED"},
+    {"path":"mechanisms/library.md","blob":"ae51969d8e56cb678b8917e5c3005faf107f6e06","size_bytes":5243,"disposition":"PARSE_INCLUDED"}
+  ],
+  "frozen_boundaries": {
+    "semantic_parse_started": false,
+    "map_edge_emission": "NONE",
+    "map_authority": "NONE",
+    "scientific_authority": "NONE",
+    "propagate_kernel": "NOT_EARNED",
+    "cerebro_step_2": "CLOSED"
+  }
+}
