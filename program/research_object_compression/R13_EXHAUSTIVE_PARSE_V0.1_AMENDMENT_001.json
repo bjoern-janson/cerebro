@@ -1,0 +1,28 @@
+{
+  "object":"CEREBRO_R13_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type":"local primary-vs-derived parse bookkeeping repair",
+  "persistent_record_state":"FROZEN",
+  "base_parse":"program/research_object_compression/R13_EXHAUSTIVE_PARSE_V0.1.json",
+  "death_test":"program/research_object_compression/R13_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope":"DEMOTE_CROSS_ARTIFACT_AUDIT_DEDUCTIONS_ONLY",
+  "demoted_from_primary_parse":[
+    "R13:P:RAW:MULTIPLICITY",
+    "R13:P:RAW:DISTINCT_E_TRACE",
+    "R13:P:RAW:DETERMINISTIC_MODES",
+    "R13:P:RAW:PROVENANCE_CEILING"
+  ],
+  "derived_audit_views":[
+    {"id":"R13:AUDIT:RAW_MULTIPLICITY","derived_from":["R13_SOURCE_SURFACE_V0.1.json"],"content":{"nominal_raw_result_paths":10,"unique_raw_result_blobs":4},"standing":"DERIVED_AUDIT_VIEW","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R13:AUDIT:DISTINCT_E_TRACE","derived_from":["R13:P:RAW:UNIQUE:F693","R13:P:RAW:UNIQUE:CC1D","R13:P:RAW:UNIQUE:3093","R13:P:RAW:UNIQUE:CCC9"],"content":"Cross-blob inspection shows differing mode-E t=67 state/outcome values among the four unique immutable payloads.","standing":"DERIVED_AUDIT_VIEW","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R13:AUDIT:DETERMINISTIC_MODE_STRUCTURE","derived_from":["R13:P:RUNNER:MODE_SELECTION","R13:P:RUNNER:RANDOMNESS"],"content":"In the frozen runner, explicit stochastic selection occurs in mode E; A-D use deterministic selection logic relative to supplied state/costs.","standing":"DERIVED_AUDIT_VIEW","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R13:AUDIT:EXECUTION_PROVENANCE_CEILING","derived_from":["R13:P:RUNNER:SEED_PROVENANCE_LIMIT","R13:P:RAW:PATH:42","R13:P:RAW:PATH:42_BACKUP","R13:P:RAW:PATH:43_46_49","R13:P:RAW:PATH:44_45_47_50","R13:P:RAW:PATH:48"],"content":"Nominal filenames and stored content establish path/content identities but do not by themselves establish independent execution multiplicity; independent execution count remains NOT_ESTABLISHED.","standing":"DERIVED_AUDIT_VIEW","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"}
+  ],
+  "effective_accounting":{"historical_candidate_units":39,"effective_primary_source_parse_units":35,"derived_audit_views":4,"unresolved_source_units":0,"parser_failures":0},
+  "source_unit_content_changed":false,
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "cerebro_step_2_reopened":false
+}
