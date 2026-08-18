@@ -1,0 +1,21 @@
+{
+  "object":"CEREBRO_R10_COMPRESSION_V0.1_CONFORMANCE_003",
+  "record_type":"pre-death-test inherited-contract conformance overlay",
+  "persistent_record_state":"FROZEN",
+  "base_effective_compression":["program/research_object_compression/R10_COMPRESSION_V0.1.json","program/research_object_compression/R10_COMPRESSION_V0.1_CONFORMANCE_001.json","program/research_object_compression/R10_COMPRESSION_V0.1_CONFORMANCE_002.json"],
+  "trigger":"RESEARCH_OBJECT_COMPRESSION_AMENDMENT_003_SECONDARY_REUSE_ACCOUNTING",
+  "secondary_views":[
+    {"secondary_item":"R10:SCOPE:PROGRAM","secondary_role":"REPOSITORY_LEVEL_SCOPE_VIEW","primary_references":["R10:SCOPE:LOCAL_PURPOSES"],"authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_item":"R10:TENSION:RESULT","secondary_role":"CROSS_CUTTING_RESULT_STANDING_TENSION_VIEW","primary_references":["R10:EXAMPLE:SYNTHETIC_OUTPUT","R10:RESULT:QUALITATIVE_INITIAL_ANALYSIS","R10:STATUS:RESEARCH_STAGE"],"authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_item":"R10:TENSION:EXECUTABILITY","secondary_role":"CROSS_CUTTING_IMPLEMENTATION_INTEGRATION_TENSION_VIEW","primary_references":["R10:IMPL:FENCED_ARTIFACT_STATE","R10:IMPL:ORDINARY_COMPONENTS","R10:IMPL:INTENDED_FENCED_CODE","R10:IMPL:INTEGRATION_STATUS"],"authority_effect":"NONE","warrant_multiplicity_effect":"NONE"}
+  ],
+  "derived_bounded_absence_provenance":[
+    {"item":"R10:STATUS:NO_MEASURED_RESULT","derivation":"EXHAUSTIVE_SOURCE_AND_PARSE_ACCOUNTING","source_surface":"R10_SOURCE_SURFACE_V0.1.json","parse_manifest":"R10_EXHAUSTIVE_PARSE_V0.1.json","support":"41/41 admitted research paths parsed; result-shaped artifacts explicitly resolve to synthetic example or qualitative initial analysis; no execution record or measured-output artifact observed","authority_effect":"NONE"},
+    {"item":"R10:RESULT:NEGATIVE","derivation":"EXHAUSTIVE_SOURCE_AND_PARSE_ACCOUNTING","source_surface":"R10_SOURCE_SURFACE_V0.1.json","parse_manifest":"R10_EXHAUSTIVE_PARSE_V0.1.json","support":"No source-reported negative execution result observed; falsification conditions remain prospective methodologies","authority_effect":"NONE"}
+  ],
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
