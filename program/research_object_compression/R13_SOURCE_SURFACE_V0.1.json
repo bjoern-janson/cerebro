@@ -1,0 +1,70 @@
+{
+  "object":"CEREBRO_R13_SOURCE_SURFACE_V0.1",
+  "record_type":"frozen full recursive repository source surface",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R13",
+  "repository":"bjoern-janson/rpb_v0_1",
+  "default_branch":"main",
+  "frozen_head_commit":"88e5f045bcd50da608867623bc9be1adf284c997",
+  "frozen_head_tree":"8b3b9d2f3cca7f1415547df1b3239f3d6bacd254",
+  "tree_truncated":false,
+  "inventory":{
+    "total_blob_paths":13,
+    "research_bearing_blob_paths":13,
+    "excluded_non_research_blob_paths":0,
+    "unique_research_bearing_blobs":7,
+    "markdown_blob_paths":2,
+    "json_blob_paths":10,
+    "python_blob_paths":1,
+    "duplicate_content_path_groups":3
+  },
+  "paths":[
+    {"path":"README.md","blob":"2c6b73b9e80f41d6f5d4245c27214d3d8a739190","size":501,"source_format":"MARKDOWN","disposition":"PARSE_INCLUDED"},
+    {"path":"RESULTS_SUMMARY.md","blob":"6e637d3d91276f842bcecdc2149763ffca879359","size":569,"source_format":"MARKDOWN","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_42.json","blob":"f693aa8bbac981dab56552a5b452411698bb9eee","size":745462,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_42_backup.json","blob":"f693aa8bbac981dab56552a5b452411698bb9eee","size":745462,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_43.json","blob":"cc1da4e79a4328406966ab2a719e9de0aace4c19","size":745564,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_44.json","blob":"30932c9c646f8a390441e917fb928e4ec929a608","size":745572,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_45.json","blob":"30932c9c646f8a390441e917fb928e4ec929a608","size":745572,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_46.json","blob":"cc1da4e79a4328406966ab2a719e9de0aace4c19","size":745564,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_47.json","blob":"30932c9c646f8a390441e917fb928e4ec929a608","size":745572,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_48.json","blob":"ccc922d5d71b2f22a16f47a3a7c78b57e93e0e3f","size":745463,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_49.json","blob":"cc1da4e79a4328406966ab2a719e9de0aace4c19","size":745564,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"results/raw_seed_50.json","blob":"30932c9c646f8a390441e917fb928e4ec929a608","size":745572,"source_format":"JSON","disposition":"PARSE_INCLUDED"},
+    {"path":"src/runner.py","blob":"1fc2c7fb1cfdb4a189080ac9cd1cdb8ffb18fc98","size":9618,"source_format":"PYTHON","disposition":"PARSE_INCLUDED"}
+  ],
+  "duplicate_content_groups":[
+    {"blob":"f693aa8bbac981dab56552a5b452411698bb9eee","paths":["results/raw_seed_42.json","results/raw_seed_42_backup.json"],"path_occurrences":2,"unique_content_blobs":1,"semantic_identity_effect":"BYTE_IDENTITY_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"blob":"cc1da4e79a4328406966ab2a719e9de0aace4c19","paths":["results/raw_seed_43.json","results/raw_seed_46.json","results/raw_seed_49.json"],"path_occurrences":3,"unique_content_blobs":1,"semantic_identity_effect":"BYTE_IDENTITY_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"blob":"30932c9c646f8a390441e917fb928e4ec929a608","paths":["results/raw_seed_44.json","results/raw_seed_45.json","results/raw_seed_47.json","results/raw_seed_50.json"],"path_occurrences":4,"unique_content_blobs":1,"semantic_identity_effect":"BYTE_IDENTITY_ESTABLISHED","warrant_multiplicity_effect":"NONE"}
+  ],
+  "unique_raw_result_blobs":[
+    "f693aa8bbac981dab56552a5b452411698bb9eee",
+    "cc1da4e79a4328406966ab2a719e9de0aace4c19",
+    "30932c9c646f8a390441e917fb928e4ec929a608",
+    "ccc922d5d71b2f22a16f47a3a7c78b57e93e0e3f"
+  ],
+  "structural_observations":{
+    "branch_head_message":"Add multi-seed benchmark results",
+    "research_root_predates_github_container_creation":true,
+    "chronology_exception_preserved":true,
+    "execution_status":"NOT_DETERMINED_AT_SOURCE_SURFACE_STAGE",
+    "result_status":"NOT_DETERMINED_AT_SOURCE_SURFACE_STAGE"
+  },
+  "non_inferences":[
+    "RESULTS_DIRECTORY != VALIDATED_RESULT",
+    "RAW_SEED_FILENAME != INDEPENDENT_EXECUTION",
+    "DISTINCT_PATH != DISTINCT_CONTENT",
+    "BYTE_IDENTITY != INDEPENDENT_WARRANT",
+    "BRANCH_HEAD_MESSAGE != RESULT_VALIDITY",
+    "GIT_HISTORY_EXCEPTION != SCIENTIFIC_STANDING"
+  ],
+  "coverage_claim":"EXHAUSTIVE_RELATIVE_TO_FROZEN_RECURSIVE_HEAD_INVENTORY",
+  "source_surface_complete":true,
+  "semantic_parse_performed":false,
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "r14_parse_access_opened":false
+}
