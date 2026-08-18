@@ -1,0 +1,98 @@
+{
+  "object":"CEREBRO_R10_EXHAUSTIVE_PARSE_V0.1_PART_B",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R10",
+  "frozen_head_commit":"942de6bda50fb61d6a66b82811ceff6ab3ad1784",
+  "source_family":"DOCS_07_12_AND_THEORY",
+  "source_paths":11,
+  "units":62,
+  "sources":[
+    {"path":"docs/07_self_modification.md","units":[
+      {"id":"R10:P:D07:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Models recursive self-modification of world models, policies, representations, evaluators and architecture under identity/viability constraints."},
+      {"id":"R10:P:D07:TRANSFORMATION","role":"DEFINITION","content":"T:(G_t,O_t)->(G_t+1,O_t+1) represents source self-modification dynamics."},
+      {"id":"R10:P:D07:CORRECTION_CORRUPTION","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source distinguishes self-correction, which improves beliefs/heuristics while preserving identity, from self-corruption, which rewrites core values/viability/evaluator criteria."},
+      {"id":"R10:P:D07:STABILITY_STRUCTURE","role":"FORMAL_STRUCTURE","content":"Viability/agency kernels, timescale separation, partial fixed points, attractor dynamics, transition stability and V_core preservation constrain recursive updates."},
+      {"id":"R10:P:D07:FAILURE_MODES","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Frozen systems, oscillation, recursive collapse, goal drift and capability without continuity are proposed failure modes."},
+      {"id":"R10:P:D07:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Theoretical self-modification model; no recursive self-modification experiment or observed trajectory is reported here."}
+    ]},
+    {"path":"docs/08_the_cget_objective.md","units":[
+      {"id":"R10:P:D08:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Unifies causal language, normative model and transformation operator into a lexicographically constrained CGET objective."},
+      {"id":"R10:P:D08:NAME_VARIANT","role":"SOURCE_DESCRIBED_STATUS","content":"This file expands CGET as 'Causal Generative Execution Theory', differing from README/overview 'Causal Generative Equilibrium Theory'; no silent canonicalization is authorized."},
+      {"id":"R10:P:D08:STATE","role":"DEFINITION_DICTIONARY","content":{"G":"causal language (Z,B,Omega,rho)","O":"normative model","T":"recursive transformation operator"}},
+      {"id":"R10:P:D08:LEVERAGE","role":"FORMAL_STRUCTURE","content":"Operational leverage is future-structure complexity divided by model complexity, execution cost and stability term; used as capability objective inside a feasible region."},
+      {"id":"R10:P:D08:LEXICOGRAPHIC","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Identity, causal truth, closure and transition stability are proposed as non-compensable feasibility conditions before leverage optimization."},
+      {"id":"R10:P:D08:CONSERVED_TRANSFORMATION","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source interprets intelligence as conserved transformation: remove unnecessary degrees of freedom while preserving invariant ones; compression without preservation is corruption, preservation without compression is stagnation."},
+      {"id":"R10:P:D08:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Framework-internal objective/principle; not an observed optimization law or empirically established universal objective."}
+    ]},
+    {"path":"docs/09_falsifiable_predictions.md","units":[
+      {"id":"R10:P:D09:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines observations and experiments that could distinguish or falsify CGET relative to scaling, prediction, reward optimization, memorization or uncontrolled complexity."},
+      {"id":"R10:P:D09:PREDICTIONS","role":"SOURCE_PREDICTION","content":["causal compression should precede capability expansion","executability should matter for practical intelligence","agency should track controllable rather than merely reachable futures","self-improvement should require identity preservation","alignment should be structurally integrated","value closure should improve generalization","recursive intelligence should remain in viable regions","representation quality should explain intelligence beyond parameter count"]},
+      {"id":"R10:P:D09:HISTORICAL_EXAMPLES","role":"SOURCE_INTERPRETATION","content":"Programming-language progression, hurricanes and other examples are used as motivating interpretations of predictions, not execution evidence for them."},
+      {"id":"R10:P:D09:EXPERIMENT_CLASSES","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes representation-intervention, agency-measurement and self-modification-stability experiment classes with equal-resource and structural measurements."},
+      {"id":"R10:P:D09:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Each prediction includes source-specified falsifiers; final criterion says CGET is wrong if intelligence can increase indefinitely without improved causal compression, controllable reach or invariant preservation."},
+      {"id":"R10:P:D09:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Prediction/falsification registry; predictions are not source-reported observations or experimental results."}
+    ]},
+    {"path":"docs/10_relationship_to_existing_work.md","units":[
+      {"id":"R10:P:D10:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Positions CGET as a proposed synthesis layer relating components of existing work rather than replacing those fields."},
+      {"id":"R10:P:D10:NAME_VARIANT","role":"SOURCE_DESCRIBED_STATUS","content":"This file expands CGET as 'Causal Generative Executable Theory', another source-local name variant preserved without reconciliation."},
+      {"id":"R10:P:D10:RELATIONSHIPS","role":"SOURCE_INTERPRETATION","content":"Source describes conceptual relationships/differences with algorithmic information theory, causal inference, reinforcement learning, control/viability theory, predictive processing/active inference, self-modification/alignment, thermodynamics/information theory and AGI research."},
+      {"id":"R10:P:D10:REFERENCE_BOUNDARY","role":"INTERNAL_REFERENCE","content":"Named external fields/frameworks are source-side conceptual references only; exact literature objects/endpoints are not resolved here and no Program Map edges are emitted."},
+      {"id":"R10:P:D10:SYNTHESIS_POSITION","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Source proposes compression + causal execution + agency + invariant preservation as a shared recursive problem/synthesis, while explicitly denying that individual disciplines are thereby invalid."},
+      {"id":"R10:P:D10:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Proposed synthesis/relationship analysis, not evidence that the claimed cross-field common structure has been independently established."}
+    ]},
+    {"path":"docs/11_examples_and_case_studies.md","units":[
+      {"id":"R10:P:D11:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Applies CGET to concrete systems; source explicitly says the examples are not intended to prove the framework through retrospective explanation."},
+      {"id":"R10:P:D11:HISTORICAL_CASES","role":"SOURCE_INTERPRETATION","content":"Newtonian mechanics, automatic differentiation, alpha-beta pruning, AlphaZero, thermostats, evolution and LLMs are interpreted through compression, causality, agency and self-modification coordinates."},
+      {"id":"R10:P:D11:HYPOTHETICAL_AGI","role":"APPLICATION_OR_EXAMPLE","content":"Hypothetical CGET-aligned AGI requirements are illustrative target conditions, not an implemented or observed AGI system."},
+      {"id":"R10:P:D11:COMPARISON_TABLE","role":"SOURCE_INTERPRETATION","content":"Source comparison table assigns qualitative CGET profiles to rocks, thermostats, classical AI, AlphaZero, evolution, LLMs and a CGET Agent; these labels are source interpretations, not measured benchmark outputs."},
+      {"id":"R10:P:D11:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Case-study/example layer; statements such as 'AlphaZero demonstrates' retain source interpretation standing and do not become validated historical results through compression."}
+    ]},
+    {"path":"docs/12_open_problems.md","units":[
+      {"id":"R10:P:D12:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Enumerates unresolved theoretical, mathematical and empirical problems required to turn CGET from theoretical framework into validated theory."},
+      {"id":"R10:P:D12:FORMAL_OPEN","role":"OPEN_QUESTION","content":"Open formal problems include rigorous intelligence definition, necessary constraints, causal-compression measurement, causal/value closure, core-identity discovery, transition-stability metrics, agency measurement and computational tractability."},
+      {"id":"R10:P:D12:EMPIRICAL_OPEN","role":"OPEN_QUESTION","content":"Empirical validation remains open; source proposes representation, alignment and agency tests but reports no completed validation in this file."},
+      {"id":"R10:P:D12:BIO_AGI_OPEN","role":"OPEN_QUESTION","content":"Relationship to biological intelligence, AGI sufficiency, consciousness and self-modeling remain explicitly unresolved."},
+      {"id":"R10:P:D12:MATH_OPEN","role":"OPEN_QUESTION","content":"Existence of stable attractors/viability kernels, bounds on self-modification, compression-complexity relations and value-closure characterization remain mathematical open problems."},
+      {"id":"R10:P:D12:ULTIMATE","role":"OPEN_QUESTION","content":"Ultimate unresolved question: can a system recursively increase reality-transformation ability while preserving the invariants that make that transformation meaningful?"}
+    ]},
+    {"path":"theory/assumptions.md","units":[
+      {"id":"R10:P:TASSUMP:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Makes foundational CGET assumptions explicit as candidate points of empirical validation or falsification rather than claiming an assumption-free foundation."},
+      {"id":"R10:P:TASSUMP:EPISTEMIC","role":"SOURCE_ASSERTION_ASSUMPTION","content":"Assumptions include compressible reality, intervention-relevant causal structure, executable representations, compression under constraints and compositional generalization."},
+      {"id":"R10:P:TASSUMP:AGENCY_NORMATIVE","role":"SOURCE_ASSERTION_ASSUMPTION","content":"Assumptions include viability constraints, structural identity invariants, timescale separation, future control as agency and alignment as internal to intelligence."},
+      {"id":"R10:P:TASSUMP:SELF_MODIFICATION","role":"SOURCE_ASSERTION_ASSUMPTION","content":"Assumptions include self-modification creating a recursive optimization problem, structured future space, transformable computational resources and intelligence as a dynamical property."},
+      {"id":"R10:P:TASSUMP:FALSIFIABILITY","role":"SOURCE_ASSERTION_ASSUMPTION","content":"Framework assumes its proposed structure is empirically falsifiable and lists conditions under which major components should be rejected or modified."},
+      {"id":"R10:P:TASSUMP:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"These are source-labelled assumptions, not established facts or observations."}
+    ]},
+    {"path":"theory/axioms.md","units":[
+      {"id":"R10:P:TAXIOM:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines minimum conceptual commitments of the CGET framework as axioms."},
+      {"id":"R10:P:TAXIOM:AXIOMS","role":"SOURCE_ASSERTION_ASSUMPTION","source_standing":"AXIOMS","content":"Twelve source-labelled axioms cover compression, causal preservation, executability, closure, agency, viability, identity preservation, timescale separation, transition stability, conserved transformation, recursive intelligence and alignment internality."},
+      {"id":"R10:P:TAXIOM:MASTER","role":"SOURCE_ASSERTION_ASSUMPTION","source_standing":"MASTER_AXIOM","content":"Master axiom compresses CGET to invariant-preserving compression under self-modifying dynamics with expanding controllable future reach."},
+      {"id":"R10:P:TAXIOM:IMPLICATIONS","role":"SOURCE_INTERPRETATION","content":"Implication text provides framework consequences/examples of the axioms; implication is not independent evidence for an axiom."},
+      {"id":"R10:P:TAXIOM:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Source explicitly says axioms define conceptual structure and do not yet constitute a complete mathematical theory; formal proofs, measurable definitions, experiments and falsification remain required."}
+    ]},
+    {"path":"theory/equations.md","units":[
+      {"id":"R10:P:TEQ:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Mathematical reference for proposed CGET vocabulary across representation, causal modeling, execution, agency, normative stability and self-modification."},
+      {"id":"R10:P:TEQ:STATE_CAUSAL","role":"FORMAL_STRUCTURE","content":"Defines s_t=(G_t,O_t), T update, G=(Z,B,Omega,rho), X->Z, epistemic leverage, causal fidelity and causal closure."},
+      {"id":"R10:P:TEQ:NORMATIVE","role":"FORMAL_STRUCTURE","content":"Defines V_O, soft viability, C_O, value invariance, timescale separation and viability kernel."},
+      {"id":"R10:P:TEQ:AGENCY","role":"FORMAL_STRUCTURE","content":"Defines agency kernel and A_control via steerable/reachable futures."},
+      {"id":"R10:P:TEQ:SELF_MODIFICATION","role":"FORMAL_STRUCTURE","content":"Defines transition stability, core-loss and transformation intelligence ratio Theta*."},
+      {"id":"R10:P:TEQ:OBJECTIVE","role":"FORMAL_STRUCTURE","content":"Defines Psi_stable multiplicative objective, lexicographic ordering and a master equation relating compressed causal reach, control and invariant loss."},
+      {"id":"R10:P:TEQ:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Research note explicitly says equations define proposed mathematical vocabulary and are not assumed proven; computable approximations, empirical measurements and falsification remain future work."}
+    ]},
+    {"path":"theory/glossary.md","units":[
+      {"id":"R10:P:TGLOSS:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Conceptual definition glossary for CGET."},
+      {"id":"R10:P:TGLOSS:EPISTEMIC","role":"DEFINITION_DICTIONARY","content":"Defines agency/reachability/steerability, causal compression/closure/fidelity/language, conserved compression, epistemic engine and executable representation."},
+      {"id":"R10:P:TGLOSS:NORMATIVE","role":"DEFINITION_DICTIONARY","content":"Defines identity, drift/invariants, normative engine/collapse, observer model, value closure/core/adaptive/invariance and viability."},
+      {"id":"R10:P:TGLOSS:DYNAMICAL","role":"DEFINITION_DICTIONARY","content":"Defines fixed points/attractor manifolds/partial fixed points, policy space, self-modification, steering bandwidth and transition/timescale concepts."},
+      {"id":"R10:P:TGLOSS:MASTER","role":"DEFINITION","content":"Glossary master definition repeats CGET intelligence as invariant-preserving compression with self-modification and expanding controllable reach; definition standing does not make it an empirically established property."}
+    ]},
+    {"path":"theory/notation.md","units":[
+      {"id":"R10:P:TNOT:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Local CGET symbol dictionary."},
+      {"id":"R10:P:TNOT:SYMBOLS","role":"DEFINITION_DICTIONARY","content":"Maps X,Z,G,O,B,Omega,rho,Pi, V terms, closure/fidelity/stability kernels, A_control, Theta*, Psi_stable, complexity/cost and tolerances to source-local meanings."},
+      {"id":"R10:P:TNOT:OMEGA_LOCAL","role":"DEFINITION","content":"Within R10 notation, Omega denotes composition algebra. This local meaning creates no identity with Omega usages in other repositories."}
+    ]}
+  ],
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
