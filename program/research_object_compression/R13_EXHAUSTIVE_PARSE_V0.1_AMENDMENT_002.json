@@ -1,0 +1,22 @@
+{
+  "object":"CEREBRO_R13_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002",
+  "record_type":"local source-role classification repair",
+  "persistent_record_state":"FROZEN",
+  "base_effective_parse":["R13_EXHAUSTIVE_PARSE_V0.1.json","R13_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001.json"],
+  "death_test":"R13_EXHAUSTIVE_PARSE_DEATH_TEST_002_V0.1.md",
+  "repair_scope":"RAW_TRACE_ROLE_ONLY",
+  "replacement_roles":[
+    {"id":"R13:P:RAW:UNIQUE:F693","from":"REPORTED_EMPIRICAL_RESULT","to":"EXECUTION_RECORD_ARTIFACT"},
+    {"id":"R13:P:RAW:UNIQUE:CC1D","from":"REPORTED_EMPIRICAL_RESULT","to":"EXECUTION_RECORD_ARTIFACT"},
+    {"id":"R13:P:RAW:UNIQUE:3093","from":"REPORTED_EMPIRICAL_RESULT","to":"EXECUTION_RECORD_ARTIFACT"},
+    {"id":"R13:P:RAW:UNIQUE:CCC9","from":"REPORTED_EMPIRICAL_RESULT","to":"EXECUTION_RECORD_ARTIFACT"}
+  ],
+  "effective_accounting":{"primary_source_parse_units":35,"derived_audit_views":4,"role_replacements":4,"source_unresolved_units":0,"parser_failures":0},
+  "standing_invariant":"EXECUTION_RECORD_ARTIFACT != REPORTED_EMPIRICAL_RESULT != SOURCE_INTERPRETATION_OF_RESULT",
+  "new_epistemic_distinction_required":false,
+  "already_earned_distinction_instantiated":true,
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
