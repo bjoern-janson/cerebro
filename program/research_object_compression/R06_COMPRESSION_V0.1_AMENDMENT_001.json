@@ -1,0 +1,42 @@
+{
+  "object": "CEREBRO_R06_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type": "frozen R06 compression repair overlay",
+  "persistent_record_state": "FROZEN",
+  "base_compression": "program/research_object_compression/R06_COMPRESSION_V0.1.json",
+  "trigger": "program/research_object_compression/R06_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "global_contract_repair": "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_004.md",
+  "prior_neuron_regression": "program/research_object_compression/R01_R05_COMPRESSION_AMENDMENT_004_REGRESSION_V0.1.md",
+  "repair_scope": "PRIMARY_SOURCE_OCCURRENCE_WARRANT_ACCOUNTING_ONLY",
+  "multi_source_item_overlays": [
+    {"item_id":"R06:ASSERT:LIFECYCLE","source_occurrence_count":8,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:ASSERT:PREDICTIVE_EFFICIENCY","source_occurrence_count":2,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:ASSERT:REPRESENTATION_REPLACEMENT","source_occurrence_count":4,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:ASSERT:SOURCE_DESCRIBED_FAILURE_MODES","source_occurrence_count":6,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:ASSERT:TOOL_METABOLISM","source_occurrence_count":4,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:DEF:REPRESENTATION_COST","source_occurrence_count":3,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:DEF:REPRESENTATION_ELASTICITY","source_occurrence_count":2,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:FORMAL:ELASTICITY_RATIO","source_occurrence_count":3,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:FORMAL:PREDICTIVE_COMPRESSION_OPT","source_occurrence_count":4,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:FRONTIER:OPEN_QUESTIONS","source_occurrence_count":8,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:HYPOTHESIS:CORE_INTELLIGENCE","source_occurrence_count":7,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:INTERP:ELASTICITY","source_occurrence_count":3,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:INTERP:FORGETTING_TEST","source_occurrence_count":3,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:INTERP:TOOL_METABOLISM_INDEX","source_occurrence_count":3,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:METHOD:BENCHMARK_DIMENSIONS","source_occurrence_count":4,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:METHOD:PARADIGM_SHIFT_CRITERION","source_occurrence_count":2,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:METHOD:REP_FAILURE_DIAGNOSTIC","source_occurrence_count":3,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"},
+    {"item_id":"R06:SCOPE:NONCLAIMS","source_occurrence_count":5,"warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE"}
+  ],
+  "single_source_items": {
+    "rule": "Amendment 004 multi-source warrant-accounting fields are not required because source_occurrence_count = 1",
+    "warrant_effect_change": "NONE"
+  },
+  "source_branches_removed": "NONE",
+  "semantic_content_change": "NONE",
+  "source_role_change": "NONE",
+  "scientific_standing_change": "NONE",
+  "map_edge_emission": "NONE",
+  "compression_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
