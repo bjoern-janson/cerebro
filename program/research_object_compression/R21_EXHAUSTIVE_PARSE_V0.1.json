@@ -1,0 +1,56 @@
+{
+  "object": "CEREBRO_R21_EXHAUSTIVE_PARSE_V0.1",
+  "repository_id": "R21",
+  "repository": "bjoern-janson/grounded-recursive-adaptation",
+  "frozen_head_commit": "4d7365abe174c595473c02497394a2d8b47ab99c",
+  "source_surface": "R21_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "parse_contract": "CEREBRO_EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1+AMENDMENT_001",
+  "parts": [
+    "R21_EXHAUSTIVE_PARSE_V0.1_PART_A.json",
+    "R21_EXHAUSTIVE_PARSE_V0.1_PART_B.json",
+    "R21_EXHAUSTIVE_PARSE_V0.1_PART_C.json",
+    "R21_EXHAUSTIVE_PARSE_V0.1_PART_D.json",
+    "R21_EXHAUSTIVE_PARSE_V0.1_PART_E.json",
+    "R21_EXHAUSTIVE_PARSE_V0.1_PART_F.json"
+  ],
+  "candidate_counts": {
+    "frozen_head_paths": 25,
+    "parsed_representations": 349,
+    "explicitly_unresolved": 71,
+    "effective_candidate_units": 420,
+    "parser_failures": 0,
+    "unmapped_source_paths": 0
+  },
+  "standing_boundaries": {
+    "implementation_present": false,
+    "test_source_present": false,
+    "execution_record_present": false,
+    "source_reported_empirical_results": 0,
+    "source_reported_negative_results": 0,
+    "benchmark_experiment_material": "SPECIFICATION_METHODOLOGY_PREDICTION_ONLY",
+    "falsification_material": "CRITERIA_AND_PREDICTIONS_ONLY"
+  },
+  "preserved_pressures": [
+    "THETA_THREE_FACTOR_VS_FOUR_FACTOR_FORMAL_VARIANT",
+    "THETA_STRUCTURAL_CONDITION_VS_PROPOSED_SCALAR_METRIC",
+    "MUTUAL_INFORMATION_VS_CAUSAL_CONNECTIVITY_IDENTIFICATION",
+    "KL_DIVERGENCE_VS_USEFUL_INFORMATION_IDENTIFICATION",
+    "GAMMA_FORMULA_VS_VALIDATED_LEARNING_IMPROVEMENT",
+    "THETA_EXT_THETA_INT_SCALE_COMPATIBILITY",
+    "DELTA_OMEGA_LEQ_C_DIMENSIONAL_COMPATIBILITY",
+    "GROUNDING_PROBE_IDENTIFICATION_VALIDITY",
+    "ZERO_VS_EPSILON_THRESHOLD_RELATION",
+    "SEMANTIC_RELATION_ASSERTION_VS_ENDPOINT_IDENTITY",
+    "CONCEPTUAL_COMPARISON_VS_EMPIRICAL_SUPERIORITY",
+    "CROSS_DOMAIN_APPLICATION_VS_GENERALIZATION_EVIDENCE"
+  ],
+  "relation_assertion_policy": "Source-level relation assertions are retained as source propositions. Semantic endpoints are not resolved to corpus nodes and no map edge is emitted.",
+  "formal_variant_policy": "Distinct frozen-head formal variants remain distinct source occurrences; no canonical form is selected by the parser.",
+  "absence_policy": "No implementation, data, test, run, result, or plot artifact occurs inside the frozen 25-path aperture. This is a bounded repository-surface absence, not a claim that no off-repository execution ever occurred.",
+  "temporal_policy": "Current-head parse and developmental repository history remain separate.",
+  "map_edge_emission": "NONE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation_authorized": false
+}
