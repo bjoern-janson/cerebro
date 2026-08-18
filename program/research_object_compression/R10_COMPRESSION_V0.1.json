@@ -1,0 +1,90 @@
+{
+  "object":"CEREBRO_R10_COMPRESSION_V0.1",
+  "record_type":"research-object compression candidate",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R10",
+  "repository":"bjoern-janson/cget",
+  "frozen_head_commit":"942de6bda50fb61d6a66b82811ceff6ab3ad1784",
+  "effective_parse":"program/research_object_compression/R10_EXHAUSTIVE_PARSE_V0.1.json",
+  "effective_parse_units":251,
+  "compression_contract":"EFFECTIVE_RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "identity":{
+    "short_name":"CGET",
+    "source_name_variants":["Causal Generative Equilibrium Theory","Causal Generative Execution Theory","Causal Generative Executable Theory"],
+    "canonical_expansion":"UNRESOLVED_SOURCE_VARIATION",
+    "canonicalization_authority":"NONE"
+  },
+  "source_described_status":{
+    "repository_stage":"theoretical framework + toy benchmark specification",
+    "toy_validation":"IN_PROGRESS_BY_SOURCE_STATUS",
+    "next_milestone":"run experiments and replace conceptual metrics with measured quantities",
+    "measured_execution_results":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+    "execution_records":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+    "source_labeled_qualitative_initial_analyses":"PRESENT",
+    "synthetic_output_examples":"PRESENT"
+  },
+  "compressed_items":[
+    {"id":"R10:SCOPE:PROGRAM","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"CGET is presented as a developing theoretical research framework for executable causal compression, controllable future reach, invariant preservation, alignment and self-modification."},
+    {"id":"R10:STATUS:RESEARCH_STAGE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":"Repository-level and layer-level status statements preserve theoretical/proposal/open/in-progress standing and explicitly separate completed formalization from unperformed measured validation."},
+    {"id":"R10:DIRECTION:RESEARCH","coordinate":"LIMITATIONS_OR_OPEN_QUESTIONS","standing":"SOURCE_DESCRIBED_RESEARCH_DIRECTION","content":"Roadmap/future-direction items include toy validation, representation transfer, self-modification, value learning, alignment, larger systems, tool extensions and empirical measurement; direction is not completion or authority."},
+    {"id":"R10:OPEN:THEORETICAL_EMPIRICAL","coordinate":"LIMITATIONS_OR_OPEN_QUESTIONS","standing":"OPEN_QUESTION","content":"Open problems retain rigorous definition, causal/value closure measurement, core identity discovery, transition/agency metrics, tractability, empirical validation, biological/AGI relations, consciousness and mathematical existence/bound questions."},
+
+    {"id":"R10:ASSUME:FOUNDATIONAL","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_ASSUMPTION","content":"Explicit assumptions cover compressible reality, causal/executable representations, closure, viability, identity, timescale separation, agency/control, alignment, self-modification, structured future space and falsifiability."},
+    {"id":"R10:AXIOM:FRAMEWORK","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_ASSUMPTION","source_standing":"AXIOMS","content":"Twelve axioms and master axiom define conceptual commitments; source explicitly denies complete/proven mathematical-theory standing."},
+    {"id":"R10:HYP:CENTRAL","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_HYPOTHESIS","content":"Central hypothesis family proposes intelligence as executable causal compression plus controllable future expansion under invariant-preserving self-modification."},
+    {"id":"R10:HYP:SPECIALIZED","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_HYPOTHESIS","content":"Specialized hypotheses concern closure, executability, identity preservation, alignment integration, viability-bound recursion, representation advantage over scaling and analyzer structural signatures."},
+    {"id":"R10:PRED:EXPERIMENTAL","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_PREDICTION","content":"Predictions cover representation-first capability, executability, controllable agency, identity-preserving self-improvement, value closure, viability, representation-vs-scale, CGET-vs-baseline ordering and expected transformation signatures."},
+    {"id":"R10:ASSERT:CONCEPTUAL","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_CONCEPTUAL","content":"Conceptual principles include dual epistemic/normative compression, non-compensable lexicographic constraints, conserved transformation, agency/viability distinctions, alignment internality and architecture/failure-mode interpretations."},
+    {"id":"R10:INTERP:SOURCE","coordinate":"APPLICATIONS_OR_EXAMPLES","standing":"SOURCE_INTERPRETATION","content":"Historical/cross-domain analyses and existing-work relationships are retained as source interpretations, including physics, AD, compilers, alpha-beta, AlphaZero, evolution, LLMs and conceptual relations to external fields."},
+
+    {"id":"R10:DEF:CORE_PRIMITIVES","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":"Core vocabulary includes X,Z,B,Omega,rho,G,O/V, core/adaptive values, policies, reachable/steerable futures, A_control, self-modification T, viability/agency kernels and related source-local definitions."},
+    {"id":"R10:DEF:SPECIALIZED_METRICS","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":"Specialized definitions include interventional equivalence, closure/fidelity/leverage, identity/core-loss, transition stability, Theta*, Psi_stable, analyzer metric names and local notation."},
+    {"id":"R10:FORMAL:THEORY","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":"Formal structures define coupled epistemic/normative state, executable causal language, constrained/lexicographic objective, kernels, closure, agency, identity and self-modification equations; source explicitly says equations are not assumed proven."},
+    {"id":"R10:ARCH:SPECIFICATIONS","coordinate":"FORMAL_STRUCTURES","standing":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Architecture/protocol specifications cover epistemic/normative engines, analyzer data models/modules, benchmark pipelines and toy-agent experimental designs without implying implementation or execution."},
+    {"id":"R10:METHOD:EXPERIMENTAL","coordinate":"LIMITATIONS_OR_OPEN_QUESTIONS","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Experimental/falsification methods define baseline comparisons, representation/intervention tests, agency/closure/self-modification evaluations, metric collection and benchmark constraints."},
+
+    {"id":"R10:EXAMPLE:SYNTHETIC_OUTPUT","coordinate":"APPLICATIONS_OR_EXAMPLES","standing":"APPLICATION_OR_EXAMPLE","source_standing":"SYNTHETIC_OUTPUT_EXAMPLE","content":"Example benchmark report contains synthetic configuration and numeric tables explicitly disclaimed as experimental results."},
+    {"id":"R10:RESULT:QUALITATIVE_INITIAL_ANALYSIS","coordinate":"REPORTED_RESULTS","standing":"SOURCE_INTERPRETATION","source_standing":"SOURCE_LABELED_INITIAL_ANALYSIS_OR_QUALITATIVE_FINDINGS","content":"tools/experiments/test_results.md uses Result/Current Findings/CGET Classification labels for qualitative retrospective analyses of AD, compilers and alpha-beta. Source status is Initial Analysis; no execution provenance or measured instrument output is present."},
+    {"id":"R10:STATUS:NO_MEASURED_RESULT","coordinate":"REPORTED_RESULTS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No measured execution result or persisted benchmark execution record was observed on the exhaustive frozen surface. This does not negate source-labeled qualitative analyses and is not a global absence claim."},
+    {"id":"R10:RESULT:NEGATIVE","coordinate":"REPORTED_NEGATIVE_RESULTS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No reported negative execution result was observed on the frozen source surface; falsification conditions are prospective methods, not negative results."},
+
+    {"id":"R10:IMPL:FENCED_ARTIFACT_STATE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"ARTIFACT_CONTENT_STATE","content":"Seven .py paths are stored literally inside Markdown code fences; extension does not establish executable Python blob standing."},
+    {"id":"R10:IMPL:ORDINARY_COMPONENTS","coordinate":"FORMAL_STRUCTURES","standing":"EXECUTABLE_IMPLEMENTATION","content":"Three analyzer files are ordinary Python source implementing toy metric arithmetic, hard-coded toy agents and a synthetic evaluation calculator."},
+    {"id":"R10:IMPL:INTENDED_FENCED_CODE","coordinate":"FORMAL_STRUCTURES","standing":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Fenced experiment/agent/environment/metric/runner files contain intended implementation logic but are not directly executable as frozen blobs."},
+    {"id":"R10:IMPL:ASSUMPTIONS_PROXIES","coordinate":"FORMAL_STRUCTURES","standing":"IMPLEMENTATION_ASSUMPTION","content":"Implementation choices include hard-coded structural metric constants, manually assigned toy-agent fields, scalar proxy formulas, bounded Maze approximations and benchmark configuration/interface assumptions."},
+    {"id":"R10:IMPL:OUTPUT_BEHAVIOR","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Several code artifacts contain intended direct-run printing/report/ranking behavior; no stored execution record licenses treating those outputs as observed."},
+    {"id":"R10:IMPL:INTEGRATION_STATUS","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":"Component code is present, but integrated environmental benchmark executability is not established: main runner is fenced and targets incompatible MazeWorld/agent interfaces; analyzer benchmark runner is also fenced."},
+
+    {"id":"R10:TENSION:NAME","coordinate":"UNRESOLVED_REFERENCES","standing":"PRESERVED_UNRESOLVED_SOURCE_IDENTITY_TENSION","content":"CGET expands as Equilibrium, Execution and Executable Theory across source files; canonical expansion is not established."},
+    {"id":"R10:TENSION:SCALAR","coordinate":"UNRESOLVED_REFERENCES","standing":"PRESERVED_SOURCE_RELATIVE_TENSION","content":"Analyzer/benchmark documentation rejects or de-emphasizes a single scalar score and specifies lexicographic constraints, while run_benchmark.py intends to rank toy agents by Theta*. Reconciliation authority NONE."},
+    {"id":"R10:TENSION:RESULT","coordinate":"UNRESOLVED_REFERENCES","standing":"PRESERVED_SOURCE_RELATIVE_TENSION","content":"Synthetic example_run explicitly denies result standing while test_results uses result/finding labels for Initial Analysis without execution provenance; both source-relative standings are preserved."},
+    {"id":"R10:TENSION:EXECUTABILITY","coordinate":"UNRESOLVED_REFERENCES","standing":"PRESERVED_IMPLEMENTATION_TENSION","content":"Ordinary executable components coexist with fenced .py artifacts and an interface-inconsistent intended environmental runner; component executability does not resolve integration executability."},
+
+    {"id":"R10:REF:EXISTING_WORK","coordinate":"INTERNAL_REFERENCES","standing":"SOURCE_REFERENCE_ASSERTION","content":"References to external research fields/frameworks remain source-side conceptual references with no exact literature endpoint resolution and no Program Map edge effect."}
+  ],
+  "non_inferences":[
+    "ASSUMPTION_OR_AXIOM != ESTABLISHED_TRUTH",
+    "DEFINITION_OR_EQUATION != EMPIRICAL_RESULT",
+    "PREDICTION != EVIDENCE",
+    "ROADMAP_COMPLETION != SCIENTIFIC_VALIDATION",
+    "CASE_STUDY != VALIDATED_HISTORICAL_RESULT",
+    "SYNTHETIC_OUTPUT != OBSERVATION",
+    "SOURCE_LABELED_QUALITATIVE_RESULT != MEASURED_EXECUTION_RESULT",
+    "PYTHON_EXTENSION != EXECUTABLE_BLOB",
+    "EXECUTABLE_COMPONENT != INTEGRATED_INSTRUMENT",
+    "INTENDED_IMPLEMENTATION != EXECUTION",
+    "HARDCODED_METRIC != MEASUREMENT",
+    "IMPLEMENTED_PROXY != VALIDATED_METRIC",
+    "IMPLEMENTED_OUTPUT_BEHAVIOR != OBSERVED_OUTPUT",
+    "EXISTING_WORK_REFERENCE != PROGRAM_MAP_EDGE",
+    "SOURCE_NAME_VARIANT != CANONICAL_IDENTITY",
+    "SCALAR_RANKING_CODE != FRAMEWORK-WIDE RECONCILIATION"
+  ],
+  "compression_standing":"CANDIDATE_PENDING_EXPLICIT_PROJECTION_LEDGER_AND_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "amendment_005":"NOT_EARNED"
+}
