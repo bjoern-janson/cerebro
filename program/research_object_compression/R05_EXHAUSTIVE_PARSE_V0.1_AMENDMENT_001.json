@@ -1,0 +1,17 @@
+{
+  "object": "CEREBRO_R05_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type": "frozen parse accounting repair overlay",
+  "persistent_record_state": "FROZEN",
+  "base_parse": "program/research_object_compression/R05_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger": "program/research_object_compression/R05_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope": "PARSE_UNIT_COUNT_METADATA_ONLY",
+  "effective_replacements": {
+    "parse_unit_count": 67
+  },
+  "semantic_unit_changes": "NONE",
+  "source_locator_changes": "NONE",
+  "standing_changes": "NONE",
+  "new_parser_roles": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
