@@ -1,0 +1,40 @@
+{
+  "object": "CEREBRO_R03_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002",
+  "record_type": "frozen local parse-unitization repair",
+  "persistent_record_state": "FROZEN",
+  "base_parse": "program/research_object_compression/R03_EXHAUSTIVE_PARSE_V0.1.json",
+  "prior_amendment": "program/research_object_compression/R03_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001.json",
+  "trigger": "program/research_object_compression/R03_EXHAUSTIVE_PARSE_REAUDIT_V0.1.md",
+  "repair_scope": "SIX_OVERLOOKED_MIXED_STANDING_UNITS_ONLY",
+  "effective_parse_unit_count": 105,
+  "replacement_semantics": "Apply after Amendment 001. Replace only the listed still-effective base units; preserve all other effective units.",
+  "replacements": [
+    {"replaces":"R03:P:009","units":[
+      {"id":"R03:P:009A","path":"theory.md","blob":"8bcfdac226237bcaea4be51130aad30c02863a8c","section":"4. Evaluability and Information Velocity","kind":"DEFINITIONS_AND_FORMAL_STRUCTURES","content":"Defines aligned information velocity Λ_E, information gain I(H;O), and utility alignment A(U|O,Cfrak)."},
+      {"id":"R03:P:009B","path":"theory.md","blob":"8bcfdac226237bcaea4be51130aad30c02863a8c","section":"4. Evaluability and Information Velocity","kind":"SOURCE_INTERPRETIVE_ASSERTION","content":"Source states experiments may be valuable by eliminating possibility regions and characterizes high-information/low-alignment cases as benchmark gaming, irrelevant optimization or artifact discovery."}
+    ]},
+    {"replaces":"R03:P:010","units":[
+      {"id":"R03:P:010A","path":"theory.md","blob":"8bcfdac226237bcaea4be51130aad30c02863a8c","section":"5-7 Structural Transformations and Detection","kind":"DEFINITIONS_AND_FORMAL_STRUCTURES","content":"Defines χ:(g,n,U)->(g',n',U'), metric transformation χ_g, dimensional transformation χ_n, and structural detection criterion using description-length reduction and accessibility."},
+      {"id":"R03:P:010B","path":"theory.md","blob":"8bcfdac226237bcaea4be51130aad30c02863a8c","section":"7. Structural Detection Criterion","kind":"SOURCE_ASSERTION","content":"Source claims a genuine breakthrough compresses complexity previously carried by the human operator or external process."}
+    ]},
+    {"replaces":"R03:P:029","units":[
+      {"id":"R03:P:029A","path":"case_studies  /autodiff_transition.md","blob":"b3108296f11beadd4844067d8274b4c6b407174b","section":"Overview + Historical Distinction","kind":"SOURCE_CASE_SCOPE","content":"Case focuses on manual gradient specification -> automated derivative generation, explicitly distinguishing autodiff from backpropagation and from a generic non-learning -> deep-learning transition."},
+      {"id":"R03:P:029B","path":"case_studies  /autodiff_transition.md","blob":"b3108296f11beadd4844067d8274b4c6b407174b","section":"Overview","kind":"SOURCE_CASE_HYPOTHESIS","content":"Hypothesizes automatic differentiation transformed search by transferring derivative-computation complexity from explicit human reasoning into computational substrate."}
+    ]},
+    {"replaces":"R03:P:045","units":[
+      {"id":"R03:P:045A","path":"case_studies  /case_003_deep_learning_scaling.md","blob":"02bbf8c6ce8c8458b773b75efd344017f13237b3","section":"Falsification Checks","kind":"SOURCE_REPORTED_NEGATIVE_OR_PRESSURE_RESULT","content":"Source answers partially yes to capability growth without clear prior Λ_E and partially yes to resource-dominant explanations in mature regimes."},
+      {"id":"R03:P:045B","path":"case_studies  /case_003_deep_learning_scaling.md","blob":"02bbf8c6ce8c8458b773b75efd344017f13237b3","section":"Verdict","kind":"SOURCE_CASE_VERDICT_AND_INTERPRETATION","content":"Classifies mixed/weak falsification pressure, says CPB is strongest for geometry-changing abstractions and weaker for mature optimization regimes, and says framework survives with refinement."}
+    ]},
+    {"replaces":"R03:P:061","units":[
+      {"id":"R03:P:061A","path":"docs/consciousness-speculation.md","blob":"e329ffd27d7e123c845f81374746c6f9e3f62755","section":"Abstract","kind":"SOURCE_SCOPE_LIMIT","content":"Document explicitly does not attempt to resolve subjective experience directly and frames itself as a computational exploration."},
+      {"id":"R03:P:061B","path":"docs/consciousness-speculation.md","blob":"e329ffd27d7e123c845f81374746c6f9e3f62755","section":"Abstract","kind":"SOURCE_SPECULATIVE_HYPOTHESIS","content":"Hypothesizes consciousness emerges when specialized information-processing mechanisms become a unified self-integrating search process with integration, self-modeling, coordination and search-strategy modification."}
+    ]},
+    {"replaces":"R03:P:069","units":[
+      {"id":"R03:P:069A","path":"docs/cross_domain_transfer.md","blob":"4c5adf0040fa87559c024bbffd12006efc2dcbad","section":"Relationship to IICG","kind":"EXPLICIT_CROSS_PROGRAM_REFERENCE_AND_CONCEPTUAL_RELATION_ASSERTION","content":"Names IICG and CPB, states IICG studies representations reshaping computational geometry while CPB studies when geometric changes produce capability transitions, and calls playlist taxonomy a phenomenological analogue. IICG endpoint remains unresolved at map level."},
+      {"id":"R03:P:069B","path":"docs/cross_domain_transfer.md","blob":"4c5adf0040fa87559c024bbffd12006efc2dcbad","section":"Future Work","kind":"OPEN_TEST_OR_QUESTION","content":"Proposes testing whether asking how something transforms future exploration consistently improves classification or decisions in domains for which CPB was not designed."}
+    ]}
+  ],
+  "global_contract_change": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
