@@ -1,0 +1,66 @@
+{
+  "object":"CEREBRO_R19_EXHAUSTIVE_PARSE_V0.1",
+  "record_type":"exhaustive structured parse manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R19",
+  "repository":"bjoern-janson/adaptive-stability-framework",
+  "frozen_head_commit":"c723bf51f8ef83f415c1e1808a533a9f7afa771d",
+  "source_surface":"program/research_object_compression/R19_SOURCE_SURFACE_V0.1.json",
+  "payload_parts":[
+    {"path":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_V0.1_PART_A.json","source_paths":["README.md","correctability-benchmark.md","docs/01_core_problem.md","docs/02_primitives.md"],"declared_parsed":82,"declared_unresolved":16,"declared_units":98,"explicit_id_recount":{"parsed":90,"unresolved":16,"units":106}},
+    {"path":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_V0.1_PART_B.json","source_paths":["docs/03_control_loop.md","docs/04_divergence_dynamics.md","docs/05_azus_mapping.md","docs/06_error_persistence_test.md"],"declared_parsed":83,"declared_unresolved":16,"declared_units":99,"explicit_id_recount":{"parsed":83,"unresolved":16,"units":99}},
+    {"path":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_V0.1_PART_C.json","source_paths":["examples/azus_mapping.md","experiments/correction_loop_simulation.md","theory/primitives.md","theory/axioms.md","theory/equations.md"],"declared_parsed":114,"declared_unresolved":26,"declared_units":140,"explicit_id_recount":{"parsed":114,"unresolved":26,"units":140}}
+  ],
+  "source_path_accounting":{"admitted_source_paths":13,"payload_source_paths":13,"unaccounted_source_paths":0},
+  "explicit_unit_id_space":{
+    "parsed":"R19P0001-R19P0287_CONTIGUOUS",
+    "unresolved":"R19U0001-R19U0058_CONTIGUOUS",
+    "duplicate_unit_ids":0,
+    "missing_unit_ids":0
+  },
+  "candidate_explicit_parse_units":345,
+  "parsed_representation_units":287,
+  "unresolved_source_units":58,
+  "parser_failures":0,
+  "known_candidate_metadata_defect":{
+    "status":"PENDING_PARSE_DEATH_TEST",
+    "locus":"R19_EXHAUSTIVE_PARSE_V0.1_PART_A.json counts header",
+    "declared":"82 parsed + 16 unresolved = 98",
+    "explicit_ids":"90 parsed + 16 unresolved = 106",
+    "content_loss_detected":false,
+    "contract_change_implied":false
+  },
+  "standing_pressure_summary":[
+    "THEORY_OR_AXIOM != EMPIRICAL_RESULT",
+    "BENCHMARK_SPECIFICATION != BENCHMARK_EXECUTION",
+    "EXPERIMENT_SPECIFICATION != EXECUTION_RECORD",
+    "EXPECTED_RESULT != REPORTED_RESULT",
+    "SOURCE_LABEL_OBSERVED_PHENOMENON != EXECUTION_PROVENANCE",
+    "PROPOSED_MAPPING != IMPLEMENTATION_IDENTITY",
+    "SOURCE_RECURRENCE != INDEPENDENT_WARRANT",
+    "CROSS_FILE_RESTATEMENT != REPLICATION",
+    "UNRESOLVED_OPERATIONALIZATION != PARSER_FAILURE",
+    "SYMBOL_REUSE != OBJECT_IDENTITY",
+    "CURRENT_HEAD_PARSE != DEVELOPMENTAL_HISTORY",
+    "EXTERNAL_PRODUCT_REFERENCE != RESOLVED_ENDPOINT"
+  ],
+  "source_standing_summary":{
+    "theory_formalism_present":true,
+    "proposed_axioms_present":true,
+    "definitions_present":true,
+    "conceptual_and_hypothesis_assertions_present":true,
+    "benchmark_specification_present":true,
+    "experiment_specification_present":true,
+    "source_predictions_present":true,
+    "source_reported_empirical_results":0,
+    "source_reported_negative_results":0,
+    "ordinary_executable_implementation":0,
+    "persisted_execution_records":0,
+    "external_product_or_substrate_references_present":["PDM","Azus"]
+  },
+  "effective_status":"NOT_YET_ESTABLISHED_PENDING_PARSE_DEATH_TEST_AND_LOCAL_CARDINALITY_REPAIR",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "r20_parse_access_opened":false
+}
