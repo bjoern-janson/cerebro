@@ -1,0 +1,31 @@
+{
+  "object": "CEREBRO_R22_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "repository_id": "R22",
+  "base_parse": "R22_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger": "R22_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "persistent_record_state": "FROZEN",
+  "repair_scope": "LOCAL_STANDING_ONLY",
+  "replacements": [
+    {
+      "unit_id": "R22P0121",
+      "old_kind": "REPORTED_RESULT",
+      "old_standing": "REPORTED_CONCEPTUAL_TEST_RESULT",
+      "new_kind": "SOURCE_ASSERTION",
+      "new_standing": "SOURCE_ASSERTION_CONCEPTUAL",
+      "content_unchanged": true,
+      "reason": "The source labels a conceptual semantic-collision outcome as 'Result', but no existing contract role licenses a new global conceptual-result standing. Preserve the source report and its provenance ceiling under the existing conceptual-assertion standing."
+    }
+  ],
+  "effective_counts": {
+    "parsed_representations": 206,
+    "explicitly_unresolved": 72,
+    "effective_parse_units": 278,
+    "unit_count_change": 0,
+    "primary_unit_remaps": 0
+  },
+  "new_epistemic_distinction_required": false,
+  "new_global_parser_role": null,
+  "base_parse_contract_amendment": "NOT_EARNED",
+  "map_edge_emission": "NONE",
+  "authority_effect": "NONE"
+}
