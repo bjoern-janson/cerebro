@@ -1,0 +1,31 @@
+{
+  "object":"CEREBRO_R16_EXHAUSTIVE_PARSE_V0.1",
+  "record_type":"exhaustive structured parse manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R16",
+  "frozen_head_commit":"29914ee25f7ab64820508ac6f59098f9a146fb88",
+  "source_surface":"program/research_object_compression/R16_SOURCE_SURFACE_V0.1.json",
+  "payload_parts":[
+    {"path":"program/research_object_compression/R16_EXHAUSTIVE_PARSE_V0.1_PART_A.json","source_paths":5,"units":99},
+    {"path":"program/research_object_compression/R16_EXHAUSTIVE_PARSE_V0.1_PART_B.json","source_paths":11,"units":125},
+    {"path":"program/research_object_compression/R16_EXHAUSTIVE_PARSE_V0.1_PART_C.json","source_paths":7,"units":71},
+    {"path":"program/research_object_compression/R16_EXHAUSTIVE_PARSE_V0.1_PART_D.json","source_paths":15,"units":132}
+  ],
+  "source_path_accounting":{"admitted_source_paths":38,"payload_source_paths":38,"unaccounted_source_paths":0},
+  "candidate_parse_units":427,
+  "unresolved_source_units":8,
+  "parser_failures":0,
+  "standing_pressure_summary":[
+    "REPORTED_RESULT != RAW_EXECUTION_RECORD",
+    "RESULT_DOCUMENT != POPULATED_MEASUREMENT_RECORD",
+    "IMPLEMENTATION_VERSION != SCIENTIFIC_AUTHORITY_ORDER",
+    "PLACEHOLDER_RUNNER_RESULT != ROBUSTNESS_OF_INTENDED_BASELINE",
+    "SOURCE_DESCRIBED_INDEPENDENT_SEEDS != WARRANT_INDEPENDENCE",
+    "SAME_TOKEN != SAME_LOCAL_OBJECT",
+    "SOURCE_LINEAGE_ASSERTION != PROGRAM_MAP_EDGE"
+  ],
+  "effective_status":"NOT_YET_ESTABLISHED_PENDING_PARSE_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "r17_parse_access_opened":false
+}
