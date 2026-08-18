@@ -1,0 +1,39 @@
+{
+  "object":"CEREBRO_R12_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type":"local compression standing-preservation repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_compression":"program/research_object_compression/R12_COMPRESSION_V0.1.json",
+  "death_test":"program/research_object_compression/R12_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "repair_scope":"PERMEABILITY_DEFINITION_STANDING_ONLY",
+  "added_items":[
+    {
+      "id":"R12:DEF:PERMEABILITY",
+      "coordinate":"DEFINITIONS",
+      "standing":"SOURCE_DEFINITION",
+      "content":"P_C is source-defined by E* having directed causal reachability to C_rev. This destination preserves the defining occurrence separately from later formal recurrences of the same expression."
+    }
+  ],
+  "effective_item_repairs":[
+    {
+      "item":"R12:FORMAL:PERMEABILITY",
+      "effective_standing":"SOURCE_FORMALIZATION_ONLY",
+      "effective_content":"Later source formal recurrences of E* directed-reachability C_rev as critical bridge and summary expression; no defining occurrence terminates here after repair."
+    }
+  ],
+  "secondary_view_repair":{
+    "view":"R12:VIEW:PERMEABILITY_RECURRENCE",
+    "primary_references":["R12:DEF:PERMEABILITY","R12:FORMAL:PERMEABILITY"],
+    "source_occurrence_ids":["R12:P:README:DEF_PERMEABILITY","R12:P:README:CRITICAL_BRIDGE_OCCURRENCE","R12:P:README:SUMMARY_FORMAL_RECURRENCE"],
+    "warrant_independence_status":"NOT_ESTABLISHED",
+    "warrant_multiplicity_effect":"NONE",
+    "authority_effect":"NONE"
+  },
+  "repair_invariant":"SAME_SEMANTIC_EXPRESSION_DOES_NOT_LICENSE_COLLAPSING_DEFINITION_AND_FORMAL_REUSE_STANDING",
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false
+}
