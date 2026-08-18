@@ -1,0 +1,61 @@
+{
+  "object": "CEREBRO_R01_RESEARCH_OBJECT_COMPRESSION_SOURCE_SURFACE_V0.1",
+  "record_type": "frozen repository-head source manifest",
+  "persistent_record_state": "FROZEN",
+  "parent_contract": {
+    "path": "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1.md",
+    "commit": "d676e9bb7e98f287ededd295f4dcd420e73e9744"
+  },
+  "repository_id": "R01",
+  "repository_full_name": "bjoern-janson/interface-induced-computational-geometry",
+  "default_branch": "main",
+  "frozen_head_commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+  "frozen_head_tree": "74e51d3dbb3edad5ef966f795b76637a36fd1521",
+  "head_commit_message": "Rename formalism to formalism.md",
+  "head_commit_author_time": "2026-07-17T16:25:19Z",
+  "surface_completeness": "FULL_REPOSITORY_HEAD_SURFACE",
+  "enumerated_path_count": 3,
+  "paths": [
+    {
+      "path": "README.md",
+      "blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "size_bytes": 1459,
+      "role": "RESEARCH_BEARING_TEXT",
+      "semantic_compression_included": true
+    },
+    {
+      "path": "formalism.md",
+      "blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "size_bytes": 1675,
+      "role": "RESEARCH_BEARING_TEXT",
+      "semantic_compression_included": true
+    },
+    {
+      "path": "LICENSE",
+      "blob": "0a68efa7511e20f30263bf67588ccf4cbc403dca",
+      "size_bytes": 550,
+      "role": "LEGAL_METADATA",
+      "semantic_compression_included": false,
+      "exclusion_reason": "The license contributes repository/legal metadata but contains no research assertion, definition, result, failure, frontier, or program relation to be represented in the R01 neural-node semantic state. It remains enumerated so source-surface completeness is auditable."
+    }
+  ],
+  "research_bearing_paths": [
+    "README.md",
+    "formalism.md"
+  ],
+  "semantic_exclusions": [
+    "LICENSE"
+  ],
+  "source_surface_non_inferences": [
+    "FULL_HEAD_ENUMERATION_DOES_NOT_IMPLY_RESEARCH_COMPLETENESS_ACROSS_OTHER_HEADS",
+    "CURRENT_HEAD_DOES_NOT_RETROACTIVELY_REWRITE_EARLIER_REPOSITORY_HISTORY",
+    "ABSENCE_ON_THIS_HEAD_DOES_NOT_IMPLY_ABSENCE_FROM_OTHER_REPOSITORIES",
+    "SEMANTIC_COMPRESSION_ACCESS_DOES_NOT_REOPEN_CEREBRO_STEP_2",
+    "REPOSITORY_ORDER_DOES_NOT_CREATE_CROSS_REPOSITORY_RELATIONS"
+  ],
+  "cerebro_step_2_reopened": false,
+  "cerebro_step_2_r01_content_access": "CLOSED",
+  "program_consolidation_r01_compression_access": "OPEN_FOR_THIS_FROZEN_HEAD",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
