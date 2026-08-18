@@ -1,0 +1,57 @@
+{
+  "object": "CEREBRO_R03_RESEARCH_OBJECT_COMPRESSION_SOURCE_SURFACE_V0.1",
+  "record_type": "frozen recursive repository-head source manifest",
+  "persistent_record_state": "FROZEN",
+  "repository_id": "R03",
+  "repository_full_name": "bjoern-janson/computational-phase-boundary",
+  "default_branch": "main",
+  "frozen_head_commit": "f1318f7503a98fe164327a971f9627c8d877db40",
+  "frozen_head_tree": "3b1c6a15d58d6b087f14e784a9b8ad3b5231aa76",
+  "head_commit_message": "Create case_007_minimax_to_alpha_beta_pruning.md",
+  "surface_completeness": "FULL_REPOSITORY_HEAD_SURFACE_RECURSIVE",
+  "recursive_tree_truncated": false,
+  "directory_entry_count": 3,
+  "blob_count": 18,
+  "research_bearing_blob_count": 17,
+  "legal_metadata_blob_count": 1,
+  "directories": [
+    {"path":"case_studies  ","tree":"799314627b810fb84da6a559a84bdb00805deeb2"},
+    {"path":"data","tree":"48f7343f4152e1c1d3ad573e876fb6f1bc7a3144"},
+    {"path":"docs","tree":"2307c6e3ea7d44d3061a34c1f609ac3d9b9fd806"}
+  ],
+  "paths": [
+    {"path":"LICENSE","blob":"af602b2e8e83970d54a4a588e0fbdd14768cb691","size_bytes":1063,"role":"LEGAL_METADATA","parse_disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","exclusion_reason":"MIT license contains legal metadata rather than research content; retained in complete inventory."},
+    {"path":"README.md","blob":"66c1389f75ea9a1958442f5f7b1d14ec6f395a96","size_bytes":1869,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"theory.md","blob":"8bcfdac226237bcaea4be51130aad30c02863a8c","size_bytes":8329,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"methodology.md","blob":"2d81a4d06f8ac64660b42f37e4c0c0f161367269","size_bytes":7296,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"falsification.md","blob":"b3ba86d6460321b03cf00c1705c47842a79258a7","size_bytes":7175,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"data/README.md","blob":"12882ea078ebc201a42c91273b136a6c1d8565a5","size_bytes":2009,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"case_studies  /autodiff_transition.md","blob":"b3108296f11beadd4844067d8274b4c6b407174b","size_bytes":9323,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"case_studies  /case_001_manual_derivatives_to_automatic_differentiation.md","blob":"2fe19a3e21f5be1ed037eb16ba6876f7e31d4a96","size_bytes":5362,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"case_studies  /case_002_assembly_to_compilers.md","blob":"f1614e636166df995c251d898c1f1183d3983da6","size_bytes":3974,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"case_studies  /case_003_deep_learning_scaling.md","blob":"02bbf8c6ce8c8458b773b75efd344017f13237b3","size_bytes":6621,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"case_studies  /case_005_adversarial_resource_scaling_stress_test.md","blob":"ea0ded32ea1114ec70c4c0d6b0d981524330ca66","size_bytes":4830,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"case_studies  /case_006_convergent_validity_test.md","blob":"7a244f3539b023fc0e8725564a11345f42591187","size_bytes":5430,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"case_studies  /case_007_minimax_to_alpha_beta_pruning.md","blob":"82f17b557df0d60b0fbf19f81f16da2733aca98d","size_bytes":5259,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"docs/consciousness-speculation.md","blob":"e329ffd27d7e123c845f81374746c6f9e3f62755","size_bytes":8562,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"docs/cross_domain_transfer.md","blob":"4c5adf0040fa87559c024bbffd12006efc2dcbad","size_bytes":5729,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"docs/emerging-insights.md","blob":"fe6d5c914ce9bb4547065167c2175853326cfbf3","size_bytes":6636,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"docs/emerging-insights2.md","blob":"c5d3cbf83c925561c1297e09c1ff8a458ce1f331","size_bytes":5610,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"},
+    {"path":"docs/trajectory-coherence-a.md","blob":"1c531c3b2b30094afc0f54a127c6d2e39a67b703","size_bytes":4408,"role":"RESEARCH_BEARING_TEXT","parse_disposition":"PARSE_INCLUDED"}
+  ],
+  "inventory_observations_without_semantic_inference": [
+    "DIRECTORY_NAME_CASE_STUDIES_CONTAINS_TWO_TRAILING_SPACES",
+    "NO_PATH_NAMED_CASE_004_WAS_PRESENT_IN_FROZEN_TREE"
+  ],
+  "non_inferences": [
+    "MISSING_CASE_004_PATH_DOES_NOT_IMPLY_A_REJECTED_OR_DELETED_CASE",
+    "DIRECTORY_ORDER_DOES_NOT_IMPLY_RESEARCH_ORDER",
+    "CURRENT_HEAD_DOES_NOT_REWRITE_EARLIER_HISTORY",
+    "FULL_RECURSIVE_INVENTORY_DOES_NOT_IMPLY_PERFECT_SEMANTIC_UNDERSTANDING",
+    "PROGRAM_PARSE_ACCESS_DOES_NOT_REOPEN_CEREBRO_STEP_2",
+    "REPOSITORY_ADJACENCY_DOES_NOT_CREATE_CROSS_REPOSITORY_RELATIONS"
+  ],
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
