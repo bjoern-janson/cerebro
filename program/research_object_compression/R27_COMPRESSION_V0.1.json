@@ -1,0 +1,25 @@
+{
+  "object":"CEREBRO_R27_COMPRESSION_V0.1",
+  "repository_id":"R27",
+  "repository":"bjoern-janson/axiom-forge-mk1",
+  "frozen_head_commit":"5a488d137c947df8eb8f88fba6dd74fc1b25985c",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "effective_parse":"R27_EXHAUSTIVE_PARSE_V0.1 + Amendment 001 + Retest V0.1",
+  "effective_parse_units":156,
+  "parts":["R27_COMPRESSION_V0.1_PART_A.json","R27_COMPRESSION_V0.1_PART_B.json","R27_COMPRESSION_V0.1_PART_C.json"],
+  "item_accounting":{"part_a":50,"part_b":13,"part_c":22,"total":85},
+  "grouping_rule":"Same frozen source path/surface role plus same epistemic standing only. No theory/implementation or cross-file semantic canonicalization.",
+  "secondary_audits":[
+    {"audit":"SOURCE_OBSERVABILITY_LINEAGE","authority":"NONE","content":"Initial recursive-tree nested coordinates were rejected and repaired by root-to-subtree traversal before semantic parsing. The bad candidate remains historical provenance."},
+    {"audit":"THEORY_IMPLEMENTATION_PROXY","authority":"NONE","content":"Theoretical D_c,C_e,A_c,G_V remain distinct from frozen agent/metric proxy implementations."},
+    {"audit":"CONSEQUENCE_CAUSAL_USE","authority":"NONE","content":"RECAAgent stores consequences, but candidate scoring uses a local parameter heuristic rather than directly consuming the stored consequence value."},
+    {"audit":"SOFTWARE_INTERFACE","authority":"NONE","content":"Root runner symbol, long-horizon environment contract and metrics package exports exhibit cross-file interface mismatches at the frozen head."},
+    {"audit":"CONSTRUCT_VALIDITY","authority":"NONE","content":"Recursive-depth labels, consequence correlation, consolidation retention, viability heuristics and composite product remain implementation proxies requiring validation."},
+    {"audit":"STATISTICAL_DOCTRINE","authority":"NONE","content":"Frozen statistical helpers do not implement the full documented multi-seed/effect-size/uncertainty/predictive-regression doctrine."},
+    {"audit":"EXPERIMENTAL_STANDING","authority":"NONE","content":"Code/config/tests/analysis/reporting capability exists, but no persisted benchmark run, CI/test report, result table, raw trace or generated report is present."},
+    {"audit":"RECURRENCE_WARRANT","authority":"NONE","content":"Repeated RECA equations/variables across docs and code do not create independent warrant."}
+  ],
+  "bounded_absence":{"effective_frozen_paths":32,"persisted_dataset_paths":0,"persisted_run_log_paths":0,"persisted_result_table_paths":0,"generated_report_paths":0,"github_actions_runs_at_head":0,"combined_status_records_at_head":0,"scope_note":"Does not assert that the repository was never executed outside the frozen repository aperture."},
+  "temporal_provenance":"Current-head semantics remain separate from the 31-commit development trajectory.",
+  "map_edge_emission":"NONE","map_authority":"NONE","scientific_authority":"NONE","propagation_authorized":false
+}
