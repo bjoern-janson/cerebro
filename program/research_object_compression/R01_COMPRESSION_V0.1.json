@@ -1,0 +1,286 @@
+{
+  "object": "CEREBRO_R01_RESEARCH_OBJECT_COMPRESSION_V0.1",
+  "record_type": "source-bounded compressed research-object state",
+  "persistent_record_state": "FROZEN",
+  "parent_contract": {
+    "path": "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1.md",
+    "commit": "d676e9bb7e98f287ededd295f4dcd420e73e9744"
+  },
+  "source_surface": {
+    "path": "program/research_object_compression/R01_SOURCE_SURFACE_V0.1.json",
+    "commit": "5773b876f555407c5634e75062a5145be71a1e1f"
+  },
+  "repository_id": "R01",
+  "identity": {
+    "repository": "bjoern-janson/interface-induced-computational-geometry",
+    "title": "Interface-Induced Computational Geometry",
+    "frozen_head_commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+    "frozen_head_tree": "74e51d3dbb3edad5ef966f795b76637a36fd1521",
+    "research_bearing_blobs": [
+      "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "dc4b43c461ff1e274691806a2fcbb4d431a95a2c"
+    ],
+    "license_blob": "0a68efa7511e20f30263bf67588ccf4cbc403dca",
+    "license": "Creative Commons Attribution 4.0 International"
+  },
+  "source_described_status": [
+    {
+      "item_id": "R01:STATUS:01",
+      "status_text": "open theoretical exploration of interface-induced computation",
+      "compression_interpretation": "SOURCE_DESCRIBED_STATUS_ONLY",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "README.md",
+        "blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "supporting_text": "This is an open theoretical exploration of interface-induced computation.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "item_id": "R01:DEF:TASK",
+      "label": "Task",
+      "content": "A task is defined as a semantic invariant T=(X,Y,f), with f:X->Y independent of representation.",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "formalism.md",
+        "blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+        "supporting_text": "A task is defined as a semantic invariant ... f:X->Y ... is independent of representation.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    },
+    {
+      "item_id": "R01:DEF:INTERFACE",
+      "label": "Interface",
+      "content": "An interface is rho=(tau,sigma), where tau transforms task structure into an executable dependency representation and sigma embeds that representation into a physical or symbolic layout.",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "formalism.md",
+        "blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+        "supporting_text": "An interface is a transformation rho=(tau,sigma) ... tau transforms task structure into an executable dependency representation ... sigma embeds that representation into a physical or symbolic layout.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    },
+    {
+      "item_id": "R01:DEF:ARCHITECTURE",
+      "label": "Architecture",
+      "content": "An architecture is a bounded resource vector A=(b1,...,bk), representing limits such as memory, bandwidth, attention, or storage.",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "formalism.md",
+        "blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+        "supporting_text": "An architecture is a bounded resource vector ... representing limits on computational resources such as memory, bandwidth, attention, or storage.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    },
+    {
+      "item_id": "R01:DEF:EXECUTOR",
+      "label": "Executor",
+      "content": "An executor resolves an admissible execution schedule pi in Pi_rho(T), where Pi_rho(T) is the set of execution schedules permitted by interface rho.",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "formalism.md",
+        "blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+        "supporting_text": "An executor resolves an admissible execution schedule ... where Pi_rho(T) represents all execution schedules permitted by interface rho.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    }
+  ],
+  "formal_structures": [
+    {
+      "item_id": "R01:FORMAL:COST",
+      "label": "Resource cost functional",
+      "content": "C(rho,T)=inf_{pi in Pi_rho(T)} max_t v(pi,t); the source describes v(pi,t) as instantaneous resource utilization and the infimum as selecting the lowest peak-resource execution available under the interface.",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "formalism.md",
+        "blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+        "supporting_text": "The interface induces a resource-cost functional ... C(rho,T) = inf ... max_t v(pi,t) ... The infimum selects the lowest peak-resource execution available under the interface.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    },
+    {
+      "item_id": "R01:FORMAL:REACHABILITY",
+      "label": "Reachability condition",
+      "content": "A task is reachable when C(rho,T)<=A, with the inequality evaluated componentwise across resource dimensions.",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "formalism.md",
+        "blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+        "supporting_text": "A task is reachable when C(rho,T)<=A where the inequality is evaluated componentwise across resource dimensions.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    }
+  ],
+  "assertions_or_hypotheses": [
+    {
+      "item_id": "R01:HYP:TRACTABILITY_RELATIONAL",
+      "source_label": "ABSTRACT_ASSERTION",
+      "content": "A computational task is not intrinsically tractable or intractable; tractability is a relational property between a task, an interface, and an executing architecture.",
+      "standing_in_compression": "SOURCE_ASSERTED_NOT_INDEPENDENTLY_VALIDATED",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "README.md",
+        "blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "supporting_text": "A computational task is not intrinsically tractable or intractable; tractability is a relational property between a task, an interface, and an executing architecture.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    },
+    {
+      "item_id": "R01:HYP:INTERFACE_PROGRESS_README",
+      "source_label": "CENTRAL_CLAIM",
+      "content": "Progress often occurs not by increasing raw computational capacity, but by discovering interfaces that transform problem structure into forms executable by bounded systems.",
+      "standing_in_compression": "SOURCE_LABELLED_CENTRAL_CLAIM_NOT_RECORDED_AS_RESULT",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "README.md",
+        "blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "supporting_text": "The central claim is that progress often occurs not by increasing raw computational capacity, but by discovering interfaces that transform problem structure into forms executable by bounded systems.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    },
+    {
+      "item_id": "R01:HYP:INTERFACE_PROGRESS_FORMALISM",
+      "source_label": "CENTRAL_HYPOTHESIS",
+      "content": "Progress in intelligent systems occurs through interfaces that transform task structures into forms whose peak computational demands fall within the resource limits of bounded architectures.",
+      "standing_in_compression": "SOURCE_LABELLED_HYPOTHESIS_NOT_RECORDED_AS_RESULT",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "formalism.md",
+        "blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+        "supporting_text": "The framework hypothesizes that progress in intelligent systems occurs through interfaces that transform task structures into forms whose peak computational demands fall within the resource limits of bounded architectures.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    }
+  ],
+  "reported_results": {
+    "items": [],
+    "disposition": "NOT_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+    "scope": "R01@806e24ad04a2d75e041b53d324a990282a92ffa5_ONLY"
+  },
+  "reported_negative_results": {
+    "items": [],
+    "disposition": "NOT_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+    "scope": "R01@806e24ad04a2d75e041b53d324a990282a92ffa5_ONLY"
+  },
+  "limitations_or_open_questions": {
+    "items": [],
+    "disposition": "NO_EXPLICIT_LIMITATION_OR_QUESTION_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+    "note": "The README's open-theoretical-exploration statement is preserved separately as source-described status and is not rewritten into a specific open question."
+  },
+  "applications_or_examples": [
+    {
+      "item_id": "R01:APP:DOMAINS",
+      "kind": "APPLICATION_DOMAINS",
+      "items": [
+        "AI agent systems",
+        "Cognitive science",
+        "Human-computer interaction",
+        "Compiler optimization",
+        "Complexity theory"
+      ],
+      "standing_in_compression": "SOURCE_LISTED_APPLICATION_CONNECTIONS_NOT_VALIDATION",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "README.md",
+        "blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "supporting_text": "This framework connects ideas from: AI agent systems; Cognitive science; Human-computer interaction; Compiler optimization; Complexity theory.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    },
+    {
+      "item_id": "R01:APP:EXAMPLES",
+      "kind": "POTENTIAL_APPLICATION_EXAMPLES",
+      "items": [
+        "mathematical notation",
+        "programming languages",
+        "visualization systems",
+        "external cognitive tools",
+        "AI augmentation"
+      ],
+      "standing_in_compression": "SOURCE_LISTED_POTENTIAL_APPLICATIONS_NOT_VALIDATION",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "README.md",
+        "blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "supporting_text": "Potential applications include: mathematical notation; programming languages; visualization systems; external cognitive tools; AI augmentation.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    }
+  ],
+  "internal_references": [
+    {
+      "item_id": "R01:REF:README_TO_FORMALISM",
+      "reference_type": "INTERNAL_FILE_REFERENCE",
+      "source": "README.md",
+      "target": "formalism.md",
+      "target_resolution": "RESOLVED_WITHIN_FROZEN_HEAD",
+      "meaning": "README points to formalism.md for the mathematical definition.",
+      "map_edge_effect": "NONE",
+      "provenance": {
+        "repository": "bjoern-janson/interface-induced-computational-geometry",
+        "commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "path": "README.md",
+        "blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "supporting_text": "See formalism.md for the mathematical definition.",
+        "extraction_mode": "EXPLICIT_SOURCE_CONTENT"
+      }
+    }
+  ],
+  "explicit_cross_repository_references": {
+    "items": [],
+    "disposition": "NOT_OBSERVED_ON_FROZEN_SOURCE_SURFACE"
+  },
+  "unresolved_references": {
+    "items": [],
+    "disposition": "NOT_OBSERVED_ON_FROZEN_SOURCE_SURFACE"
+  },
+  "section_coverage": {
+    "README.md": [
+      "title_and_description",
+      "abstract",
+      "core_model",
+      "applications",
+      "examples",
+      "status"
+    ],
+    "formalism.md": [
+      "core_objects",
+      "resource_cost_functional",
+      "reachability",
+      "central_hypothesis"
+    ],
+    "semantic_sections_omitted": []
+  },
+  "non_inferences": [
+    "NO_EMPIRICAL_VALIDATION_INFERRED",
+    "NO_REPORTED_RESULT_INFERRED_FROM_FORMAL_DEFINITION",
+    "NO_NEGATIVE_RESULT_INFERRED_FROM_OPEN_THEORETICAL_STATUS",
+    "NO_OPEN_QUESTION_INVENTED_FROM_GENERAL_OPEN_STATUS",
+    "NO_APPLICATION_TREATED_AS_EVIDENCE",
+    "NO_CROSS_REPOSITORY_EDGE_EMITTED",
+    "NO_REPOSITORY_ADJACENCY_RELATION_INFERRED_FROM_CHRONOLOGY",
+    "NO_EQUIVALENCE_INFERRED_BETWEEN_README_CENTRAL_CLAIM_AND_FORMALISM_CENTRAL_HYPOTHESIS",
+    "NO_SCIENTIFIC_AUTHORITY_GRANTED_BY_COMPRESSION"
+  ],
+  "compression_standing": "SOURCE_BOUNDED_DERIVED_COMPRESSION",
+  "compression_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "map_edge_emission": "NONE",
+  "cerebro_step_2_reopened": false,
+  "next_repository_authorized_by_this_record": false
+}
