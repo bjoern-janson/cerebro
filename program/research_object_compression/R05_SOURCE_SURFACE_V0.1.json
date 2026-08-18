@@ -1,0 +1,37 @@
+{
+  "object": "CEREBRO_R05_SOURCE_SURFACE_V0.1",
+  "record_type": "frozen full recursive repository source surface",
+  "persistent_record_state": "FROZEN",
+  "repository_id": "R05",
+  "repository": "bjoern-janson/resolution-horizon",
+  "frozen_head_commit": "3ea1c49c7afde90ff81003e4908f9705ba33fea3",
+  "frozen_head_tree": "17ad256e124b0e8fd0e61d3c1eacbb5e4499a111",
+  "tree_truncated": false,
+  "inventory": {
+    "total_blobs": 11,
+    "research_bearing_blobs": 9,
+    "excluded_non_research_blobs": 2,
+    "markdown_blobs": 5,
+    "python_blobs": 3,
+    "notebook_blobs": 1
+  },
+  "paths": [
+    {"path":".gitignore","blob":"83972fadc2724842e111d0d3e2829a59ae3d3f45","disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"repository/tooling ignore metadata"},
+    {"path":"LICENSE","blob":"af602b2e8e83970d54a4a588e0fbdd14768cb691","disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"legal metadata"},
+    {"path":"README.md","blob":"bd533375a8524108cba2e164f9a03dc626d854dc","disposition":"PARSE_INCLUDED"},
+    {"path":"demo.ipynb","blob":"571efd401a1d8c690697c8e3077f326f02c8a065","disposition":"PARSE_INCLUDED","source_format":"JUPYTER_NOTEBOOK"},
+    {"path":"docs/experimental_protocols.md","blob":"6d83d7af988fa0881f49d66fa28e88fa30b26977","disposition":"PARSE_INCLUDED"},
+    {"path":"docs/mathematical_specification.md","blob":"0f4ecded69df6b4200f2c5c7d75643b4da5fde33","disposition":"PARSE_INCLUDED"},
+    {"path":"docs/notation.md","blob":"932a1e59dec815ed54bcce0a7f616fa85e90692c","disposition":"PARSE_INCLUDED"},
+    {"path":"docs/theory.md","blob":"7d955f9869efbc9bfbd595152761d3a543a1bc15","disposition":"PARSE_INCLUDED"},
+    {"path":"experiment.py","blob":"5328b90df9eee9a0a9ec317ef58ecc4e5bbf59c3","disposition":"PARSE_INCLUDED","source_format":"PYTHON"},
+    {"path":"instrument.py","blob":"9f30c0a2bd8a95c45b1702ac0f34c7a3398be7b7","disposition":"PARSE_INCLUDED","source_format":"PYTHON"},
+    {"path":"test_suite.py","blob":"a680f5a27f96ccbb619bb3549c1a37fb7fad4db7","disposition":"PARSE_INCLUDED","source_format":"PYTHON"}
+  ],
+  "coverage_claim": "EXHAUSTIVE_RELATIVE_TO_FROZEN_RECURSIVE_HEAD_INVENTORY",
+  "source_surface_complete": true,
+  "map_edge_emission": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
