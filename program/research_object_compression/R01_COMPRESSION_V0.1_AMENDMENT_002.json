@@ -1,0 +1,62 @@
+{
+  "object": "CEREBRO_R01_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_002",
+  "record_type": "frozen projection-provenance repair overlay",
+  "persistent_record_state": "FROZEN",
+  "base_compression": "program/research_object_compression/R01_COMPRESSION_V0.1.json",
+  "prior_amendment": "program/research_object_compression/R01_COMPRESSION_V0.1_AMENDMENT_001.json",
+  "trigger": "program/research_object_compression/R01_PARSE_PROJECTION_DEATH_TEST_V0.1.md",
+  "repair_scope": "FOUR_ADDITIONAL_README_SOURCE_PROVENANCE_BRANCHES_ONLY",
+  "additional_source_locators_by_item": [
+    {
+      "item_id": "R01:DEF:TASK",
+      "additional_source_locator": {
+        "source_repository": "bjoern-janson/interface-induced-computational-geometry",
+        "source_commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "source_path": "README.md",
+        "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "source_section_path": "README.md > Core Model > Task",
+        "source_role": "REDUNDANT_SOURCE_LOCAL_SUMMARY_PRESERVED_FOR_DERIVATION_PROVENANCE"
+      }
+    },
+    {
+      "item_id": "R01:DEF:INTERFACE",
+      "additional_source_locator": {
+        "source_repository": "bjoern-janson/interface-induced-computational-geometry",
+        "source_commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "source_path": "README.md",
+        "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "source_section_path": "README.md > Core Model > Interface",
+        "source_role": "REDUNDANT_SOURCE_LOCAL_SUMMARY_PRESERVED_FOR_DERIVATION_PROVENANCE"
+      }
+    },
+    {
+      "item_id": "R01:DEF:ARCHITECTURE",
+      "additional_source_locator": {
+        "source_repository": "bjoern-janson/interface-induced-computational-geometry",
+        "source_commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "source_path": "README.md",
+        "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "source_section_path": "README.md > Core Model > Architecture",
+        "source_role": "REDUNDANT_SOURCE_LOCAL_SUMMARY_PRESERVED_FOR_DERIVATION_PROVENANCE"
+      }
+    },
+    {
+      "item_id": "R01:FORMAL:REACHABILITY",
+      "additional_source_locator": {
+        "source_repository": "bjoern-janson/interface-induced-computational-geometry",
+        "source_commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+        "source_path": "README.md",
+        "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+        "source_section_path": "README.md > Core Model > Reachability Condition",
+        "source_role": "REDUNDANT_SOURCE_LOCAL_SUMMARY_PRESERVED_FOR_DERIVATION_PROVENANCE"
+      }
+    }
+  ],
+  "semantic_item_changes": "NONE",
+  "standing_changes": "NONE",
+  "map_edge_emission": "NONE",
+  "compression_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
