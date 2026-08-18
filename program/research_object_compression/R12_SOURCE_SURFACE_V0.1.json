@@ -1,0 +1,37 @@
+{
+  "object":"CEREBRO_R12_SOURCE_SURFACE_V0.1",
+  "record_type":"frozen full recursive repository source surface",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R12",
+  "repository":"bjoern-janson/causal-permeability-principle",
+  "default_branch":"main",
+  "frozen_head_commit":"c9b9b5581cdeb7dae49afd4b8e510ba838ec250a",
+  "frozen_head_tree":"7c634e36451f13b89caea94bad55c9943f82f05c",
+  "tree_truncated":false,
+  "inventory":{
+    "total_blob_paths":2,
+    "research_bearing_blob_paths":1,
+    "excluded_non_research_blob_paths":1,
+    "unique_research_bearing_blobs":1,
+    "markdown_blob_paths":1,
+    "duplicate_content_path_groups":0
+  },
+  "paths":[
+    {"path":"LICENSE","blob":"af602b2e8e83970d54a4a588e0fbdd14768cb691","size":1063,"source_format":"TEXT","disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"legal metadata only"},
+    {"path":"README.md","blob":"40add7a827a7a248af94050ba7b327ec7e80e6de","size":3530,"source_format":"MARKDOWN","disposition":"PARSE_INCLUDED"}
+  ],
+  "coverage_claim":"EXHAUSTIVE_RELATIVE_TO_FROZEN_RECURSIVE_HEAD_INVENTORY",
+  "source_surface_complete":true,
+  "semantic_parse_performed":false,
+  "non_inferences":[
+    "ONE_RESEARCH_FILE != ONE_SEMANTIC_OBJECT",
+    "SOURCE_COMPACTNESS != COMPRESSION_LICENSE",
+    "REPOSITORY_TITLE != SCIENTIFIC_STANDING"
+  ],
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "r13_parse_access_opened":false
+}
