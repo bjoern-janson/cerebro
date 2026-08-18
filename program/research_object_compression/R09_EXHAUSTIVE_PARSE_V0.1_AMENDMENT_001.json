@@ -1,0 +1,64 @@
+{
+  "object":"CEREBRO_R09_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type":"local parse coverage repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_parse":"program/research_object_compression/R09_EXHAUSTIVE_PARSE_V0.1.json",
+  "death_test":"program/research_object_compression/R09_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope":"DEVELOPMENTAL_FORWARD_REFERENCES_AND_OPEN_DIRECTIONS_ONLY",
+  "new_units":4,
+  "units":[
+    {
+      "id":"R09:P:REF:RESOLVED_SEQUENTIAL_DIRECTIONS",
+      "role":"INTERNAL_REFERENCE",
+      "content":[
+        {"source_path":"docs/context_restoration/layer_45_reality_representation_boundary.md","source_reference":"Next logical layer: Layer 46 — Representation Selection and Invariant Discovery","current_target_path":"docs/context_restoration/layer_46_representation_selection_invariant_discovery.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_46_representation_selection_invariant_discovery.md","source_reference":"Next logical layer: Layer 47 — The Compression–Generation Duality","current_target_path":"docs/context_restoration/layer_47_compression_generation_duality.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_47_compression_generation_duality.md","source_reference":"Next logical layer: Layer 48 — Causal Velocity and the Speed of Influence","current_target_path":"docs/context_restoration/layer_48_causal_velocity_speed_of_influence.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_48_causal_velocity_speed_of_influence.md","source_reference":"Next logical layer: Layer 49 — The Causal Mass Accumulation Model","current_target_path":"docs/context_restoration/layer_49_causal_mass_accumulation_model.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_49_causal_mass_accumulation_model.md","source_reference":"Next logical layer: Layer 50 — Intelligence as Reachability Transformation","current_target_path":"docs/context_restoration/layer_50_intelligence_as_reachability_transformation.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_51_truth_alignment_as_reality_coupling.md","source_reference":"Next logical layer: Layer 52 — The Experimental Validation Framework","current_target_path":"docs/context_restoration/layer_52_experimental_validation_protocol.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION_WITH_TITLE_VARIANT"},
+        {"source_path":"docs/context_restoration/layer_52_experimental_validation_protocol.md","source_reference":"Next logical layer: Layer 53 — AGI Engineering Architecture","current_target_path":"docs/context_restoration/layer_53_agi_engineering_architecture.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_53_agi_engineering_architecture.md","source_reference":"Next logical layer: Layer 54 — Alignment Engineering Architecture","current_target_path":"docs/context_restoration/layer_54_alignment_engineering_architecture.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_54_alignment_engineering_architecture.md","source_reference":"Next logical layer: Layer 55 — Civilization Strategy Architecture","current_target_path":"docs/context_restoration/layer_55_civilization_strategy_architecture.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_61_formal_mathematical_specification.md","source_reference":"Next logical layer: Layer 62 — Empirical Validation Program","current_target_path":"docs/context_restoration/layer_62_empirical_validation_program.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_62_empirical_validation_program.md","source_reference":"Next logical layer: Layer 63 — Computational Architecture for Recursive Intelligence","current_target_path":"docs/context_restoration/layer_63_computational_architecture_for_recursive_intelligence.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_63_computational_architecture_for_recursive_intelligence.md","source_reference":"Next logical layer: Layer 64 — Recursive Intelligence Safety and Control","current_target_path":"docs/context_restoration/layer_64_recursive_intelligence_safety_and_control.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_64_recursive_intelligence_safety_and_control.md","source_reference":"Next logical layer: Layer 65 — The Recursive Intelligence Economy","current_target_path":"docs/context_restoration/layer_65_recursive_intelligence_economy.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_65_recursive_intelligence_economy.md","source_reference":"Next logical layer: Layer 66 — The Recursive Intelligence Civilization Transition","current_target_path":"docs/context_restoration/layer_66_recursive_intelligence_civilization_transition.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_66_recursive_intelligence_civilization_transition.md","source_reference":"Next logical layer: Layer 67 — The Universal Evolutionary Dynamics","current_target_path":"docs/context_restoration/layer_67_universal_evolutionary_dynamics.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_67_universal_evolutionary_dynamics.md","source_reference":"Next logical layer: Layer 68 — The Universal Intelligence Field","current_target_path":"docs/context_restoration/layer_68_universal_intelligence_field.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_69_final_unified_equation.md","source_reference":"Next logical layer: Layer 70 — The Empirical Test: Turning the Unified Theory Into Science","current_target_path":"docs/context_restoration/layer_70_empirical_test_framework.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_70_empirical_test_framework.md","source_reference":"Next logical layer: Layer 71 — The Engineering Architecture: Building Systems Around Reachability Transformation","current_target_path":"docs/context_restoration/layer_71_engineering_architecture_reachability_systems.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"},
+        {"source_path":"docs/context_restoration/layer_71_engineering_architecture_reachability_systems.md","source_reference":"Next logical layer: Layer 72 — The Recursive Intelligence Operating System","current_target_path":"docs/context_restoration/layer_72_recursive_intelligence_operating_system.md","reference_standing":"SOURCE_ASSERTED_DEVELOPMENTAL_DIRECTION"}
+      ],
+      "map_edge_effect":"NONE",
+      "scientific_authority_effect":"NONE"
+    },
+    {
+      "id":"R09:P:REF:POTENTIAL_DIRECTION_SETS",
+      "role":"LIMITATION_OR_OPEN_QUESTION",
+      "content":[
+        {"source_path":"docs/context_restoration/layer_50_intelligence_as_reachability_transformation.md","source_standing":"POTENTIAL_NEXT_DIRECTIONS","directions":["Layer 51 — Formal Mathematics: defining the state space and operators","Layer 52 — Experimental Program: turning the framework into falsifiable research","Layer 53 — AGI Engineering: mapping the theory to architectures","Layer 54 — Alignment Engineering: building control mechanisms","Layer 55 — Civilization Strategy: applying the framework at scale"],"current_artifact_identity_effect":"NONE"},
+        {"source_path":"docs/context_restoration/layer_55_civilization_strategy_architecture.md","source_standing":"NEXT_POSSIBLE_DIRECTIONS","directions":["Layer 56 — Mathematical Formalization of Reachability Transformation","Layer 57 — Simulation Architecture and Agent-Based Testing","Layer 58 — The Intelligence Field Theory","Layer 59 — The Final Unified Equation"],"current_artifact_identity_effect":"NONE"},
+        {"source_path":"docs/context_restoration/layer_60_the_unified_theory_of_recursive_intelligence.md","source_standing":"NEXT_POSSIBLE_DIRECTIONS","directions":["Layer 61 — Formal Mathematical Specification","Layer 62 — Empirical Validation Program","Layer 63 — Computational Architecture","Layer 64 — Alignment and Control Systems","Layer 65 — Experimental AGI Benchmark Design"],"current_artifact_identity_effect":"NONE"}
+      ],
+      "non_inference":"POTENTIAL_DIRECTION != CURRENT_ARTIFACT_IDENTITY != SUPERSESSION"
+    },
+    {
+      "id":"R09:P:REF:L72:INTELLIGENCE_COMPILER",
+      "role":"UNRESOLVED_REFERENCE",
+      "content":{"source_path":"docs/context_restoration/layer_72_recursive_intelligence_operating_system.md","source_reference":"Next logical layer: Layer 73 — The Intelligence Compiler","source_question":"If an intelligence OS manages cognitive processes, can intelligence itself be compiled, optimized, and transferred between substrates?","current_frozen_head_exact_matching_artifact":"NOT_FOUND","endpoint_resolution_status":"UNRESOLVED_ON_FROZEN_HEAD","forbidden_resolutions":["DO_NOT_MAP_TO_CURRENT_LAYER_73_REALITY_COUPLING_THRESHOLD","DO_NOT_MAP_TO_CURRENT_LAYER_74_PHASE_SPACE_NAVIGATION","DO_NOT_INVENT_MISSING_FILE"]},
+      "map_edge_effect":"NONE",
+      "scientific_authority_effect":"NONE"
+    },
+    {
+      "id":"R09:P:REF:DEVELOPMENTAL_REFERENCE_BOUNDARY",
+      "role":"SOURCE_DESCRIBED_STATUS",
+      "content":"Source-described developmental directions are part of the restorable research state. A named next layer may resolve to a current artifact, remain only a potential direction, or remain unresolved. Resolution status must be preserved without turning the relation into a Program Map edge or roadmap authority."
+    }
+  ],
+  "effective_parse_accounting_after_overlay":{"base_units":336,"added_units":4,"effective_units":340,"parsed_units":339,"source_internal_unresolved_fragment_units":1,"parser_failures":0},
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
