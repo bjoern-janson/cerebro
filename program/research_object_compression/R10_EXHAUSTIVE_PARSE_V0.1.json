@@ -1,0 +1,65 @@
+{
+  "object":"CEREBRO_R10_EXHAUSTIVE_PARSE_V0.1",
+  "record_type":"exhaustive structured parse manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R10",
+  "repository":"bjoern-janson/cget",
+  "frozen_head_commit":"942de6bda50fb61d6a66b82811ceff6ab3ad1784",
+  "source_surface":"program/research_object_compression/R10_SOURCE_SURFACE_V0.1.json",
+  "parser_contract":"EFFECTIVE_RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "payload_parts":[
+    {"path":"program/research_object_compression/R10_EXHAUSTIVE_PARSE_V0.1_PART_A.json","source_paths":9,"units":59,"parsed_units":59,"unresolved_units":0},
+    {"path":"program/research_object_compression/R10_EXHAUSTIVE_PARSE_V0.1_PART_B.json","source_paths":11,"units":62,"parsed_units":62,"unresolved_units":0},
+    {"path":"program/research_object_compression/R10_EXHAUSTIVE_PARSE_V0.1_PART_C.json","source_paths":11,"units":68,"parsed_units":68,"unresolved_units":0},
+    {"path":"program/research_object_compression/R10_EXHAUSTIVE_PARSE_V0.1_PART_D.json","source_paths":10,"units":62,"parsed_units":62,"unresolved_units":0}
+  ],
+  "source_path_accounting":{"admitted_source_paths":41,"payload_source_paths":41,"unaccounted_source_paths":0},
+  "parse_unit_count":251,
+  "parsed_units":251,
+  "unresolved_units":0,
+  "parser_failures":0,
+  "implementation_surface":{
+    "python_paths":10,
+    "ordinary_python_source_without_markdown_fences":3,
+    "python_extension_paths_wrapped_in_markdown_fences":7,
+    "ordinary_python_components":["tools/cget_analyzer/cget_metrics.py","tools/cget_analyzer/experiments.py","tools/cget_analyzer/toy_agents.py"],
+    "integrated_environmental_benchmark_executable_on_frozen_surface":"NOT_ESTABLISHED",
+    "executable_synthetic_calculator_over_hardcoded_inputs":"PRESENT",
+    "execution_records":"NONE_OBSERVED"
+  },
+  "result_surface":{
+    "synthetic_output_example":"PRESENT_IN_experiments/results/example_run.md",
+    "source_labeled_qualitative_initial_analyses":"PRESENT_IN_tools/experiments/test_results.md",
+    "measured_execution_results":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE",
+    "reported_negative_execution_results":"NONE_OBSERVED_ON_FROZEN_SOURCE_SURFACE"
+  },
+  "known_cross_source_tensions":[
+    {"id":"R10:TENSION:CGET_NAME_EXPANSION","standing":"PRESERVED_SOURCE_IDENTITY_VARIATION","branches":["Causal Generative Equilibrium Theory in README/docs overview","Causal Generative Execution Theory in docs/08 and many experiment/tool files","Causal Generative Executable Theory in docs/10 and theory files"],"canonicalization_authority":"NONE"},
+    {"id":"R10:TENSION:SCALAR_EVALUATION","standing":"PRESERVED_SPECIFICATION_IMPLEMENTATION_TENSION","branches":["Analyzer/benchmark documentation says no single intelligence score and favors lexicographic constraints","tools/cget_analyzer/run_benchmark.py intends to rank toy agents by Theta*"],"reconciliation_authority":"NONE"},
+    {"id":"R10:TENSION:RESULT_STANDING","standing":"PRESERVED_SOURCE_RELATIVE_RESULT_TENSION","branches":["experiments/results/example_run.md explicitly synthetic and not experimental results","tools/experiments/test_results.md uses Result/Current Findings language for source-labeled Initial Analysis without execution provenance"],"reconciliation_authority":"NONE"},
+    {"id":"R10:TENSION:INTEGRATION_EXECUTABILITY","standing":"PRESERVED_IMPLEMENTATION_TENSION","branches":["three analyzer modules are ordinary Python over hard-coded toy inputs","seven .py artifacts are fenced Markdown as stored","experiments/run_all_agents.py additionally targets incompatible MazeWorld/agent interfaces"],"integration_execution_claim":"NOT_ESTABLISHED"}
+  ],
+  "standing_boundaries":[
+    "ASSUMPTION != AXIOM != DEFINITION != FORMAL_STRUCTURE != HYPOTHESIS != PREDICTION != METHOD != RESULT",
+    "FRAMEWORK_INTERNAL_DEFINITION != EMPIRICALLY_ESTABLISHED_PROPERTY",
+    "SOURCE_LABELED_QUALITATIVE_ANALYSIS_RESULT != MEASURED_EXECUTION_RESULT",
+    "SYNTHETIC_NUMERIC_OUTPUT != OBSERVED_RESULT",
+    "PYTHON_EXTENSION != EXECUTABLE_PYTHON_BLOB",
+    "EXECUTABLE_COMPONENT != INTEGRATED_EXECUTABLE_INSTRUMENT",
+    "EXECUTABLE_SYNTHETIC_CALCULATOR != EMPIRICAL_EXPERIMENT",
+    "HARDCODED_METRIC_VALUE != MEASUREMENT",
+    "IMPLEMENTED_PROXY != VALIDATED_METRIC",
+    "IMPLEMENTED_OUTPUT_BEHAVIOR != EXECUTION_RECORD",
+    "CASE_STUDY_OR_HISTORICAL_INTERPRETATION != VALIDATED_HISTORICAL_RESULT",
+    "SOURCE_INTERNAL_EXISTING_WORK_RELATION != PROGRAM_MAP_EDGE",
+    "ROADMAP_PHASE_COMPLETED != SCIENTIFIC_VALIDATION",
+    "SOURCE_NAME_VARIANT != CANONICAL_IDENTITY_RESOLUTION"
+  ],
+  "research_direction_role_interpretation":"SOURCE_DESCRIBED_RESEARCH_DIRECTION is a source-status/open-question organizational subrole only; it grants no roadmap authority and does not constitute a new scientific standing class.",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "r11_parse_access_opened":false
+}
