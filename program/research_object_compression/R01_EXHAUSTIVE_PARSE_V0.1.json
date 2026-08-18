@@ -1,0 +1,248 @@
+{
+  "object": "CEREBRO_R01_EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1",
+  "record_type": "exhaustive structured parse over frozen repository aperture",
+  "persistent_record_state": "FROZEN",
+  "parent_contract": {
+    "path": "program/research_object_compression/EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1.md",
+    "commit": "26808493dba11daebf2c910ee3360c2bc8d5a5d1"
+  },
+  "repository_id": "R01",
+  "repository": "bjoern-janson/interface-induced-computational-geometry",
+  "frozen_head_commit": "806e24ad04a2d75e041b53d324a990282a92ffa5",
+  "frozen_head_tree": "74e51d3dbb3edad5ef966f795b76637a36fd1521",
+  "coverage": {
+    "head_paths_enumerated": 3,
+    "head_paths_accounted_for": 3,
+    "research_bearing_paths": 2,
+    "excluded_non_research_paths": 1,
+    "parse_failures": 0,
+    "unsupported_paths": 0,
+    "exhaustiveness_claim": "EXHAUSTIVE_RELATIVE_TO_FROZEN_V0_1_APERTURE"
+  },
+  "path_dispositions": [
+    {
+      "path": "README.md",
+      "blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "disposition": "PARSE_INCLUDED"
+    },
+    {
+      "path": "formalism.md",
+      "blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "disposition": "PARSE_INCLUDED"
+    },
+    {
+      "path": "LICENSE",
+      "blob": "0a68efa7511e20f30263bf67588ccf4cbc403dca",
+      "disposition": "PARSE_EXCLUDED_BY_FROZEN_SCOPE",
+      "reason": "Legal metadata only; inventoried but outside semantic research parse."
+    }
+  ],
+  "parse_units": [
+    {
+      "parse_unit_id": "R01:P:README:TITLE",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "ROOT > title",
+      "unit_kind": "IDENTITY_TITLE",
+      "normalized_content": "Interface-Induced Computational Geometry",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:PURPOSE",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "ROOT > opening description",
+      "unit_kind": "SOURCE_DESCRIBED_SCOPE_OR_PURPOSE",
+      "normalized_content": "Formal framework for analyzing how representations, tools, and interfaces alter computational reach of bounded agents.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:ABSTRACT:TRACTABILITY",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Abstract",
+      "unit_kind": "SOURCE_ASSERTION",
+      "source_standing_label": "central claim context",
+      "normalized_content": "Tractability is presented as relational between task, interface, and executing architecture rather than intrinsic to a task alone.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:ABSTRACT:PROGRESS",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Abstract",
+      "unit_kind": "SOURCE_ASSERTION_HYPOTHESIS",
+      "source_standing_label": "central claim",
+      "normalized_content": "Progress often occurs through interfaces that transform problem structure into forms executable by bounded systems rather than through raw capacity increase alone.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:CORE_MODEL:TASK",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Core Model > Task",
+      "unit_kind": "DEFINITION_SUMMARY",
+      "normalized_content": "Task T: a semantic problem independent of representation.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:CORE_MODEL:INTERFACE",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Core Model > Interface",
+      "unit_kind": "DEFINITION_SUMMARY",
+      "normalized_content": "Interface rho=(tau,sigma) transforms task structure into an executable representation.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:CORE_MODEL:ARCHITECTURE",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Core Model > Architecture",
+      "unit_kind": "DEFINITION_SUMMARY",
+      "normalized_content": "Architecture A: bounded resource vector describing system constraints.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:CORE_MODEL:REACHABILITY",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Core Model > Reachability Condition",
+      "unit_kind": "FORMAL_STRUCTURE_SUMMARY",
+      "normalized_content": "Reachability condition C(rho,T) <= A.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:REF:FORMALISM",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Core Model > reference after Reachability Condition",
+      "unit_kind": "INTERNAL_REFERENCE",
+      "normalized_content": "README explicitly points to formalism.md for the mathematical definition.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:APPLICATIONS",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Applications",
+      "unit_kind": "APPLICATIONS",
+      "normalized_content": ["AI agent systems", "Cognitive science", "Human-computer interaction", "Compiler optimization", "Complexity theory"],
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:EXAMPLES",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Examples",
+      "unit_kind": "EXAMPLES",
+      "normalized_content": ["mathematical notation", "programming languages", "visualization systems", "external cognitive tools", "AI augmentation"],
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:STATUS",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > Status",
+      "unit_kind": "SOURCE_DESCRIBED_STATUS",
+      "normalized_content": "Open theoretical exploration of interface-induced computation.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:README:LICENSE_NOTE",
+      "source_path": "README.md",
+      "source_blob": "85e6db30296754f56b33cf76a21d3761dbac65cf",
+      "source_section_path": "README.md > closing license statement",
+      "unit_kind": "LEGAL_NON_RESEARCH_METADATA",
+      "normalized_content": "CC BY 4.0 license statement.",
+      "disposition": "EXCLUDED_BY_FROZEN_SCOPE"
+    },
+    {
+      "parse_unit_id": "R01:P:FORMALISM:TITLE",
+      "source_path": "formalism.md",
+      "source_blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "source_section_path": "ROOT > title",
+      "unit_kind": "IDENTITY_TITLE",
+      "normalized_content": "Interface-Induced Computational Geometry: Formal Definition",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:FORMALISM:TASK",
+      "source_path": "formalism.md",
+      "source_blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "source_section_path": "formalism.md > 1. Core Objects > Task (T)",
+      "unit_kind": "DEFINITION",
+      "normalized_content": "T=(X,Y,f), f:X->Y, independent of representation.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:FORMALISM:INTERFACE",
+      "source_path": "formalism.md",
+      "source_blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "source_section_path": "formalism.md > 1. Core Objects > Interface (rho)",
+      "unit_kind": "DEFINITION",
+      "normalized_content": "rho=(tau,sigma); tau transforms task structure into executable dependency representation; sigma embeds it into physical or symbolic layout.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:FORMALISM:ARCHITECTURE",
+      "source_path": "formalism.md",
+      "source_blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "source_section_path": "formalism.md > 1. Core Objects > Architecture (A)",
+      "unit_kind": "DEFINITION",
+      "normalized_content": "A=(b1,...,bk), a bounded resource vector for constraints such as memory, bandwidth, attention, or storage.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:FORMALISM:EXECUTOR",
+      "source_path": "formalism.md",
+      "source_blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "source_section_path": "formalism.md > 1. Core Objects > Executor",
+      "unit_kind": "DEFINITION",
+      "normalized_content": "Executor resolves an admissible schedule pi in Pi_rho(T).",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:FORMALISM:COST",
+      "source_path": "formalism.md",
+      "source_blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "source_section_path": "formalism.md > 2. Resource Cost Functional",
+      "unit_kind": "FORMAL_STRUCTURE",
+      "normalized_content": "C(rho,T)=inf_{pi in Pi_rho(T)} max_t v(pi,t), selecting the lowest peak-resource execution available under the interface.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:FORMALISM:REACHABILITY",
+      "source_path": "formalism.md",
+      "source_blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "source_section_path": "formalism.md > 3. Reachability",
+      "unit_kind": "FORMAL_STRUCTURE",
+      "normalized_content": "A task is reachable when C(rho,T) <= A componentwise across resource dimensions.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R01:P:FORMALISM:HYPOTHESIS",
+      "source_path": "formalism.md",
+      "source_blob": "dc4b43c461ff1e274691806a2fcbb4d431a95a2c",
+      "source_section_path": "formalism.md > 4. Central Hypothesis",
+      "unit_kind": "SOURCE_ASSERTION_HYPOTHESIS",
+      "source_standing_label": "Central Hypothesis",
+      "normalized_content": "Progress in intelligent systems is hypothesized to occur through interfaces that transform task structures so peak computational demands fall within bounded architectural limits.",
+      "disposition": "PARSED_REPRESENTATION"
+    }
+  ],
+  "category_absence_dispositions": {
+    "reported_empirical_results": "NOT_OBSERVED_ON_EXHAUSTIVELY_PARSED_FROZEN_APERTURE",
+    "reported_negative_results_or_failed_tests": "NOT_OBSERVED_ON_EXHAUSTIVELY_PARSED_FROZEN_APERTURE",
+    "methodological_limitations": "NOT_OBSERVED_ON_EXHAUSTIVELY_PARSED_FROZEN_APERTURE",
+    "open_problems": "NOT_OBSERVED_ON_EXHAUSTIVELY_PARSED_FROZEN_APERTURE",
+    "explicit_cross_repository_references": "NOT_OBSERVED_ON_EXHAUSTIVELY_PARSED_FROZEN_APERTURE",
+    "unresolved_references": "NONE_RECORDED_ON_FROZEN_APERTURE"
+  },
+  "parse_failures": [],
+  "unresolved_parse_units": [],
+  "map_edges_emitted": [],
+  "scientific_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
