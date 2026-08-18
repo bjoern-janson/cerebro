@@ -1,0 +1,98 @@
+{
+  "object":"CEREBRO_R16_EXHAUSTIVE_PARSE_V0.1_PART_C",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R16",
+  "frozen_head_commit":"29914ee25f7ab64820508ac6f59098f9a146fb88",
+  "source_family":"ROBUSTNESS_AND_LATE_RESULT_DOCUMENTS",
+  "source_paths":7,
+  "unit_count":71,
+  "sources":[
+    {"path":"docs/robustness_plan_v1.0.md","units":[
+      ["R16:P:RP10:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Determine whether the observed lambda->D->Q_Omega->performance pattern is stable or implementation-specific; explicitly not to strengthen the result."],
+      ["R16:P:RP10:SEED_METHOD","METHODOLOGY_OR_TEST_PROTOCOL","Re-run across multiple seeds, minimum 10/preferred 100, reporting distributional statistics for D,Omega,Q_Omega,reward/recovery."],
+      ["R16:P:RP10:ENV_VARIATION","METHODOLOGY_OR_TEST_PROTOCOL","Vary shift timing/magnitude and capability-quality landscape."],
+      ["R16:P:RP10:PARAM_SENSITIVITY","METHODOLOGY_OR_TEST_PROTOCOL","Sweep drift rate, correction strength and expansion rate; require effect across a region rather than one tuned setting."],
+      ["R16:P:RP10:NULL_A","METHODOLOGY_OR_TEST_PROTOCOL","Allow drift but remove A->selection influence; predicts D may rise without systematic Q_Omega decline."],
+      ["R16:P:RP10:NULL_B","METHODOLOGY_OR_TEST_PROTOCOL","Random capability selection; predicts Q_Omega independent of D/lambda."],
+      ["R16:P:RP10:NULL_C","METHODOLOGY_OR_TEST_PROTOCOL","Freeze A=A*_env; predicts no divergence and no correction-dependent degradation."],
+      ["R16:P:RP10:MEASUREMENTS","METHODOLOGY_OR_TEST_PROTOCOL","Maintain D,Omega,Q_Omega and external performance measurements."],
+      ["R16:P:RP10:POSITIVE_RULE","SOURCE_INTERPRETATION","Positive robustness only if effect survives seeds/environment/parameters and disappears under relevant nulls."],
+      ["R16:P:RP10:NEGATIVE_RULE","SOURCE_INTERPRETATION","Failure under reasonable variation would indicate specificity, engineered environment or operationalization needing revision."],
+      ["R16:P:RP10:SCOPE","SOURCE_DESCRIBED_STATUS","Robustness phase tests reproducibility inside current minimal simulation, not a general alignment theory."],
+      ["R16:P:RP10:EXIT","METHODOLOGY_OR_TEST_PROTOCOL","Stage complete only after robustness survival, appropriate ablation failure, and documentation with raw measurements."]
+    ]},
+    {"path":"docs/robustness_plan_v1.1.md","units":[
+      ["R16:P:RP11:PURPOSE","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Test whether deterministic robustness pattern survives stochastic variation; no new theory intended."],
+      ["R16:P:RP11:PRESERVED_CHAIN","SOURCE_ASSERTION_HYPOTHESIS","Preserves lambda down -> D up -> Q_Omega down causal pattern as target under stochastic conditions."],
+      ["R16:P:RP11:RANDOM_CAPS","ARCHITECTURE_OR_PROTOCOL_PROPOSAL","Generate hidden capability qualities q_i from a distribution unknown to the agent."],
+      ["R16:P:RP11:NOISY_DRIFT","ARCHITECTURE_OR_PROTOCOL_PROPOSAL","A_(t+1)=A_t+eta(internal pressure)+epsilon with lambda-dependent correction toward A*_env."],
+      ["R16:P:RP11:RANDOM_ENV","ARCHITECTURE_OR_PROTOCOL_PROPOSAL","Randomize shift timing, shift magnitude and capability-quality distributions across runs."],
+      ["R16:P:RP11:CONDITIONS","METHODOLOGY_OR_TEST_PROTOCOL","Evaluate lambda 1,0.5,0 with recommended N>=100 runs per condition."],
+      ["R16:P:RP11:MULTISEED_LABEL","SOURCE_DESCRIBED_STATUS","Source describes conditions as receiving independent random seeds; lexical independence is preserved without granting warrant independence."],
+      ["R16:P:RP11:MEASUREMENTS","METHODOLOGY_OR_TEST_PROTOCOL","Report mean/std/min/max for D,Omega,Q_Omega and post-shift reward."],
+      ["R16:P:RP11:NULL_A","METHODOLOGY_OR_TEST_PROTOCOL","Drift without selection influence; expects D up but Q approximately constant."],
+      ["R16:P:RP11:NULL_B","METHODOLOGY_OR_TEST_PROTOCOL","Random selection; expects no systematic lambda-Q relationship."],
+      ["R16:P:RP11:NULL_C","METHODOLOGY_OR_TEST_PROTOCOL","Frozen A; expects D near zero and no correction effect."],
+      ["R16:P:RP11:ACCEPTANCE","METHODOLOGY_OR_TEST_PROTOCOL","Support requires ordered D/Q effects across stochastic runs and disappearance in relevant nulls."],
+      ["R16:P:RP11:OUTPUT","SOURCE_DESCRIBED_RESEARCH_DIRECTION","Results are intended to be recorded separately."],
+      ["R16:P:RP11:SCOPE","SOURCE_DESCRIBED_STATUS","Toy causal-isolation study only; successful results do not establish general AI behavior, real-world probabilities or engineering conclusions."]
+    ]},
+    {"path":"docs/robustness_results_v1.0.md","units":[
+      ["R16:P:RR10:SETUP","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Reports seed, parameter, environment and ablation robustness tests of the v0.9.1-style pathway."],
+      ["R16:P:RR10:SEED_TABLE","REPORTED_EMPIRICAL_RESULT","Reports deterministic mean/std tables for lambda conditions: D 0/.25/.50, Q 1/.75/.50, Omega 200/225/250, reward 1/.75/.50."],
+      ["R16:P:RR10:ZERO_VARIANCE","SOURCE_INTERPRETATION_OF_RESULT","Source notes zero variance across seeds because underlying dynamics remain mostly deterministic."],
+      ["R16:P:RR10:NULL_A","REPORTED_EMPIRICAL_RESULT","Drift occurs while Q/reward remain 1 when selection influence removed."],
+      ["R16:P:RR10:NULL_B","REPORTED_EMPIRICAL_RESULT","Random selection yields same Q distribution across lambda conditions."],
+      ["R16:P:RR10:NULL_C","REPORTED_EMPIRICAL_RESULT","Frozen A removes divergence and correction-dependent differences."],
+      ["R16:P:RR10:DRIFT_SWEEP","REPORTED_EMPIRICAL_RESULT","Reports drift-rate sweep examples with increased D and reduced Q/reward as drift rises."],
+      ["R16:P:RR10:EXPANSION_SWEEP","REPORTED_EMPIRICAL_RESULT","Source says qualitative lambda-D-Q relationship unchanged across tested expansion rates."],
+      ["R16:P:RR10:ENV_VARIATION","REPORTED_EMPIRICAL_RESULT","Source says tested shift timings preserve qualitative ordering."],
+      ["R16:P:RR10:OBSERVATIONS","SOURCE_INTERPRETATION_OF_RESULT","Attributes degradation to A-dependent selection pathway and mutable adaptation; stronger drift magnifies effect."],
+      ["R16:P:RR10:LIMITATIONS","LIMITATION_OR_OPEN_QUESTION","Toy deterministic simulator, simplified capability distributions, non-meaningful seed uncertainty and no real-world claims."],
+      ["R16:P:RR10:NEXT","SOURCE_DESCRIBED_RESEARCH_DIRECTION","Introduce stochastic capability generation, drift, environments and observation noise for meaningful uncertainty."]
+    ]},
+    {"path":"docs/robustness_results_v1.1.md","units":[
+      ["R16:P:RR11:CONTENT_STATE","ARTIFACT_CONTENT_STATE","Frozen file is a short continuation/template-like fragment beginning with 'Containing:' rather than a populated result report."],
+      ["R16:P:RR11:PLANNED_STRUCTURE","SOURCE_DESCRIBED_STATUS","Lists intended sections: setup, distribution tables, main results, null results, observations, limitations."],
+      ["R16:P:RR11:NO_THEORY_EXPANSION","SOURCE_DESCRIBED_STATUS","Explicitly says no theoretical expansion will be added."],
+      ["R16:P:RR11:SCOPE","SOURCE_DESCRIBED_STATUS","Successful results would indicate only mechanism occurrence under implemented assumptions; file itself contains no measurements."]
+    ]},
+    {"path":"docs/robustness_results_v1.2.md","units":[
+      ["R16:P:RR12:SETUP","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Describes stochastic additions, lambda conditions, main system and three null controls."],
+      ["R16:P:RR12:MAIN_TABLE_EMPTY","UNRESOLVED_SOURCE_FRAGMENT","Main-system numeric result table contains headers but no data rows."],
+      ["R16:P:RR12:MAIN_OBSERVATIONS","SOURCE_INTERPRETATION_OF_RESULT","Source states D rises as lambda falls, Q falls as D rises, reward follows Q degradation, despite missing numeric rows."],
+      ["R16:P:RR12:NULL_A_TABLE","UNRESOLVED_SOURCE_FRAGMENT","Null A section says 'Table.' with no numeric values."],
+      ["R16:P:RR12:NULL_A_OBS","SOURCE_INTERPRETATION_OF_RESULT","Source states divergence changes but selection quality does not under Null A."],
+      ["R16:P:RR12:NULL_B_TABLE","UNRESOLVED_SOURCE_FRAGMENT","Null B section says 'Table.' with no numeric values."],
+      ["R16:P:RR12:NULL_B_OBS","SOURCE_INTERPRETATION_OF_RESULT","Source states selection quality is independent of lambda under Null B."],
+      ["R16:P:RR12:NULL_C_TABLE","UNRESOLVED_SOURCE_FRAGMENT","Null C section says 'Table.' with no numeric values."],
+      ["R16:P:RR12:NULL_C_OBS","SOURCE_INTERPRETATION_OF_RESULT","Source states frozen A removes divergence pathway."],
+      ["R16:P:RR12:LIMITATIONS","LIMITATION_OR_OPEN_QUESTION","Toy environment, fixed Omega, no dynamic expansion, no transport beyond simulated assumptions; further stochastic expansion work required."]
+    ]},
+    {"path":"docs/expansion_results_v1.0.md","units":[
+      ["R16:P:ER10:SETUP","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Extends stochastic robustness with selected capability -> Delta Omega while preserving lambda->D->selection->Q mechanism and null controls."],
+      ["R16:P:ER10:MAIN_TABLE","REPORTED_EMPIRICAL_RESULT","Reports multi-seed mean D/Omega/Q/reward for lambda 1,0.5,0; reach quantity similar but quality declines with correction."],
+      ["R16:P:ER10:MAIN_OBSERVATION","SOURCE_INTERPRETATION_OF_RESULT","Interprets comparable Omega growth with lower-quality accumulation at lower correction."],
+      ["R16:P:ER10:NULL_A","REPORTED_EMPIRICAL_RESULT","Drift changes but Q and Omega remain lambda-independent when A does not influence selection."],
+      ["R16:P:ER10:NULL_B","REPORTED_EMPIRICAL_RESULT","Random selection removes divergence-quality relationship."],
+      ["R16:P:ER10:NULL_C","REPORTED_EMPIRICAL_RESULT","Frozen A removes divergence and produces identical quality/expansion across lambda."],
+      ["R16:P:ER10:OBSERVED_CHAIN","SOURCE_INTERPRETATION_OF_RESULT","Source says lambda->D->selection bias yields Omega growth with Q decline under stochastic conditions and nulls remove links."],
+      ["R16:P:ER10:LIMITATIONS","LIMITATION_OR_OPEN_QUESTION","Expansion amount mostly independent of quality; no environmental consequences/long-term feedback; simplified capability/selection model; simulator-only result."],
+      ["R16:P:ER10:NEXT","SOURCE_DESCRIBED_RESEARCH_DIRECTION","Add feedback where low-quality expansion creates costs or reduces future growth."]
+    ]},
+    {"path":"docs/feedback_results_v1.0.md","units":[
+      ["R16:P:FR10:SETUP","SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","Adds Q_Omega->future expansion capacity feedback to stochastic expansion framework while preserving lambda->D->selection->Q."],
+      ["R16:P:FR10:SEED_CLAIM","SOURCE_DESCRIBED_STATUS","Source says experiment evaluates lambda conditions across 100 independent seeds; independence remains source claim, not warrant-independence result."],
+      ["R16:P:FR10:MAIN_TABLE","REPORTED_EMPIRICAL_RESULT","Reports means for D,Q,Omega,reward: low correction has much higher divergence and lower quality/expansion."],
+      ["R16:P:FR10:MAIN_OBSERVATION","SOURCE_INTERPRETATION_OF_RESULT","Source interprets reduced correction as increased divergence, reduced accumulated quality, and reduced final expansion capacity."],
+      ["R16:P:FR10:NULL_A","REPORTED_EMPIRICAL_RESULT","Drift varies but Q and Omega remain identical across lambda when selection influence removed."],
+      ["R16:P:FR10:NULL_B","REPORTED_EMPIRICAL_RESULT","Random selection yields lambda-independent Q/Omega despite divergence differences."],
+      ["R16:P:FR10:NULL_C","REPORTED_EMPIRICAL_RESULT","Frozen A removes divergence and lambda-dependent behavior."],
+      ["R16:P:FR10:OBSERVED_CHAIN","SOURCE_INTERPRETATION_OF_RESULT","Source reports lambda->D->selection degradation->Q down->Omega growth reduction with nulls removing the relationship."],
+      ["R16:P:FR10:LIMITATIONS","LIMITATION_OR_OPEN_QUESTION","Toy model; simple aggregate quality; direct quality-dependent expansion multiplier; limited environment; no real-world guarantee."],
+      ["R16:P:FR10:NEXT","SOURCE_DESCRIBED_RESEARCH_DIRECTION","Explore richer environments, competing objectives and more complex feedback structures."]
+    ]}
+  ],
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
