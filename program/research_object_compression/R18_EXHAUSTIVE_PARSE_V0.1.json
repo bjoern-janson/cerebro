@@ -1,0 +1,45 @@
+{
+  "object":"CEREBRO_R18_EXHAUSTIVE_PARSE_V0.1",
+  "record_type":"exhaustive structured parse manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R18",
+  "repository":"bjoern-janson/adaptive-permeability",
+  "frozen_head_commit":"c00e1f19926bec838f983cc6e57ff7869f488c9d",
+  "source_surface":"program/research_object_compression/R18_SOURCE_SURFACE_V0.1.json",
+  "payload_parts":[
+    {"path":"program/research_object_compression/R18_EXHAUSTIVE_PARSE_V0.1_PART_A.json","source_paths":1,"parsed_representations":60,"unresolved":15,"units":75}
+  ],
+  "source_path_accounting":{"admitted_source_paths":1,"payload_source_paths":1,"unaccounted_source_paths":0},
+  "candidate_parse_units":75,
+  "parsed_representation_units":60,
+  "unresolved_source_units":15,
+  "parser_failures":0,
+  "standing_pressure_summary":[
+    "THEORY_ASSERTION != REPORTED_EMPIRICAL_RESULT",
+    "PHASE_REGIME_CONSEQUENCE != OBSERVED_RESULT",
+    "EMPIRICAL_OBSERVABLE_LABEL != OPERATIONALIZED_MEASUREMENT_PROTOCOL",
+    "FALSIFICATION_EXPERIMENT_SPECIFICATION != EXECUTION_RECORD",
+    "FALSIFICATION_CRITERION != FALSIFICATION_EVENT",
+    "PREDICTED_AGENT_ORDERING != MEASURED_AGENT_ORDERING",
+    "UNDEFINED_OR_UNOPERATIONALIZED_SYMBOL != PARSER_FAILURE",
+    "REMOVED_HISTORICAL_WORDING != CURRENT_HEAD_SOURCE_UNIT",
+    "CURRENT_HEAD_PARSE != DEVELOPMENTAL_HISTORY_ERASURE",
+    "SOURCE_VOCABULARY_OVERLAP != CROSS_REPOSITORY_IDENTITY_OR_EDGE"
+  ],
+  "source_standing_summary":{
+    "theory_and_formalism_present":true,
+    "definitions_present":true,
+    "conceptual_and_hypothesis_assertions_present":true,
+    "falsification_experiment_specification_present":true,
+    "source_predictions_present":true,
+    "source_reported_empirical_results":0,
+    "source_reported_negative_results":0,
+    "executable_implementation":0,
+    "persisted_execution_records":0
+  },
+  "effective_status":"NOT_YET_ESTABLISHED_PENDING_PARSE_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "r19_parse_access_opened":false
+}
