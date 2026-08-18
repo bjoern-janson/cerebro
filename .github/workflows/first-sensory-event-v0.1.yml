@@ -1,0 +1,21 @@
+name: First sensory event v0.1
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/first-sensory-event-v0.1.yml
+
+permissions:
+  contents: read
+
+jobs:
+  execute-frozen-event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Cerebro
+        uses: actions/checkout@v4
+
+      - name: Execute frozen first sensory event
+        run: python3 execution/first_sensory_event_v0_1_adapter.py
