@@ -1,0 +1,100 @@
+{
+  "object":"CEREBRO_R08_RESEARCH_OBJECT_COMPRESSION_V0.1",
+  "record_type":"loss-bounded compression projected from exhaustive parse",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R08",
+  "repository":"bjoern-janson/adaptive-evolutionary-dynamics",
+  "frozen_head_commit":"14eb5daf01edb086b0fb29f3860bf730d55a850f",
+  "effective_parse":["R08_EXHAUSTIVE_PARSE_V0.1.json","R08_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001.json"],
+  "effective_compression_contract":"RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "identity":[
+    {"item_id":"R08:IDENTITY:PROJECT","item_kind":"IDENTITY_TITLE","content":"Adaptive Evolutionary Dynamics / Adaptive Evolutionary Architecture source lineage; repository identity retained without treating naming variation as separate theory."},
+    {"item_id":"R08:STATUS:RELEASE","item_kind":"SOURCE_DESCRIBED_STATUS","content":{"version":"0.1.0","release":"2026-07-21","source_status":"early research framework / research program; not completed or validated theory"}},
+    {"item_id":"R08:STATUS:CITATION_POSITIONING","item_kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Source citation metadata positions the work across adaptive systems, evolutionary dynamics, complex systems, cybernetics, information theory, AI, dynamical systems, innovation/search theory and self-improvement; citation metadata carries no scientific authority."},
+    {"item_id":"R08:STATUS:CONTRIBUTION_GOVERNANCE","item_kind":"SOURCE_DESCRIBED_STATUS","content":"Contribution rules require role separation, falsifiability, explicit assumptions/limitations and anti-recursion; governance is preserved as governance, not scientific result."}
+  ],
+  "source_described_scope_or_purpose":[
+    {"item_id":"R08:SCOPE:PROGRAM","item_kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Study when adaptive systems move from improving within fixed reachable spaces to modifying the mechanisms that determine reachable possibilities."},
+    {"item_id":"R08:SCOPE:EMPIRICAL","item_kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Empirical program aims to operationalize latent generator dynamics, reachable spaces and evolutionary velocity and discriminate them from ordinary resource/capability growth."},
+    {"item_id":"R08:SCOPE:CODE","item_kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Code surfaces provide representation, proxy, causal-analysis and synthetic simulation machinery; they do not constitute execution evidence."}
+  ],
+  "definitions_and_formal_structures":[
+    {"item_id":"R08:DEF:ADAPTIVE_SYSTEM_STATE_A","item_kind":"DEFINITION_DICTIONARY","content":{"A_t":"(S_t,D_t,X_t,Theta_t)","X_t":"(Z_t,M_t,pi_t,V_t,C_t,G_s,t,G_m,t,R_t)"},"standing":"REPEATED_FORMULATION_A"},
+    {"item_id":"R08:DEF:STATE_TRANSITION_MODEL_B","item_kind":"DEFINITION_DICTIONARY","content":{"S_t":"(G_t,A_t,X_t,P_t,C_t,R_t)","chain":"G->A->X->P->C with R->C"},"standing":"SOURCE_LABELLED_CANONICAL_FORMULATION_B_WITH_NO_SUPERSESSION_EFFECT"},
+    {"item_id":"R08:DEF:ADAPTIVE_LOOP","item_kind":"FORMAL_STRUCTURE","content":"E->O->M->pi->u->E' with representation/action/state update equations."},
+    {"item_id":"R08:DEF:ADAPTIVE_DEPTH","item_kind":"DEFINITION_DICTIONARY","content":{"D":"Target(Feedback)","D0":"state","D1":"search","D2":"generator","D3":"generator dynamics"}},
+    {"item_id":"R08:DEF:REACHABILITY","item_kind":"DEFINITION_DICTIONARY","content":{"P_reach":"future transformations accessible under state/resources","C":"current reachable capability","G_s":"search over reachable transformations","G_m":"mechanism modifying search/improvement machinery"}},
+    {"item_id":"R08:DEF:LAMBDA","item_kind":"FORMAL_STRUCTURE","content":"Lambda=d/dt log|P_reach| and is decomposed into resource, capability and generator contributions."},
+    {"item_id":"R08:DEF:OMEGA_DELTA_G","item_kind":"FORMAL_STRUCTURE","content":"Repeated primary formulation: Omega=Delta_G=(partial log|P_reach|/partial G_m)*dot G_m.","semantic_identity_with_other_omega_forms":"NOT_ESTABLISHED"},
+    {"item_id":"R08:DEF:OMEGA_DGM_DT","item_kind":"FORMAL_STRUCTURE","content":"state_transition_equations.md formulation: Omega=dG_m/dt; operational proxy may use dLambda/dt.","semantic_identity_with_other_omega_forms":"NOT_ESTABLISHED"},
+    {"item_id":"R08:DEF:OMEGA_OPERATIONAL_FAMILY","item_kind":"FORMAL_STRUCTURE","content":"Source proposes several operational Omega estimators/proxies across measurement and simulation surfaces; no single estimator is validated or unified by compression.","semantic_identity":"NOT_ESTABLISHED_AS_ONE_OPERATIONAL_MEASURE"},
+    {"item_id":"R08:DEF:CAUSAL_MASS_STATIC","item_kind":"DEFINITION","content":"Static causal influence/mass formulations quantify downstream state influence."},
+    {"item_id":"R08:DEF:CAUSAL_MASS_DYNAMIC","item_kind":"FORMAL_STRUCTURE","content":"Dynamic causal mass has multiple source formulations involving future reachable transformation capacity or generator effects; variants remain source-relative rather than silently unified."},
+    {"item_id":"R08:DEF:PRIMITIVES","item_kind":"DEFINITION_DICTIONARY","content":{"artifact":"stored output","primitive":"stored transformation","evolutionary_primitive":"stored transformation that can modify future transformations"}},
+    {"item_id":"R08:DEF:ANTI_RECURSION","item_kind":"SOURCE_ASSERTION_CONCEPTUAL","content":"Do not add an entity where a trajectory variable/derivative explains the phenomenon; meta is treated as a dynamic property."}
+  ],
+  "assertions_or_hypotheses_and_interpretations":[
+    {"item_id":"R08:HYP:CENTRAL","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Major capability transitions are proposed to be preceded by changes in capability-generation mechanisms: Delta G_m -> Delta Omega -> Delta C."},
+    {"item_id":"R08:HYP:TEMPORAL_ORDERING","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Predicted ordering t_Gm < t_Omega < t_C."},
+    {"item_id":"R08:ASSERT:CAPABILITY_NOT_ACCELERATION","item_kind":"SOURCE_ASSERTION_CONCEPTUAL","content":"Capability, capability growth, resources and evolutionary acceleration are distinct; C growth alone is insufficient evidence of Omega."},
+    {"item_id":"R08:ASSERT:REACHABLE_NOT_POSSIBLE","item_kind":"SOURCE_ASSERTION_CONCEPTUAL","content":"Reachable futures are operationally distinct from abstract possible futures and depend on representation, search/generator mechanisms and resources."},
+    {"item_id":"R08:HYP:DEPTH_EFFECT","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Deeper adaptive targets are proposed to change future transformation dynamics; D2->D3 is treated as critical transition toward accelerating capability-generation dynamics."},
+    {"item_id":"R08:HYP:PROPAGATION_CHAIN_B","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Updated state-transition formulation proposes sustained acceleration requires G->A->X->P->C propagation; generator improvement alone is insufficient."},
+    {"item_id":"R08:ASSERT:ASSUMPTIONS","item_kind":"SOURCE_ASSERTION_CONCEPTUAL","standing":"EXPLICIT_ASSUMPTION_SET","content":"Twenty explicit framework assumptions are preserved as assumptions rather than converted into supported claims; measurability-in-principle and temporal ordering remain assumed/testable."},
+    {"item_id":"R08:INTERP:RELATED_WORK","item_kind":"SOURCE_INTERPRETATION","content":"Framework source relates its constructs to evolution, cybernetics, complex systems, information theory, AI/search, innovation economics, cognition and philosophy of science; these are interpretive connections, not dependencies or validations."},
+    {"item_id":"R08:INTERP:HISTORICAL_AD","item_kind":"SOURCE_INTERPRETATION","content":"Automatic differentiation is interpreted as reusable transformation/generator-capacity transition and historical hypothesis for testing."},
+    {"item_id":"R08:INTERP:HISTORICAL_COMPILER","item_kind":"SOURCE_INTERPRETATION","content":"Compilers are interpreted as reusable transformation generators and adaptive-depth transition; no historical validation is inferred."},
+    {"item_id":"R08:INTERP:HISTORICAL_ML","item_kind":"SOURCE_INTERPRETATION","content":"Machine learning is interpreted as representation/search/generator transition with possible future D3 regime; current D3 standing is not established."},
+    {"item_id":"R08:INTERP:HISTORICAL_SCIENCE","item_kind":"SOURCE_INTERPRETATION","content":"Scientific method/institutions are interpreted as evolutionary primitives/generator infrastructure; source-level historical claim is preserved without empirical promotion."},
+    {"item_id":"R08:STATUS:HISTORICAL_CASE_QUALIFIER","item_kind":"SOURCE_DESCRIBED_STATUS","content":"Repository explicitly states historical examples are hypotheses for testing, not confirmed demonstrations."}
+  ],
+  "methodology_or_test_protocol":[
+    {"item_id":"R08:METHOD:FALSIFICATION","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Framework is weakened/falsified by capability transitions without prior generator change, generator change without acceleration, resource-only explanations, failed temporal ordering or nonpredictive Omega/proxies."},
+    {"item_id":"R08:METHOD:CAUSAL_IDENTIFICATION","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposed matched controls, difference-in-differences, event studies, instrumental variables, Granger tests and mediation analyses isolate generator effects."},
+    {"item_id":"R08:METHOD:GM_PROXY_FAMILY","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Candidate G_m proxies include iteration-cost reduction, search-space expansion, reusable infrastructure, improvement automation, representation compression, search efficiency and self-modification capacity; no single proxy sufficient."},
+    {"item_id":"R08:METHOD:OMEGA_PROXY_FAMILY","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Candidate Omega estimators include improvement efficiency, generator reuse, iteration compression, search expansion, representation compression and weighted composites; weights require empirical determination."},
+    {"item_id":"R08:METHOD:REACH_PROXY_FAMILY","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Candidate P_reach estimators cover breadth, diversity, frontier distance, search efficiency, representation compression, transferability, combinatorial expansion, horizon and constraint reduction; no single proxy sufficient."},
+    {"item_id":"R08:METHOD:DATASET_SCHEMA","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Phase Boundary Dataset is a proposed schema and candidate-case program, not a populated empirical dataset."},
+    {"item_id":"R08:METHOD:EXPERIMENT_PROGRAM","item_kind":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Experiment program proposes historical, organizational, AI and benchmark tests with resource/capability/generator controls; source template is internally incomplete."}
+  ],
+  "source_described_status":[
+    {"item_id":"R08:STATUS:EMPIRICAL_INCOMPLETE","item_kind":"SOURCE_DESCRIBED_STATUS","content":"Source says empirical program is incomplete until latent variables become measurable and validated."},
+    {"item_id":"R08:STATUS:CANONICAL_SELF_LABEL","item_kind":"SOURCE_DESCRIBED_STATUS","content":"state_transition_equations.md self-labels as canonical dynamical system; this has no automatic supersession effect."},
+    {"item_id":"R08:STATUS:CFF_REPOSITORY_PLACEHOLDER","item_kind":"SOURCE_DESCRIBED_STATUS","content":"CITATION.cff repository-code literally contains YOUR_USERNAME placeholder; retained without correction."}
+  ],
+  "reported_results":{"items":[],"disposition":"NONE_ON_FROZEN_SOURCE_SURFACE"},
+  "reported_negative_results":{"items":[],"disposition":"NONE_ON_FROZEN_SOURCE_SURFACE"},
+  "limitations_or_open_questions":[
+    {"item_id":"R08:LIMIT:MEASUREMENT_LATENT","item_kind":"LIMITATION","content":"G_m, P_reach and Omega are latent/indirectly observable; proxy validity remains open."},
+    {"item_id":"R08:LIMIT:EXPERIMENT_TEMPLATE_FRAGMENT","item_kind":"UNRESOLVED_SOURCE_FRAGMENT","content":"experiments/README.md terminates after introducing an experiment template and does not provide the template fields.","authority_effect":"NONE","warrant_effect":"NONE"},
+    {"item_id":"R08:LIMIT:EMPTY_EXECUTION_BARRIER_SOURCE","item_kind":"ARTIFACT_CONTENT_STATE","content":"execution_barrier_phase_boundary.py exists but contains one newline only; no experiment, failure or negative result is inferred."},
+    {"item_id":"R08:OPEN:EMPIRICAL_HINGE","item_kind":"OPEN_QUESTION","content":"Can capability-generation acceleration be measured before visible capability explosion, and can generator effects be distinguished from resources/current capability?"}
+  ],
+  "executable_research":[
+    {"item_id":"R08:CODE:STATE_SPACE","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Structural state-space dataclasses/enums; domain state transition intentionally NotImplemented."},
+    {"item_id":"R08:CODE:CAUSAL_ANALYSIS","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Implements simple proxy/causal/falsification helpers with heuristic thresholds and programmed support labels; not executed evidence."},
+    {"item_id":"R08:CODE:GENERATOR_METRICS","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Implements proposed G_m proxy vector, scalar approximations and synthetic compiler example; code says score is estimator not definition."},
+    {"item_id":"R08:CODE:OMEGA","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Implements proxy Omega measurements, residual decomposition and phase-boundary detection using assumed thresholds/example data."},
+    {"item_id":"R08:CODE:REACHABILITY","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Implements finite-set reachability proxy objects, expansion/distance/search/generator operations and direct-run example."},
+    {"item_id":"R08:CODE:SIMULATION_SUITE","item_kind":"EXECUTABLE_IMPLEMENTATION","content":"Synthetic simulations instantiate baseline/resource/generator/adoption/barrier/frontier/long-horizon/constraint scenarios with multiple incompatible file-local Omega proxies; they are model implementations, not observed experiments."},
+    {"item_id":"R08:CODE:DUPLICATE_BLOB_OCCURRENCE","item_kind":"ARTIFACT_CONTENT_STATE","content":"generator_adaptation.py and recursive_improvement.py are two path occurrences of the same blob; path recurrence is preserved with zero warrant-multiplicity effect."}
+  ],
+  "preserved_tensions":[
+    {"item_id":"R08:TENSION:OMEGA_FORMULATION","item_kind":"UNRESOLVED_CROSS_SOURCE_FORMAL_TENSION","branches":["Omega=Delta_G=(partial log|P_reach|/partial G_m)*dot G_m","Omega=dG_m/dt","Omega_hat=dLambda/dt and multiple other local proxy definitions"],"reconciliation_authority":"NONE"},
+    {"item_id":"R08:TENSION:STATE_REPRESENTATION","item_kind":"UNRESOLVED_CROSS_SOURCE_FORMAL_TENSION","branches":["A_t=(S,D,X,Theta) with X=(Z,M,pi,V,C,G_s,G_m,R)","source-labelled canonical S_t=(G,A,X,P,C,R) transition model"],"reconciliation_authority":"NONE"},
+    {"item_id":"R08:TENSION:HISTORICAL_CASE_STANDING","item_kind":"SOURCE_RELATIVE_STANDING_TENSION","branches":["case files use canonical/demonstrates language","phase-transition source explicitly says historical examples are hypotheses for testing, not confirmed demonstrations"],"reconciliation_authority":"NONE"}
+  ],
+  "compression_rules_applied":[
+    "SEMANTIC_REDUNDANCY_MAY_COLLAPSE",
+    "SOURCE_ROLE_BRANCHES_MUST_REMAIN_RECONSTRUCTIBLE_IN_PROJECTION_LEDGER",
+    "SOURCE_OCCURRENCE_MULTIPLICITY_DOES_NOT_MULTIPLY_WARRANT",
+    "UNRESOLVED_CROSS_SOURCE_TENSIONS_ARE_NOT_RECONCILED",
+    "IMPLEMENTATION_DOES_NOT_BECOME_EXECUTION_OR_RESULT",
+    "NO_MAP_EDGE_EMITTED"
+  ],
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false
+}
