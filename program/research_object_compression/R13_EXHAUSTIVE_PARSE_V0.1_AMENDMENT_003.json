@@ -1,0 +1,21 @@
+{
+  "object":"CEREBRO_R13_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_003",
+  "record_type":"parse cardinality accounting repair",
+  "persistent_record_state":"FROZEN",
+  "base_effective_parse":["R13_EXHAUSTIVE_PARSE_V0.1.json","R13_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001.json","R13_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002.json"],
+  "death_test":"R13_EXHAUSTIVE_PARSE_DEATH_TEST_003_V0.1.md",
+  "corrected_accounting":{
+    "historical_explicit_candidate_units":38,
+    "effective_primary_source_parse_units":34,
+    "derived_audit_views":4,
+    "role_replacements_within_primary_units":4,
+    "source_unresolved_units":0,
+    "parser_failures":0
+  },
+  "source_unit_content_changed":false,
+  "source_unit_membership_changed":false,
+  "new_epistemic_distinction_required":false,
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
