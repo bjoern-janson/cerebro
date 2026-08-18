@@ -1,0 +1,31 @@
+{
+  "object":"CEREBRO_R15_SOURCE_SURFACE_V0.1",
+  "record_type":"frozen bounded source surface",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R15",
+  "repository":"bjoern-janson/adaptive-intelligence-theory",
+  "frozen_head_commit":"20ac0fe1f085a35ce44effd92056df848919f16c",
+  "frozen_tree_sha":"017355dc7586d12da04842474b9d144c3687d556",
+  "chronology_note":"Frozen environment chronology records a scaffold Git root at d6456e93523309a440e5a73a99a339b4fb0fb2f9 and later research anchor cd3df310d9887c5234ebf941378a89a5cb6ccb28. Current parse aperture is the frozen head, not the scaffold root.",
+  "recursive_inventory_complete":true,
+  "total_blob_paths":6,
+  "research_bearing_paths":6,
+  "scope_excluded_paths":0,
+  "unique_head_blobs":6,
+  "duplicate_blob_groups":[],
+  "admitted_paths":[
+    {"path":"PAGE_00.md","blob_sha":"594a7979b3958d722d590e71ef987efc148783ad","size":3992},
+    {"path":"PAGE_1.md","blob_sha":"9d73f247012e42599035723936bf2015e859b337","size":3247},
+    {"path":"PAGE_2.md","blob_sha":"78b90c2bfe6279ccf35fd429a4aa976bf67a6d2f","size":6216},
+    {"path":"PAGE_3.md","blob_sha":"3cb6d838d96610deed83144e72ff56ea30d33467","size":6294},
+    {"path":"PAGE_4.md","blob_sha":"91921f7ef1a6d72965e87353c2a1fba375bc0eac","size":4873},
+    {"path":"PAGE_5.md","blob_sha":"94a267f8d11e637d41401ad2c8b51f152dc182bd","size":2081}
+  ],
+  "exhaustiveness_jurisdiction":"All six blobs reachable at the frozen head are admitted. Exhaustive means complete over this frozen six-blob aperture; it does not imply perfect interpretation.",
+  "semantic_ingestion_status":"OPEN_FOR_R15_ONLY",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "r16_parse_access_opened":false
+}
