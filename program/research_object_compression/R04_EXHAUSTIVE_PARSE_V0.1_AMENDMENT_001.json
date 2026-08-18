@@ -1,0 +1,43 @@
+{
+  "object": "CEREBRO_R04_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type": "frozen R04 local parse repair overlay",
+  "persistent_record_state": "FROZEN",
+  "trigger": "R04_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope": "MIXED_STANDING_UNITIZATION_PLUS_NOTATION_PREDICTION_OMISSION",
+  "superseded_parse_units": [
+    "R04:P:README:IDENTITY_PURPOSE",
+    "R04:P:THEORY:SCOPE_HYP",
+    "R04:P:MATH:SCOPE",
+    "R04:P:MATH:LIE_VARIANCE",
+    "R04:P:PROTOCOL:PHASE_I",
+    "R04:P:PROTOCOL:PHASE_II_III_IV",
+    "R04:P:PROTOCOL:PHASE_V_VI",
+    "R04:P:PROTOCOL:PHASE_VII"
+  ],
+  "replacement_parse_units": [
+    {"id":"R04:P:README:TITLE","path":"README.md","blob":"d2bc590f3227ce7be82b307e999de7798551f4a2","section":"title","kind":"IDENTITY_TITLE","content":"Computational Phase Boundary"},
+    {"id":"R04:P:README:PURPOSE","path":"README.md","blob":"d2bc590f3227ce7be82b307e999de7798551f4a2","section":"subtitle + Overview opening","kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Experimental resolution-aware framework for limits of structural discovery in dynamical systems under bounded observation."},
+    {"id":"R04:P:THEORY:SCOPE","path":"docs/theory.md","blob":"0626f02f9556660ef46f0a061ebc53fe1a4bcada","section":"1. Purpose and Scope > opening","kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Studies limits of invariant discovery under finite observation/computation/imperfect measurement and separates underlying system, finite-data estimator and resolution boundary."},
+    {"id":"R04:P:THEORY:HYPOTHESIS","path":"docs/theory.md","blob":"0626f02f9556660ef46f0a061ebc53fe1a4bcada","section":"1. Purpose and Scope > central hypothesis","kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Structural discovery has a finite computational horizon determined by data volume, noise, coverage, intervention diversity and estimator stability."},
+    {"id":"R04:P:MATH:SCOPE_ONLY","path":"docs/mathematical_specification.md","blob":"5c460e7dfcd68961df305558c9fd66192ceac5a1","section":"1. Scope > opening","kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Specifies mathematical objects/operators/estimators for recoverable structural complexity under finite observation."},
+    {"id":"R04:P:MATH:INTRINSIC_OBSERVABLE_DISTINCTION","path":"docs/mathematical_specification.md","blob":"5c460e7dfcd68961df305558c9fd66192ceac5a1","section":"1. Scope > fundamental distinction","kind":"SOURCE_ASSERTION_CONCEPTUAL_DISTINCTION","content":"Intrinsic structure != observable structure; observable structure depends on data, noise, estimator architecture, coverage, interventions and regularization."},
+    {"id":"R04:P:MATH:LIE_LADDER","path":"docs/mathematical_specification.md","blob":"5c460e7dfcd68961df305558c9fd66192ceac5a1","section":"4. Algebraic Resolution Ladder","kind":"FORMAL_STRUCTURE","content":"Defines nested Lie_k(F_hat) resolution ladder with k as algebraic depth."},
+    {"id":"R04:P:MATH:DERIVATIVE_STABILITY_ASSUMPTION","path":"docs/mathematical_specification.md","blob":"5c460e7dfcd68961df305558c9fd66192ceac5a1","section":"5. Derivative Stability Assumption","kind":"SOURCE_ASSERTION_HYPOTHESIS","standing":"assumption","content":"Derivative uncertainty is assumed to increase with algebraic depth according to the stated variance model; finite horizon depends on A_k behavior."},
+    {"id":"R04:P:PROTOCOL:PHASE_I:METHOD","path":"docs/experimental_protocols.md","blob":"d206154abe1315e3612907638049e2e84a3b9921","section":"5. Phase I > Objective + Procedure","kind":"METHODOLOGICAL_NOTES","content":"Generate harmonic trajectories, add controlled noise, estimate F_hat, compute DeltaL and C_G to validate known-structure recovery."},
+    {"id":"R04:P:PROTOCOL:PHASE_I:PREDICTION","path":"docs/experimental_protocols.md","blob":"d206154abe1315e3612907638049e2e84a3b9921","section":"5. Phase I > Expected Result","kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"Expected stable maximum k* with E_gauge approximately zero."},
+    {"id":"R04:P:PROTOCOL:PHASE_II_III_IV:METHOD","path":"docs/experimental_protocols.md","blob":"d206154abe1315e3612907638049e2e84a3b9921","section":"6-8 > procedures","kind":"METHODOLOGICAL_NOTES","content":"Coordinate-distortion comparison plus noise and data scaling sweeps with stated controls."},
+    {"id":"R04:P:PROTOCOL:PHASE_II_III_IV:PREDICTIONS","path":"docs/experimental_protocols.md","blob":"d206154abe1315e3612907638049e2e84a3b9921","section":"6-8 > expected/prediction blocks","kind":"SOURCE_ASSERTION_HYPOTHESIS","content":["quotient representation expected to lower gauge error relative to coordinate-dependent baseline","higher sigma expected to lower k*","higher N expected to raise k*"]},
+    {"id":"R04:P:PROTOCOL:PHASE_V_VI:METHOD","path":"docs/experimental_protocols.md","blob":"d206154abe1315e3612907638049e2e84a3b9921","section":"9-10 > procedures","kind":"METHODOLOGICAL_NOTES","content":"Coverage-expansion and excitation-diversity experiments manipulate manifold coverage/intervention diversity and measure E_cover,E_gauge,k*."},
+    {"id":"R04:P:PROTOCOL:PHASE_V_VI:PREDICTIONS","path":"docs/experimental_protocols.md","blob":"d206154abe1315e3612907638049e2e84a3b9921","section":"9-10 > expected behavior/prediction","kind":"SOURCE_ASSERTION_HYPOTHESIS","content":["improved coverage should collapse false local symmetries","initial excitation diversity should reduce gauge error and raise k*","later response expected to show diminishing curvature"]},
+    {"id":"R04:P:PROTOCOL:PHASE_VII:METHOD","path":"docs/experimental_protocols.md","blob":"d206154abe1315e3612907638049e2e84a3b9921","section":"11. Regularization Bypass > intervention","kind":"METHODOLOGICAL_NOTES","content":"Sweep lambda_N while holding N,sigma,E_cov,Gamma fixed and measure downstream epsilon,C_G,eta,k*."},
+    {"id":"R04:P:PROTOCOL:PHASE_VII:ADJUDICATION","path":"docs/experimental_protocols.md","blob":"d206154abe1315e3612907638049e2e84a3b9921","section":"11 > Observer-Limited Outcome + Structure-Limited Outcome","kind":"SOURCE_ASSERTION_HYPOTHESIS","content":"If k* moves with lambda_N source interprets derivative amplification as dominant bottleneck; if fixed source interprets limit as likely system/representation-side."}
+  ],
+  "added_parse_units": [
+    {"id":"R04:P:NOTATION:OBSERVATION_PREDICTIONS","path":"docs/notation.md","blob":"ed3802e9feacc9be39bc33445ae04ccc447ebf7f","section":"3. Observation Parameters > Sample Size + Noise Level","kind":"SOURCE_ASSERTION_HYPOTHESIS","content":["dk*/dN > 0","dk*/dsigma < 0"]}
+  ],
+  "effective_parse_unit_count": 80,
+  "new_global_parser_ontology": "NONE",
+  "map_edge_emission": "NONE",
+  "scientific_authority_effect": "NONE",
+  "map_authority_effect": "NONE"
+}
