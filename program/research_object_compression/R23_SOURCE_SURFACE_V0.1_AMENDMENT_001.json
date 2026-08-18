@@ -1,0 +1,30 @@
+{
+  "object": "CEREBRO_R23_SOURCE_SURFACE_V0.1_AMENDMENT_001",
+  "repository_id": "R23",
+  "base_source_surface": "R23_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state": "FROZEN",
+  "repair_scope": "SOURCE_COORDINATES_ONLY",
+  "trigger": "Fresh exact-ref recursive tree read at frozen tree 9c2468ed375b0a1e5f2fe9b7950e0593c98947b4 exposed stale blob coordinates serialized from an earlier scratch inventory.",
+  "replacements": [
+    ["README.md","16ed4e6c7930f082199625d2422061a668097e41",1815,"16ed7e7335b19ec26110770b9cbf712e69368675",2098],
+    ["env.py","8cc98063ca8c6400d5cbde8ca62d8ff165d51f91",1098,"8cc41d1afe134caf753aef63fc725728ba50d9ba",1129],
+    ["hypothesis.py","29ff3533eb54f340f1614f72aec368dba4f0eb85",3026,"29ff63817a25955942414d7864da66a2508278f7",3107],
+    ["ree_agent.py","6bff26af3ee075b01326430d6d1131584cd66126",4052,"6bff0029ef3342a82d32dbaf38fc724a4fce3108",4292],
+    ["state_agent.py","04d38beb0a356696c0e3ab492a98fa5d73df0180",2081,"04d93ed4e43ee7a619e46aa1aadaccfc312cab0e",2100]
+  ],
+  "unchanged_coordinates": [
+    ["LICENSE","c14886b97088121eb65f36bf775e7ffb69b84575",6469],
+    ["evaluator.py","173f73c444494936189b30c459f2d68ef2e70711",2241],
+    ["run.py","cd417446b5c1dec8bb5b5a56d8030ab3c5793f46",5802]
+  ],
+  "effective_summary": {
+    "total_blob_paths": 8,
+    "parse_included": 8,
+    "unenumerated_paths": 0,
+    "coordinate_repairs": 5
+  },
+  "semantic_change": false,
+  "parse_contract_change": false,
+  "map_edge_emission": "NONE",
+  "authority_effect": "NONE"
+}
