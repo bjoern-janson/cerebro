@@ -1,0 +1,100 @@
+{
+  "object": "CEREBRO_PROGRAM_MAP_SEED_V0.1_AMENDMENT_001",
+  "record_type": "frozen relation-provenance amendment",
+  "persistent_record_state": "FROZEN",
+  "base_map": {
+    "path": "program/PROGRAM_MAP_SEED_V0.1.json",
+    "commit": "b9ded8322076fd718fa726360edd3af82b907754"
+  },
+  "trigger_death_test": {
+    "path": "program/PROGRAM_MAP_SEED_DEATH_TEST_V0.1.md",
+    "commit": "8543abbc82385852a50465ec06c6a8604e601aef",
+    "failure": "CROSS_SOURCE_RELATION_WITH_SINGLE_SOURCE_PROVENANCE"
+  },
+  "map_authority": "NONE",
+  "scientific_relation_changes": "NONE",
+  "constitutional_changes": "NONE",
+  "step_2_reopened": false,
+  "r01_r43_semantic_ingestion_opened": false,
+  "amendment_semantics": "When reconstructing the effective V0.1 seed map, the relation records below replace only the same-ID relation records in the frozen base map. No other node or relation is changed.",
+  "replacement_relations": [
+    {
+      "relation_id": "REL:SSI_SPEC_CONTINUES_FR001",
+      "relation_type": "CONTINUES_FRONTIER_QUESTION",
+      "relation_shape": "BINARY",
+      "source": "ART:SSI_FR001_SPEC_V0.1",
+      "target": "Q:FR001",
+      "meaning": "The SSI benchmark object continues the same FR-001 research question previously preserved as PARKED_UNTESTED in the Cerebro frontier ledger. This is a derived cross-source identity/continuation relation; it does not modify the historical Cerebro ledger or grant scientific authority.",
+      "relation_basis": "DERIVED_CROSS_SOURCE_IDENTITY",
+      "provenance": [
+        {
+          "role": "EARLIER_QUESTION_CONSTITUTION",
+          "repository": "bjoern-janson/cerebro",
+          "path": "frontier/FRONTIER_RESEARCH_LEDGER.md",
+          "commit": "21ea22e191442aaa9f1508531dd797e259e890dc",
+          "blob": "071db764cb18125921c49434f0ee04a097b50dec",
+          "supports": "FR-001 identifier, question, candidate invariant, parked historical standing"
+        },
+        {
+          "role": "LATER_BENCHMARK_CONSTITUTION",
+          "repository": "bjoern-janson/ssi",
+          "path": "research/frontier/authority_invariance_v0_1/SPEC.md",
+          "commit": "e32979fc7c66ea01903c4e2beeea9f37dddf13f7",
+          "blob": "2d3d9f63e170657889dabaa60790fc977281a8ff",
+          "supports": "FR-001 benchmark object, same authority-invariance target, separate SSI research constitution"
+        }
+      ],
+      "relation_standing": "DERIVED_FROM_FROZEN_CROSS_SOURCE_IDENTITY",
+      "map_authority_effect": "NONE"
+    },
+    {
+      "relation_id": "REL:CEREBRO_STEP2_PRECEDENT_FOR_SSI_FR001",
+      "relation_type": "METHODOLOGICAL_PRECEDENT_FOR",
+      "relation_shape": "BINARY",
+      "source": "ART:CEREBRO_STEP_2_FIXED_POINT_V0.1",
+      "target": "ART:SSI_FR001_SPEC_V0.1",
+      "meaning": "The SSI FR-001 preregistration explicitly uses Cerebro's Step 2 discipline as methodological precedent only. The referenced Step 2 object is resolved to the frozen Cerebro Step 2 closure. No scientific dependency or authority transfer is implied.",
+      "relation_basis": "EXPLICIT_CROSS_REFERENCE_WITH_RESOLVED_TARGET",
+      "provenance": [
+        {
+          "role": "EXPLICIT_CROSS_REFERENCE",
+          "repository": "bjoern-janson/ssi",
+          "path": "research/frontier/authority_invariance_v0_1/SPEC.md",
+          "commit": "e32979fc7c66ea01903c4e2beeea9f37dddf13f7",
+          "blob": "2d3d9f63e170657889dabaa60790fc977281a8ff",
+          "supports": "explicit statement that Cerebro Step 2 discipline is methodological precedent and not a dependency"
+        },
+        {
+          "role": "RESOLVED_REFERENCED_TARGET",
+          "repository": "bjoern-janson/cerebro",
+          "path": "perception/STEP_2_LOCAL_DEVELOPMENTAL_FIXED_POINT_V0.1.md",
+          "commit": "6a8c5d564f54d0b84cd492db50ddef7f813060f8",
+          "blob": "59237527d13b55444b7f77c5bc3ad154fcc876a7",
+          "supports": "exact frozen Step 2 closure object referenced by the cross-project methodological relation"
+        }
+      ],
+      "relation_standing": "SUPPORTED_BY_EXPLICIT_CROSS_REFERENCE_AND_TARGET_RESOLUTION",
+      "map_authority_effect": "NONE"
+    }
+  ],
+  "preserved_unaffected_structure": [
+    "ALL_BASE_MAP_NODES",
+    "PRE_CEREBRO_MEMBERSHIP_RELATION",
+    "PRE_CEREBRO_CHRONOLOGY_RELATION",
+    "CEREBRO_STEP2_CLOSURE_RELATION",
+    "DEVELOPMENTAL_ACCOUNTABILITY_RELATION",
+    "FR001_NEGATIVE_AND_EXECUTION_LINEAGE",
+    "ALL_COVERAGE_CEILINGS",
+    "ALL_GLOBAL_NON_INFERENCE_RULES"
+  ],
+  "frozen_status": {
+    "CROSS_SOURCE_PROVENANCE_REPAIR": "APPLIED_BY_AMENDMENT",
+    "BASE_MAP_MUTATED": false,
+    "MAP_AUTHORITY": "NONE",
+    "PROGRAM_SYNTHESIS": "NOT_ESTABLISHED",
+    "R01_R42_SEMANTIC_RELATIONS": "NOT_INGESTED",
+    "STEP_2": "CLOSED",
+    "FR001": "NOT_ESTABLISHED",
+    "NEXT": "RETEST_CROSS_SOURCE_RELATION_PROVENANCE_ONLY"
+  }
+}
