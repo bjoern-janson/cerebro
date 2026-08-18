@@ -1,0 +1,46 @@
+{
+  "object": "CEREBRO_R04_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type": "frozen R04 compression derivation repair overlay",
+  "persistent_record_state": "FROZEN",
+  "trigger": "R04_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "repair_scope": "RAW_PARSE_UNIT_MULTI_PRIMARY_REUSE_ONLY",
+  "additional_primary_items": {
+    "formal_structures": [
+      {
+        "item_id": "R04:FORMAL:MATH_PHASE_ERRORS_SOURCE",
+        "item_kind": "SOURCE_LOCAL_COMPOSITE_FORMAL_STRUCTURE",
+        "content": "docs/mathematical_specification.md sections 16-17 jointly preserve the three phase-regime conditions and the four-channel error vector in one same-standing source-local composite.",
+        "source_units": ["R04:P:MATH:PHASE_ERRORS"]
+      }
+    ]
+  },
+  "item_source_unit_replacements": [
+    {"item_id":"R04:FORMAL:HORIZON_OBJECT","effective_source_units":["R04:P:README:HORIZON_OBJECT","R04:P:THEORY:IDENTIFICATION_OBJECT","R04:P:MATH:FINAL_OBJECT"]},
+    {"item_id":"R04:FORMAL:DUAL_INFORMATION","effective_source_units":["R04:P:README:DUAL_INFORMATION","R04:P:THEORY:INFORMATION_FUNCTIONALS","R04:P:MATH:INFORMATION"]},
+    {"item_id":"R04:FORMAL:PHASE_MODEL","effective_source_units":["R04:P:README:PHASES","R04:P:THEORY:PHASE_MODEL"]},
+    {"item_id":"R04:FORMAL:ERROR_VECTOR","effective_source_units":["R04:P:README:ERROR_GEOMETRY","R04:P:THEORY:ERRORS"]},
+    {"item_id":"R04:FORMAL:SYSTEM_ESTIMATOR","effective_source_units":["R04:P:THEORY:SYSTEM_ESTIMATOR","R04:P:MATH:SYSTEM_RECONSTRUCTION"]},
+    {"item_id":"R04:FORMAL:LIE_LADDER","effective_source_units":["R04:P:THEORY:LIE_DEPTH","R04:P:MATH:LIE_LADDER"]},
+    {"item_id":"R04:FORMAL:INVARIANTS_GAUGE","effective_source_units":["R04:P:THEORY:INVARIANTS_GAUGE","R04:P:MATH:INVARIANTS_GAUGE"]}
+  ],
+  "typed_secondary_aliases": [
+    {"secondary_view_item":"R04:FORMAL:PHASE_MODEL","primary_compression_item":"R04:FORMAL:MATH_PHASE_ERRORS_SOURCE","source_unit_subset":["R04:P:MATH:PHASE_ERRORS"],"secondary_role":"SOURCE_RECURRENCE_PHASE_COMPONENT","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_view_item":"R04:FORMAL:ERROR_VECTOR","primary_compression_item":"R04:FORMAL:MATH_PHASE_ERRORS_SOURCE","source_unit_subset":["R04:P:MATH:PHASE_ERRORS"],"secondary_role":"SOURCE_RECURRENCE_ERROR_COMPONENT","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+
+    {"secondary_view_item":"R04:FORMAL:SYSTEM_ESTIMATOR","primary_compression_item":"R04:DEF:NOTATION_CORE","source_unit_subset":["R04:P:NOTATION:DICTIONARY_CORE"],"secondary_role":"NOTATION_RECURRENCE_SYSTEM_ESTIMATOR","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_view_item":"R04:FORMAL:LIE_LADDER","primary_compression_item":"R04:DEF:NOTATION_CORE","source_unit_subset":["R04:P:NOTATION:DICTIONARY_CORE"],"secondary_role":"NOTATION_RECURRENCE_LIE_DEPTH","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_view_item":"R04:FORMAL:DUAL_INFORMATION","primary_compression_item":"R04:DEF:NOTATION_CORE","source_unit_subset":["R04:P:NOTATION:DICTIONARY_GAUGE_INFO"],"secondary_role":"NOTATION_RECURRENCE_INFORMATION_FUNCTIONALS","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_view_item":"R04:FORMAL:INVARIANTS_GAUGE","primary_compression_item":"R04:DEF:NOTATION_CORE","source_unit_subset":["R04:P:NOTATION:DICTIONARY_GAUGE_INFO"],"secondary_role":"NOTATION_RECURRENCE_GAUGE_OBJECTS","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_view_item":"R04:FORMAL:HORIZON_OBJECT","primary_compression_item":"R04:DEF:NOTATION_CORE","source_unit_subset":["R04:P:NOTATION:ERRORS_PHASE_SYSTEMS"],"secondary_role":"NOTATION_RECURRENCE_FINAL_OBJECT","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_view_item":"R04:FORMAL:PHASE_MODEL","primary_compression_item":"R04:DEF:NOTATION_CORE","source_unit_subset":["R04:P:NOTATION:ERRORS_PHASE_SYSTEMS"],"secondary_role":"NOTATION_RECURRENCE_PHASE_MODEL","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"secondary_view_item":"R04:FORMAL:ERROR_VECTOR","primary_compression_item":"R04:DEF:NOTATION_CORE","source_unit_subset":["R04:P:NOTATION:ERRORS_PHASE_SYSTEMS"],"secondary_role":"NOTATION_RECURRENCE_ERROR_VECTOR","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"}
+  ],
+  "raw_parse_unit_secondary_reuse": "NONE_AFTER_OVERLAY",
+  "semantic_content_change": "NONE",
+  "source_standing_change": "NONE",
+  "new_top_level_coordinate": "NONE",
+  "map_edge_emission": "NONE",
+  "compression_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
