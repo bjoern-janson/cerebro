@@ -1,0 +1,62 @@
+{
+  "object": "CEREBRO_R02_RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type": "frozen R02 compression repair overlay",
+  "persistent_record_state": "FROZEN",
+  "base_compression": "program/research_object_compression/R02_COMPRESSION_V0.1.json",
+  "trigger": "program/research_object_compression/R02_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "effective_parse_amendment": "program/research_object_compression/R02_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001.json",
+  "repair_scope": "MIXED_STANDING_SEPARATION_PLUS_PREVIOUSLY_UNMAPPED_PARSE_DISTINCTIONS",
+  "additional_items": {
+    "assertions_or_hypotheses": [
+      {
+        "item_id": "R02:ASSERT:MOTIVATION",
+        "item_kind": "METHODOLOGICAL_MOTIVATION",
+        "content": "IICG shifts the unit of analysis from resource accumulation to computational reachability under fixed constraints.",
+        "source_locator": {"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Motivation","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}
+      },
+      {
+        "item_id": "R02:ASSERT:WEIGHT_RATIONALE",
+        "item_kind": "METHODOLOGICAL_RATIONALE",
+        "content": "The weighted measure is motivated as distinguishing raw reachable volume from meaningful reachable computation.",
+        "source_locator": {"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Why a Weighted Measure?","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}
+      },
+      {
+        "item_id": "R02:ASSERT:ALPHAZERO_METRICS",
+        "item_kind": "SOURCE_ASSERTION_TABLE",
+        "content": "The source's AlphaZero impact table characterizes heuristic quality, search efficiency, evaluation depth, and MCTS+neural-network synergy as strongly positive reachability effects.",
+        "source_locator": {"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 1 > High-Level Impact Metrics","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}
+      },
+      {
+        "item_id": "R02:ASSERT:KERNEL_CONCEPTUAL_ALIGNMENT",
+        "item_kind": "SOURCE_ASSERTION_CONCEPTUAL_ALIGNMENT",
+        "content": "Despite the failed simulated RBF-kernel test, the source separately states that the conceptual alignment holds and describes the higher-dimensional mapping as a geometric intervention.",
+        "source_locator": {"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > Methodological Notes & Limitations > The Kernel Trick","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}
+      }
+    ]
+  },
+  "item_replacements": [
+    {
+      "item_id": "R02:NEG:KERNEL",
+      "replacement_content": "A simulated RBF-kernel test failed due to environment constraints.",
+      "replacement_item_kind": "REPORTED_FAILED_TEST",
+      "reason": "Remove the separately standing conceptual-alignment assertion from the failed-test payload; it is preserved independently as R02:ASSERT:KERNEL_CONCEPTUAL_ALIGNMENT."
+    }
+  ],
+  "explicit_compression_exclusions": [
+    {
+      "parse_unit_id": "R02:P:README:CONTRIBUTING",
+      "reason": "PROJECT_PROCESS_METADATA outside semantic node compression; source path remains in exhaustive parse."
+    },
+    {
+      "parse_unit_id": "R02:P:README:LICENSE",
+      "reason": "LEGAL_NON_RESEARCH_METADATA"
+    }
+  ],
+  "semantic_top_level_coordinate_changes": "NONE",
+  "standing_changes": "NONE",
+  "map_edge_emission": "NONE",
+  "compression_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
