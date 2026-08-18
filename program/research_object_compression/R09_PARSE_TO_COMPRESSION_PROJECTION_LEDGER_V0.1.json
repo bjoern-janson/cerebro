@@ -1,0 +1,25 @@
+{
+  "object":"CEREBRO_R09_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "record_type":"explicit parse-to-compression projection ledger manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R09",
+  "effective_parse_units":340,
+  "projection_parts":[
+    {"path":"program/research_object_compression/R09_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_A.json","mappings":78},
+    {"path":"program/research_object_compression/R09_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_B.json","mappings":84},
+    {"path":"program/research_object_compression/R09_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_C.json","mappings":88},
+    {"path":"program/research_object_compression/R09_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_PART_D.json","mappings":86},
+    {"path":"program/research_object_compression/R09_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_AMENDMENT_001.json","mappings":4}
+  ],
+  "primary_projection_entries":339,
+  "unresolved_at_compression_entries":1,
+  "unresolved_parse_unit":"R09:P:L68:TERMINAL_UNRESOLVED",
+  "unmapped_parse_units":0,
+  "duplicate_primary_owners":0,
+  "projection_completeness":"COMPLETE_BY_EXPLICIT_PARSE_UNIT_ID",
+  "standing_preservation":"NOT_YET_ESTABLISHED_PENDING_COMPRESSION_DEATH_TEST",
+  "occurrence_accounting_policy":"SOURCE_OCCURRENCE_COUNT_RECONSTRUCTIBLE_FROM_EXPLICIT_LEDGER; WARRANT_INDEPENDENCE_NOT_INFERRED_FROM MULTIPLICITY",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false
+}
