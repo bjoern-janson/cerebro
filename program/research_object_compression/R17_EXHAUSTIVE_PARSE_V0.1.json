@@ -1,0 +1,49 @@
+{
+  "object":"CEREBRO_R17_EXHAUSTIVE_PARSE_V0.1",
+  "record_type":"exhaustive structured parse manifest",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R17",
+  "repository":"bjoern-janson/meta-process-framework",
+  "frozen_head_commit":"642cb6bcd131309b9e9628fc39f228b92e4ed966",
+  "source_surface":"program/research_object_compression/R17_SOURCE_SURFACE_V0.1.json",
+  "payload_parts":[
+    {"path":"program/research_object_compression/R17_EXHAUSTIVE_PARSE_V0.1_PART_A.json","source_paths":1,"parsed_representations":117,"unresolved":10,"units":127},
+    {"path":"program/research_object_compression/R17_EXHAUSTIVE_PARSE_V0.1_PART_B.json","source_paths":1,"parsed_representations":93,"unresolved":11,"units":104}
+  ],
+  "source_path_accounting":{
+    "admitted_source_paths":2,
+    "payload_source_paths":2,
+    "unaccounted_source_paths":0
+  },
+  "candidate_parse_units":231,
+  "parsed_representation_units":210,
+  "unresolved_source_units":21,
+  "parser_failures":0,
+  "standing_pressure_summary":[
+    "FRAMEWORK_SEMANTIC_OVERLAP != FRAMEWORK_IDENTITY_EQUIVALENCE",
+    "EXPERIMENT_SPECIFICATION != EXECUTION_RECORD",
+    "PREDICTION != REPORTED_RESULT",
+    "SUCCESS_CONDITION != DEMONSTRATED_SUCCESS",
+    "CAUSAL_FRAMEWORK_ASSERTION != EMPIRICAL_CAUSAL_RESULT",
+    "CURRENT_HEAD_PARSE != DEVELOPMENTAL_HISTORY_ERASURE",
+    "SAME_TOKEN != SAME_LOCAL_OBJECT",
+    "REPOSITORY_LEVEL_ABSENCE != FILE_LOCAL_SOURCE_UNIT",
+    "SOURCE_LINEAGE_ASSERTION != PROGRAM_MAP_EDGE",
+    "RECURRENCE_ACROSS_TWO_FILES != INDEPENDENT_WARRANT"
+  ],
+  "source_standing_summary":{
+    "framework_and_formalism_present":true,
+    "benchmark_specification_present":true,
+    "experiment_specification_present":true,
+    "simulator_specification_and_predictions_present":true,
+    "source_reported_empirical_results":0,
+    "source_reported_negative_results":0,
+    "executable_implementation":0,
+    "persisted_execution_records":0
+  },
+  "effective_status":"NOT_YET_ESTABLISHED_PENDING_PARSE_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "r18_parse_access_opened":false
+}
