@@ -1,0 +1,128 @@
+{
+  "object":"CEREBRO_R09_EXHAUSTIVE_PARSE_V0.1_PART_A",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R09",
+  "frozen_head_commit":"037c2c954384a200bd56a6cc7d707d976cf108b9",
+  "source_family":"LAYERS_01_18_FOUNDATION_PROTOCOL_ARCHITECTURE",
+  "source_paths":18,
+  "units":78,
+  "sources":[
+    {"path":"docs/context_restoration/layer_01_purpose.md","logical_layer":1,"units":[
+      {"id":"R09:P:L01:IDENTITY_PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Research State Restoration Protocol; preserve and reconstruct a research state so future work can resume from explicit assumptions, objects, dependencies, hypotheses, predictions, experiments and open questions rather than a prose summary."},
+      {"id":"R09:P:L01:RESTORATION_PRINCIPLES","role":"SOURCE_ASSERTION_CONCEPTUAL","content":["restore structure rather than narrative","make assumptions explicit","preserve uncertainty and unresolved branches","separate knowledge from speculation","support independent reconstruction"]},
+      {"id":"R09:P:L01:RESTORATION_ARCHITECTURE","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Layered restoration artifact intended to reconstruct the research program from purpose through formal objects, hypotheses, predictions, experiments and later architecture layers."},
+      {"id":"R09:P:L01:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Purpose/bootstrapping layer; supplies a restoration objective and organization, not empirical evidence or a scientific result."}
+    ]},
+    {"path":"docs/context_restoration/layer_02_axioms.md","logical_layer":2,"units":[
+      {"id":"R09:P:L02:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"States explicit starting axioms so later theory can be reconstructed and revised rather than treated as hidden assumptions."},
+      {"id":"R09:P:L02:AXIOMS","role":"SOURCE_ASSERTION_ASSUMPTION","source_standing":"AXIOMS","content":"Ten source-labelled axioms covering adaptive systems, feedback, representations, reachability, generators, resources/constraints, measurable consequences and the requirement that explanatory structure remain testable and revisable."},
+      {"id":"R09:P:L02:AXIOM_STANDING","role":"SOURCE_DESCRIBED_STATUS","content":"The source explicitly says axioms are not absolute truths; they are starting constraints for a minimal, testable, revisable framework."},
+      {"id":"R09:P:L02:NON_INFERENCE","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"AXIOM label != established truth; downstream reuse of an axiom does not create independent empirical support."}
+    ]},
+    {"path":"docs/context_restoration/layer_03_ontology.md","logical_layer":3,"units":[
+      {"id":"R09:P:L03:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines the objects the framework talks about before specifying how they evolve."},
+      {"id":"R09:P:L03:DEFINITIONS","role":"DEFINITION_DICTIONARY","content":{"adaptive_system":"system changing internal state in response to feedback","environment":"external state interacting with system","state":"current system configuration","representation":"internal model/compression of observations","search":"process exploring transformations","generator":"mechanism producing or improving search/transformation procedures","reachable_space":"accessible transformations under current state/resources","frontier":"boundary of reachable transformations","capability":"realized/current ability","resources":"external substrate","constraint":"limitation on accessible transformations","adoption":"degree generator is incorporated","execution":"ability to operationalize adopted structure","evolutionary_velocity":"source-local improvement-dynamics quantity","phase_boundary":"transition in adaptive regime"}},
+      {"id":"R09:P:L03:ONTOLOGY_BOUNDARY","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Ontology identifies objects/terms; it does not by itself establish dynamics, causal relations, measurements or empirical existence."},
+      {"id":"R09:P:L03:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Definition layer only; semantic identity with same tokens in later layers is not automatic."}
+    ]},
+    {"path":"docs/context_restoration/layer_04_dependency_graph.md","logical_layer":4,"units":[
+      {"id":"R09:P:L04:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Specifies the framework's source-internal dependency/causal structure."},
+      {"id":"R09:P:L04:PRIMARY_GRAPH","role":"FORMAL_STRUCTURE","content":"Source graph includes rho -> G_m -> A -> X -> P^reach -> C, with resources and constraints entering capability/reachability paths and generator changes propagating through adoption/execution before realized capability."},
+      {"id":"R09:P:L04:ACCELERATION_CHAIN","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"A generator-improvement chain is proposed in which deeper generator changes precede reachability/capability acceleration rather than capability being the primitive cause."},
+      {"id":"R09:P:L04:RESOURCE_PATH","role":"FORMAL_STRUCTURE","content":"Resource scaling is represented as a distinct path to capability, allowing generator-driven and resource-driven growth to be separated conceptually."},
+      {"id":"R09:P:L04:GRAPH_STANDING","role":"SOURCE_DESCRIBED_STATUS","content":"This is a source-theory dependency graph; it is not a Program Consolidation map edge set and creates no cross-repository relation or authority."}
+    ]},
+    {"path":"docs/context_restoration/layer_05_mathematical_objects.md","logical_layer":5,"units":[
+      {"id":"R09:P:L05:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Introduces mathematical variables and operators for the adaptive/reachability framework."},
+      {"id":"R09:P:L05:OBJECTS","role":"DEFINITION_DICTIONARY","content":"Defines source-local variables for state, generator quality, adoption, execution, reachable frontier, capability, resources, feedback and related transition quantities."},
+      {"id":"R09:P:L05:OMEGA","role":"DEFINITION","content":"On this source surface Omega is represented as generator-improvement velocity, including the formulation Omega=dG_m/dt."},
+      {"id":"R09:P:L05:FORMAL_RELATIONS","role":"FORMAL_STRUCTURE","content":"Provides mathematical transition/dependency relationships linking generator change, adoption/execution, reachable space and capability."},
+      {"id":"R09:P:L05:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Formal vocabulary/model proposal; equations are not empirical observations or proved universal laws by compression."}
+    ]},
+    {"path":"docs/context_restoration/layer_06_hypothesis_system.md","logical_layer":6,"units":[
+      {"id":"R09:P:L06:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Organizes the program's conjectures into an explicit hypothesis system."},
+      {"id":"R09:P:L06:HYPOTHESES","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Nine source-labelled hypotheses covering generator-first capability transitions, reachability expansion, adoption/execution mediation, representation effects, resource confounds, recursive improvement, causal mass and related adaptive-transition claims."},
+      {"id":"R09:P:L06:PREDICTIVE_CONTENT","role":"SOURCE_PREDICTION","content":"Each hypothesis is paired with observable/predictive consequences intended to discriminate it from alternative explanations."},
+      {"id":"R09:P:L06:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Hypotheses include failure conditions and are intended to be broken by counterexamples, controls or missing predicted ordering."},
+      {"id":"R09:P:L06:STANDING","role":"SOURCE_DESCRIBED_STATUS","content":"The source explicitly states hypotheses are provisional and exist to generate experiments, not conclusions."}
+    ]},
+    {"path":"docs/context_restoration/layer_07_prediction_registry.md","logical_layer":7,"units":[
+      {"id":"R09:P:L07:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Creates a registry of predictions so theory can be tested prospectively rather than retrofitted after outcomes."},
+      {"id":"R09:P:L07:PREDICTIONS","role":"SOURCE_PREDICTION","content":"Registers source predictions about temporal ordering, generator change, reachability, resource controls, adoption/execution, representation and capability trajectories."},
+      {"id":"R09:P:L07:TEST_USE","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Predictions are to be compared with measurements, controls and counterfactual alternatives; failures should update the framework rather than be explained away."},
+      {"id":"R09:P:L07:STANDING","role":"SOURCE_DESCRIBED_STATUS","content":"The source explicitly states: predictions are not evidence."}
+    ]},
+    {"path":"docs/context_restoration/layer_08_experimental_protocol.md","logical_layer":8,"units":[
+      {"id":"R09:P:L08:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines how candidate claims should be tested experimentally."},
+      {"id":"R09:P:L08:METHOD","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Protocol specifies controlled comparisons, baseline/resource controls, intervention variables, longitudinal measurement, ablation/counterfactual reasoning and falsification criteria."},
+      {"id":"R09:P:L08:TARGETS","role":"SOURCE_PREDICTION","content":"Experiments are designed to test whether generator improvement precedes and contributes to reachability/capability acceleration beyond resource scaling."},
+      {"id":"R09:P:L08:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Experimental design only; no execution record, measured result or support/falsification result is reported in this layer."}
+    ]},
+    {"path":"docs/context_restoration/layer_09_empirical_case_framework.md","logical_layer":9,"units":[
+      {"id":"R09:P:L09:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines a framework for evaluating historical/empirical cases under common variables and controls."},
+      {"id":"R09:P:L09:CASE_METHOD","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Cases should identify system, intervention, generator change, adoption/execution, reachability, capability, resource contribution and temporal ordering rather than treat innovation anecdotes as proof."},
+      {"id":"R09:P:L09:EXAMPLES","role":"APPLICATION_OR_EXAMPLE","content":"Source proposes historical/technological examples as candidate cases for analysis; examples illustrate the schema and do not constitute validated case results."},
+      {"id":"R09:P:L09:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Empirical-case template/proposal; no completed historical dataset or validated cross-case result appears on this layer."}
+    ]},
+    {"path":"docs/context_restoration/layer_10_formal_causal_identification.md","logical_layer":10,"units":[
+      {"id":"R09:P:L10:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Formalizes how to distinguish generator effects from resources, baseline capability and other confounds."},
+      {"id":"R09:P:L10:CAUSAL_OBJECTS","role":"DEFINITION_DICTIONARY","content":"Defines source-local counterfactual/intervention quantities, treatment/control contrasts and causal attribution targets for generator-driven capability change."},
+      {"id":"R09:P:L10:IDENTIFICATION_METHOD","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Uses counterfactual comparisons, do/intervention framing, matched controls, ablation, mediation and temporal ordering to identify whether generator change is causally relevant."},
+      {"id":"R09:P:L10:IDENTIFICATION_CLAIM","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Observed capability growth alone is insufficient; the stronger target is generator-related causal contribution after controlling alternatives."},
+      {"id":"R09:P:L10:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Causal-identification proposal; no identified causal estimate is reported."}
+    ]},
+    {"path":"docs/context_restoration/layer_11_alignment_architecture.md","logical_layer":11,"units":[
+      {"id":"R09:P:L11:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Extends the framework with an alignment architecture for adaptive/self-improving systems."},
+      {"id":"R09:P:L11:ARCHITECTURE","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Proposes monitoring, representation/goal tracking, feedback, correction and verification loops intended to preserve direction while capability changes."},
+      {"id":"R09:P:L11:ALIGNMENT_ASSERTIONS","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Alignment is framed as a dynamic control problem rather than one-time obedience; capability growth and correction/control capacity must be tracked separately."},
+      {"id":"R09:P:L11:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Architecture/theory proposal; does not establish that the proposed control loop is sufficient or implemented."}
+    ]},
+    {"path":"docs/context_restoration/layer_12_unified_architecture.md","logical_layer":12,"units":[
+      {"id":"R09:P:L12:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Attempts a source-internal unified architecture combining prior representation, generator, feedback, causal and alignment components."},
+      {"id":"R09:P:L12:UNIFIED_ARCHITECTURE","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Presents a combined layered/loop architecture intended to function as a compact bootloader for restoring the preceding research structure."},
+      {"id":"R09:P:L12:SELF_COMPRESSION_STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"The source describes itself in unified/bootloader terms; this is source self-characterization, not supersession authority over Layers 1-11."},
+      {"id":"R09:P:L12:NON_INFERENCE","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"UNIFIED or COMPLETE language does not erase disagreements, branch-specific standing or provenance of earlier source layers."}
+    ]},
+    {"path":"docs/context_restoration/layer_13_retrieval_protocol.md","logical_layer":13,"units":[
+      {"id":"R09:P:L13:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines how a compressed/restored research state should be retrieved and reconstructed."},
+      {"id":"R09:P:L13:PROTOCOL","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Proposes retrieval of purpose, axioms, ontology, formal objects, dependency structure, hypotheses, predictions, experiments and status in a reconstruction sequence."},
+      {"id":"R09:P:L13:MEMORY_ASSERTION","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Research memory should preserve generative structure and dependencies rather than only narrative summaries or final answers."},
+      {"id":"R09:P:L13:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Retrieval/continuity protocol; no claim that successful restoration has been independently demonstrated."}
+    ]},
+    {"path":"docs/context_restoration/layer_14_external_anchor_artifact.md","logical_layer":14,"units":[
+      {"id":"R09:P:L14:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Proposes an external anchor artifact capable of bootstrapping research-state recovery when conversational/internal context is unavailable."},
+      {"id":"R09:P:L14:ANCHOR_ARCHITECTURE","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Defines a self-contained external object containing enough identifiers, dependencies, core variables, hypotheses and retrieval directions to recover the research program."},
+      {"id":"R09:P:L14:ANCHOR_PRINCIPLE","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Externalized memory is treated as a robustness mechanism against context loss; an anchor should reconstruct rather than invent missing state."},
+      {"id":"R09:P:L14:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Proposed artifact design, not an independently tested restoration result."}
+    ]},
+    {"path":"docs/context_restoration/layer_15_self_improving_framework_protocol.md","logical_layer":15,"units":[
+      {"id":"R09:P:L15:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines a protocol by which the framework could revise itself under empirical pressure."},
+      {"id":"R09:P:L15:UPDATE_PROTOCOL","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Proposes generation of candidate framework modifications, explicit evaluation/falsification, comparison against prior state, retention of successful changes and preservation of provenance."},
+      {"id":"R09:P:L15:SELECTION_METHOD","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Framework mutations should be accepted because they improve prediction/explanation under tests, not because they are novel or more complex."},
+      {"id":"R09:P:L15:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Self-improvement protocol proposal; no executed self-modification history is reported by this layer."}
+    ]},
+    {"path":"docs/context_restoration/layer_16_implementation_architecture.md","logical_layer":16,"units":[
+      {"id":"R09:P:L16:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Translates prior conceptual research objects into a proposed implementation architecture."},
+      {"id":"R09:P:L16:ARCHITECTURE","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Specifies candidate components/data structures for hypotheses, predictions, experiments, evidence, state restoration and update/validation flows."},
+      {"id":"R09:P:L16:SCHEMA_EXAMPLE","role":"APPLICATION_OR_EXAMPLE","content":"Contains schema/example fields including a literal result value such as 'supported'; this is illustrative structured data, not an observed support result."},
+      {"id":"R09:P:L16:FORMAT_STATE","role":"SOURCE_FORMAT_IRREGULARITY","content":"Frozen Markdown contains malformed or unclosed code-block style formatting; substantial semantic content remains recoverable."},
+      {"id":"R09:P:L16:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Implementation architecture/specification only; the R09 frozen tree contains no corresponding runnable implementation artifact."}
+    ]},
+    {"path":"docs/context_restoration/layer_17_multi_agent_research_architecture.md","logical_layer":17,"units":[
+      {"id":"R09:P:L17:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Proposes a multi-agent architecture for research generation, criticism, experimentation, synthesis and memory."},
+      {"id":"R09:P:L17:ARCHITECTURE","role":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Separates candidate agents/roles for hypothesis generation, skeptical challenge, experiment design, evaluation, integration and archival/retrieval functions."},
+      {"id":"R09:P:L17:METHOD_PRINCIPLE","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Multiple agents are intended to create internal challenge/diversity rather than convert agreement into truth automatically."},
+      {"id":"R09:P:L17:FORMAT_STATE","role":"SOURCE_FORMAT_IRREGULARITY","content":"Frozen Markdown includes formatting irregularities while the intended architecture remains substantially readable."},
+      {"id":"R09:P:L17:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Multi-agent research architecture proposal; no instantiated agent system or execution result is present."}
+    ]},
+    {"path":"docs/context_restoration/layer_18_civilization_scale_intelligence_architecture.md","logical_layer":18,"units":[
+      {"id":"R09:P:L18:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Extends adaptive/intelligence concepts to civilization-scale systems."},
+      {"id":"R09:P:L18:THEORY","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Treats civilization as distributed information processing in which institutions, technologies, memory and coordination mechanisms can alter knowledge-generation and reachable futures."},
+      {"id":"R09:P:L18:EXAMPLES","role":"APPLICATION_OR_EXAMPLE","content":"Language, writing, science, institutions, computing and related structures are used as interpretive examples of civilization-level memory/generator effects."},
+      {"id":"R09:P:L18:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Conceptual/civilizational architecture extension; historical examples are not source-reported validation results."}
+    ]}
+  ],
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
