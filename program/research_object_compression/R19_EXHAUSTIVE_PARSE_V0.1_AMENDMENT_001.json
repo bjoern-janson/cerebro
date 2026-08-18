@@ -1,0 +1,45 @@
+{
+  "object":"CEREBRO_R19_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type":"repository-local parse metadata repair overlay",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R19",
+  "trigger":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "base_candidate":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_V0.1.json",
+  "repair_locus":"PART_A_CARDINALITY_METADATA_ONLY",
+  "historical_candidate_mutated":false,
+  "part_a_repair":{
+    "path":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_V0.1_PART_A.json",
+    "historical_declared_counts":{"parsed_representations":82,"unresolved":16,"units":98},
+    "effective_counts":{"parsed_representations":90,"unresolved":16,"units":106},
+    "warrant":"explicit continuous unit IDs R19P0001-R19P0090 and R19U0001-R19U0016",
+    "content_changes":0,
+    "unit_id_changes":0,
+    "standing_changes":0,
+    "source_locator_changes":0
+  },
+  "effective_whole_parse":{
+    "parsed_representations":287,
+    "unresolved_source_units":58,
+    "units":345,
+    "parser_failures":0,
+    "duplicate_unit_ids":0,
+    "missing_unit_ids":0,
+    "unaccounted_source_paths":0
+  },
+  "unaffected_parts":[
+    "R19_EXHAUSTIVE_PARSE_V0.1_PART_B.json",
+    "R19_EXHAUSTIVE_PARSE_V0.1_PART_C.json"
+  ],
+  "contract_effect":{
+    "new_epistemic_distinction":"NO",
+    "new_global_parser_role":"NONE",
+    "new_top_level_compression_coordinate":"NONE",
+    "base_parse_contract_amendment":"NOT_EARNED",
+    "compression_amendment_005":"NOT_EARNED"
+  },
+  "authority_effect":"NONE",
+  "map_edge_emission":"NONE",
+  "propagation_authorized":false,
+  "r19_compression_access":"PENDING_PARSE_RETEST",
+  "r20_parse_access_opened":false
+}
