@@ -1,0 +1,30 @@
+{
+  "object":"CEREBRO_R26_COMPRESSION_V0.1_AMENDMENT_001",
+  "repository_id":"R26",
+  "persistent_record_state":"FROZEN",
+  "base_compression":"R26_COMPRESSION_V0.1.json + Parts A-C",
+  "repair_scope":"CARDINALITY_METADATA_ONLY",
+  "trigger":"R26_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "replacements":{
+    "R26_COMPRESSION_V0.1_PART_B.json.item_count":{"historical_value":34,"effective_value":36},
+    "R26_COMPRESSION_V0.1_PART_C.json.item_count":{"historical_value":26,"effective_value":27},
+    "R26_COMPRESSION_V0.1.declared_total":{"historical_value":93,"effective_value":96}
+  },
+  "effective_part_counts":{"part_a":33,"part_b":36,"part_c":27,"total":96},
+  "primary_projection_remaps":0,
+  "new_compressed_items":0,
+  "deleted_compressed_items":0,
+  "standing_changes":0,
+  "content_changes":0,
+  "source_unit_array_changes":0,
+  "preserved_invariants":{"effective_parse_units":359,"primary_projection_entries":359,"unmapped_parse_units":0,"duplicate_primary_owners":0},
+  "historical_artifact_policy":"The defective candidate part headers remain frozen in repository history. This overlay supplies the effective cardinality metadata and does not retroactively rewrite them.",
+  "new_epistemic_distinction_required":false,
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "compression_contract_amendment":"NOT_EARNED",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "authority_effect":"NONE",
+  "propagation_authorized":false
+}
