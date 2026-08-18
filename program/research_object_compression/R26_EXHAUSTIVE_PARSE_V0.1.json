@@ -1,0 +1,21 @@
+{
+  "object":"CEREBRO_R26_EXHAUSTIVE_PARSE_V0.1",
+  "repository_id":"R26",
+  "repository":"bjoern-janson/aseb-framework",
+  "frozen_head_commit":"09abf2ee64bcf4488ba4e093162405c516422d37",
+  "source_surface":"R26_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "parse_contract":"CEREBRO_EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1+AMENDMENT_001",
+  "parts":["R26_EXHAUSTIVE_PARSE_V0.1_PART_A.json","R26_EXHAUSTIVE_PARSE_V0.1_PART_B.json","R26_EXHAUSTIVE_PARSE_V0.1_PART_C.json"],
+  "candidate_counts":{"frozen_head_paths":11,"parsed_representations":273,"explicitly_unresolved":86,"effective_candidate_units":359,"parser_failures":0,"unmapped_source_paths":0},
+  "standing_boundaries":{"current_head_implementation_present":false,"test_source_present":false,"execution_record_present":false,"source_reported_empirical_results":0,"source_reported_negative_results":0,"formal_variables":"CANDIDATE_HYPOTHESES_NOT_FIXED_LAWS","experimental_program":"PROSPECTIVE_SPECIFICATION_ONLY","case_studies":"APPLICATION_INTERPRETATION_NOT_EMPIRICAL_VALIDATION"},
+  "preserved_pressures":["CAPABILITY_VS_EVOLVABILITY","P_C_P_E_O_C_HIERARCHY_VS_CAUSAL_IDENTIFICATION","D_R_STAR_VS_VALIDATED_REPRESENTATION_METRIC","C_R_VS_CAUSAL_COUPLING_IDENTIFICATION","PHASE_BOUNDARY_VS_RESOURCE_SCALING","ACTIVE_BOTTLENECK_VS_OVERLAPPING_CONSTRAINTS","HORIZON_VECTOR_VS_OPERATIONAL_MEASUREMENT","O_G_PLUS_VS_FORMAL_OPERATOR_SET","F_A_VS_OPERATIONAL_FERTILITY_MEASURE","B_F_STAR_VS_VALUE_WEIGHTED_FUTURE_METRIC","ANCESTOR_SIGNATURE_VS_VALIDATED_REMOVAL_TEST","HISTORICAL_CASE_STUDY_VS_CAUSAL_EVIDENCE","PROSPECTIVE_EXPERIMENT_VS_EXECUTION","FALSIFICATION_CRITERION_VS_FALSIFICATION_EVENT","LIMITATION_VS_NEGATIVE_RESULT","RELATION_TO_ANCESTOR_INTELLIGENCE_VS_ENDPOINT_IDENTITY","SOURCE_RECURRENCE_VS_INDEPENDENT_WARRANT","CURRENT_HEAD_VS_DEVELOPMENTAL_HISTORY"],
+  "relation_assertion_policy":"Named relations to Ancestor Intelligence remain source propositions only; endpoint identity and Program Map edges are not resolved or emitted.",
+  "formal_policy":"Formal models are preserved with the source's explicit standing as candidate variables/hypotheses rather than fixed laws. No dimensional, construct-validity or causal-identification authority is added by parsing.",
+  "experimental_policy":"Hypotheses, falsification criteria and six experimental designs are prospective. No executable experiment, run record, empirical result, negative result or replication is present on the frozen surface.",
+  "case_study_policy":"Language, mathematics, scientific method, programming, biology and AI are source applications/interpretations. The source explicitly states they do not prove ASEB.",
+  "limitation_policy":"The source's limitations and open problems remain limitations/open questions. They are not empirical negative results and are not silently repaired by other files.",
+  "absence_policy":"The 11-file frozen head is documentation-only; this bounded absence does not assert that no related experiment has ever been run elsewhere.",
+  "temporal_policy":"Current-head semantic parse remains separate from the 12-commit developmental trajectory.",
+  "map_edge_emission":"NONE","map_authority":"NONE","scientific_authority":"NONE","propagation_authorized":false
+}
