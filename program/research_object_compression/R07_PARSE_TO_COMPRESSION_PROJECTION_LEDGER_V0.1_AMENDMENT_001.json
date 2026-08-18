@@ -1,0 +1,22 @@
+{
+  "object":"CEREBRO_R07_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_AMENDMENT_001",
+  "record_type":"frozen R07 projection-ledger repair overlay",
+  "persistent_record_state":"FROZEN",
+  "base_ledger":"program/research_object_compression/R07_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "compression_repair":"program/research_object_compression/R07_COMPRESSION_V0.1_AMENDMENT_001.json",
+  "effective_parse_unit_count":158,
+  "parsed_unit_count":157,
+  "unresolved_parse_unit_count":1,
+  "effective_primary_projection_entries":157,
+  "effective_unresolved_at_compression_entries":1,
+  "effective_unmapped_parse_units":0,
+  "effective_duplicate_primary_owners":0,
+  "resolved_previous_unmapped":{"parse_unit":"R07:P:DO:SEARCH_HIERARCHY","primary_destination":"R07:ASSERT:OPTIMIZATION_VS_DISCOVERY"},
+  "unresolved_ids":["R07:P:EX:DL_TERMINAL_FRAGMENT"],
+  "projection_completion_claim":"COMPLETE_RELATIVE_TO_EFFECTIVE_R07_PARSE_WITH_ONE_EXPLICIT_UNRESOLVED_DISPOSITION",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false
+}
