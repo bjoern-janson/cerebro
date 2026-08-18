@@ -1,0 +1,20 @@
+{
+  "object":"CEREBRO_R14_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type":"pre-projection compression-candidate accounting overlay",
+  "persistent_record_state":"FROZEN",
+  "parent":"R14_COMPRESSION_V0.1.json",
+  "trigger":"R14_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002.json + R14_EXHAUSTIVE_PARSE_RETEST_002_V0.1.md",
+  "repair_scope":"effective parse reference and denominator only",
+  "effective_parse":"R14_EXHAUSTIVE_PARSE_V0.1 + AMENDMENTS_001_002",
+  "effective_primary_parse_units":133,
+  "derived_audit_views":4,
+  "compressed_item_payload_change":"NONE",
+  "compressed_item_ids_change":"NONE",
+  "reason":"Amendment 002 splits residual mixed-role parse units without adding new source semantics; the existing compression candidate already preserves the separated semantic branches as distinct compressed objects or source-scoped views.",
+  "projection_ledger_required_against":133,
+  "compression_standing":"CANDIDATE_PENDING_EXPLICIT_133_UNIT_PROJECTION_LEDGER_AND_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "amendment_005":"NOT_EARNED"
+}
