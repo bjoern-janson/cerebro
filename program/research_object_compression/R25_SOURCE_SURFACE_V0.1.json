@@ -1,0 +1,62 @@
+{
+  "object": "CEREBRO_R25_SOURCE_SURFACE_V0.1",
+  "repository_id": "R25",
+  "repository": "bjoern-janson/adaptive-intelligence-framework",
+  "persistent_record_state": "FROZEN",
+  "parse_contract": "CEREBRO_EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1+AMENDMENT_001",
+  "frozen_default_branch": "main",
+  "frozen_head_commit": "f3de2ce4305930abefb4bf095cb2ca00393fa6ab",
+  "frozen_tree_sha": "c4262ea35ac0504045bec0fefb48381c90e62510",
+  "tree_truncated": false,
+  "source_surface_policy": "Current-head blobs only. Developmental history is separate provenance and supplies no additional current-head semantic content.",
+  "summary": {
+    "total_blob_paths": 5,
+    "parse_included": 5,
+    "parse_excluded_by_frozen_scope": 0,
+    "parse_failed": 0,
+    "parse_unsupported": 0,
+    "unenumerated_paths": 0
+  },
+  "paths": [
+    ["ARCHITECTURE.md", "3caa2df0897be4c22754f5de3e1bcf8b92f088ec", 6025, "PARSE_INCLUDED"],
+    ["README.md", "388cf8483f5153d391a314da85477bdecbe43058", 4410, "PARSE_INCLUDED"],
+    ["docs/causal-stack.md", "e165f5a4e17dba056b22946e3e2bac6f8b6b5a8e", 3338, "PARSE_INCLUDED"],
+    ["docs/implementation-map.md", "e238a8bab0e211cf395307df7c050d3202a9f4ee", 3342, "PARSE_INCLUDED"],
+    ["docs/validation.md", "ddf4481e827d124e75a6ceb652682d1137c5e39b", 1642, "PARSE_INCLUDED"]
+  ],
+  "developmental_history": [
+    ["9a458ff537949b6d952a7bae47f6cecbb5a53a67", "Initial commit", "2026-07-28T11:16:34Z"],
+    ["f562917c1c756efcb3a269cf9dcc0676be37a1c3", "Update README.md", "2026-07-28T11:17:16Z"],
+    ["b9b2e4ef2f4862a055ad529fa27e07350716e132", "Update README.md", "2026-07-28T11:17:52Z"],
+    ["07849add8a654bc0a5ce13c774020158e3319c0d", "Create visual_architecture_diagram", "2026-07-28T11:19:32Z"],
+    ["27fd331de52f5e3076d3beea39b159caa9284ec3", "Rename visual_architecture_diagram to visual_architecture_diagram.md", "2026-07-28T11:19:50Z"],
+    ["1340f23be3196a335d0edf7269c4f15459ee4587", "Rename visual_architecture_diagram.md to visual_architecture_diagram", "2026-07-28T11:20:03Z"],
+    ["59b4711e892d3aa112d4546a8e73fef791d2ac7a", "Update and rename visual_architecture_diagram to ARCHITECTURE.md", "2026-07-28T11:21:53Z"],
+    ["717202610d8c23cb71a9819069986945132f712a", "Create primitives.md", "2026-07-30T06:56:13Z"],
+    ["7964c09fc04d29d6eb63f0e1973e00c5c0770232", "Create validation.md", "2026-07-30T06:56:45Z"],
+    ["854bc38a45e304a92e0197701d0563d7d2ae9647", "Update and rename primitives.md to causal-stack.md", "2026-07-30T07:00:38Z"],
+    ["5f81b14762f6ba1548b5c61d1977d46e0f6a7ac3", "Update validation.md", "2026-07-30T07:00:55Z"],
+    ["672afb0b329d635e8449f15f39731c43ce96564b", "Create implementation-map.md", "2026-07-30T07:05:48Z"],
+    ["82c083bbb63402b87e2772c557c3d9973906ea69", "Update implementation-map.md", "2026-07-30T07:07:02Z"],
+    ["85f0a5842dc8ad410b045adaf35a9d82db91ebbd", "Update causal-stack.md", "2026-07-30T07:07:44Z"],
+    ["5a5a18b4b644a7db93eb3795629145b1457e30b1", "Update causal-stack.md", "2026-07-30T07:08:48Z"],
+    ["a8f216b9b4505672ffae4ff262507fec06c0fb39", "Update causal-stack.md", "2026-07-30T07:09:12Z"],
+    ["c5a87aaf345bd0bdbecd1ec7b786352f6692e139", "Update causal-stack.md", "2026-07-30T07:09:36Z"],
+    ["f3de2ce4305930abefb4bf095cb2ca00393fa6ab", "Update implementation-map.md", "2026-07-30T07:10:07Z"]
+  ],
+  "bounded_artifact_presence": {
+    "markdown_paths": 5,
+    "executable_source_paths": 0,
+    "data_paths": 0,
+    "test_paths": 0,
+    "execution_record_paths": 0,
+    "result_artifact_paths": 0,
+    "github_actions_runs_at_head": 0,
+    "combined_status_records_at_head": 0
+  },
+  "source_status_note": "Current documents assert proof-of-concept simulators, experimental benchmarks and open-source implementations at the broader research-program level. Those assertions do not create implementation or execution standing for this frozen repository surface.",
+  "map_edge_emission": "NONE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation_authorized": false
+}
