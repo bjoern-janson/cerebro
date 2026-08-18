@@ -1,0 +1,20 @@
+{
+  "object":"CEREBRO_R27_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "repository_id":"R27",
+  "persistent_record_state":"FROZEN",
+  "base_parse":"R27_EXHAUSTIVE_PARSE_V0.1.json + Parts A-C",
+  "trigger":"R27_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "repair_scope":"PART_A_COVERED_PATHS_METADATA_ONLY",
+  "effective_part_a_covered_paths":["README.md","config/default.yaml","docs/agent_architecture.md","docs/benchmark_spec.md","docs/environment_design.md","docs/implementation_plan.md","docs/metrics.md","docs/theory.md","requirements.txt","run_experiment.py","src/__init__.py"],
+  "semantic_unit_changes":0,
+  "unit_id_changes":0,
+  "standing_changes":0,
+  "source_coordinate_changes":0,
+  "disposition_changes":0,
+  "effective_counts":{"parsed_representations":131,"explicitly_unresolved":25,"total_units":156,"parser_failures":0,"covered_source_paths":32},
+  "historical_artifact_policy":"The incomplete Part A covered_paths header remains frozen in history; this overlay supplies the effective metadata without retroactive cleanup.",
+  "new_epistemic_distinction_required":false,
+  "new_global_parser_role":"NONE",
+  "parse_contract_amendment":"NOT_EARNED",
+  "map_edge_emission":"NONE","authority_effect":"NONE","propagation_authorized":false
+}
