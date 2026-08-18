@@ -1,0 +1,74 @@
+{
+  "object":"CEREBRO_R14_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002",
+  "record_type":"second minimal parse-role separability repair overlay",
+  "persistent_record_state":"FROZEN",
+  "parents":["R14_EXHAUSTIVE_PARSE_V0.1.json","R14_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001.json"],
+  "trigger":"R14_EXHAUSTIVE_PARSE_DEATH_TEST_002_V0.1.md",
+  "pre_repair_effective_primary_units":120,
+  "demoted_units":12,
+  "replacement_units_count":25,
+  "effective_primary_units":133,
+  "demoted_unit_ids":[
+    "R14:P:README:PRIMARY_OBJECT_QUESTION",
+    "R14:P:README:SCOPE_CORE_DISTINCTION",
+    "R14:P:AGENT:SCOPE_DISTINCTION",
+    "R14:P:F1:SPACE_EVOLUTION_INTERVENTION",
+    "R14:P:F2:PURPOSE_PRIMITIVES",
+    "R14:P:F2:POLICY_INTERVENTION",
+    "R14:P:SPEC1:ENVIRONMENT_NOVELTY",
+    "R14:P:SPEC2:INTERVENTION_QUESTION",
+    "R14:P:ENVDESIGN:REGIME_PHASES",
+    "R14:P:ENVDESIGN:SCHEDULE_CONTROL",
+    "R14:P:ENVDESIGN:QUESTION_SUMMARY",
+    "R14:P:MECH:SELECTION_ACCESSIBILITY"
+  ],
+  "replacement_units":[
+    {"id":"R14:P:README:PRIMARY_OBJECT","source_path":"README.md","source_blob":"251a4e07e300a3d90ebf86a504206dfee9720c0c","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Primary object: evolution of reachable spaces of future adaptive mechanisms."},
+    {"id":"R14:P:README:CORE_QUESTION","source_path":"README.md","source_blob":"251a4e07e300a3d90ebf86a504206dfee9720c0c","role":"SOURCE_DESCRIBED_RESEARCH_QUESTION","content":"Does Omega_t -> Delta Gspace_{t+1} contribute causally to long-horizon recursive adaptation?"},
+
+    {"id":"R14:P:README:SCOPE_BOUNDARY","source_path":"README.md","source_blob":"251a4e07e300a3d90ebf86a504206dfee9720c0c","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"RAD is a causal framework for recursive systems and explicitly does not claim to define intelligence, learning, optimization, alignment, agency, or consciousness."},
+    {"id":"R14:P:README:CORE_DISTINCTION","source_path":"README.md","source_blob":"251a4e07e300a3d90ebf86a504206dfee9720c0c","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Change within a mechanism space is distinguished from change of the mechanism space itself; improving existing strategies need not increase ability to generate future strategies."},
+
+    {"id":"R14:P:AGENT:SCOPE_BOUNDARY","source_path":"agent/state.md","source_blob":"160aa48555f7e5a25a7681e82cd33625d83a88e2","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"RAD is not a theory of intelligence, learning, optimization, alignment, agency, or consciousness; focus is evolution of reachable adaptive-mechanism spaces."},
+    {"id":"R14:P:AGENT:CORE_DISTINCTION","source_path":"agent/state.md","source_blob":"160aa48555f7e5a25a7681e82cd33625d83a88e2","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Change within a mechanism space is distinct from change of the mechanism space itself."},
+
+    {"id":"R14:P:F1:ADAPTIVE_SPACE_UPDATE_RULES","source_path":"core/formalism.md","source_blob":"6a54570e06c44ad416a51456e1db474733961531","role":"FORMAL_STRUCTURE","content":{"grounded":"(q,v)_{t+1}=J(q_t,v_t,Omega_t)","decoupled":"(q,v)_{t+1}=J(q_t,v_t)"}},
+    {"id":"R14:P:F1:INTERVENTION_BOUNDARY","source_path":"core/formalism.md","source_blob":"6a54570e06c44ad416a51456e1db474733961531","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"The intended intervention removes only Omega_t -> Delta Gspace_{t+1}, leaving adaptive-space evolution otherwise defined."},
+
+    {"id":"R14:P:F2:PURPOSE","source_path":"core/formalism2.md","source_blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines the mathematical objects and causal relationships used by RAD; central object is evolution of reachable future adaptive-mechanism spaces."},
+    {"id":"R14:P:F2:PRIMITIVE_OBJECTS","source_path":"core/formalism2.md","source_blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","role":"DEFINITION","content":["X_t","F_t","G_t","Gspace_t","M_t","Omega_t"]},
+
+    {"id":"R14:P:F2:POLICY_STATE","source_path":"core/formalism2.md","source_blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","role":"FORMAL_STRUCTURE","content":{"selection":"pi_t(Gspace^(task)_t)->G_t","state":"S_t=(X_t,F_t,pi_t,G_t,M_t,q_t,v_t)"}},
+    {"id":"R14:P:F2:EXPERIMENTAL_INTERVENTION","source_path":"core/formalism2.md","source_blob":"cf7cb0a7dffcd562998f5cb6cee1e1d2e8b1ecd7","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"grounded":"J(q,v,Omega)","decoupled":"J(q,v)"}},
+
+    {"id":"R14:P:SPEC1:ENVIRONMENT_STATE","source_path":"docs/simulator-spec.md","source_blob":"57e33676888f9f6a7bb54bae81be54210f187483","role":"DEFINITION","content":{"E_t":"(R_t,C_t)","R_t":"hidden environmental rule","C_t":"current constraints","observation_boundary":"agent observes Omega_t, not R_t directly"}},
+    {"id":"R14:P:SPEC1:NOVELTY_DESIGN","source_path":"docs/simulator-spec.md","source_blob":"57e33676888f9f6a7bb54bae81be54210f187483","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Environment should contain regime changes E1->E2->E3 with increasing novelty to test preservation of future adaptive mechanisms rather than generic problem-solving ability."},
+
+    {"id":"R14:P:SPEC2:EXPERIMENTAL_INTERVENTION","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"grounded":"(q,v)_{t+1}=J(q_t,v_t,Omega_t)","decoupled":"(q,v)_{t+1}=J(q_t,v_t)"}},
+    {"id":"R14:P:SPEC2:EXPERIMENTAL_QUESTION","source_path":"docs/simulator-spec2.md","source_blob":"0116b729c8dc9ea52b174a9448a2901a382b086d","role":"SOURCE_DESCRIBED_RESEARCH_QUESTION","content":"Does Omega_t -> Delta Gspace_{t+1} produce measurable divergence in future adaptive capacity?"},
+
+    {"id":"R14:P:ENVDESIGN:REGIME_DYNAMICS","source_path":"environment/design.md","source_blob":"1dd41ca954002dad1f70935fb460f61d61a6944c","role":"FORMAL_STRUCTURE","content":"R_1 -> R_2 -> R_3 ... with d(R_t,R_{t+1})>0 between phases."},
+    {"id":"R14:P:ENVDESIGN:ENVIRONMENTAL_PHASES","source_path":"environment/design.md","source_blob":"1dd41ca954002dad1f70935fb460f61d61a6944c","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"phase1":"stabilization/specialization under stable constraints","phase2":"transition/mismatch","phase3":"novelty and primary future-adaptive-capacity measurement"}},
+
+    {"id":"R14:P:ENVDESIGN:SCHEDULE_EXAMPLE","source_path":"environment/design.md","source_blob":"1dd41ca954002dad1f70935fb460f61d61a6944c","role":"ILLUSTRATIVE_EXAMPLE","content":"Example schedule: 1000 steps R1 stable, 500 steps R2 shifted, 500 steps R3 novel."},
+    {"id":"R14:P:ENVDESIGN:EXPERIMENTAL_CONTROL","source_path":"environment/design.md","source_blob":"1dd41ca954002dad1f70935fb460f61d61a6944c","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Both agents receive identical E(t); intended difference is grounded J(q,v,Omega) versus decoupled J(q,v)."},
+
+    {"id":"R14:P:ENVDESIGN:PRIMARY_QUESTION","source_path":"environment/design.md","source_blob":"1dd41ca954002dad1f70935fb460f61d61a6944c","role":"SOURCE_DESCRIBED_RESEARCH_QUESTION","content":"Does consequence-shaped evolution of adaptive mechanism space create different futures under novelty?"},
+    {"id":"R14:P:ENVDESIGN:ENVIRONMENT_SCOPE_SUMMARY","source_path":"environment/design.md","source_blob":"1dd41ca954002dad1f70935fb460f61d61a6944c","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Environment generates Omega_t and serves as the changing constraint perturbation; it is not the object of study."},
+
+    {"id":"R14:P:MECH:SELECTION","source_path":"mechanisms/library.md","source_blob":"ae51969d8e56cb678b8917e5c3005faf107f6e06","role":"FORMAL_STRUCTURE","content":"pi_t(Gspace^(task)_t)->G_t; only mechanisms satisfying q_i(t)>theta_q are selectable."},
+    {"id":"R14:P:MECH:ACCESSIBILITY","source_path":"mechanisms/library.md","source_blob":"ae51969d8e56cb678b8917e5c3005faf107f6e06","role":"DEFINITION","content":"q_i(t) represents P(G_i reachable)."},
+    {"id":"R14:P:MECH:LIBRARY_FIXED_STATUS","source_path":"mechanisms/library.md","source_blob":"ae51969d8e56cb678b8917e5c3005faf107f6e06","role":"SOURCE_DESCRIBED_STATUS","content":"For the first RAD experiments the mechanism library itself remains fixed; accessibility changes over it."}
+  ],
+  "effective_accounting":{
+    "pre_repair_effective_units":120,
+    "demoted_units":12,
+    "unchanged_effective_units":108,
+    "replacement_units":25,
+    "effective_primary_units":133
+  },
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "amendment_005":"NOT_EARNED"
+}
