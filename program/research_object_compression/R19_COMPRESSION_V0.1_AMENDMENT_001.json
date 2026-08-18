@@ -1,0 +1,66 @@
+{
+  "object":"CEREBRO_R19_COMPRESSION_V0.1_AMENDMENT_001",
+  "record_type":"repository-local compression repair overlay",
+  "persistent_record_state":"FROZEN",
+  "repository_id":"R19",
+  "trigger":"program/research_object_compression/R19_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "effective_parse_repair":"program/research_object_compression/R19_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_002.json",
+  "base_compression":"program/research_object_compression/R19_COMPRESSION_V0.1.json",
+  "historical_base_mutated":false,
+  "repair_scope":"DESTINATION_CONTENT_AND_SOURCE_OWNERSHIP_FOR_12_MIXED_STANDING_SPLITS_PLUS_2_NEW_DESTINATIONS_ONLY",
+  "replacement_items":[
+    {"id":"R19:README:EXAMPLES","source_units":["R19P0008","R19P0024"],"content":"Engine/thermodynamics analogy plus biological-intelligence distributed-network and adaptive-memory-substrate applications."},
+    {"id":"R19:README:CONCEPT","source_units":["R19P0012","R19P0014","R19P0288"],"content":"Expansion beyond correction accumulates divergence; core failure is loss of ability to become less wrong; current LLMs are source-described as high-representation/high-generation systems with limited direct reality coupling during inference and named failure modes including hallucination, outdated knowledge, and plausible unsupported outputs."},
+    {"id":"R19:README:METHOD","source_units":["R19P0017","R19P0025"],"content":"Correction-event criteria plus proposed measurements and next empirical stages: measurable primitives, simulations, controlled perturbations, and stability-boundary identification."},
+
+    {"id":"R19:BENCH:DEFS","source_units":["R19P0030","R19P0035","R19P0036","R19P0037","R19P0038","R19P0039"],"content":"Definitions of memory gravity, crossover round, memory-gravity index, error curve, authority-decay slope, and false-demotion rate."},
+    {"id":"R19:BENCH:PRED","source_units":["R19P0041","R19P0043","R19P0290"],"content":"V-disabled and vector-RAG baselines are predicted to show high memory gravity/flat error curves; the benchmark also predicts that the accuracy-per-round error curve rises under successful correction."},
+    {"id":"R19:BENCH:METHOD","source_units":["R19P0031","R19P0032","R19P0033","R19P0034","R19P0040","R19P0042","R19P0044","R19P0046","R19P0291"],"content":"Scenario seeding, scale/seeds, round loop, run length, V-disabled ablation, RAG/recency baselines, public-SDK/reproducibility requirements, success criteria, and the joint low-gravity/low-false-demotion criterion."},
+
+    {"id":"R19:D01:EXAMPLES","source_units":["R19P0055","R19P0058","R19P0063"],"content":"Cross-domain failure examples, the structural distributed-human loop example, and persistent memory as study substrate."},
+    {"id":"R19:D01:CONCEPT","source_units":["R19P0051","R19P0057","R19P0059","R19P0292"],"content":"Prediction alone does not solve reality coupling; error must feed correction; current AI limitations are framed around persistent reality-grounded updating/recovery; human intelligence is source-described as stabilized by external correction networks, with civilization functioning as a large-scale feedback system."},
+
+    {"id":"R19:D02:DEFS","source_units":["R19P0069","R19P0071","R19P0073","R19P0075","R19P0077","R19P0079","R19P0080","R19P0082","R19P0085","R19P0086","R19P0088"],"content":"Definitions of E*, e_c, correction frequency f_c, w_c, C_cap, adaptation, representation, reachability, permeability, divergence, correction deficit/restoration."},
+    {"id":"R19:D02:CONCEPT","source_units":["R19P0078","R19P0081","R19P0084","R19P0293"],"content":"Ways correction capacity can increase, instrumental representation value, reachability-gain interpretation of correction, and the claim that high correction frequency is not automatically better because correction strategies may trade frequency against magnitude."},
+
+    {"id":"R19:EX:EXAMPLES","source_units":["R19P0177","R19P0179","R19P0181","R19P0184","R19P0187","R19P0188"],"content":"Mappings for reality interaction, signatures, pressure, decay, Mesh sharing as a possible coupling mechanism, and correction events; the permeability formula itself is separated into the formal destination."},
+    {"id":"R19:EX:FORMAL","source_units":["R19P0176","R19P0193","R19P0294"],"content":"Framework/Azus correspondence loop, proposed telemetry Psi=[K_c,P_i,L,Theta,eta_c], and proposed permeability measurement Theta=externally forced structural updates/total structural updates."},
+    {"id":"R19:EX:CONCEPT","source_units":["R19P0178","R19P0180","R19P0183","R19P0295"],"content":"Representation value via reachability, selective reinforcement, need for restoration/removal mechanisms, and the source proposal that Azus is approximately a visible adaptive-dynamics laboratory whose target property is preserving the ability to become less wrong."},
+
+    {"id":"R19:SIM:IDENTITY","source_units":["R19P0194"],"content":"Experiment: Correction Loop Simulation."},
+    {"id":"R19:SIM:METHOD","source_units":["R19P0197","R19P0205","R19P0206","R19P0207","R19P0208","R19P0209","R19P0218"],"content":"Variable sweep, five parameter/restoration classes, and explicit falsification criteria; substantive core claim is separated into the hypothesis destination."},
+    {"id":"R19:SIM:HYP","source_units":["R19P0195","R19P0196","R19P0297"],"content":"Stability bound dOmega_ground/dt<=Theta*C_cap, divergence condition dOmega_nominal/dt>Theta*C_cap, and the substantive hypothesis that adaptive structure cannot sustainably outpace reality-mediated correction."},
+
+    {"id":"R19:TP:EX","source_units":["R19P0230","R19P0232"],"content":"Correction-magnitude examples and frequency/magnitude strategy examples; the non-universality claim is separated into the conceptual destination."},
+    {"id":"R19:TP:CONCEPT","source_units":["R19P0237","R19P0298"],"content":"Representation value is proposed proportional to grounded reachability gain; no single correction-frequency/correction-magnitude balance is asserted to be universally optimal."},
+
+    {"id":"R19:EQ:DEFS","source_units":["R19P0268","R19P0269","R19P0270","R19P0271","R19P0272","R19P0274","R19P0276","R19P0279","R19P0284"],"content":"Definitions of permeability, correction event/magnitude/frequency/capacity, nominal/grounded reachability, correction deficit, correction efficiency, and equation summary."},
+    {"id":"R19:EQ:HYP","source_units":["R19P0273","R19P0282","R19P0286","R19P0287","R19P0299"],"content":"Grounded expansion/conservation bounds, conditional divergence-versus-grounded-adaptation claims, and the hypothesis that healthy systems repair efficiently while failing systems require increasing effort for decreasing correction."}
+  ],
+  "added_items":[
+    {"id":"R19:README:STATUS","source_branch":"README","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","source_units":["R19P0289"],"content":"The repository describes itself as a theoretical framework."},
+    {"id":"R19:SIM:SCOPE","source_branch":"SIM","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","source_units":["R19P0296"],"content":"The correction-loop simulation is scoped to testing stability conditions of an adaptive control loop and explicitly does not attempt to model intelligence directly."}
+  ],
+  "effective_compression":{
+    "historical_base_items":120,
+    "replacement_items":20,
+    "added_items":2,
+    "effective_items":122,
+    "reported_results":0,
+    "negative_results":0,
+    "derived_audit_views":4,
+    "derived_bounded_absences":1,
+    "temporal_provenance_views":1
+  },
+  "occurrence_policy":"All replacement/added items retain source occurrence accounting; more than one source unit does not establish warrant independence. WARRANT_INDEPENDENCE_STATUS remains NOT_ESTABLISHED and WARRANT_MULTIPLICITY_EFFECT remains NONE unless independently warranted; no R19 item earns such independence.",
+  "contract_effect":{
+    "new_epistemic_distinction":"NO",
+    "new_global_parser_role":"NONE",
+    "new_top_level_compression_coordinate":"NONE",
+    "compression_contract_amendment_005":"NOT_EARNED"
+  },
+  "authority_effect":"NONE",
+  "map_edge_emission":"NONE",
+  "propagation_authorized":false,
+  "r20_parse_access_opened":false
+}
