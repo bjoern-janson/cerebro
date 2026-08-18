@@ -1,0 +1,57 @@
+{
+  "object":"CEREBRO_R11_COMPRESSION_V0.1",
+  "record_type":"research-object compression candidate",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R11",
+  "repository":"bjoern-janson/alignment-spine",
+  "frozen_head_commit":"7b7c484e9b81db394e2f759b849d9a17548ce80d",
+  "effective_parse":"program/research_object_compression/R11_EXHAUSTIVE_PARSE_V0.1.json",
+  "effective_parse_units":45,
+  "compression_contract":"EFFECTIVE_RESEARCH_OBJECT_COMPRESSION_V0.1_THROUGH_AMENDMENT_004",
+  "compressed_items":[
+    {"id":"R11:IDENTITY:PROJECT","coordinate":"IDENTITY","standing":"IDENTITY_TITLE","content":"Alignment Spine; core_equation.md carries the local title 'Alignment Spine — Core Equation'."},
+    {"id":"R11:SCOPE:LOCAL_PURPOSES","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Standing-pure indexed purpose destination preserving the repository-level theoretical-framework purpose and the local scope of its connected research-direction section."},
+    {"id":"R11:HYP:CENTRAL","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_HYPOTHESIS","content":"Central hypothesis: alignment concerns preservation of coupling between internal representation/objective and intended real-world objective while capability may increase independently."},
+    {"id":"R11:HYP:SPECIALIZED","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_HYPOTHESIS","content":"Specialized hypotheses include the representation-quality-up/alignment-down dangerous regime, approximate goal preservation G_R≈G_M with amplification of divergence by capability, and loss of goal-relevant information I(Z;G) during compression as an alignment failure mode."},
+    {"id":"R11:ASSERT:CONCEPTUAL","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_CONCEPTUAL","content":"Conceptual assertions preserve representation-as-boundary, objective-relevant information retention, causal-mass interpretation, compression necessity, Measurement!=Interpretation, capability/alignment separation and the final coupling-to-intention interpretation."},
+    {"id":"R11:DEF:CORE","coordinate":"DEFINITIONS","standing":"SOURCE_DEFINITION_OR_DEFINITION_DICTIONARY","content":"Definitions preserve capability vs alignment, G_R/G_M/DeltaG, README alignment-state factors, causal influence Phi, core-equation variables and the structural alignment gap."},
+    {"id":"R11:FORMAL:TRANSFORMATION_CHAINS","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","content":"Standing-pure formal destination for the Reality/Representation/Compression/Optimization/Action/Causal-Influence spine, representation/compression/optimization substeps, causal progression, mutual-information term and capability chain."},
+    {"id":"R11:FORMAL:ALIGNMENT_STATE","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","source_local_semantics":"ALIGNMENT_STATE","content":"README formalization A=f(Delta G_m,Delta P_reach,Delta CR,Delta A), with factors locally defined as Goal Integrity, Reachability Preservation, Constraint Retention and Alignment Stability."},
+    {"id":"R11:FORMAL:ALIGNMENT_EFFICIENCY","coordinate":"FORMAL_STRUCTURES","standing":"SOURCE_FORMALIZATION","source_local_semantics":"ALIGNMENT_EFFICIENCY","content":"core_equation.md formalization A=[I(G;Y_future|X_current)/C_optimization]·[DeltaR_world/DeltaR_agent], plus its file-local 'Equivalent Information Form' Alignment=Goal Representation Quality×Optimization Efficiency×World Objective Coupling."},
+    {"id":"R11:DIRECTION:THEMATIC","coordinate":"LIMITATIONS_OR_OPEN_QUESTIONS","standing":"SOURCE_DESCRIBED_RESEARCH_DIRECTION","content":"Four thematic research directions: Representation Quality, Computational Reach, Transition Structure and Capability Phase Boundaries. Direction does not establish a repository endpoint, developmental order or Program Map edge."},
+    {"id":"R11:METHOD:VALIDATION","coordinate":"METHODOLOGY_OR_TEST_PROTOCOL","standing":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Source requires claims to survive measurement, prediction, controls and falsification; this is methodology, not a record that those tests occurred."},
+    {"id":"R11:OPEN:CORE_QUESTION","coordinate":"LIMITATIONS_OR_OPEN_QUESTIONS","standing":"OPEN_QUESTION","content":"Can an optimizer increase its understanding of reality while preserving connection to the objective that defines success?"},
+    {"id":"R11:ARTIFACT:PROGRAM_NUMBERING","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"ARTIFACT_CONTENT_STATE","content":"Research-direction headings are numbered 1,3,3,4 on the frozen source. The irregularity is preserved without repair into chronology, dependency or omitted content."},
+    {"id":"R11:STATUS:FORMAL_VARIATION","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_DESCRIBED_STATUS","content":"The frozen source uses A for 'alignment state' in README and 'alignment efficiency' in core_equation.md. The file-local 'Equivalent Information Form' label does not derive equivalence to README's A=f(...) formulation."},
+    {"id":"R11:RESULT:EMPIRICAL_ABSENCE","coordinate":"REPORTED_RESULTS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No reported empirical measurement/result was observed on the exhaustive frozen source surface."},
+    {"id":"R11:RESULT:NEGATIVE_ABSENCE","coordinate":"REPORTED_NEGATIVE_RESULTS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No reported negative experimental result was observed on the exhaustive frozen source surface; the open question and methodological falsification requirement are not negative results."},
+    {"id":"R11:IMPLEMENTATION:ABSENCE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No runnable or source-described implementation artifact was observed on the exhaustive frozen source surface."},
+    {"id":"R11:EXECUTION:ABSENCE","coordinate":"SOURCE_DESCRIBED_STATUS","standing":"SOURCE_BOUNDED_ABSENCE","content":"No execution record was observed on the exhaustive frozen source surface."}
+  ],
+  "secondary_views":[
+    {"id":"R11:TENSION:A_FORMALIZATION","secondary_role":"LOCAL_FORMALIZATION_VARIATION_VIEW","primary_references":["R11:FORMAL:ALIGNMENT_STATE","R11:FORMAL:ALIGNMENT_EFFICIENCY","R11:STATUS:FORMAL_VARIATION"],"formal_equivalence":"NOT_ESTABLISHED","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"},
+    {"id":"R11:TENSION:PROGRAM_NUMBERING","secondary_role":"SOURCE_NUMBERING_VS_THEMATIC_DIRECTION_VIEW","primary_references":["R11:ARTIFACT:PROGRAM_NUMBERING","R11:DIRECTION:THEMATIC"],"chronology_effect":"NONE","authority_effect":"NONE","warrant_multiplicity_effect":"NONE"}
+  ],
+  "derived_bounded_absence_provenance":[
+    {"items":["R11:RESULT:EMPIRICAL_ABSENCE","R11:RESULT:NEGATIVE_ABSENCE","R11:IMPLEMENTATION:ABSENCE","R11:EXECUTION:ABSENCE"],"derivation":"EXHAUSTIVE_SOURCE_AND_PARSE_ACCOUNTING","source_surface":"R11_SOURCE_SURFACE_V0.1.json","parse":"R11_EXHAUSTIVE_PARSE_V0.1.json","authority_effect":"NONE"}
+  ],
+  "non_inferences":[
+    "SMALL_REPOSITORY != SINGLE_SEMANTIC_OBJECT",
+    "SAME_SYMBOL != SAME_SEMANTIC_OBJECT",
+    "SOURCE_LABEL_EQUIVALENT != CROSS_FORMULATION_EQUIVALENCE",
+    "FORMALIZATION != PROOF",
+    "THEORETICAL_CLAIM != EMPIRICAL_RESULT",
+    "RESEARCH_DIRECTION != PROGRAM_MAP_EDGE",
+    "THEMATIC_AXIS != DEVELOPMENTAL_ORDER",
+    "NUMBERING_IRREGULARITY != CHRONOLOGY",
+    "MEASUREMENT_PRINCIPLE != MEASUREMENT_RECORD",
+    "RECURRENCE != INDEPENDENT_WARRANT"
+  ],
+  "compression_standing":"CANDIDATE_PENDING_EXPLICIT_PROJECTION_LEDGER_AND_DEATH_TEST",
+  "map_edge_emission":"NONE",
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "cerebro_step_2_reopened":false,
+  "amendment_005":"NOT_EARNED"
+}
