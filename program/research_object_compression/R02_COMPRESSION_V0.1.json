@@ -1,0 +1,109 @@
+{
+  "object": "CEREBRO_R02_RESEARCH_OBJECT_COMPRESSION_V0.1",
+  "record_type": "loss-bounded compression projected from exhaustive parse",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "compression_contract": {
+    "base": "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1.md",
+    "amendment_001": "program/research_object_compression/RESEARCH_OBJECT_COMPRESSION_V0.1_AMENDMENT_001.md"
+  },
+  "source_surface": "program/research_object_compression/R02_SOURCE_SURFACE_V0.1.json",
+  "exhaustive_parse": "program/research_object_compression/R02_EXHAUSTIVE_PARSE_V0.1.json",
+  "repository_id": "R02",
+  "identity": {
+    "repository": "bjoern-janson/computational-leverage",
+    "title": "Interface-Induced Computational Geometry (IICG)",
+    "frozen_head_commit": "ef5f604ffec0922420c41f9921dee235583f3339",
+    "frozen_head_tree": "5873f3afeb7ef59da1c2f4746fd81e005286ab5b",
+    "research_bearing_blobs": ["39f4d4937d73ac1fc67796b3b12aff3d84d4ef42", "738091c92cd9ae41f244e9e1d5721ef299991787"],
+    "license_blob": "af602b2e8e83970d54a4a588e0fbdd14768cb691",
+    "license": "MIT"
+  },
+  "source_described_scope_or_purpose": [
+    {
+      "item_id": "R02:SCOPE:01",
+      "content": "Theoretical framework for quantifying computational leverage under bounded resources.",
+      "standing_in_compression": "SOURCE_DESCRIBED_SCOPE_OR_PURPOSE_ONLY",
+      "source_locator": {"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"ROOT > opening description","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}
+    }
+  ],
+  "source_described_status": [
+    {
+      "item_id": "R02:STATUS:01",
+      "content": "Early-stage theoretical framework; core definitions relatively stable; formal proofs, empirical validation, and applications are active areas of development.",
+      "source_locator": {"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"ROOT > status blockquote","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}
+    },
+    {
+      "item_id": "R02:STATUS:02",
+      "content": {"included":["Core ontology","Operator formulation","Reachable-set formulation","CRM","Conditional baseline formulation","Weighted utility measure","Synergy metric"],"work_in_progress":["Formal proofs and structural theorems","Operator algebra","Complexity-theoretic connections","Empirical validation","Additional worked examples"]},
+      "source_locator": {"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Current Status","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}
+    }
+  ],
+  "definitions": [
+    {"item_id":"R02:DEF:OMEGA","content":"Omega is the set of possible computational tasks or states.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Core Definitions > State space","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:DEF:A","content":"A in R^k is the bounded resource budget.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Core Definitions > Architecture","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:DEF:C","content":"C: V x Omega -> R^k maps an intervention and task to multidimensional resource cost.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Core Definitions > Cost functional","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:DEF:MU","content":"mu_w(S) is a weighted measure over regions of state space.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Core Definitions > Weighted measure","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}}
+  ],
+  "formal_structures": [
+    {"item_id":"R02:FORMAL:CORE_TUPLE","content":"(Omega,A,C,mu_w)","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Core Definitions","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:FORMAL:INTERVENTION","content":"C_{B,v}=F_v(C_B)","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Intervention Operators","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:FORMAL:REACHABLE_SET","content":"R(B)={x in Omega | C_B(x) <= A componentwise}","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Reachable Sets","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:FORMAL:CRM","content":"Phi(v|B)=mu_w(R(B,v))-mu_w(R(B)); source labels CRM the central invariant.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Counterfactual Reachability Mass (CRM)","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:FORMAL:SYNERGY","content":"DeltaPhi(v2;v1|B)=Phi(v2|B,v1)-Phi(v2|B), interpreted by the source as complementarity/redundancy-or-antagonism/independence for positive/negative/zero values.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > The Synergy Metric (Tool Complementarity)","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}}
+  ],
+  "assertions_or_hypotheses": [
+    {"item_id":"R02:ASSERT:CENTRAL","item_kind":"SOURCE_ASSERTION_HYPOTHESIS","source_standing_label":"central claim","content":"Much computational progress is attributed to better representations, abstractions, and interfaces reshaping computational cost rather than raw resource increases.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"ROOT > central claim paragraph","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:ASSERT:VALIDATION_FRAME","item_kind":"SOURCE_ASSERTION_ABOUT_VALIDATION","source_standing_label":"Empirical Validations & Benchmarks","content":"BENCHMARKS.md presents its tests and case studies as validating IICG; this compression preserves that source label without independently endorsing it.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"ROOT > introduction","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:ASSERT:ALPHAZERO","item_kind":"SOURCE_ASSERTION_CASE_STUDY","content":"AlphaZero is interpreted as a positive-leverage intervention relative to traditional search; external performance/node-rate values are preserved as source assertions only.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 1 > Core Claim Validation","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:INTERP:8PUZZLE","item_kind":"SOURCE_INTERPRETATION_OF_RESULT","content":"Source interprets the Manhattan heuristic as reshaping the cost landscape and enabling deeper states under the same budget.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 2 > Observation","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:INTERP:GRAY","item_kind":"SOURCE_INTERPRETATION_OF_RESULT","content":"Source interprets Gray Code as smoothing the search landscape and improving neighborhood connectivity without added compute.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 3 > Observation","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:INTERP:DP","item_kind":"SOURCE_INTERPRETATION_OF_RESULT","source_standing_label":"source calls this one of the cleanest proofs of massive positive Phi","content":"Source interprets memoization as changing an exponential recursion tree into a linear DAG; proof-strength language remains source-described standing only.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 4 > Observation","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:INTERP:COT","item_kind":"SOURCE_INTERPRETATION_OF_RESULT","content":"Source interprets CoT as external working memory that decomposes large jumps into localized transitions and effectively expands compute through intermediate forward passes.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 5 > Observation","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}}
+  ],
+  "reported_results": [
+    {"item_id":"R02:RESULT:ALPHAZERO_LITE","item_kind":"REPORTED_EMPIRICAL_RESULT_WITH_PROXY","content":{"budget":"1000 simulations/move","sample":"50 independent games under described task/configuration","baseline":"Pure MCTS 68%","intervention":"AlphaZero-lite 94%","reported_crm_proxy":"+26 percentage points"},"source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 1 > Toy Experiment: AlphaZero-lite vs. Pure MCTS","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:RESULT:8PUZZLE","item_kind":"REPORTED_EMPIRICAL_RESULT_WITH_PROXY","content":{"budget":"5000 expansions","dataset":"20 random solvable instances","success":"BFS 9/20 vs A* 20/20","avg_expansions":"~3200 vs ~850 solved","solution_length":"24.3 vs 21.8","reported_proxy":"+55 percentage points"},"source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 2. Heuristic-Driven Reachability","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:RESULT:GRAY","item_kind":"REPORTED_EMPIRICAL_RESULT_WITH_PROXY","content":{"budget":"1000 expansions","dataset":"100 random targets","result":"Binary 67/100 vs Gray 94/100","reported_proxy":"+27 solved tasks"},"source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 3. Encoding-Induced Topology","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:RESULT:DP","item_kind":"REPORTED_EMPIRICAL_RESULT","content":{"budget":"~10000 function calls","baseline":"naive recursion","intervention":"memoization","cases":["n15:1973 vs29","n20:~10k vs39","n25:crash vs49","n35:crash vs69"]},"source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 4. Complexity Collapse","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:RESULT:COT","item_kind":"REPORTED_EMPIRICAL_RESULT_WITH_PROXY","content":{"baseline":"Direct prompting","intervention":"CoT","result":"48/50 vs 50/50","reported_proxy":"+2"},"source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > 5. Inference Trajectories","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}}
+  ],
+  "reported_negative_results": [
+    {"item_id":"R02:NEG:KERNEL","item_kind":"REPORTED_FAILED_TEST","content":"Simulated RBF-kernel test failed due to environment constraints; source separately preserves conceptual alignment claim.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > Methodological Notes & Limitations > The Kernel Trick","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}}
+  ],
+  "limitations_or_open_questions": [
+    {"item_id":"R02:LIMIT:SCALING","item_kind":"LIMITATION","content":"Exact testing initially requires restricted state spaces; effective branching factor is proposed as a proxy for intractable spaces.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > Methodological Notes & Limitations > State-Space Scaling","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:LIMIT:VOLUME","item_kind":"LIMITATION_OPEN_FRONTIER","content":"Brute-force reachable-volume calculation becomes expensive; MCMC and spectral graph theory are future approximation directions.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"BENCHMARKS.md","source_blob":"738091c92cd9ae41f244e9e1d5721ef299991787","source_section_path":"BENCHMARKS.md > Methodological Notes & Limitations > Volume Estimation","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:OPEN:README","item_kind":"OPEN_PROBLEMS","content":["Superadditive intervention conditions","Strict operator algebra","Measure-preserving invariance","Metrics over intervention spaces","Efficient Phi estimators","Connections to complexity/optimization/representation learning/HCI"],"source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Open Problems","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:QUESTION:FRAMING","item_kind":"SOURCE_DESCRIBED_RESEARCH_QUESTIONS","content":["Why does a better representation often matter more than faster hardware?","How much does an intervention expand feasible tasks without increasing the resource budget?"],"source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"ROOT > framing question and opening question blockquote","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}}
+  ],
+  "applications_or_examples": [
+    {"item_id":"R02:APP:DOMAINS","item_kind":"APPLICATIONS","content":["Algorithm design & compiler optimization","Programming languages & APIs","Representation learning & kernel methods","HCI & interface design","Educational abstractions & scientific notation"],"source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > What IICG Attempts to Unify","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}},
+    {"item_id":"R02:EXAMPLE:BFS_ASTAR","item_kind":"ILLUSTRATIVE_EXAMPLE","content":"BFS versus A* under equal budget used to motivate cost-landscape reshaping.","source_locator":{"source_repository":"bjoern-janson/computational-leverage","source_commit":"ef5f604ffec0922420c41f9921dee235583f3339","source_path":"README.md","source_blob":"39f4d4937d73ac1fc67796b3b12aff3d84d4ef42","source_section_path":"README.md > Intuition","extraction_mode":"EXPLICIT_SOURCE_CONTENT"}}
+  ],
+  "internal_references": [],
+  "explicit_cross_repository_references": [],
+  "unresolved_references": [],
+  "non_inferences": [
+    "SOURCE_LABEL_VALIDATION_DOES_NOT_EQUAL_INDEPENDENT_VALIDATION",
+    "REPORTED_RESULT_DOES_NOT_EQUAL_VERIFIED_RESULT",
+    "REPORTED_CRM_PROXY_DOES_NOT_EQUAL_DIRECT_CRM_MEASUREMENT",
+    "SOURCE_INTERPRETATION_DOES_NOT_EQUAL_RESULT",
+    "SOURCE_PROOF_LANGUAGE_DOES_NOT_UPGRADE_STANDING",
+    "FAILED_TEST_DOES_NOT_INVALIDATE_UNAFFECTED_RESULTS",
+    "LIMITATION_DOES_NOT_EQUAL_NEGATIVE_RESULT",
+    "R01_R02_CHRONOLOGY_DOES_NOT_CREATE_SEMANTIC_EDGE"
+  ],
+  "parse_to_compression_accounting": {
+    "all_parse_units_accounted_for": true,
+    "grouping_policy": "LOSS_BOUNDED_BY_ITEM_KIND_AND_SOURCE_LOCATOR",
+    "dropped_research_units": [],
+    "excluded_units": ["LEGAL_NON_RESEARCH_METADATA", "PROJECT_PROCESS_METADATA"],
+    "new_top_level_compression_coordinate_required": false
+  },
+  "compression_standing": "CANDIDATE_PENDING_TRANSPORT_DEATH_TEST",
+  "map_edge_emission": "NONE",
+  "compression_authority_effect": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
