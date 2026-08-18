@@ -1,0 +1,113 @@
+{
+  "object":"CEREBRO_R10_EXHAUSTIVE_PARSE_V0.1_PART_C",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R10",
+  "frozen_head_commit":"942de6bda50fb61d6a66b82811ceff6ab3ad1784",
+  "source_family":"EXPERIMENTS_AND_TOY_AGENT_CODE",
+  "source_paths":11,
+  "units":68,
+  "sources":[
+    {"path":"experiments/README.md","units":[
+      {"id":"R10:P:EXPREADME:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Experimental program tests whether invariant-preserving compression corresponds to measurable adaptive-intelligence differences."},
+      {"id":"R10:P:EXPREADME:HYPOTHESIS","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Systems discovering reusable causal structures are predicted to achieve greater controllable future reach than memorization, brute-force search or fixed-policy systems."},
+      {"id":"R10:P:EXPREADME:BENCHMARKS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes representation-compression, causal-generalization, counterfactual-steering, adaptation/self-modification and viability-kernel benchmark categories."},
+      {"id":"R10:P:EXPREADME:EXPECTED","role":"SOURCE_PREDICTION","content":"Source gives expected structural ordering/profiles for Random, Shortest Path and CGET agents; expectations are not observations."},
+      {"id":"R10:P:EXPREADME:METRICS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposed collected metrics include success, future complexity, steering, causal fidelity, operator closure, identity preservation, transition stability, Psi_stable and Theta*."},
+      {"id":"R10:P:EXPREADME:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Lists no-compression-advantage, no-agency-distinction, no-value-stability-benefit and metric-redundancy falsifiers."},
+      {"id":"R10:P:EXPREADME:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Phase 1 formalization marked completed; Phase 2 toy validation explicitly in progress; MazeWorld/baselines/metric implementation are not reported as completed measured experiments."}
+    ]},
+    {"path":"experiments/cget_vs_baselines.md","units":[
+      {"id":"R10:P:BASE:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines baseline comparisons intended to test whether CGET explains differences beyond prediction, reward, search or fixed control."},
+      {"id":"R10:P:BASE:BASELINES","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Defines Random, Fixed Policy, Search, RL, World Model and CGET agent comparison classes with source-described purposes."},
+      {"id":"R10:P:BASE:EXPECTED_PROFILES","role":"SOURCE_PREDICTION","content":"Tables of expected compression/causal/control/adaptation/identity profiles are predictions, not measured agent properties."},
+      {"id":"R10:P:BASE:CGET_ADVANTAGES","role":"SOURCE_PREDICTION","content":"Predicts CGET advantages under distribution shift, compositional generalization and constrained self-modification."},
+      {"id":"R10:P:BASE:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Primary falsification asks whether compression, steering, identity constraints and combined metrics add predictive value over baselines."},
+      {"id":"R10:P:BASE:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Experimental comparison framework with expected behavior; no baseline benchmark execution is reported in this file."}
+    ]},
+    {"path":"experiments/falsification_tests.md","units":[
+      {"id":"R10:P:FALSIFY:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines tests under which CGET components would be unnecessary, non-predictive or structurally wrong."},
+      {"id":"R10:P:FALSIFY:HYPOTHESES","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Test hypotheses cover causal compression, closure, value closure, identity preservation, transition stability, agency, representation vs scaling and alignment without internal models."},
+      {"id":"R10:P:FALSIFY:METHODS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Each hypothesis is paired with comparison/falsification conditions; strongest falsifier is robust superhuman recursive intelligence without the proposed structural components."},
+      {"id":"R10:P:FALSIFY:FUTURE_METRICS","role":"SOURCE_DESCRIBED_RESEARCH_DIRECTION","content":"Future experiments should measure compression, intervention accuracy, composition, core drift, steering, transition divergence and controlled future expansion."},
+      {"id":"R10:P:FALSIFY:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Falsification design; no falsification test execution or result is reported."}
+    ]},
+    {"path":"experiments/results/example_run.md","units":[
+      {"id":"R10:P:EXAMPLE_RUN:PURPOSE","role":"APPLICATION_OR_EXAMPLE","source_standing":"SYNTHETIC_OUTPUT_EXAMPLE","content":"Document explicitly demonstrates the expected reporting format of a toy benchmark run."},
+      {"id":"R10:P:EXAMPLE_RUN:DISCLAIMER","role":"SOURCE_DESCRIBED_STATUS","content":"Source explicitly states all displayed values are synthetic examples and are not experimental results."},
+      {"id":"R10:P:EXAMPLE_RUN:CONFIG","role":"APPLICATION_OR_EXAMPLE","content":"Synthetic configuration displays MazeWorld v0.1, 100 episodes, max 100 steps and seeds 1-5 as example report fields, not a provenance-backed run record."},
+      {"id":"R10:P:EXAMPLE_RUN:NUMERIC_TABLES","role":"APPLICATION_OR_EXAMPLE","source_standing":"SYNTHETIC_NUMERIC_OUTPUT","content":"Displayed success, steps, future complexity, steering, representation, causal fidelity, closure, identity, Theta* and Psi_stable values are synthetic output examples."},
+      {"id":"R10:P:EXAMPLE_RUN:INTERPRETATION","role":"SOURCE_INTERPRETATION","content":"Narrative interprets the synthetic ordering Random < Shortest Path < CGET; it carries no empirical-support effect."},
+      {"id":"R10:P:EXAMPLE_RUN:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Lists conditions an actual benchmark could use to challenge CGET and planned benchmark extensions."},
+      {"id":"R10:P:EXAMPLE_RUN:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Current state: toy benchmark specification; required next step: run actual experiments and replace synthetic values with measured results."}
+    ]},
+    {"path":"experiments/run_all_agents.py","units":[
+      {"id":"R10:P:RUN_ALL:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen .py blob is literally wrapped in Markdown triple-backtick fences; as stored it is not directly executable Python despite the .py extension."},
+      {"id":"R10:P:RUN_ALL:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Embedded code describes an intended toy benchmark runner over identical environments and explicitly says it is not a claim of measuring general intelligence."},
+      {"id":"R10:P:RUN_ALL:CONFIG","role":"IMPLEMENTATION_ASSUMPTION","content":"Intended configuration uses GRID_SIZE=10, MAX_STEPS=100 and seeds 1-5."},
+      {"id":"R10:P:RUN_ALL:INTENDED_DYNAMICS","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Defines evaluation helpers, reachable/steerable estimators, CGET metric aggregation, agent averaging and report printing."},
+      {"id":"R10:P:RUN_ALL:INTEGRATION_MISMATCH","role":"ARTIFACT_CONTENT_STATE","content":"Intended runner calls APIs absent/incompatible with frozen MazeWorld/agents: MazeWorld(size,seed), env.step(action) tuple return, enumerate_future_states(), agent.act(), and agent.enumerate_controlled_states(). Integrated benchmark executability is therefore not established even after hypothetical fence removal."},
+      {"id":"R10:P:RUN_ALL:HARDCODED_PROXIES","role":"IMPLEMENTATION_ASSUMPTION","content":"Identity/transition and several composite inputs are fixed or derived from coarse success/bandwidth substitutions rather than measured CGET constructs."},
+      {"id":"R10:P:RUN_ALL:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Intended code prints final CGET comparison if runnable; no frozen execution log/output establishes that this behavior occurred."}
+    ]},
+    {"path":"experiments/toy_agents.md","units":[
+      {"id":"R10:P:TOY_SPEC:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Defines seven toy-agent experiment designs to isolate representation, causality, closure, value stability, agency and self-modification mechanisms."},
+      {"id":"R10:P:TOY_SPEC:AGENTS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Specifies Maze Compression, Physics Discovery, Operator Composition, Value Closure, Identity Preservation, Agency-vs-Complexity and Self-Improving CGET agent designs."},
+      {"id":"R10:P:TOY_SPEC:PREDICTIONS","role":"SOURCE_PREDICTION","content":"Each toy design includes expected CGET behavior such as representation transfer, causal intervention robustness, closure and identity-preserving agency expansion."},
+      {"id":"R10:P:TOY_SPEC:COMPARISON","role":"APPLICATION_OR_EXAMPLE","content":"Comparison table assigns expected qualitative properties to hypothetical toy agents; not a measured benchmark table."},
+      {"id":"R10:P:TOY_SPEC:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Toy-agent specification/progression, not an execution record."}
+    ]},
+    {"path":"experiments/toy_agents/cget_agent.py","units":[
+      {"id":"R10:P:CGET_AGENT:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen .py blob is wrapped in Markdown code fences and is not directly executable Python as stored."},
+      {"id":"R10:P:CGET_AGENT:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Embedded code self-describes as minimum viable toy implementation of CGET structural differences, not a full intelligence model."},
+      {"id":"R10:P:CGET_AGENT:MODEL","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Implements intended transition-model learning, danger-state memory, action operators, causal prediction and BFS planning over learned transitions."},
+      {"id":"R10:P:CGET_AGENT:LEARNING","role":"IMPLEMENTATION_ASSUMPTION","content":"World-learning exploration repeatedly takes the first available action for up to 20 episodes/100 steps; this is a toy implementation choice, not validated discovery procedure."},
+      {"id":"R10:P:CGET_AGENT:EVAL","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Evaluation counts episode success/failure/steps after a representation-learning phase."},
+      {"id":"R10:P:CGET_AGENT:HARDCODED_METRICS","role":"IMPLEMENTATION_ASSUMPTION","content":"Returned agency_bandwidth=.75, representation_compression=.80, causal_fidelity=.85, operator_closure=.70 and identity_preservation=1.0 are programmed constants, not measurements derived by the code."},
+      {"id":"R10:P:CGET_AGENT:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Intended direct run prints benchmark fields; no frozen run output is present."}
+    ]},
+    {"path":"experiments/toy_agents/maze_world.py","units":[
+      {"id":"R10:P:MAZE:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen .py blob is wrapped in Markdown code fences and is not directly executable Python as stored."},
+      {"id":"R10:P:MAZE:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Embedded code specifies a fixed toy MazeWorld for reachability, agency, viability and self-modification concepts."},
+      {"id":"R10:P:MAZE:WORLD","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Defines fixed grid, State, no-argument MazeWorld constructor, reset, valid_position, step(state,action), available_actions and rendering."},
+      {"id":"R10:P:MAZE:PROXIES","role":"IMPLEMENTATION_ASSUMPTION","content":"reachable_space(depth=10) is bounded graph exploration and viability_kernel excludes the single danger state; source calls viability approximation simplified."},
+      {"id":"R10:P:MAZE:INTERFACE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen API has no size/seed constructor arguments and no enumerate_future_states method, which conflicts with run_all_agents.py intended interface."},
+      {"id":"R10:P:MAZE:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Intended direct run prints initial world, reachable count, viability-kernel count and available actions; no stored execution output."}
+    ]},
+    {"path":"experiments/toy_agents/metrics.py","units":[
+      {"id":"R10:P:TOY_METRICS:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen .py blob is wrapped in Markdown code fences and is not directly executable Python as stored."},
+      {"id":"R10:P:TOY_METRICS:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Embedded code maps CGET concepts to toy operational measurements and explicitly calls them experimental proxies, not final definitions."},
+      {"id":"R10:P:TOY_METRICS:EPISTEMIC","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Implements ratios for representation compression, causal fidelity and operator closure."},
+      {"id":"R10:P:TOY_METRICS:AGENCY","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Implements reachable/steerable counts and steering-bandwidth ratio."},
+      {"id":"R10:P:TOY_METRICS:NORMATIVE","role":"IMPLEMENTATION_ASSUMPTION","content":"Identity/core-loss and transition-stability functions use scalar absolute differences as toy approximations to richer divergence-based constructs."},
+      {"id":"R10:P:TOY_METRICS:COMPOSITE","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Implements agency_ratio and multiplicative cget_score plus intended report printer; implementation does not validate the proxies."}
+    ]},
+    {"path":"experiments/toy_agents/random_agent.py","units":[
+      {"id":"R10:P:RANDOM:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen .py blob is wrapped in Markdown code fences and is not directly executable Python as stored."},
+      {"id":"R10:P:RANDOM:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Embedded code specifies RandomAgent as lower baseline with no model/abstraction/planning/viability preservation."},
+      {"id":"R10:P:RANDOM:IMPLEMENTATION","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Implements random choice among available actions and episode success/failure/step counting on MazeWorld."},
+      {"id":"R10:P:RANDOM:HARDCODED_METRICS","role":"IMPLEMENTATION_ASSUMPTION","content":"Evaluation returns agency_bandwidth=0, representation_compression=0 and causal_fidelity=0 by programmed interpretation, not measured estimators."},
+      {"id":"R10:P:RANDOM:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Intended direct run prints evaluation values; no execution record is stored."},
+      {"id":"R10:P:RANDOM:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Toy baseline implementation text; execution and empirical baseline performance are not established."}
+    ]},
+    {"path":"experiments/toy_agents/shortest_path_agent.py","units":[
+      {"id":"R10:P:SHORTEST:CONTENT_STATE","role":"ARTIFACT_CONTENT_STATE","content":"Frozen .py blob is wrapped in Markdown code fences and is not directly executable Python as stored."},
+      {"id":"R10:P:SHORTEST:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Embedded code specifies a breadth-first shortest-path baseline for optimization without learned representation/causal abstraction/self-modification."},
+      {"id":"R10:P:SHORTEST:IMPLEMENTATION","role":"EXECUTABLE_IMPLEMENTATION","source_standing":"INTENDED_IMPLEMENTATION_IF_FENCES_REMOVED","content":"Implements BFS path search and episode success/failure/step counting against MazeWorld."},
+      {"id":"R10:P:SHORTEST:HARDCODED_METRICS","role":"IMPLEMENTATION_ASSUMPTION","content":"Evaluation hard-codes agency=.25, representation compression=.10, causal fidelity=.50 and operator closure=.10 rather than measuring them."},
+      {"id":"R10:P:SHORTEST:OUTPUT","role":"IMPLEMENTED_OUTPUT_BEHAVIOR","content":"Intended direct run prints benchmark fields; no execution record is stored."},
+      {"id":"R10:P:SHORTEST:STATUS","role":"SOURCE_DESCRIBED_STATUS","content":"Toy baseline implementation text; benchmark performance and CGET metric values are not empirically established."}
+    ]}
+  ],
+  "non_inferences":[
+    "RESULTS_DIRECTORY != EXECUTION_RECORD",
+    "SYNTHETIC_NUMERIC_OUTPUT != OBSERVED_RESULT",
+    "PYTHON_EXTENSION != EXECUTABLE_PYTHON_BLOB",
+    "INTENDED_IMPLEMENTATION != INTEGRATED_EXECUTABLE_INSTRUMENT",
+    "HARDCODED_METRIC_CONSTANT != MEASUREMENT",
+    "IMPLEMENTED_PROXY != VALIDATED_METRIC",
+    "IMPLEMENTED_OUTPUT_BEHAVIOR != EXECUTION_RECORD"
+  ],
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
