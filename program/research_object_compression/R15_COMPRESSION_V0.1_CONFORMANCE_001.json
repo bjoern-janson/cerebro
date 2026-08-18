@@ -1,0 +1,23 @@
+{
+  "object":"CEREBRO_R15_COMPRESSION_V0.1_CONFORMANCE_001",
+  "record_type":"pre-projection inherited-contract conformance overlay",
+  "persistent_record_state":"FROZEN",
+  "base_compression":"program/research_object_compression/R15_COMPRESSION_V0.1.json",
+  "trigger":"INHERITED_STANDING_PURITY_REQUIREMENTS",
+  "effective_item_repairs":[
+    {"item":"R15:DEF:GAMMA_P00","effective_content":"Gamma_t=(dOmega/dt)/C_t is the PAGE_00 Reachability Expansion Ratio definition. Regime interpretations are moved to R15:ASSERT:GAMMA_P00."},
+    {"item":"R15:DEF:POSSIBILITY_P4","effective_content":"PAGE_4 definition only: Omega(S_t) is the set of future environment states reachable from S_t. The Omega+/Omega- partition remains in R15:FORMAL:P4_POSSIBILITY."},
+    {"item":"R15:FORMAL:P4_ADAPTIVE_LOOP","effective_content":"PAGE_4 formal state/equation family only: S_t, state evolution, observation, representation, prediction, action-selection and environment-transition equations. Diagrammatic information flow is moved to R15:ARCH:P4_FLOW."},
+    {"item":"R15:ASSERT:P5_FINAL_SYNTHESIS","effective_content":"PAGE_5 conceptual synthesis claims only: intelligence improves its loop, capability expands opportunity/risk, safety is interpreted through adaptation keeping pace with influence, and AIT studies modeling/transforming/creating reality with preserved feedback. Final-goal hypothesis is moved to R15:HYP:P5_FINAL_GOAL."}
+  ],
+  "added_items":[
+    {"id":"R15:ASSERT:GAMMA_P00","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_CONCEPTUAL","content":"PAGE_00 interprets Gamma<1 as within correction envelope, Gamma approximately 1 as near stability boundary, and Gamma>1 as reachability growth outpacing correction."},
+    {"id":"R15:ARCH:P4_FLOW","coordinate":"FORMAL_STRUCTURES","standing":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"PAGE_4 diagrammatic information flow: Environment -> Observation -> Representation -> Model/Search -> Action -> Environment."},
+    {"id":"R15:HYP:P5_FINAL_GOAL","coordinate":"ASSERTIONS_OR_HYPOTHESES","standing":"SOURCE_ASSERTION_HYPOTHESIS","content":"PAGE_5 final goal is maximum adaptive capability with preserved correction, not maximum intelligence."}
+  ],
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
