@@ -1,0 +1,130 @@
+{
+  "object":"CEREBRO_R08_EXHAUSTIVE_PARSE_V0.1_PART_B",
+  "record_type":"exhaustive structured parse payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R08",
+  "frozen_head_commit":"14eb5daf01edb086b0fb29f3860bf730d55a850f",
+  "source_family":"MEASUREMENT_DATASET_HISTORICAL_EXPERIMENT_PROSE",
+  "sources":[
+    {"path":"datasets/phase_boundary_dataset.md","blob":"9fc1e7a9939e6aa05131823ef01b80fe249cd26d","units":[
+      {"id":"R08:P:DATASET:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Proposed empirical framework for identifying historical transitions from ordinary adaptation toward adaptive acceleration; asks whether measurable generator changes predict later capability acceleration."},
+      {"id":"R08:P:DATASET:UNIT_OF_ANALYSIS","role":"DEFINITION","content":"Transformation Event: historical intervention believed to change how a system produces future states."},
+      {"id":"R08:P:DATASET:SCHEMA","role":"DEFINITION_DICTIONARY","content":{"E_i":"(S,I,G_m,Omega,C,R,T)","S":"system","I":"transformation event","G_m":"generator modification","Omega":"evolutionary velocity change","C":"capability change","R":"resource contribution","T":"temporal ordering"}},
+      {"id":"R08:P:DATASET:GM_PROXIES","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Possible G_m proxies: iteration-cost reduction, accessible-approach expansion, representation compression, reusable infrastructure, improvement automation."},
+      {"id":"R08:P:DATASET:REACHABLE_OMEGA_FIELDS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes reachable-space proxy families and Omega_hat=Delta(Delta C/Delta G_m)/Delta t as operational approximation."},
+      {"id":"R08:P:DATASET:TEMPORAL_STRUCTURE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Each event should record t_Gm, t_Omega, t_C; predicted ordering t_Gm<t_Omega<t_C."},
+      {"id":"R08:P:DATASET:CLASSIFICATIONS","role":"DEFINITION_DICTIONARY","content":{"positive_phase_boundary":"G_m>0 then Omega>0 then C>0","false_positive":"G_m changes but Omega≈0","resource_dominated_growth":"C grows with resource contribution dominating","capability_refinement":"C grows without meaningful G_m"}},
+      {"id":"R08:P:DATASET:CANDIDATE_ENTRIES","role":"SOURCE_INTERPRETATION","source_standing":"CANDIDATE_DATASET_ENTRIES_WITH_EXPECTED_SIGNALS","content":["scientific method","programming languages","compilers","automatic differentiation","machine learning"]},
+      {"id":"R08:P:DATASET:METHODOLOGY","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Identify event -> measure generator change -> estimate reachable-space expansion -> measure Omega -> compare capability outcomes; required controls separate resource, capability and generator effects."},
+      {"id":"R08:P:DATASET:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["capability transition without generator change","generator change without acceleration","resources explain all growth","temporal ordering fails"]}
+    ]},
+    {"path":"experiments/README.md","blob":"d0afa49e7db1bc87db17e732f806c9106d29cd99","units":[
+      {"id":"R08:P:EXP:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Directory is for empirical designs, datasets, benchmarks and analyses; purpose is not to demonstrate correctness but test operationalization and comparison with alternatives."},
+      {"id":"R08:P:EXP:PRIMARY_QUESTION","role":"OPEN_QUESTION","content":"Does improvement of capability-generation machinery precede measurable capability acceleration?"},
+      {"id":"R08:P:EXP:OBJECTIVE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Experimental target is Delta G_m->Delta Omega->Delta C ordering historically and experimentally."},
+      {"id":"R08:P:EXP:PIPELINE","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"System -> intervention -> Delta G_m -> Delta Omega -> Delta C, with explicit steps identifying system/intervention, estimating G_m and Omega, and comparing delayed capability growth."},
+      {"id":"R08:P:EXP:GM_PROXY_SET","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Possible generator proxies include Delta L, Delta A, Delta I and Delta T."},
+      {"id":"R08:P:EXP:OMEGA_APPROX","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Target Omega uses generator contribution to reachable expansion; operational approximation Omega_hat=Delta(Delta C/Delta G_m)/Delta t."},
+      {"id":"R08:P:EXP:EXPERIMENT_CLASSES","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"historical":"candidate historical phase-transition studies","organizational":"similar resources with different improvement machinery","AI":"AutoML/research assistants/theorem proving/self-improving software","benchmark":"candidate G_m, reachability and Omega scores"}},
+      {"id":"R08:P:EXP:CONTROLS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Experiments must separate resource, capability and generator effects; source says framework supported only if generator contribution is not reducible to ordinary resource/capability effects."},
+      {"id":"R08:P:EXP:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["capability transition without prior generator changes","generator changes fail to predict future acceleration","Omega explained by resources","no proxy distinguishes high-G_m systems"]},
+      {"id":"R08:P:EXP:TEMPLATE_TERMINAL","role":"UNRESOLVED_SOURCE_FRAGMENT","content":"Frozen blob introduces 'Experiment Template' and ends immediately after 'Each experiment should contain:' without supplying the template fields.","disposition":"UNRESOLVED_AT_PARSE_DUE_TO_SOURCE_BLOB_TERMINATION"}
+    ]},
+    {"path":"measurement/causal_identification.md","blob":"c80c6790f92e3d1567b30bf85e3ca42d7dc6763e","units":[
+      {"id":"R08:P:MCI:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Identify whether observed capability growth comes from resources, existing capability improvement, or generator mechanisms; target Omega=Delta_G."},
+      {"id":"R08:P:MCI:IDENTIFICATION_PROBLEM","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Delta C alone is insufficient evidence; causal question asks whether improvement machinery creates disproportionate future gains relative to resource scaling."},
+      {"id":"R08:P:MCI:COUNTERFACTUAL","role":"FORMAL_STRUCTURE","content":"Defines generator intervention effect as future-capability contrast C_future(G_m+Delta G_m)-C_future(G_m), equivalent to Y(1)-Y(0)."},
+      {"id":"R08:P:MCI:REQUIRED_CONTROLS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Control resource changes, existing capability and environmental changes; compare matched systems differing in G_m."},
+      {"id":"R08:P:MCI:DID","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes difference-in-differences model with system/time fixed effects and generator term; beta>0 would support generator-modification predictive claim."},
+      {"id":"R08:P:MCI:EVENT_STUDY","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes event-study design around identifiable generator transition t0 and delayed G_m->Omega->C sequence."},
+      {"id":"R08:P:MCI:IV","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes instrumental-variable strategy requiring relevance and exclusion; source explicitly says this is difficult but theoretically possible."},
+      {"id":"R08:P:MCI:GRANGER_MEDIATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes weaker temporal Granger test and mediation structure G_m->Omega->C with positive coefficients."},
+      {"id":"R08:P:MCI:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["C precedes G_m","resources explain variance","G_m does not predict Omega","temporal ordering fails"]},
+      {"id":"R08:P:MCI:IDENTIFICATION_PRINCIPLE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Changes in mechanisms producing innovation are proposed as measurable causal precursors of capability acceleration."}
+    ]},
+    {"path":"measurement/gm_proxies.md","blob":"f35da580292430c18b899d8603958069c4439601","units":[
+      {"id":"R08:P:MGM:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Measures latent generator modification capacity G_m through observable evidence; G_m is not intelligence/capability/knowledge/output quality/resources."},
+      {"id":"R08:P:MGM:CONCEPTUAL_DEFINITION","role":"DEFINITION","content":"G_m exists when system can change G_s(t) into G_s(t+1): method-production process changes, not merely execution."},
+      {"id":"R08:P:MGM:ORDINARY_VS_GENERATOR","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Better execution may raise C while G_m≈0; better method creation is generator improvement."},
+      {"id":"R08:P:MGM:PROXY_FAMILIES_1_3","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"iteration_cost":"Delta T","search_space_expansion":"Delta A","reusable_infrastructure":"I_r"}},
+      {"id":"R08:P:MGM:PROXY_FAMILIES_4_7","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"improvement_automation":"A_m","representation_improvement":"Delta L","search_efficiency":"eta_s","self_modification_capacity":"SM with levels 0-3"}},
+      {"id":"R08:P:MGM:PROXY_VECTOR","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Practical estimator G_m_hat=(Delta T,Delta A,I_r,A_m,Delta L,eta_s,SM); source explicitly states no single proxy is sufficient."},
+      {"id":"R08:P:MGM:INDEPENDENT_SIGNAL_LANGUAGE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Source predicts multiple 'independent signals' should align; lexical independence is source-level proxy language only and has no warrant-independence effect."},
+      {"id":"R08:P:MGM:RESOURCE_CONTROL","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Normalize against compute, energy, capital, labor and data; G_m != R."},
+      {"id":"R08:P:MGM:HISTORICAL_EXAMPLES","role":"SOURCE_INTERPRETATION","content":["scientific method","programming languages","automatic differentiation"]},
+      {"id":"R08:P:MGM:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["C rises without G_m","resources explain transition","proposed G_m proxies fail to predict Omega/future growth"]}
+    ]},
+    {"path":"measurement/omega_estimators.md","blob":"660f4b04f33ce7a16589aea3254fbb141015ebb2","units":[
+      {"id":"R08:P:MOMEGA:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Estimate Omega, generator-caused component of reachable-space expansion rather than growth itself."},
+      {"id":"R08:P:MOMEGA:IDEAL_DEFINITION","role":"DEFINITION","content":"Ideal Omega=(partial log|P_reach|/partial G_m)*dot G_m; P_reach and Omega are latent."},
+      {"id":"R08:P:MOMEGA:MEASUREMENT_PROBLEM","role":"SOURCE_ASSERTION_CONCEPTUAL","content":"Latent (G_m,P_reach,Omega) must be mapped to observable proxies Y_i."},
+      {"id":"R08:P:MOMEGA:EFFICIENCY_PROXY","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"eta_G=Delta C/Delta G_m; increasing d eta_G/dt is proposed signal of increasing Omega."},
+      {"id":"R08:P:MOMEGA:REUSE_ITERATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"R_G":"future improvements enabled / initial improvement cost","kappa":"T_old/T_new iteration compression"}},
+      {"id":"R08:P:MOMEGA:SEARCH_REPRESENTATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"B_s":"explored search breadth","Delta L":"representation compression"}},
+      {"id":"R08:P:MOMEGA:COMPOSITE","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Proposes Omega_hat=w1 eta_G+w2 R_G+w3 kappa+w4 B_s+w5 Delta L with weights determined empirically; this is candidate estimator, not validated measure."},
+      {"id":"R08:P:MOMEGA:CONFOUNDS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Must separate resources, accumulated capability and scale effects from Omega."},
+      {"id":"R08:P:MOMEGA:EXPERIMENT","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Matched-system design predicts higher G_m -> higher Omega -> higher delayed capability."},
+      {"id":"R08:P:MOMEGA:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["C rises without prior G_m","resources explain growth","estimated Omega fails to predict future acceleration"]}
+    ]},
+    {"path":"measurement/reachable_space_estimators.md","blob":"120860f538124c95c91e05d4acd8144f86e28b85","units":[
+      {"id":"R08:P:MREACH:PURPOSE","role":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","content":"Measure latent P_reach through empirical estimators because complete reachable space is generally impossible to enumerate."},
+      {"id":"R08:P:MREACH:DEFINITION","role":"DEFINITION","content":"P_reach is future transformations accessible given X_t,R_t; P_reach subset of possible space."},
+      {"id":"R08:P:MREACH:REQUIREMENTS","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Estimator should capture breadth, depth, efficiency, diversity and expandability."},
+      {"id":"R08:P:MREACH:PROXIES_1_3","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"B_s":"search breadth","D_s":"accessible solution diversity","F_d":"frontier distance"}},
+      {"id":"R08:P:MREACH:PROXIES_4_6","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"eta_s":"search efficiency","Delta L":"representation compression","T_r":"transferability"}},
+      {"id":"R08:P:MREACH:PROXIES_7_9","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":{"K_c":"combinatorial expansion","H_t":"planning horizon","Delta K":"constraint reduction"}},
+      {"id":"R08:P:MREACH:LIMITATION","role":"LIMITATION","content":"Search breadth alone does not imply useful reachability; source states no single measurement captures reachable space."},
+      {"id":"R08:P:MREACH:VECTOR","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"P_reach_hat=(B_s,D_s,F_d,eta_s,Delta L,T_r,K_c,H_t,Delta K); source predicts convergence across multiple proxies."},
+      {"id":"R08:P:MREACH:LAMBDA_LINK","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Estimate Lambda_hat from time derivative of log estimated reachable space; isolate Omega=Delta_G from total expansion."},
+      {"id":"R08:P:MREACH:HISTORICAL_METHOD","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":"Historical procedure: baseline -> intervention -> measure proxy-space change -> separate causes -> estimate Omega."},
+      {"id":"R08:P:MREACH:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["proxies fail to correlate with future capability","C grows without P_reach expansion","resources fully explain expansion"]}
+    ]},
+    {"path":"historical_cases/automatic_differentiation.md","blob":"7cd60f4ac750f9127cc717ca5c91e572481fd8e2","units":[
+      {"id":"R08:P:HAD:CASE_THESIS","role":"SOURCE_INTERPRETATION","content":"Source calls automatic differentiation a canonical generator-capacity/evolutionary-primitive example; this is framework interpretation, not admitted historical validation."},
+      {"id":"R08:P:HAD:PRE_AD","role":"HISTORICAL_SOURCE_ASSERTION","content":"Source characterizes pre-AD gradient production as symbolic/manual/finite-difference work with human-supplied transformation rules."},
+      {"id":"R08:P:HAD:AD_DISTINCTION","role":"HISTORICAL_SOURCE_ASSERTION","content":"Source distinguishes symbolic expression manipulation from AD's programmable local transformation rules over computational graphs."},
+      {"id":"R08:P:HAD:PRIMITIVE_INTERPRETATION","role":"SOURCE_INTERPRETATION","content":"AD is mapped to P:f->grad f and P_e:f->f' evolutionary primitive; source interprets it as D2 generator change."},
+      {"id":"R08:P:HAD:REACHABILITY_INTERPRETATION","role":"SOURCE_INTERPRETATION","content":"Source claims AD expands optimization reachability by making arbitrary computational graphs differentiable/general-purpose."},
+      {"id":"R08:P:HAD:OMEGA_INTERPRETATION","role":"SOURCE_INTERPRETATION","content":"Framework maps AD to Delta G_m->Omega up->expansion of trainable models->C acceleration; not a reported causal result."},
+      {"id":"R08:P:HAD:PROXIES","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["gradient accessibility","iteration reduction","search expansion","representation compression"]},
+      {"id":"R08:P:HAD:HISTORICAL_HYPOTHESIS","role":"SOURCE_ASSERTION_HYPOTHESIS","source_standing":"HISTORICAL_HYPOTHESIS","content":"Manual gradient engineering -> AD -> deep-learning ecosystem should satisfy t_Gm<t_Omega<t_C."},
+      {"id":"R08:P:HAD:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["growth entirely resource explained","AD does not expand optimization reachability","no acceleration follows generator improvement"]}
+    ]},
+    {"path":"historical_cases/compiler.md","blob":"cf804fdc6355cc7527d4a91b9ff152b599ffb5a2","units":[
+      {"id":"R08:P:HCOMP:CASE_THESIS","role":"SOURCE_INTERPRETATION","content":"Source calls compiler transition a canonical adaptive-depth example; preserve as framework interpretation rather than historical validation."},
+      {"id":"R08:P:HCOMP:PRE_COMPILER","role":"HISTORICAL_SOURCE_ASSERTION","content":"Source characterizes pre-compiler programming as human translation to machine operations with translation/optimization/error costs."},
+      {"id":"R08:P:HCOMP:COMPILER_PRIMITIVE","role":"SOURCE_INTERPRETATION","content":"Compiler is modeled as reusable transformation P:L_high->L_machine and transition toward D2."},
+      {"id":"R08:P:HCOMP:REACHABILITY","role":"SOURCE_INTERPRETATION","content":"Source asserts compiler-based reachability exceeds manual implementation through representation/search/generator improvements."},
+      {"id":"R08:P:HCOMP:GENERATOR_DYNAMICS","role":"HISTORICAL_SOURCE_ASSERTION","content":"Lists compiler optimization passes, register allocation, IRs, JIT and profile-guided optimization as mechanisms by which compiler itself becomes optimization target."},
+      {"id":"R08:P:HCOMP:OMEGA_INTERPRETATION","role":"SOURCE_INTERPRETATION","content":"Maps compiler development to Delta G_m->Delta Omega->Delta C and dynamic causal mass."},
+      {"id":"R08:P:HCOMP:PREDICTIONS","role":"SOURCE_ASSERTION_HYPOTHESIS","content":["reusable transformation primitives predict faster growth than direct execution","compiler-generation improvements precede major capability jumps","largest gains come from mechanisms reducing cost of future optimization mechanisms"]},
+      {"id":"R08:P:HCOMP:SUMMARY","role":"SOURCE_INTERPRETATION","content":"Compiler is framed as stored transformation mechanism enabling systems that create solutions."}
+    ]},
+    {"path":"historical_cases/machine_learning.md","blob":"7f3bb0d3c8e8d1f91d35d55cd1034a751d5d5b53","units":[
+      {"id":"R08:P:HML:CASE_THESIS","role":"SOURCE_INTERPRETATION","content":"Source frames ML as transition from human-engineered solution procedures toward learned representations/partially automated solution-generation mechanisms."},
+      {"id":"R08:P:HML:PRE_ML","role":"HISTORICAL_SOURCE_ASSERTION","content":"Traditional software described as human-designed representations/features/rules/procedures with G_m≈0."},
+      {"id":"R08:P:HML:REPRESENTATION_TRANSITION","role":"SOURCE_INTERPRETATION","content":"ML/deep learning mapped to adaptive representation search; source describes D0->D1 shift and searchable representation spaces."},
+      {"id":"R08:P:HML:GENERATOR_MACHINERY","role":"SOURCE_INTERPRETATION","content":"AD, gradient descent, optimizers, architectures and training infrastructure are framed as reusable G_m primitives."},
+      {"id":"R08:P:HML:REACHABILITY","role":"SOURCE_INTERPRETATION","content":"Source attributes enlarged hypothesis/trainable-model space to learned representations, automated optimization and scalable experimentation."},
+      {"id":"R08:P:HML:RESOURCE_DECOMPOSITION","role":"SOURCE_INTERPRETATION","content":"Separates compute/data/investment resource effects, engineering refinement, and generator improvements; source hypothesis privileges Delta_G as evolutionary contribution."},
+      {"id":"R08:P:HML:D3_CANDIDATE","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"AI systems improving research/learning-system machinery are proposed as potential D3 transition, not established current state."},
+      {"id":"R08:P:HML:PROXIES","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["representation efficiency","search expansion","optimization accessibility","improvement return"]},
+      {"id":"R08:P:HML:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["gains fully resource-explained","learned representations do not expand reachable space","generator improvements fail to predict future capability"]}
+    ]},
+    {"path":"historical_cases/scientific_method.md","blob":"af05363cae30ac41210cb0fbf4bda97a3765a522","units":[
+      {"id":"R08:P:HSCI:CASE_THESIS","role":"SOURCE_INTERPRETATION","content":"Source calls scientific method a canonical evolutionary primitive; repository-level qualifier elsewhere says historical examples are hypotheses for testing."},
+      {"id":"R08:P:HSCI:PRE_SCIENCE","role":"HISTORICAL_SOURCE_ASSERTION","content":"Source describes pre-formal methodology as intuition/trial/tradition/authority/informal experimentation with relatively stable method."},
+      {"id":"R08:P:HSCI:GENERATOR_INTERPRETATION","role":"SOURCE_INTERPRETATION","content":"Scientific method mapped to G_m:G_s->G_s' with hypothesis-experiment-measurement-evaluation-methodology feedback loop and D2 shift."},
+      {"id":"R08:P:HSCI:REACHABILITY","role":"SOURCE_INTERPRETATION","content":"Source says reproducibility, error detection, composability and cumulative experimentation expand reachable discovery space."},
+      {"id":"R08:P:HSCI:REPRESENTATION_EXAMPLES","role":"SOURCE_INTERPRETATION","content":{"astronomy":"visual patterns -> telescope-extended observation","biology":"visible organisms -> microscopy/genomics","physics":"qualitative motion -> predictive dynamical models"}},
+      {"id":"R08:P:HSCI:INSTITUTIONS","role":"HISTORICAL_SOURCE_ASSERTION","content":"Peer review, replication, journals, labs, datasets, standardized measurement and education are described as persistent generator infrastructure."},
+      {"id":"R08:P:HSCI:OMEGA_HYPOTHESIS","role":"SOURCE_ASSERTION_HYPOTHESIS","content":"Scientific method -> Omega up -> accelerating discovery; stronger claim is science increases rate at which future knowledge-generating mechanisms improve."},
+      {"id":"R08:P:HSCI:PROXIES","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["generator capacity proxy vector","reachable-space proxies","Omega_hat as increasing return on discovery machinery"]},
+      {"id":"R08:P:HSCI:FALSIFICATION","role":"METHODOLOGY_OR_TEST_PROTOCOL","content":["revolutions without prior G_m","G_m fails to predict later Omega","acceleration fully resource-explained"]}
+    ]}
+  ],
+  "unresolved_units":["R08:P:EXP:TEMPLATE_TERMINAL"],
+  "non_inferences":["PROPOSED_DATASET_NOT_EMPIRICAL_DATA","PROXY_INSTANTIATION_NOT_PROXY_VALIDATION","HISTORICAL_CASE_RHETORIC_NOT_EMPIRICAL_VALIDATION","UNRESOLVED_EXPERIMENT_TEMPLATE_NOT_PARSER_FAILURE","NO_MAP_EDGE_EMITTED"],
+  "map_authority_effect":"NONE",
+  "scientific_authority_effect":"NONE"
+}
