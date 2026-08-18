@@ -1,0 +1,14 @@
+{
+  "object":"CEREBRO_R27_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "repository_id":"R27",
+  "frozen_head_commit":"5a488d137c947df8eb8f88fba6dd74fc1b25985c",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "effective_parse":"R27_EXHAUSTIVE_PARSE_V0.1 + R27_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001 + R27_EXHAUSTIVE_PARSE_RETEST_V0.1",
+  "compression_parts":["R27_COMPRESSION_V0.1_PART_A.json","R27_COMPRESSION_V0.1_PART_B.json","R27_COMPRESSION_V0.1_PART_C.json"],
+  "ledger_representation":"MATERIALIZED_BY_EXACT_SOURCE_UNITS_ARRAYS",
+  "primary_ownership_rule":"Every compression item's frozen SOURCE_UNITS array is its exact primary ownership set. Expanding all arrays yields one and only one primary owner for every effective parse unit.",
+  "effective_parse_id_sets":["R27P0001-R27P0131","R27U0001-R27U0025"],
+  "validation":{"effective_parse_units":156,"primary_projection_entries":156,"primary_compressed_items":85,"part_a_projection_entries":78,"part_b_projection_entries":43,"part_c_projection_entries":35,"union_of_all_source_units_equals_effective_parse_set":true,"pairwise_source_units_intersections_empty":true,"unmapped_parse_units":0,"duplicate_primary_owners":0,"extra_projection_units":0,"projection_completeness":"COMPLETE_BY_EXACT_PARSE_UNIT_ID"},
+  "reconstruction_procedure":["Read all enumerated compression items from Parts A-C.","For every item, emit one [parse_unit_id,item_id] pair for each ID in SOURCE_UNITS.","Sort pairs by parse-unit ID; the result spans R27P0001-R27P0131 and R27U0001-R27U0025 exactly once each."],
+  "warrant_independence_status":"NOT_ESTABLISHED","warrant_multiplicity_effect":"NONE","map_edge_emission":"NONE","authority_effect":"NONE"
+}
