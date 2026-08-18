@@ -1,0 +1,61 @@
+{
+  "object": "CEREBRO_R22_EXHAUSTIVE_PARSE_V0.1",
+  "repository_id": "R22",
+  "repository": "bjoern-janson/causal-transition-condition",
+  "frozen_head_commit": "fe899838979fcf0e6ee2f43011420a79b58daff8",
+  "source_surface": "R22_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "parse_contract": "CEREBRO_EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1+AMENDMENT_001",
+  "parts": [
+    "R22_EXHAUSTIVE_PARSE_V0.1_PART_A.json",
+    "R22_EXHAUSTIVE_PARSE_V0.1_PART_B.json",
+    "R22_EXHAUSTIVE_PARSE_V0.1_PART_C.json",
+    "R22_EXHAUSTIVE_PARSE_V0.1_PART_D.json",
+    "R22_EXHAUSTIVE_PARSE_V0.1_PART_E.json"
+  ],
+  "candidate_counts": {
+    "frozen_head_paths": 24,
+    "parsed_representations": 206,
+    "explicitly_unresolved": 72,
+    "candidate_parse_units": 278,
+    "parser_failures": 0,
+    "unmapped_source_paths": 0
+  },
+  "standing_boundaries": {
+    "implementation_present": true,
+    "test_source_present": true,
+    "execution_record_present": false,
+    "github_actions_runs_at_head": 0,
+    "combined_status_records_at_head": 0,
+    "source_reported_empirical_results": 0,
+    "source_reported_negative_results": 0,
+    "source_reported_conceptual_result_label": 1,
+    "benchmark_experiment_material": "SPECIFICATION_PLUS_IMPLEMENTATION_WITH_INTERFACE_DEFECTS",
+    "normal_generated_results_persisted_by_policy": "NOT_EXPECTED_RESULTS_JSON_CSV_AND_RESULTS_DIRECTORY_ARE_GITIGNORED"
+  },
+  "preserved_pressures": [
+    "CAUSAL_TRANSITION_CONDITION_VS_CONSTRAINT_TRANSITION_CONDITION_NOMENCLATURE",
+    "CAUSAL_TRANSITION_CONDITION_VS_CONSTRAINT_TRAJECTORY_COUPLING_NOMENCLATURE",
+    "CAUSAL_TRANSITION_CONDITION_VS_CAUSAL_PERMEABILITY_PRINCIPLE_NOMENCLATURE",
+    "CAUSAL_PERMEABILITY_RELATION_ASSERTION_VS_ENDPOINT_IDENTITY",
+    "MATHCAL_G_OBSERVABILITY_AND_IDENTITY",
+    "OMEGA_TO_DELTA_G_CAUSAL_IDENTIFICATION",
+    "WEAK_DERIVATIVE_VS_STRONG_CAUSAL_CTC",
+    "OPEN_ENDED_NOVELTY_INDEPENDENT_CRITERION",
+    "CONFIG_VS_RUNNER_PROTOCOL_DIVERGENCE",
+    "IMPLEMENTATION_API_DIVERGENCE",
+    "TREATMENT_ASSIGNMENT_VS_PERMEABILITY_MEASUREMENT",
+    "DETERMINISTIC_TREATMENT_CODED_MECHANISM_EXPANSION",
+    "SYNTHETIC_REMOVAL_AND_DEPENDENCY_EVALUATION",
+    "TEST_SOURCE_VS_TEST_EXECUTION",
+    "GITIGNORE_OUTPUT_POLICY_VS_EXECUTION_ABSENCE",
+    "PNG_EXTENSION_VS_UTF8_TEXT_BLOB"
+  ],
+  "relation_assertion_policy": "Source-level relation assertions to Causal Permeability are retained; semantic endpoint is not resolved to any corpus repository and no map edge is emitted.",
+  "execution_policy": "Implementation and tests are source artifacts only. No execution result is inferred from runnable-looking code, runtime print labels, placeholder/example data, or ignored output paths.",
+  "temporal_policy": "Current-head parse and developmental repository history remain separate.",
+  "map_edge_emission": "NONE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation_authorized": false
+}
