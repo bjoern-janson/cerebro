@@ -1,0 +1,27 @@
+{
+  "object":"CEREBRO_R20_COMPRESSION_V0.1_PART_C",
+  "repository_id":"R20",
+  "record_type":"loss-bounded test-source compression payload",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "schema":"[ITEM_ID,COORDINATE,STANDING,SOURCE_UNITS,CONTENT]",
+  "items":[
+    ["R20:C:TEST:INIT","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0296"],"Empty/minimal tests package initializer retained as admitted source."],
+    ["R20:C:TEST:AGENCY:IMPL","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0297"],"Pytest source for agency-transfer helper/metric behavior."],
+    ["R20:C:TEST:AGENCY:METHOD","METHODOLOGY_OR_TEST_PROTOCOL","METHODOLOGY_OR_TEST_PROTOCOL",["R20P0298"],"Deterministic assertions for prototype agency-transfer arithmetic/ordering."],
+    ["R20:C:TEST:AGENTS:IMPL","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0301"],"Pytest source for agent initialization/action/update behavior."],
+    ["R20:C:TEST:AGENTS:METHOD","METHODOLOGY_OR_TEST_PROTOCOL","METHODOLOGY_OR_TEST_PROTOCOL",["R20P0302"],"Small deterministic API/state assertions for agent classes."],
+    ["R20:C:TEST:INTEG:IMPL","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0305"],"Integration-style test source combining selected prototype components."],
+    ["R20:C:TEST:INTEG:METHOD","METHODOLOGY_OR_TEST_PROTOCOL","METHODOLOGY_OR_TEST_PROTOCOL",["R20P0306"],"Assertions for selected component data-flow/compatibility."],
+    ["R20:C:TEST:MODEL:IMPL","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0309"],"Pytest source for BeliefState/CognitiveModel/compression/update primitives."],
+    ["R20:C:TEST:MODEL:METHOD","METHODOLOGY_OR_TEST_PROTOCOL","METHODOLOGY_OR_TEST_PROTOCOL",["R20P0310","R20P0311"],"Assertions for fixed confidence updates, state operations and simple model/compression/update arithmetic."],
+    ["R20:C:TEST:PERM:IMPL","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0314"],"Pytest source for permeability-transition helper calculations."],
+    ["R20:C:TEST:PERM:METHOD","METHODOLOGY_OR_TEST_PROTOCOL","METHODOLOGY_OR_TEST_PROTOCOL",["R20P0315"],"Controlled toy assertions for coupling/permeability/revision metrics."],
+    ["R20:C:TEST:REWARD:IMPL","IMPLEMENTATIONS","EXECUTABLE_IMPLEMENTATION",["R20P0318"],"Pytest source for agency/ancestor/dependency reward and reward-tracker arithmetic."],
+    ["R20:C:TEST:REWARD:METHOD","METHODOLOGY_OR_TEST_PROTOCOL","METHODOLOGY_OR_TEST_PROTOCOL",["R20P0319"],"Assertions for weighted reward calculations on supplied proxy inputs."]
+  ],
+  "item_count":13,
+  "reported_results":[],
+  "negative_results":[],
+  "authority_effect":"NONE",
+  "map_edge_emission":"NONE"
+}
