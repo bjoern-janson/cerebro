@@ -1,0 +1,34 @@
+{
+  "object":"CEREBRO_R26_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "repository_id":"R26",
+  "frozen_head_commit":"09abf2ee64bcf4488ba4e093162405c516422d37",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "effective_parse":"R26_EXHAUSTIVE_PARSE_V0.1 + R26_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1 verdict",
+  "compression_parts":["R26_COMPRESSION_V0.1_PART_A.json","R26_COMPRESSION_V0.1_PART_B.json","R26_COMPRESSION_V0.1_PART_C.json"],
+  "ledger_representation":"MATERIALIZED_BY_EXACT_SOURCE_UNITS_ARRAYS",
+  "primary_ownership_rule":"For every compression item in Parts A-C, its frozen SOURCE_UNITS array is the exact set of effective parse units for which that item is the one and only primary compression owner.",
+  "expected_effective_parse_id_sets":["R26P0001-R26P0273","R26U0001-R26U0086"],
+  "enumerated_compression_item_counts":{"part_a":33,"part_b":36,"part_c":27,"total":96},
+  "validation":{
+    "effective_parse_units":359,
+    "primary_projection_entries":359,
+    "primary_compressed_items":96,
+    "union_of_all_source_units_equals_effective_parse_set":true,
+    "pairwise_source_units_intersections_empty":true,
+    "unmapped_parse_units":0,
+    "duplicate_primary_owners":0,
+    "extra_projection_units":0,
+    "projection_completeness":"COMPLETE_BY_EXACT_PARSE_UNIT_ID"
+  },
+  "candidate_header_defect_note":"Part B and Part C declared item_count metadata is incorrect (34 vs 36; 26 vs 27), but ownership is determined from enumerated item objects and their exact SOURCE_UNITS arrays. No source-unit owner depends on the defective header fields.",
+  "reconstruction_procedure":[
+    "Read the effective parse IDs from the three R26 parse payloads.",
+    "Read every enumerated compression item from Parts A-C.",
+    "For each item, emit one projection pair for every ID in its SOURCE_UNITS array.",
+    "Sort by parse-unit ID; the result is 359 primary projection entries spanning exactly R26P0001-R26P0273 and R26U0001-R26U0086 once each."
+  ],
+  "warrant_independence_status":"NOT_ESTABLISHED",
+  "warrant_multiplicity_effect":"NONE",
+  "map_edge_emission":"NONE",
+  "authority_effect":"NONE"
+}
