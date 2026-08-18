@@ -1,0 +1,68 @@
+{
+  "object": "CEREBRO_R21_COMPRESSION_V0.1",
+  "repository_id": "R21",
+  "repository": "bjoern-janson/grounded-recursive-adaptation",
+  "frozen_head_commit": "4d7365abe174c595473c02497394a2d8b47ab99c",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "effective_parse_units": 420,
+  "parts": [
+    "R21_COMPRESSION_V0.1_PART_A.json",
+    "R21_COMPRESSION_V0.1_PART_B.json",
+    "R21_COMPRESSION_V0.1_PART_C.json",
+    "R21_COMPRESSION_V0.1_PART_D.json",
+    "R21_COMPRESSION_V0.1_PART_E.json",
+    "R21_COMPRESSION_V0.1_PART_F.json"
+  ],
+  "primary_item_count": 140,
+  "grouping_rule": "Same frozen source path plus same semantic standing only; no cross-file semantic collapse.",
+  "standing_policy": "Standing-pure grouping. Predictions, methodology, formalism, definitions, relation assertions, source status, applications, comparisons and unresolved fragments remain distinct.",
+  "secondary_audits": [
+    {
+      "audit": "THETA_FORMAL_VARIANT",
+      "authority": "NONE",
+      "content": "Three-factor DSP and four-factor DSPV Theta forms are distinct frozen source variants; no supersession/equivalence inferred."
+    },
+    {
+      "audit": "CONSTRUCT_VALIDITY",
+      "authority": "NONE",
+      "content": "Mutual information, correlation, KL divergence, Gamma, products and thresholds are proposed operationalizations; validated identification/calibration is not established."
+    },
+    {
+      "audit": "NAMESPACE_DIMENSIONAL",
+      "authority": "NONE",
+      "content": "C/A/K and related symbols vary by local role; DeltaOmega<=C and Theta_ext*Theta_int lack established common scales."
+    },
+    {
+      "audit": "RELATION_ENDPOINT",
+      "authority": "NONE",
+      "content": "Source relations to Ancestor Intelligence/Adaptive Intelligence Loop are preserved; endpoint repository identity is unresolved and no corpus edge is emitted."
+    },
+    {
+      "audit": "RECURRENCE",
+      "authority": "NONE",
+      "content": "Repeated equations and claims across one repository retain occurrence provenance but do not create independent warrant."
+    },
+    {
+      "audit": "EXPERIMENTAL_STANDING",
+      "authority": "NONE",
+      "content": "Benchmark, experiment, measurement and falsification surfaces are specification/method/prediction only; no frozen implementation, run, result or negative-result artifact exists."
+    }
+  ],
+  "bounded_absence": {
+    "aperture": "25 frozen-head Markdown blobs",
+    "implementation_paths": 0,
+    "data_paths": 0,
+    "test_paths": 0,
+    "execution_record_paths": 0,
+    "result_paths": 0,
+    "plot_paths": 0,
+    "scope_note": "Does not assert no off-repository execution ever occurred."
+  },
+  "temporal_provenance": "Inherited from R21_SOURCE_SURFACE_V0.1 developmental-history view; current-head compression does not absorb historical content.",
+  "reported_empirical_results": [],
+  "reported_negative_results": [],
+  "map_edge_emission": "NONE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation_authorized": false
+}
