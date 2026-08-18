@@ -1,0 +1,34 @@
+{
+  "object": "CEREBRO_R02_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "record_type": "frozen mixed-standing parse overlay",
+  "persistent_record_state": "FROZEN",
+  "base_parse": "program/research_object_compression/R02_EXHAUSTIVE_PARSE_V0.1.json",
+  "trigger": "program/research_object_compression/R02_COMPRESSION_TRANSPORT_DEATH_TEST_V0.1.md",
+  "contract_amendment": "program/research_object_compression/EXHAUSTIVE_RESEARCH_OBJECT_PARSE_V0.1_AMENDMENT_001.md",
+  "overlay_semantics": "Replace the single effective semantic standing of R02:P:BENCH:LIMIT:KERNEL_FAILURE with the two source-coincident parse units below. The frozen base unit remains historical but is superseded for effective parse projection.",
+  "superseded_base_parse_units": ["R02:P:BENCH:LIMIT:KERNEL_FAILURE"],
+  "replacement_parse_units": [
+    {
+      "parse_unit_id": "R02:P:BENCH:KERNEL:FAILED_TEST",
+      "source_path": "BENCHMARKS.md",
+      "source_blob": "738091c92cd9ae41f244e9e1d5721ef299991787",
+      "source_section_path": "BENCHMARKS.md > Methodological Notes & Limitations > The Kernel Trick",
+      "unit_kind": "REPORTED_NEGATIVE_RESULT_OR_FAILED_TEST",
+      "normalized_content": "A simulated RBF-kernel test failed due to environment constraints.",
+      "disposition": "PARSED_REPRESENTATION"
+    },
+    {
+      "parse_unit_id": "R02:P:BENCH:KERNEL:CONCEPTUAL_ALIGNMENT",
+      "source_path": "BENCHMARKS.md",
+      "source_blob": "738091c92cd9ae41f244e9e1d5721ef299991787",
+      "source_section_path": "BENCHMARKS.md > Methodological Notes & Limitations > The Kernel Trick",
+      "unit_kind": "SOURCE_ASSERTION_CONCEPTUAL_ALIGNMENT",
+      "normalized_content": "The source separately states that the conceptual alignment still holds and describes the higher-dimensional mapping as a geometric intervention.",
+      "disposition": "PARSED_REPRESENTATION"
+    }
+  ],
+  "same_source_location_independence": "NOT_INFERRED",
+  "new_semantic_ontology": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
