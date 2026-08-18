@@ -1,0 +1,16 @@
+{
+  "object":"CEREBRO_R16_COMPRESSION_V0.1_CONFORMANCE_001",
+  "record_type":"pre-projection inherited-contract conformance overlay",
+  "persistent_record_state":"FROZEN",
+  "base_compression":"program/research_object_compression/R16_COMPRESSION_V0.1.json",
+  "added_items":[
+    {"id":"R16:ARCH:EXPERIMENT_SYSTEMS","coordinate":"FORMAL_STRUCTURES","standing":"ARCHITECTURE_OR_PROTOCOL_PROPOSAL","content":"Standing-pure indexed destination for environment/agent/capability/simulator architecture proposals and causal-design structures distinct from executable implementation and method execution."},
+    {"id":"R16:INTERP:NONRESULT","coordinate":"APPLICATIONS_OR_EXAMPLES","standing":"SOURCE_INTERPRETATION","content":"Standing-pure source interpretations not attached to a reported result, including meanings of R/Omega/C/A and conceptual descriptions of what variables measure."},
+    {"id":"R16:REF:INTERNAL_RELATED","coordinate":"INTERNAL_REFERENCES","standing":"INTERNAL_REFERENCE","content":"Standing-pure internal/reference-list occurrences naming related concepts without making an explicit relational claim or resolving an endpoint."}
+  ],
+  "new_global_parser_role":"NONE",
+  "new_top_level_compression_coordinate":"NONE",
+  "amendment_005":"NOT_EARNED",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE"
+}
