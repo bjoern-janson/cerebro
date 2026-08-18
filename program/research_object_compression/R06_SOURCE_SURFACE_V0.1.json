@@ -1,0 +1,39 @@
+{
+  "object": "CEREBRO_R06_SOURCE_SURFACE_V0.1",
+  "record_type": "frozen full recursive repository source surface",
+  "persistent_record_state": "FROZEN",
+  "repository_id": "R06",
+  "repository": "bjoern-janson/representation-elasticity",
+  "frozen_head_commit": "06ac3e74e5c3cff3221a597f4caf82478598b884",
+  "frozen_head_tree": "7ab31e76d41fdc33c5b04fadbf77cd8f7b6d9c64",
+  "tree_truncated": false,
+  "inventory": {
+    "total_blobs": 7,
+    "research_bearing_blobs": 6,
+    "excluded_non_research_blobs": 1,
+    "markdown_blobs": 6,
+    "python_blobs": 0,
+    "notebook_blobs": 0
+  },
+  "paths": [
+    {"path":"01_Core_Theory.md","blob":"c53190a2f044c194a6c25c24cb436741b6022403","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"02_Representation_Elasticity.md","blob":"5300dae4d29a83f8f9467b6cb593302f8a860f40","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"03_Mathematical_Formalization.md","blob":"5f2dc22a34629262633deea648457bb3dd159ae4","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"04_Benchmark_Design.md","blob":"252cf312c516d6d3aa7e82a49b274337a70096a0","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"FORMALIZATION.md","blob":"a27e0eb2334c88e61cb143487d16da2ae87c73c6","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"},
+    {"path":"LICENSE","blob":"af602b2e8e83970d54a4a588e0fbdd14768cb691","disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"legal metadata"},
+    {"path":"README.md","blob":"56684cd97824573c6bcaf30d84f98164373bcf28","disposition":"PARSE_INCLUDED","source_format":"MARKDOWN"}
+  ],
+  "coverage_claim": "EXHAUSTIVE_RELATIVE_TO_FROZEN_RECURSIVE_HEAD_INVENTORY",
+  "source_surface_complete": true,
+  "aperture_absence_dispositions": [
+    "NO_EXECUTABLE_SOURCE_BLOBS_ON_FROZEN_HEAD",
+    "NO_NOTEBOOK_BLOBS_ON_FROZEN_HEAD",
+    "NO_RECORDED_EXECUTION_ARTIFACTS_ON_FROZEN_HEAD"
+  ],
+  "absence_scope": "FROZEN_REPOSITORY_HEAD_ONLY",
+  "map_edge_emission": "NONE",
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE",
+  "cerebro_step_2_reopened": false
+}
