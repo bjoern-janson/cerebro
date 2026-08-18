@@ -1,0 +1,44 @@
+{
+  "object": "CEREBRO_R01_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "record_type": "complete parse-to-compression projection ledger",
+  "persistent_record_state": "FROZEN",
+  "effective_parse": [
+    "program/research_object_compression/R01_EXHAUSTIVE_PARSE_V0.1.json"
+  ],
+  "effective_compression": [
+    "program/research_object_compression/R01_COMPRESSION_V0.1.json",
+    "program/research_object_compression/R01_COMPRESSION_V0.1_AMENDMENT_001.json",
+    "program/research_object_compression/R01_COMPRESSION_V0.1_AMENDMENT_002.json"
+  ],
+  "projection_entries": [
+    {"parse_unit_id":"R01:P:README:TITLE","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"identity.title"},
+    {"parse_unit_id":"R01:P:README:PURPOSE","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:SCOPE:01"},
+    {"parse_unit_id":"R01:P:README:ABSTRACT:TRACTABILITY","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:HYP:TRACTABILITY_RELATIONAL"},
+    {"parse_unit_id":"R01:P:README:ABSTRACT:PROGRESS","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:HYP:INTERFACE_PROGRESS_README"},
+    {"parse_unit_id":"R01:P:README:CORE_MODEL:TASK","disposition":"LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","destination":"R01:DEF:TASK","provenance_branch":"R01_COMPRESSION_V0.1_AMENDMENT_002"},
+    {"parse_unit_id":"R01:P:README:CORE_MODEL:INTERFACE","disposition":"LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","destination":"R01:DEF:INTERFACE","provenance_branch":"R01_COMPRESSION_V0.1_AMENDMENT_002"},
+    {"parse_unit_id":"R01:P:README:CORE_MODEL:ARCHITECTURE","disposition":"LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","destination":"R01:DEF:ARCHITECTURE","provenance_branch":"R01_COMPRESSION_V0.1_AMENDMENT_002"},
+    {"parse_unit_id":"R01:P:README:CORE_MODEL:REACHABILITY","disposition":"LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM","destination":"R01:FORMAL:REACHABILITY","provenance_branch":"R01_COMPRESSION_V0.1_AMENDMENT_002"},
+    {"parse_unit_id":"R01:P:README:REF:FORMALISM","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:REF:README_TO_FORMALISM"},
+    {"parse_unit_id":"R01:P:README:APPLICATIONS","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:APP:DOMAINS"},
+    {"parse_unit_id":"R01:P:README:EXAMPLES","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:APP:EXAMPLES"},
+    {"parse_unit_id":"R01:P:README:STATUS","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:STATUS:01"},
+    {"parse_unit_id":"R01:P:README:LICENSE_NOTE","disposition":"EXPLICIT_COMPRESSION_EXCLUSION","reason":"LEGAL_NON_RESEARCH_METADATA"},
+    {"parse_unit_id":"R01:P:FORMALISM:TITLE","disposition":"EXPLICIT_COMPRESSION_EXCLUSION","reason":"DOCUMENT_LOCAL_NAVIGATION_TITLE; file identity preserved by source surface"},
+    {"parse_unit_id":"R01:P:FORMALISM:TASK","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:DEF:TASK"},
+    {"parse_unit_id":"R01:P:FORMALISM:INTERFACE","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:DEF:INTERFACE"},
+    {"parse_unit_id":"R01:P:FORMALISM:ARCHITECTURE","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:DEF:ARCHITECTURE"},
+    {"parse_unit_id":"R01:P:FORMALISM:EXECUTOR","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:DEF:EXECUTOR"},
+    {"parse_unit_id":"R01:P:FORMALISM:COST","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:FORMAL:COST"},
+    {"parse_unit_id":"R01:P:FORMALISM:REACHABILITY","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:FORMAL:REACHABILITY"},
+    {"parse_unit_id":"R01:P:FORMALISM:HYPOTHESIS","disposition":"DIRECT_TO_COMPRESSION_ITEM","destination":"R01:HYP:INTERFACE_PROGRESS_FORMALISM"}
+  ],
+  "effective_parse_unit_count": 21,
+  "projection_entry_count": 21,
+  "unmapped_parse_units": [],
+  "compression_failures": [],
+  "unresolved_at_compression": [],
+  "projection_complete": true,
+  "map_authority_effect": "NONE",
+  "scientific_authority_effect": "NONE"
+}
