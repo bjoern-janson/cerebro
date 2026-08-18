@@ -1,0 +1,46 @@
+{
+  "object":"CEREBRO_R20_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "record_type":"explicit parse-to-compression projection ledger by immutable payload materialization",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository_id":"R20",
+  "effective_parse":"R20_EXHAUSTIVE_PARSE_V0.1 + R20_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "effective_parse_units":289,
+  "projection_payloads":[
+    {"path":"program/research_object_compression/R20_COMPRESSION_V0.1_PART_A.json","items":123,"source_unit_role":"PRIMARY_OWNERSHIP_ARRAY"},
+    {"path":"program/research_object_compression/R20_COMPRESSION_V0.1_PART_B.json","items":55,"source_unit_role":"PRIMARY_OWNERSHIP_ARRAY"},
+    {"path":"program/research_object_compression/R20_COMPRESSION_V0.1_PART_C.json","items":13,"source_unit_role":"PRIMARY_OWNERSHIP_ARRAY"}
+  ],
+  "materialization_rule":{
+    "record":"For every compression item I, every unit u listed in I.SOURCE_UNITS has exactly one primary destination I.",
+    "destination":"I.ITEM_ID",
+    "disposition":"If I.STANDING=UNRESOLVED_SOURCE_FRAGMENT then UNRESOLVED_AT_COMPRESSION; else if |I.SOURCE_UNITS|=1 then DIRECT_TO_COMPRESSION_ITEM; else LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM.",
+    "secondary_views":"Audit/absence/history views are not primary dispositions and cite no parse unit as a second primary owner."
+  },
+  "effective_primary_unit_set":{
+    "parsed_base_range":"R20P0001-R20P0321",
+    "parsed_demotions":[
+      "R20P0143","R20P0150","R20P0155","R20P0160","R20P0165","R20P0168","R20P0172","R20P0176","R20P0179","R20P0184","R20P0187","R20P0190","R20P0191","R20P0195","R20P0198","R20P0201","R20P0202","R20P0205","R20P0209","R20P0212","R20P0216","R20P0220","R20P0225","R20P0229","R20P0232","R20P0236","R20P0239","R20P0242","R20P0244","R20P0247","R20P0251","R20P0255","R20P0259","R20P0263","R20P0268","R20P0271","R20P0274","R20P0275","R20P0277","R20P0280","R20P0281","R20P0285","R20P0288","R20P0291","R20P0294","R20P0295","R20P0299","R20P0300","R20P0303","R20P0304","R20P0307","R20P0308","R20P0312","R20P0313","R20P0316","R20P0317","R20P0320","R20P0321"
+    ],
+    "parsed_additions":["R20P0322","R20P0323"],
+    "effective_parsed_count":265,
+    "unresolved_base_range":"R20U0001-R20U0066",
+    "unresolved_demotions":[
+      "R20U0008","R20U0009","R20U0010","R20U0013","R20U0015","R20U0023","R20U0024","R20U0025","R20U0026","R20U0027","R20U0029","R20U0030","R20U0032","R20U0033","R20U0035","R20U0036","R20U0037","R20U0039","R20U0040","R20U0041","R20U0042","R20U0044","R20U0045","R20U0046","R20U0048","R20U0049","R20U0050","R20U0051","R20U0052","R20U0053","R20U0054","R20U0055","R20U0056","R20U0058","R20U0059","R20U0060","R20U0061","R20U0062","R20U0063","R20U0064","R20U0065","R20U0066"
+    ],
+    "effective_unresolved_count":24
+  },
+  "projection_accounting":{
+    "primary_compressed_items":191,
+    "primary_projection_entries":289,
+    "unmapped_parse_units":0,
+    "duplicate_primary_owners":0,
+    "projection_completeness":"COMPLETE_BY_EFFECTIVE_ID_SET_AND_PAYLOAD_SOURCE_UNIT_ARRAYS"
+  },
+  "standing_preservation":"NOT_YET_ESTABLISHED_PENDING_COMPRESSION_DEATH_TEST",
+  "source_locator_policy":"Source-unit IDs resolve through the effective exhaustive parse to immutable repository/commit/path/blob/section provenance.",
+  "occurrence_policy":"Multiple parse units within a destination are semantic/source occurrences only; warrant independence is NOT_ESTABLISHED and multiplicity effect NONE unless separately warranted. R20 establishes no independent-warrant upgrade.",
+  "map_edge_emission":"NONE",
+  "scientific_authority_effect":"NONE",
+  "propagation_authorized":false,
+  "r21_parse_access_opened":false
+}
