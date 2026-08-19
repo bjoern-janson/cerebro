@@ -1,0 +1,18 @@
+{
+  "object":"R42_SOURCE_SURFACE_V0.1",
+  "repository":"bjoern-janson/future-sufficiency",
+  "program_map_node":"R42",
+  "default_branch":"main",
+  "frozen_head":"2f4ca824e02b89df0c23d64de312c4f93a4c8a41",
+  "frozen_root_tree":"c22b9ee60d0142b419cd01509d1c968cebf972fe",
+  "state":"FROZEN",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "tree_traversal":{"mode":"IMMUTABLE_RECURSIVE_TREE_SHA_WALK","root_tree":"c22b9ee60d0142b419cd01509d1c968cebf972fe","tree_response_truncated":false,"unexplored_child_trees":0},
+  "path_disposition_rule":{"PARSE_EXCLUDED_BY_FROZEN_SCOPE":[{"path":".gitignore","reason":"VCS_IGNORE_CONFIGURATION"},{"path":"LICENSE","reason":"LEGAL_LICENSE_TEXT"},{"path":"CITATION.cff","reason":"CITATION_METADATA_NON_RESEARCH"}],"PARSE_INCLUDED":"every other blob enumerated by the immutable recursive tree, including top-level research documents, audits/**/*.md, audits/**/*.py, audits/**/*.json, experiments/**/*.md, experiments/**/*.py, and experiments/**/*.json"},
+  "coverage_semantics":"The immutable recursive tree is the exact exhaustive path ledger. Every blob is disposed by the rule above; no path may be silently ignored. Research-bearing semantic parsing is aperture-relative to this frozen tree.",
+  "execution_provenance":{"github_workflow_runs_at_frozen_head":0,"interpretation":"No GitHub Actions run was retrieved for the frozen HEAD. This does not erase source-local execution-provenance records stored in the tree and does not prove no historical execution occurred."},
+  "standing_boundaries":["planned test != preregistration != implementation != execution provenance != persisted result != audit interpretation != consolidation","later consolidation != retroactive strengthening of earlier result","development inventory != target selection","conceptual bridge != causal derivation","methodological principle != universal empirical law","source-reported relation != endpoint identity != Cerebro edge"],
+  "absence_rule":"not extracted != does not exist outside the frozen aperture"
+}
