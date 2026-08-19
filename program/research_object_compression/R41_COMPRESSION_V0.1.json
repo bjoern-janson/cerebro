@@ -1,0 +1,22 @@
+{
+  "object":"R41_COMPRESSION_V0.1",
+  "repository":"bjoern-janson/tevpp",
+  "program_map_node":"R41",
+  "frozen_head":"6b38882224bf8d3cd11b237eb6d3caf0718accdc",
+  "source_surface":"R41_SOURCE_SURFACE_V0.1.json",
+  "parse_manifest":"R41_EXHAUSTIVE_PARSE_V0.1.json",
+  "projection_ledger":"R41_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "compression_rule":"source-local × source-standing-pure; one item per (source path/source surface, source standing); no item crosses standing",
+  "counts":{"parse_units":49,"compressed_items":25,"direct_singleton_items":15,"loss_bounded_group_items":10,"standing_mixed_items":0},
+  "multiplicity_rule":{"WARRANT_INDEPENDENCE_STATUS":"NOT_ESTABLISHED","WARRANT_MULTIPLICITY_EFFECT":"NONE"},
+  "canonical_compression_item_set_sha256":"e2c036a90264fd1524a4353e8ae09e5fe6074e1ba975b953a4668a7176432cee",
+  "canonical_hash_semantics":"SHA-256 of canonical UTF-8 JSON over the fully materialized ordered compression-item objects; object keys sorted, compact separators, Unicode preserved.",
+  "parts":[
+    {"path":"R41_COMPRESSION_V0.1_PART_A.json","item_count":13,"canonical_object_sha256":"288666f9252ef28f07d406426e5ada608c7b8be80ff32b5e52c7df6857a33ed4","first_item":"R41-C0001","last_item":"R41-C0013"},
+    {"path":"R41_COMPRESSION_V0.1_PART_B.json","item_count":12,"canonical_object_sha256":"31dc2b2283c1939cabe19e3953a7651ccdbf286764c2e930abc4ea5456013c1c","first_item":"R41-C0014","last_item":"R41-C0025"}
+  ]
+}
