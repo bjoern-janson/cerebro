@@ -1,0 +1,29 @@
+{
+  "object":"CEREBRO_R32_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1_AMENDMENT_001",
+  "persistent_record_state":"FROZEN",
+  "repository":"bjoern-janson/arc-reactor",
+  "frozen_head":"16e6972de4f9c5dfb2039baa88d520a41ea7e613",
+  "parent_ledger":"program/research_object_compression/R32_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "repair_class":"PROJECTION_DISPOSITION_ONLY",
+  "reason":"Frozen projection contract requires effective parse units with unresolved standing/disposition to use UNRESOLVED_AT_COMPRESSION rather than DIRECT_TO_COMPRESSION_ITEM.",
+  "affected_parse_units":["R32P0007","R32P0014","R32P0018","R32P0027","R32P0029","R32P0033","R32P0035","R32P0037","R32P0039","R32P0041","R32P0045","R32P0053","R32P0058","R32P0069"],
+  "changes":{
+    "primary_disposition":"DIRECT_TO_COMPRESSION_ITEM -> UNRESOLVED_AT_COMPRESSION",
+    "direct_projection_entries":"83 -> 69",
+    "unresolved_at_compression_entries":"0 -> 14"
+  },
+  "unchanged":{
+    "primary_projection_entries":83,
+    "effective_compressed_items":83,
+    "unmapped_parse_units":0,
+    "duplicate_primary_owners":0,
+    "canonical_owner_map_sha256":"caba827dea200d32ddd2eb4bad3386efc8ca1384b75f137fc62ba6d89b4d4247",
+    "semantic_unit_change":"NONE",
+    "compression_payload_change":"NONE",
+    "source_coordinate_change":"NONE",
+    "standing_change":"NONE"
+  },
+  "amendment_005":"NOT_EARNED",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE"
+}
