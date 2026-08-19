@@ -1,0 +1,51 @@
+{
+  "object":"CEREBRO_R36_EXHAUSTIVE_PARSE_V0.1_MANIFEST",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/controlled-adaptation-thesis",
+  "frozen_head":"040113221b04ccc86e74e568b769b7927ff9a376",
+  "frozen_root_tree":"a1a77bdc3ef16f602a82fff608b1d2d26a1e3637",
+  "source_surface":"program/research_object_compression/R36_SOURCE_SURFACE_V0.1.json",
+  "parts":[
+    {"artifact":"R36_EXHAUSTIVE_PARSE_V0.1_PART_A.json","ids":"R36P0001-R36P0053","units":53,"paths":1},
+    {"artifact":"R36_EXHAUSTIVE_PARSE_V0.1_PART_B.json","ids":"R36P0054-R36P0103","units":50,"paths":3},
+    {"artifact":"R36_EXHAUSTIVE_PARSE_V0.1_PART_C.json","ids":"R36P0104-R36P0139","units":36,"paths":6}
+  ],
+  "accounting":{
+    "total_blob_paths":11,
+    "admitted_source_paths":10,
+    "scope_excluded_paths":1,
+    "effective_parse_units":139,
+    "parsed_representations":135,
+    "explicitly_unresolved":4,
+    "parser_failures":0,
+    "admitted_paths_without_primary_unit":0,
+    "duplicate_unit_ids":0
+  },
+  "unresolved_units":[
+    {"id":"R36P0118","class":"EXTERNAL_REFERENT_PRIMARY_ARTIFACT_ABSENT","referent":"Causal Mass"},
+    {"id":"R36P0120","class":"EXTERNAL_REFERENT_PRIMARY_ARTIFACT_ABSENT","referent":"Consequence-to-Authority Bridge v0.1"},
+    {"id":"R36P0123","class":"EXTERNAL_PREREGISTRATION_PRIMARY_ARTIFACT_ABSENT","referent":"Constitutional Continual Adaptation Benchmark v0.1"},
+    {"id":"R36P0126","class":"SOURCE_REPORTED_LOCAL_RESULT_PRIMARY_ARTIFACT_ABSENT","referent":"Self-governance event"}
+  ],
+  "freeze_boundary":{
+    "declared_freeze_commit":"91ffe403879607d40a5e9c8babed1c5016ba0eba",
+    "post_freeze_commit_count":1,
+    "frozen_core_changed_paths":0,
+    "core_paths":["THESIS.md","docs/ARCHITECTURE.md","docs/BENCHMARK.md","docs/GOVERNANCE.md"]
+  },
+  "standing_invariants":[
+    "FROZEN_CORE != POST_FREEZE_METADATA",
+    "CANDIDATE_THEORY != EMPIRICALLY_VALIDATED_THEORY",
+    "CAUSAL_ARCHITECTURE_PROPOSAL != DEMONSTRATED_CAUSAL_DECOMPOSITION",
+    "BENCHMARK_CONCEPT != IMPLEMENTATION != EXECUTION != RESULT",
+    "SOURCE_REPORTED_EXTERNAL_REFERENT != RESOLVED_ENDPOINT_IDENTITY",
+    "SOURCE_REPORTED_RESULT != PRIMARY_EXECUTION_ARTIFACT",
+    "CONCEPTUAL_LINEAGE != AUTHORITY_INHERITANCE",
+    "EPISTEMIC_AUTHORITY != OPERATIONAL_AUTHORITY != ARBITRATION_AUTHORITY",
+    "SUPPORT != FAILURE != BREAK",
+    "CHRONOLOGICAL_SUCCESSION != SEMANTIC_EDGE"
+  ],
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO"
+}
