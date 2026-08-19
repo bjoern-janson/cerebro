@@ -1,0 +1,53 @@
+{
+  "object": "R40_EXHAUSTIVE_PARSE_V0.1",
+  "repository": "bjoern-janson/correction-capable-adaptation",
+  "program_map_node": "R40",
+  "frozen_head": "b0aa3a2a65d08b7349f9c45228a861b36cc654c8",
+  "frozen_root_tree": "ce8edb73c76d19bc5bb9343594a28205a89abd08",
+  "source_surface": "R40_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation": "NO",
+  "coverage": {
+    "total_frozen_blobs": 43,
+    "admitted_source_paths": 41,
+    "scope_excluded_paths": 2,
+    "represented_source_paths": 41,
+    "base_path_units": 41,
+    "source_local_semantic_split_units": 93,
+    "parse_units": 134,
+    "represented_units": 134,
+    "explicitly_unresolved_units": 0,
+    "parser_failures": 0,
+    "unenumerated_paths": 0
+  },
+  "representation_contract": {
+    "base_path_units": "R40-U0001..R40-U0041 each identify one admitted source occurrence at repository + immutable head + path; exact text is reconstructible from the frozen blob.",
+    "semantic_split_units": "R40-U0042..R40-U0134 preserve high-risk source-local distinctions in standing/status including methodology/result, role/result, implementation/execution, invalid-attempt/result, diagnosis/result, and current-authority/permanent-truth boundaries.",
+    "mixed_standing_rule": "Multiple semantic units at one source location are not independent sources or warrants.",
+    "absence_rule": "not extracted != does not exist outside aperture"
+  },
+  "execution_provenance": {
+    "workflow_runs_at_frozen_head": 0,
+    "combined_status_records_at_frozen_head": 0,
+    "interpretation": "No GitHub workflow/status record was retrieved for the frozen head. This is not proof that no code or tests were ever executed elsewhere or historically.",
+    "source_tree_workflow_directory": "ABSENT",
+    "temporal_history_retrieval": "INCOMPLETE_CONNECTOR_SURFACE; do not infer zero commits or complete chronology from the failed/empty history query."
+  },
+  "standing_contract": {
+    "source_methodological_authority": "May govern the source research program as authored; does not become empirical/scientific law in Cerebro.",
+    "source_reported_result": "Preserved under its source provenance ceiling unless independent execution evidence separately identifies the run.",
+    "implementation_test_boundary": "implementation != test source != execution record != scientific result",
+    "relation_boundary": "source reference != endpoint identity != resolved Cerebro edge != composition != authority"
+  },
+  "canonical_logical_unit_set_sha256": "35553a1c1044db8cc70f34a63994f47b0f74680965623ae80a0574f29f2a9542",
+  "canonical_hash_semantics": "SHA-256 of canonical UTF-8 JSON over the fully materialized ordered logical unit list; object keys sorted, compact separators, Unicode preserved.",
+  "shards": [
+    {"path":"R40_EXHAUSTIVE_PARSE_V0.1_SHARD_01.json","logical_unit_count":21,"canonical_object_sha256":"a7e4eb4792a0fe6de5053ae8249e46d54c93dd7612b9a8c31acae4fb68dba84d","first_unit":"R40-U0001","last_unit":"R40-U0021"},
+    {"path":"R40_EXHAUSTIVE_PARSE_V0.1_SHARD_02.json","logical_unit_count":20,"canonical_object_sha256":"095c4a23f79260a58d699dc67eacb06c88119313ab6288283bf8df815eef3f84","first_unit":"R40-U0022","last_unit":"R40-U0041"},
+    {"path":"R40_EXHAUSTIVE_PARSE_V0.1_SHARD_03.json","logical_unit_count":31,"canonical_object_sha256":"feb570d2819daa5932bbe5cee1ea009a7d36a98325c9397a2301d989370aead6","first_unit":"R40-U0042","last_unit":"R40-U0072"},
+    {"path":"R40_EXHAUSTIVE_PARSE_V0.1_SHARD_04.json","logical_unit_count":31,"canonical_object_sha256":"c3be2c8e683c485aa947416ada43788e0585e8c6f7503c92a0a977262cdb7100","first_unit":"R40-U0073","last_unit":"R40-U0103"},
+    {"path":"R40_EXHAUSTIVE_PARSE_V0.1_SHARD_05.json","logical_unit_count":31,"canonical_object_sha256":"61e42e0bbc6b312c9cc0a8567ce29b5c37c5d1d22f1d43535d4aa2f44468b837","first_unit":"R40-U0104","last_unit":"R40-U0134"}
+  ]
+}
