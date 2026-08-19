@@ -1,0 +1,37 @@
+{
+  "object": "R41_SOURCE_SURFACE_V0.1",
+  "repository": "bjoern-janson/tevpp",
+  "program_map_node": "R41",
+  "frozen_research_head": "6b38882224bf8d3cd11b237eb6d3caf0718accdc",
+  "frozen_root_tree": "8042216be720d61347bd6276dcd9afc736da95c5",
+  "frozen_parent_commit": "0e32bf99b3082539855a02f94bbf542501ec782d",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation": "NO",
+  "aperture": {
+    "mode": "IMMUTABLE_USER_RESEARCH_COMMIT_DELTA_PLUS_AUXILIARY_EXECUTION_CONTROL",
+    "governing_delta": "0e32bf99b3082539855a02f94bbf542501ec782d..6b38882224bf8d3cd11b237eb6d3caf0718accdc",
+    "commit_message": "add inspectable measurement lineage",
+    "commit_timestamp_utc": "2026-08-12T18:59:48Z",
+    "delta_stats": {"changed_paths": 7, "additions": 622, "deletions": 5},
+    "full_tree_enumeration": {"root_tree": "8042216be720d61347bd6276dcd9afc736da95c5", "recursive_tree_response_truncated": false},
+    "inherited_surface_disposition": "All frozen-head paths not changed by the governing commit are EXCLUDED_BY_FROZEN_SCOPE as inherited upstream content, except the workflow control file explicitly re-admitted below.",
+    "exhaustiveness_claim": "COMPLETE_FOR_FROZEN_LOCAL_RESEARCH_DELTA_APERTURE; not a claim of full upstream tev semantic ingestion."
+  },
+  "admitted_source_surfaces": [
+    {"path":"CMakeLists.txt","blob":"dae85ed688e5514edeb21f71934762a0fb6c3d8d","role":"USER_RESEARCH_COMMIT_DELTA"},
+    {"path":"README.md","blob":"c1fc655e583e3f00d39d6ba3d28dedf24b1ab07d","role":"USER_RESEARCH_COMMIT_DELTA"},
+    {"path":"include/tev/ImageCanvas.h","blob":"5b8cca354b1ac42f1c9cd7cc26f9c4aa3771b204","role":"USER_RESEARCH_COMMIT_DELTA"},
+    {"path":"include/tev/ImageViewer.h","blob":"fa5e02bb2293f8438a22867313e9462cb816b106","role":"USER_RESEARCH_COMMIT_DELTA"},
+    {"path":"include/tev/Measurement.h","blob":"be410bdcde48abdb5620afe59855d3a747dafd62","role":"USER_RESEARCH_COMMIT_DELTA"},
+    {"path":"src/ImageViewer.cpp","blob":"cb69d8854ed66b7a626f7c37fc2fb31a594dc445","role":"USER_RESEARCH_COMMIT_DELTA"},
+    {"path":"tests/MeasurementSemanticsTest.cpp","blob":"6e58c7ef6675463fc891867c602a95a660022980","role":"USER_RESEARCH_COMMIT_DELTA"},
+    {"path":".github/workflows/main.yml","blob":"7d235e370a0bc2ca81837bbec4038a2f3a770d97","role":"AUXILIARY_EXECUTION_CONTROL_SOURCE"},
+    {"external":"github_actions_run","run_id":31630457443,"workflow_name":"CI","status":"completed","conclusion":"success","commit":"6b38882224bf8d3cd11b237eb6d3caf0718accdc","role":"EXTERNAL_EXECUTION_RECORD"},
+    {"external":"github_actions_jobs","run_id":31630457443,"job_count":8,"all_jobs_conclusion":"success","all_build_steps_conclusion":"success","commit":"6b38882224bf8d3cd11b237eb6d3caf0718accdc","role":"EXTERNAL_EXECUTION_RECORD"}
+  ],
+  "exclusion_rule": {"predicate":"path exists at frozen head AND path is unchanged from frozen parent AND path != .github/workflows/main.yml","disposition":"EXCLUDED_BY_FROZEN_SCOPE","reason":"INHERITED_UPSTREAM_UNCHANGED_FROM_FROZEN_PARENT"},
+  "branch_provenance": {"default_branch_at_audit":"master","research_surface_ref":"agent/measurement-lineage-v0.1","rule":"default branch identity and inherited Git ancestry do not override the immutable audited research-bearing commit"},
+  "absence_rule": "not represented inside this frozen delta aperture != absent from repository history or upstream tev"
+}
