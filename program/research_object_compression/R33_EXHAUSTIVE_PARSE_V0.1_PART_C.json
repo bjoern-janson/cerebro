@@ -1,0 +1,59 @@
+{
+  "object":"CEREBRO_R33_EXHAUSTIVE_PARSE_V0.1_PART_C",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/interface-theory",
+  "frozen_head":"61bef6c4eb9ee46cc38ac85a2f91874f9f8642a5",
+  "root_tree":"d74bb091afb73b03bb5d5e724c6ca56781635a30",
+  "examples_tree":"49055ac3a598f6a45c6ef544e42d0adfb3a91970",
+  "serialization":"IMMUTABLE_PATH_RECORDS_WITH_STANDING_SPLITS",
+  "blob_locator_rule":"For every examples path p, blob SHA is the unique blob returned by git_tree(root_tree,p).",
+  "coverage_families":[
+    {"path":"examples/README.md","path_primary_units":1,"semantic_role":"EXAMPLE_STATUS_REGISTRY"},
+    {"prefix":"examples/F0_linear/","path_primary_units":10,"semantic_role":"CURRENT_ILLUSTRATIVE_FINITE_LINEAR_EXAMPLE"},
+    {"prefix":"examples/delay/","path_primary_units":11,"semantic_role":"LEGACY_ARCHIVE_README_PLUS_INVALIDATED_JSON_TOMBSTONES"},
+    {"prefix":"examples/hidden_state/","path_primary_units":11,"semantic_role":"LEGACY_ARCHIVE_README_PLUS_INVALIDATED_JSON_TOMBSTONES"},
+    {"prefix":"examples/nonstationary/","path_primary_units":11,"semantic_role":"LEGACY_ARCHIVE_README_PLUS_INVALIDATED_JSON_TOMBSTONES"},
+    {"prefix":"examples/stochastic/","path_primary_units":11,"semantic_role":"LEGACY_ARCHIVE_README_PLUS_INVALIDATED_JSON_TOMBSTONES"}
+  ],
+  "standing_split_paths":[
+    "examples/F0_linear/README.md",
+    "examples/delay/README.md",
+    "examples/hidden_state/README.md",
+    "examples/nonstationary/README.md",
+    "examples/stochastic/README.md"
+  ],
+  "standing_semantics":{
+    "examples/README.md":{"primary":"STATUS_OR_SCOPE","normalized_content":"F0_linear is current illustrative material; delay/hidden_state/stochastic/nonstationary are archived legacy families whose old self-certifying JSON artifacts are invalidated. Runnable examples do not establish proof, generality or operability."},
+    "examples/F0_linear/README.md":{"primary":"ILLUSTRATIVE_EXAMPLE_DESIGN","split":"SCOPE_AND_CANONICALITY_CEILING","normalized_content":"Finite linear example studies future-position target factorization and target-aligned readouts; illustrative finite-menu example only, not the nonlinear canonical F0 ledger result."},
+    "examples/F0_linear/system.json":{"primary":"SYNTHETIC_SYSTEM_DEFINITION","normalized_content":"Defines current finite linear example system and admissible parameter/state structure."},
+    "examples/F0_linear/system_B.json":{"primary":"SYNTHETIC_SYSTEM_DEFINITION","normalized_content":"Defines second finite linear example system used in partial-interface collision demonstrations."},
+    "examples/F0_linear/targets.json":{"primary":"TARGET_DEFINITION","normalized_content":"Defines scalar future-position target theta1+2 theta2 and target semantics; target identification is weaker than full parameter identification."},
+    "examples/F0_linear/interfaces.json":{"primary":"FINITE_INTERFACE_MENU","normalized_content":"Defines finite candidate readouts/interventions for illustrative search; menu is not universal interface family."},
+    "examples/F0_linear/minimal_interface_search.json":{"primary":"ILLUSTRATIVE_ENUMERATION_RESULT","normalized_content":"Finite menu contains 64 candidates, 26 sufficient and observed minimum cost1 target-aligned readout; frozen enumeration count only, not a general theorem or nonlinear F0 result."},
+    "examples/F0_linear/counterexamples.json":{"primary":"ILLUSTRATIVE_COUNTEREXAMPLE_AND_CORRECTION_RECORD","normalized_content":"Shows partial-readout collisions and target-aligned rank-one sufficiency; explicitly corrects an older false two-readout lower bound."},
+    "examples/F0_linear/equivalence_classes.json":{"primary":"ILLUSTRATIVE_PARTITION_RECORD","normalized_content":"Records finite observation equivalence partitions for declared example interfaces."},
+    "examples/F0_linear/target_aligned_rank1.json":{"primary":"ILLUSTRATIVE_INTERFACE_DEFINITION","normalized_content":"Defines rank-one readout aligned with target direction c=(1,2)."},
+    "examples/F0_linear/target_aligned_rank1_result.json":{"primary":"ILLUSTRATIVE_RESULT","normalized_content":"Reports target-aligned rank-one readout sufficient in finite example; does not imply parameter identification or canonical nonlinear F0 minimality."},
+    "examples/F0_linear/traces/*":{"primary":"ILLUSTRATIVE_TRAJECTORY_RECORD","normalized_content":"Finite synthetic trajectories support example-local partitions/collisions only."},
+    "examples/delay/README.md":{"primary":"LEGACY_DESIGN_SPECIFICATION","split":"CURRENT_INVALIDATION_CEILING","normalized_content":"Archived temporal-aliasing design sketch; superseded and not canonical evidence."},
+    "examples/hidden_state/README.md":{"primary":"LEGACY_DESIGN_SPECIFICATION","split":"CURRENT_INVALIDATION_CEILING","normalized_content":"Archived hidden-state design sketch; superseded and not canonical evidence."},
+    "examples/nonstationary/README.md":{"primary":"LEGACY_DESIGN_SPECIFICATION","split":"CURRENT_INVALIDATION_CEILING","normalized_content":"Archived nonstationary-drift design sketch; superseded and not canonical evidence."},
+    "examples/stochastic/README.md":{"primary":"LEGACY_DESIGN_SPECIFICATION","split":"CURRENT_INVALIDATION_CEILING","normalized_content":"Archived stochastic-sampling design sketch; superseded and not canonical evidence."},
+    "legacy_json_rule":{"matching_paths":"all *.json under examples/delay, examples/hidden_state, examples/nonstationary, examples/stochastic","matched_path_count":40,"primary":"INVALIDATED_LEGACY_TOMBSTONE","normalized_content":"Current frozen contents are tombstones with canonical_status=INVALIDATED_LEGACY; validator requires every such JSON to parse, carry that status, and omit old status/interface_boundaries_verified fields. Removed historical self-certifying claims are not current result payload."},
+    "legacy_invalidation_reasons":{
+      "delay":"old example used lagged readout inconsistent with fixed deterministic recurrence",
+      "hidden_state":"old hidden variable was observationally visible at lag0, breaking intended hidden-state premise",
+      "nonstationary":"old theta aliases did not hold over claimed pre-change observations under fixed drift",
+      "stochastic":"old shared sequences contradicted different Bernoulli probabilities"
+    }
+  },
+  "path_primary_units":55,
+  "standing_split_units":5,
+  "effective_semantic_units":60,
+  "represented_units":60,
+  "unresolved_units":0,
+  "parser_failures":0,
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO"
+}
