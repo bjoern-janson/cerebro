@@ -1,0 +1,16 @@
+{
+  "object":"R42_EXHAUSTIVE_PARSE_V0.1",
+  "repository":"bjoern-janson/future-sufficiency",
+  "program_map_node":"R42",
+  "frozen_head":"2f4ca824e02b89df0c23d64de312c4f93a4c8a41",
+  "frozen_root_tree":"c22b9ee60d0142b419cd01509d1c968cebf972fe",
+  "source_surface":"R42_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "coverage":{"immutable_tree_complete":true,"tree_truncated":false,"parse_units":42,"represented_units":42,"explicitly_unresolved_units":0,"parser_failures":0,"silent_omissions":0},
+  "representation_contract":{"tree_indexed_family_units":"Family units are exact set-valued parse records over immutable tree path predicates; every member path/blob is reconstructible from the frozen tree and retains filename/source-role distinctions.","historical_rule":"preregistration != implementation != execution provenance != persisted result != audit interpretation != consolidation; later stages do not rewrite earlier states.","authority_rule":"source assertion/result != Program acceptance; capability expansion != authority expansion; source relation != endpoint identity != map edge.","multiplicity_rule":"document/result/audit recurrence != independent warrant; warrant independence requires separate generating provenance.","absence_rule":"no workflow run at frozen HEAD != no historical execution."},
+  "canonical_hash_status":"NOT_COMPUTED; no hash authority is claimed by this manifest",
+  "shards":[{"path":"R42_EXHAUSTIVE_PARSE_V0.1_SHARD_01.json","first_unit":"R42-U0001","last_unit":"R42-U0020","logical_unit_count":20},{"path":"R42_EXHAUSTIVE_PARSE_V0.1_SHARD_02.json","first_unit":"R42-U0021","last_unit":"R42-U0042","logical_unit_count":22}]
+}
