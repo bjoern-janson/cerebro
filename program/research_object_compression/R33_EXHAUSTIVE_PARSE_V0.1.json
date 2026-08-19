@@ -1,0 +1,57 @@
+{
+  "object":"CEREBRO_R33_EXHAUSTIVE_PARSE_V0.1",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/interface-theory",
+  "frozen_head":"61bef6c4eb9ee46cc38ac85a2f91874f9f8642a5",
+  "root_tree":"d74bb091afb73b03bb5d5e724c6ca56781635a30",
+  "source_surface":"program/research_object_compression/R33_SOURCE_SURFACE_V0.1.json",
+  "serialization":"IMMUTABLE_PATH_RECORDS_WITH_STANDING_SPLITS",
+  "materialization_semantics":[
+    "Every admitted blob path has exactly one path-primary semantic unit.",
+    "Blob coordinates are resolved exactly from the immutable frozen root tree and path.",
+    "Explicitly listed mixed-standing high-risk files receive one additional semantic unit so result/assertion/methodology standing is not merged with limitation/status/provenance ceiling.",
+    "Gate002 receives one additional unresolved cross-source consistency unit; no numeric repair is inferred.",
+    "Directory-family rules are exhaustive over the immutable truncated=false tree and have frozen path cardinalities; wildcards are materialization rules, not unenumerated source gaps."
+  ],
+  "parts":[
+    {"path":"program/research_object_compression/R33_EXHAUSTIVE_PARSE_V0.1_PART_A.json","path_primary_units":24,"standing_split_units":20,"unresolved_units":0,"effective_semantic_units":44},
+    {"path":"program/research_object_compression/R33_EXHAUSTIVE_PARSE_V0.1_PART_B.json","path_primary_units":71,"standing_split_units":20,"unresolved_units":1,"effective_semantic_units":92},
+    {"path":"program/research_object_compression/R33_EXHAUSTIVE_PARSE_V0.1_PART_C.json","path_primary_units":55,"standing_split_units":5,"unresolved_units":0,"effective_semantic_units":60}
+  ],
+  "admitted_source_paths":150,
+  "path_primary_units":150,
+  "standing_split_units":45,
+  "cross_source_unresolved_units":1,
+  "effective_parse_units":196,
+  "parsed_representations":195,
+  "explicitly_unresolved":1,
+  "parser_failures":0,
+  "source_paths_without_primary_unit":0,
+  "duplicate_path_primary_owners":0,
+  "standing_policy":"SOURCE_LITERAL_OR_CURRENT_CANONICAL_STANDING_WITH_EXPLICIT_HISTORICAL_AND_PROVENANCE_CEILINGS",
+  "critical_distinctions":[
+    "theorem != protocol != generator != committed audit != validator rerun != independent replication",
+    "frozen summary record != complete reproducible audit",
+    "persisted result != universal truth",
+    "gate number != downstream authorization",
+    "historical state != current repaired state",
+    "illustrative example != canonical gate evidence",
+    "invalidated legacy tombstone != historical removed result",
+    "finite target-preserving quotient != generalization != mechanism efficacy",
+    "synthetic ground truth != externally identified causal structure",
+    "provenance != causal mediation",
+    "quoted model assessment != independent scientific validation"
+  ],
+  "unresolved_register":[{
+    "id":"R33U0001",
+    "kind":"CROSS_SOURCE_NUMERIC_CONFLICT",
+    "scope":"Gate002 held-out target coordinate for system B",
+    "candidate_values":[0.03333333333333333,0.1],
+    "qualitative_invariant":"L(A) != L(B) under either frozen representation",
+    "repair_authority":"NONE"
+  }],
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "amendment_005":"NOT_EARNED"
+}
