@@ -1,0 +1,47 @@
+{
+  "object":"R34_EXHAUSTIVE_PARSE_V0.1_MANIFEST",
+  "state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/the-correctable-lineage",
+  "frozen_head":"422411ea22fb3154a5bed2b0c950ab1b3f2bba5b",
+  "frozen_root_tree":"06150127b67484a2cc96f3be5540aeb1abe6ea43",
+  "source_surface":"R34_SOURCE_SURFACE_V0.1",
+  "parts":[
+    {"artifact":"R34_EXHAUSTIVE_PARSE_V0.1_PART_A.json","path_primary":39,"standing_splits":22,"effective_units":61},
+    {"artifact":"R34_EXHAUSTIVE_PARSE_V0.1_PART_B.json","path_primary":31,"standing_splits":12,"effective_units":43},
+    {"artifact":"R34_EXHAUSTIVE_PARSE_V0.1_PART_C.json","path_primary":15,"standing_splits":7,"effective_units":22}
+  ],
+  "accounting":{
+    "total_blob_paths":86,
+    "admitted_source_paths":85,
+    "scope_excluded_paths":1,
+    "path_primary_parse_units":85,
+    "standing_split_parse_units":41,
+    "cross_source_unresolved_units":0,
+    "effective_parse_units":126,
+    "represented_units":126,
+    "explicitly_unresolved_units":0,
+    "parser_failures":0,
+    "admitted_paths_without_primary_unit":0
+  },
+  "unit_id_range":"R34P0001-R34P0126",
+  "standing_rules":[
+    "CURRENT_FRONT_DOOR != HISTORICAL_FORMULATION",
+    "HISTORICAL_VISIBILITY != CURRENT_CANONICAL_AUTHORITY",
+    "BENCHMARK_VERSION_i != BENCHMARK_VERSION_j",
+    "NEGATIVE_RESULT != FAILED_RESEARCH_OBJECT",
+    "IMPLEMENTATION != TEST_SOURCE != WORKFLOW_SOURCE != EXECUTION_RECORD != RESULT != INDEPENDENT_REPLICATION",
+    "SYNTHETIC_SUPPLIED_OBJECT_RESULT != AUTONOMOUS_DISCOVERY",
+    "ADMINISTRATION_DRY_RUN != BLIND_EVIDENCE",
+    "PILOT_PACKAGE != PARTICIPANT_DATA",
+    "COMPARATIVE_PROTOCOL != COMPARATIVE_STUDY",
+    "EXTERNAL_METHODOLOGICAL_CORRECTION != EXTERNAL_VALIDATION_OF_DOWNSTREAM_GOVERNANCE",
+    "AUTHOR_RECOLLECTION != PRESERVED_INTERACTION_LOG",
+    "SOURCE_LINEAGE_MAP != CEREBRO_EDGE_AUTHORITY",
+    "SOURCE_OCCURRENCE_MULTIPLICITY != WARRANT_INDEPENDENCE != WARRANT_MULTIPLICITY"
+  ],
+  "current_known_conflicts":[],
+  "interpretation":"No cross-source contradiction requires unresolved status at frozen head; apparent tensions are explicitly resolved by source chronology, supersession, scope or evidence standing.",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO"
+}
