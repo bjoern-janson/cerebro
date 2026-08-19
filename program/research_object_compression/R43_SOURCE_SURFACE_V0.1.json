@@ -1,0 +1,20 @@
+{
+  "object":"R43_SOURCE_SURFACE_V0.1",
+  "repository":"bjoern-janson/ssi",
+  "program_map_node":"R43",
+  "default_branch":"main",
+  "frozen_head":"362594d4337a1c72556b501b6477ff624db919e1",
+  "frozen_root_tree":"e4eb39547cf08dcc445dfb7232bcbadac1bd034f",
+  "state":"FROZEN",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "tree_traversal":{"mode":"IMMUTABLE_RECURSIVE_TREE_SHA_WALK","root_tree":"e4eb39547cf08dcc445dfb7232bcbadac1bd034f","tree_response_truncated":false,"unexplored_child_trees":0,"root_partition":{"blob_owners":8,"subtree_owners":13,"total_root_owners":21}},
+  "root_subtree_bindings":{".github":"030a0d6106d91be6376063b6ac355112f25a7100","artifacts":"a29dcc66d9de490411f99c46dc133d74935f52bf","benchmarks":"3d0083bd67cc95c64911b96a9b34fc13dc6c212b","competitions":"c434c025fe7bea11dc0d341e31476276b33f9659","cuhk-x":"8bad776643cdd2b6f2853c125b619ccd2e75ce45","empirical":"da82e78076754dd4aa6d3a27244c95b99affe68a","energy":"37f4a1ada47cc1aaaa2465e872cc6c8dce5adcdb","research":"dc7be6a7702e15d38925451d2710428d9e0eaf5d","results":"e26034af7b20dc1d3be975672e36430621d342d7","retrospective":"aae0dc8c57c038fbe71ca5d694ba1a9c5a8a60aa","ssi-jurisdiction-falsification":"d82a40d3f32e524bcbc461440bee1c1a9b154e18","theory":"c5a00c5b0c4d0ad2cfd69ffbbe6e24d403d8e50b","tools":"79e10d2bcb35f3aa78982430572b38bf0c8c2b6b"},
+  "path_disposition_rule":{"PARSE_EXCLUDED_BY_FROZEN_SCOPE":[{"path":".gitignore","reason":"VCS_IGNORE_CONFIGURATION"},{"path":"LICENSE","reason":"LEGAL_LICENSE_TEXT"}],"PARSE_INCLUDED":"every other blob enumerated by immutable recursive tree e4eb39547cf08dcc445dfb7232bcbadac1bd034f. Inclusion does not equal evidential or scientific promotion: workflow source, archive transport, data, configuration, implementation, test source, execution record, persisted result, report, theory, retrospective, ledger and repo-local map remain separately typed."},
+  "coverage_semantics":"The immutable recursive tree is the exact exhaustive path ledger. Root-owner partition plus tree-indexed family predicates may group homogeneous descendants loss-boundedly, but every admitted member remains reconstructible by path/blob identity. No path may be silently ignored.",
+  "execution_provenance":{"github_pull_request_workflow_runs_at_frozen_head":0,"interpretation":"No pull-request-triggered GitHub Actions run was retrieved for the frozen HEAD. The frozen workflow source targets master while the frozen repository default branch is main. This does not prove no historical execution and does not erase repository-local execution records."},
+  "provenance_repairs":[{"excluded_record":"earlier recursive listing attributed to e4eb39547cf08dcc445dfb7232bcbadac1bd034f","reason":"fresh recursive and non-recursive reads of the immutable tree agreed on a different SSI surface; contaminated retrieval excluded"},{"excluded_record":"commit 6ff71d05b6379e69889f0a1cfa0f18c317403c19 as SSI frozen head","reason":"GitHub could not resolve it as an SSI commit; main independently resolves to 362594d4337a1c72556b501b6477ff624db919e1 whose tree is e4eb39547cf08dcc445dfb7232bcbadac1bd034f"}],
+  "standing_boundaries":["repository != one experiment","theory != protocol != configuration != implementation != test source != execution record != reported result","source status/ledger/map != independent corroboration","later result or retrospective != retroactive repair of earlier historical state","archive transport != decoded scientific claim","data != result","workflow source != workflow execution","persisted result != independent external verification","source-reported relation != endpoint identity != Cerebro edge","same token across generations != same formal object or standing","HEAD FR-001 death-test freeze != FR-001 execution result"],
+  "absence_rule":"not extracted != does not exist outside the frozen aperture"
+}
