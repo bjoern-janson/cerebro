@@ -1,0 +1,17 @@
+{
+  "object":"R43_EXHAUSTIVE_PARSE_V0.1",
+  "repository":"bjoern-janson/ssi",
+  "program_map_node":"R43",
+  "frozen_head":"362594d4337a1c72556b501b6477ff624db919e1",
+  "frozen_root_tree":"e4eb39547cf08dcc445dfb7232bcbadac1bd034f",
+  "source_surface":"R43_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "coverage":{"immutable_tree_complete":true,"tree_truncated":false,"parse_units":68,"represented_units":68,"explicitly_unresolved_units":0,"parser_failures":0,"silent_omissions":0,"frozen_scope_exclusions":2},
+  "representation_contract":{"tree_indexed_family_units":"Set-valued family units are exact predicates over the immutable tree. Every admitted member remains reconstructible by path/blob identity; MEMBER_ROLE_RULE preserves protocol/configuration/implementation/test/execution/result/audit/status distinctions inside a family.","residual_ownership":"Set-difference residual units close navigation-map and example-list incompleteness without asserting semantic equivalence among residual members.","historical_rule":"later result, repair, consolidation, ledger or retrospective != retroactive repair of earlier evidence/state.","authority_rule":"source assertion/result/status/map != Program acceptance; source relation != endpoint identity != Cerebro edge; benchmark validity != execution binding != model result.","multiplicity_rule":"source occurrence multiplicity != warrant independence.","execution_rule":"workflow/test/runner source != execution; persisted execution/result artifacts retain only their source-local provenance standing.","absence_rule":"no pull-request workflow run retrieved at frozen HEAD != no historical execution."},
+  "local_repairs":[{"kind":"SOURCE_PROVENANCE_REPAIR","record":"earlier contaminated tree/commit metadata excluded before parse","semantic_change":"NONE"},{"kind":"PARSE_COVERAGE_REPAIR","record":"R43-U0068 energy experiment set-difference residual added after hostile ownership pass","semantic_change":"NONE","new_global_distinction":"NO"}],
+  "canonical_hash_status":"NOT_COMPUTED; no hash authority is claimed by this manifest",
+  "shards":[{"path":"R43_EXHAUSTIVE_PARSE_V0.1_SHARD_01.json","first_unit":"R43-U0001","last_unit":"R43-U0023","logical_unit_count":23},{"path":"R43_EXHAUSTIVE_PARSE_V0.1_SHARD_02.json","first_unit":"R43-U0024","last_unit":"R43-U0045","logical_unit_count":22},{"path":"R43_EXHAUSTIVE_PARSE_V0.1_SHARD_03.json","first_unit":"R43-U0046","last_unit":"R43-U0067","logical_unit_count":22},{"path":"R43_EXHAUSTIVE_PARSE_V0.1_SHARD_04.json","first_unit":"R43-U0068","last_unit":"R43-U0068","logical_unit_count":1}]
+}
