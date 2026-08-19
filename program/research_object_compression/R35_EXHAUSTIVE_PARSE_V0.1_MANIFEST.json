@@ -1,0 +1,48 @@
+{
+  "object":"R35_EXHAUSTIVE_PARSE_V0.1_MANIFEST",
+  "state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/dostoevskian-cybernetics",
+  "frozen_head":"f4159b63d0dcdb748f4b9ce6009439103e9a2690",
+  "frozen_root_tree":"69753e8f4bc2c3500b1213e788859bad6a3fb596",
+  "source_surface":"R35_SOURCE_SURFACE_V0.1",
+  "parts":[
+    {"artifact":"R35_EXHAUSTIVE_PARSE_V0.1_PART_A.json","effective_units":32},
+    {"artifact":"R35_EXHAUSTIVE_PARSE_V0.1_PART_B.json","effective_units":31},
+    {"artifact":"R35_EXHAUSTIVE_PARSE_V0.1_PART_C.json","effective_units":31},
+    {"artifact":"R35_EXHAUSTIVE_PARSE_V0.1_PART_D.json","effective_units":4}
+  ],
+  "accounting":{
+    "total_blob_paths":6,
+    "admitted_source_paths":5,
+    "scope_excluded_paths":1,
+    "effective_parse_units":98,
+    "represented_units":98,
+    "explicitly_unresolved_units":5,
+    "secondary_resolved_audit_units":1,
+    "parser_failures":0,
+    "admitted_paths_without_parse_unit":0
+  },
+  "unit_id_range":"R35P0001-R35P0098",
+  "unresolved_units":[
+    "R35P0094: performance-recovery sign/normalization",
+    "R35P0095: observation-mapping failure-depth overlap",
+    "R35P0096: target-identifiability vs hypothesis-discrimination relation",
+    "R35P0097: transition-residual state observability requirement",
+    "R35P0098: C_improve zero-denominator boundary under justified abstention"
+  ],
+  "standing_rules":[
+    "PROPOSED_FRAMEWORK != IMPLEMENTED_SYSTEM",
+    "PROPOSED_BENCHMARK != EXECUTED_BENCHMARK",
+    "SOURCE_DESCRIBED_DIRECTORY != PERSISTED_TREE_PATH",
+    "METRIC_DEFINITION != VALIDATED_METRIC",
+    "FAILURE_TAXONOMY != EMPIRICALLY_IDENTIFIED_CAUSAL_DECOMPOSITION",
+    "IDENTIFIABILITY_CRITERION_A != IDENTIFIABILITY_CRITERION_B unless relation is source-established",
+    "CORRECT_ABSTENTION != PERMANENT_REFUSAL",
+    "OPEN_QUESTION != DEMONSTRATED_CAPABILITY",
+    "SOURCE_OCCURRENCE_MULTIPLICITY != WARRANT_INDEPENDENCE != WARRANT_MULTIPLICITY",
+    "COMMIT_ADJACENCY != SEMANTIC_RELATION"
+  ],
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO"
+}
