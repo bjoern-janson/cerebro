@@ -1,0 +1,41 @@
+{
+  "object":"CEREBRO_R32_COMPRESSION_V0.1",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/arc-reactor",
+  "frozen_head":"16e6972de4f9c5dfb2039baa88d520a41ea7e613",
+  "effective_parse":"program/research_object_compression/R32_EXHAUSTIVE_PARSE_V0.1.json + R32_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "compression_strategy":"IDENTITY_SIZED_LOSS_BOUNDED_STANDING_PURE_PROJECTION",
+  "rationale":[
+    "The effective parse is already grouped to one source-local unit per source standing.",
+    "Any additional source-local reduction would merge distinct standings; any other reduction would cross source paths.",
+    "Therefore each parse unit becomes one compression item without semantic rewriting."
+  ],
+  "item_materialization_rule":{
+    "domain":"R32P0001-R32P0083",
+    "codomain":"R32Z0001-R32Z0083",
+    "mapping":"R32Pnnnn -> R32Znnnn",
+    "source_units":"[R32Pnnnn]",
+    "payload":"EXACT_NORMALIZED_CONTENT_OF_SOURCE_PARSE_UNIT",
+    "source_path":"INHERITED_FROM_PARSE_UNIT",
+    "source_blob":"INHERITED_FROM_PARSE_UNIT",
+    "source_standing":"INHERITED_FROM_PARSE_UNIT",
+    "warrant_independence_status":"NOT_ESTABLISHED",
+    "warrant_multiplicity_effect":"NONE"
+  },
+  "effective_parse_units":83,
+  "compressed_items":83,
+  "direct_items":83,
+  "loss_bounded_group_items":0,
+  "cross_source_items":0,
+  "cross_standing_items":0,
+  "unresolved_items":14,
+  "reported_result_items":0,
+  "reported_negative_result_items":0,
+  "executable_implementation":"PRESENT",
+  "test_source":"NONE_ON_FROZEN_SURFACE",
+  "persisted_execution_records":"NONE_ON_FROZEN_SURFACE",
+  "map_edge_emission":"NONE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "amendment_005":"NOT_EARNED"
+}
