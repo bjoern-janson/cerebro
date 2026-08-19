@@ -1,0 +1,65 @@
+{
+  "object": "R39_EXHAUSTIVE_PARSE_V0.1_SHARD_01",
+  "repo": "bjoern-janson/cars",
+  "head": "190fa39ae5a011377f8fd6eeddb975158a483b05",
+  "source_surface": "R39_SOURCE_SURFACE_V0.1.json",
+  "state": "FROZEN_CANDIDATE",
+  "range": {
+    "unit_first": "R39-U0001",
+    "unit_last": "R39-U0082",
+    "source_surface_admitted_path_indices_1_based": [
+      1,
+      82
+    ]
+  },
+  "unit_generation_rule": "For admitted_paths index i in this range, create unit R39-U%04d with path=admitted_paths[i], kind=SOURCE_PATH_FULL_BLOB_REFERENCE, standing from frozen classification_rules, disposition=REPRESENTED, and content=immutable full-blob reference repo@head:path plus audited primary-role class. Exact blob text remains reconstructible from frozen commit+path.",
+  "classification_rules": {
+    "prefix_rules": [
+      {"prefix": ".github/workflows/", "standing": "WORKFLOW_SOURCE", "kind": "SOURCE_PATH_FULL_BLOB_REFERENCE"},
+      {"prefix": "benchmarks/", "standing": "BENCHMARK_SPECIFICATION", "kind": "SOURCE_PATH_FULL_BLOB_REFERENCE"},
+      {"prefix": "eval/", "standing": "EVALUATION_SPECIFICATION", "kind": "SOURCE_PATH_FULL_BLOB_REFERENCE"},
+      {"prefix": "examples/", "standing": "EXAMPLE_ONLY", "kind": "SOURCE_PATH_FULL_BLOB_REFERENCE"},
+      {"prefix": "notes/", "standing": "HISTORICAL_NOTE", "kind": "SOURCE_PATH_FULL_BLOB_REFERENCE"},
+      {"prefix": "prompts/", "standing": "PROMPT_INSTRUCTION", "kind": "SOURCE_PATH_FULL_BLOB_REFERENCE"},
+      {"prefix": "scripts/", "standing": "IMPLEMENTATION", "kind": "SOURCE_PATH_FULL_BLOB_REFERENCE"},
+      {"prefix": "experiments/", "standing": "PROTOCOL_CONFIG", "kind": "SOURCE_PATH_FULL_BLOB_REFERENCE"},
+      {"prefix": "docs/", "standing": "DOCUMENTARY", "kind": "SOURCE_PATH_FULL_BLOB_REFERENCE"}
+    ],
+    "exact_rules": [
+      {"path": "CITATION.cff", "standing": "METADATA"},
+      {"path": "VERSION", "standing": "METADATA"},
+      {"path": "CHANGELOG.md", "standing": "DOCUMENTARY"},
+      {"path": "CONTRIBUTING.md", "standing": "DOCUMENTARY"},
+      {"path": "README.md", "standing": "DOCUMENTARY"}
+    ],
+    "results_rules": {
+      "scientific_source_reported": [
+        "results/ASI0_TERMINAL_RECORD.md",
+        "results/PILOT0_TERMINAL_RECORD.md",
+        "results/PILOT1_ID1_P3_REPLICATION.md",
+        "results/PILOT1_ID1_SYSTEM_IDENTIFICATION.md",
+        "results/PILOT1_PREDICTIVE_RESOURCE_TOY_MATCH1.md",
+        "results/PILOT1_PREDICTIVE_RESOURCE_TOY_RUN1.md",
+        "results/pilot0_r1_result.json",
+        "results/pilot1_id1_p3_replication_result.json",
+        "results/pilot1_id1_system_identification_result.json"
+      ],
+      "diagnostic_or_status": [
+        "results/ASI0_BOOLEAN_TRIPLE_REPAIR_VALIDATION.json",
+        "results/ASI0_CPU_BEHAVIORAL_REFERENCE.json",
+        "results/ASI0_CPU_DIAGNOSTIC_CHECKPOINTS.jsonl",
+        "results/ASI0_EVIDENCE_ASSIGNMENT_STATUS.md",
+        "results/ASI0_PRIMARY_MECHANISM_FAILURE_REPORT.md",
+        "results/FUTURE_PLASTICITY_FORECAST_STATUS.md"
+      ],
+      "synthetic_development": [
+        "results/SYNTHETIC_ASSAY_REFERENCE.md",
+        "results/asi0_assignment_smoke.json",
+        "results/jump_worlds_reference.json",
+        "results/synthetic_assay_reference.json"
+      ],
+      "documentary": ["results/README.md"]
+    }
+  },
+  "independence_rule": "one path unit is one source occurrence; no multiplicity claim"
+}
