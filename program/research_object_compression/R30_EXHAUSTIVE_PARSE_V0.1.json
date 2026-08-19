@@ -1,0 +1,48 @@
+{
+  "object":"CEREBRO_R30_EXHAUSTIVE_PARSE_V0.1",
+  "repository_id":"R30",
+  "repository":"bjoern-janson/theory-of-adaptive-epistemic-systems",
+  "frozen_head_commit":"f8491b695440066c0bdb8b7f47eefa008cd73a0b",
+  "effective_source_surface":"R30_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "parts":[
+    {"path":"R30_EXHAUSTIVE_PARSE_V0.1_PART_A.json","unit_count":59,"represented":46,"unresolved":13,"covered_paths":4},
+    {"path":"R30_EXHAUSTIVE_PARSE_V0.1_PART_B.json","unit_count":59,"represented":46,"unresolved":13,"covered_paths":3},
+    {"path":"R30_EXHAUSTIVE_PARSE_V0.1_PART_C.json","unit_count":68,"represented":46,"unresolved":22,"covered_paths":3},
+    {"path":"R30_EXHAUSTIVE_PARSE_V0.1_PART_D.json","unit_count":24,"represented":19,"unresolved":5,"covered_paths":4}
+  ],
+  "effective_parse_unit_count":210,
+  "parsed_representations":157,
+  "explicitly_unresolved":53,
+  "parser_failures":0,
+  "admitted_source_paths":14,
+  "covered_source_paths":14,
+  "uncovered_source_paths":0,
+  "unit_id_sets":{
+    "represented":"R30P0001-R30P0157",
+    "unresolved":"R30U0001-R30U0053"
+  },
+  "canonical_unit_id_set_sha256":"b3359f513a11f19c69351aca3c17d3c6c90113a78b82b8b10c073174fbd3576e",
+  "standing_invariants":[
+    "SOURCE_AXIOM != EMPIRICAL_LAW",
+    "SOURCE_LABEL_LAW != VALIDATED_LAW",
+    "SOURCE_PREDICTION != RESULT",
+    "OPEN_PROBLEM != NEGATIVE_RESULT",
+    "CONCEPTUAL_FIGURE != IMPLEMENTATION",
+    "SOURCE_RELATION_ASSERTION != ENDPOINT_IDENTITY != CEREBRO_EDGE",
+    "CITATION_TYPE_SOFTWARE != EXECUTABLE_IMPLEMENTATION",
+    "RESEARCH_PROCESS_RULE != SCIENTIFIC_VALIDATION"
+  ],
+  "execution_ceiling":{
+    "implementation":"NONE_ON_FROZEN_SURFACE",
+    "test_source":"NONE_ON_FROZEN_SURFACE",
+    "persisted_execution_records":"NONE_ON_FROZEN_SURFACE",
+    "source_reported_empirical_results":0,
+    "source_reported_negative_results":0,
+    "github_actions_runs_at_head":0,
+    "combined_status_records_at_head":0
+  },
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation_authorized":"NO"
+}
