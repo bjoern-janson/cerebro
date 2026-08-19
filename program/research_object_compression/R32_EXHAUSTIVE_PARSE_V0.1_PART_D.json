@@ -1,0 +1,20 @@
+{
+  "object":"CEREBRO_R32_EXHAUSTIVE_PARSE_V0.1_PART_D",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/arc-reactor",
+  "frozen_head":"16e6972de4f9c5dfb2039baa88d520a41ea7e613",
+  "serialization":"STANDING_GROUPED_SOURCE_LOCAL_UNITS",
+  "units":[
+    {"id":"R32P0077","path":"src/utils/__init__.py","blob":"8782f0c1623c02f331cb915f56ada7cdb7386c72","standing":"IMPLEMENTATION","disposition":"PARSED_REPRESENTATION","locators":["module role"],"normalized_content":"Declares shared utility infrastructure independent from experimental logic, agent behavior and evaluation metrics."},
+    {"id":"R32P0078","path":"src/utils/config.py","blob":"312a81662af9f2a315377cfef8332e36f6311b3f","standing":"IMPLEMENTATION","disposition":"PARSED_REPRESENTATION","locators":["load_config_file","dataclass_from_dict","config_to_dict","merge_configs","save_config","build_sweep"],"normalized_content":"Implements JSON/YAML config loading, dataclass construction/conversion/override, JSON config persistence and simple one-field sweep generation."},
+    {"id":"R32P0079","path":"src/utils/logging.py","blob":"24f5f7d7723db8d3bdec9d472b80368547eb04cd","standing":"IMPLEMENTATION","disposition":"PARSED_REPRESENTATION","locators":["get_logger","configure_logging","log_experiment_start","log_experiment_end","log_metric"],"normalized_content":"Implements stdout/optional file logging and convenience experiment-start/end/metric log messages; logging capability is distinct from a persisted run record."},
+    {"id":"R32P0080","path":"src/utils/math.py","blob":"5badbd62066a05b087307fdc63a951508f8eea84","standing":"IMPLEMENTATION","disposition":"PARSED_REPRESENTATION","locators":["sigmoid","softmax","normalize","normalize_dict","weighted_average","clamp","l1_distance","l2_distance","entropy"],"normalized_content":"Provides generic numerical helpers for sigmoid, softmax, normalization, weighted mean, clipping, L1/L2 distances and Shannon entropy."},
+    {"id":"R32P0081","path":"src/utils/randomness.py","blob":"ffac8d121250fec70ecd4348092b8d5025ef0858","standing":"IMPLEMENTATION","disposition":"PARSED_REPRESENTATION","locators":["set_seed","create_rng","seed_metadata","SeedManager"],"normalized_content":"Implements global Python/NumPy/hash seed setting, isolated NumPy RNG, seed metadata and deterministic child/component seed allocation."},
+    {"id":"R32P0082","path":"src/utils/serialization.py","blob":"b1cc9ef0c75d08f60a15d2f5de8ba22e270fc2bd","standing":"IMPLEMENTATION","disposition":"PARSED_REPRESENTATION","locators":["save_json","load_json","save_yaml","load_yaml","serialize_dataclass","save_experiment_snapshot"],"normalized_content":"Implements JSON/YAML persistence, dataclass serialization and named experiment-snapshot writing; persistence plumbing does not itself provide any frozen experiment artifact."},
+    {"id":"R32P0083","path":"src/utils/validation.py","blob":"5f5cb83f6f61ea15676f1109ea3276612816cc60","standing":"IMPLEMENTATION","disposition":"PARSED_REPRESENTATION","locators":["validate_probability","validate_non_negative","validate_regime_parameters","validate_config","validate_schema","validate_agent_type","validate_shock_type"],"normalized_content":"Implements probability/nonnegative/regime/config/schema/agent/shock validation helpers."}
+  ],
+  "unit_count":7,
+  "parsed_representations":7,
+  "explicitly_unresolved":0,
+  "covered_paths":7
+}
