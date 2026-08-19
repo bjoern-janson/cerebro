@@ -20,9 +20,11 @@
   },
   "standing_counts": {"BENCHMARK_SPECIFICATION":3,"DOCUMENTARY":24,"EVALUATION_SPECIFICATION":5,"EXAMPLE_ONLY":5,"HISTORICAL_NOTE":5,"IMPLEMENTATION":56,"METADATA":2,"PERSISTED_DIAGNOSTIC_OR_STATUS":11,"PERSISTED_SCIENTIFIC_RESULT_SOURCE_REPORTED":17,"PERSISTED_SYNTHETIC_DEVELOPMENT_RESULT":6,"PROMPT_INSTRUCTION":4,"PROTOCOL_CONFIG":49,"WORKFLOW_SOURCE":4},
   "canonical_unit_set_sha256": "b6871fc2f04f58ba084be8fc0b2bcd6a847983e9633a552ff48693f9ec5c2a3e",
+  "shard_hash_semantics": "canonical JSON object SHA-256; insensitive to persistence whitespace",
   "shards": [
-    {"path":"R39_EXHAUSTIVE_PARSE_V0.1_SHARD_01.json","logical_unit_count":82,"sha256":"62b442741c280e3ba270a26db0e6e3629a76a7aaff393691bf243341c646f2a2","first_unit":"R39-U0001","last_unit":"R39-U0082"},
-    {"path":"R39_EXHAUSTIVE_PARSE_V0.1_SHARD_02.json","logical_unit_count":81,"sha256":"24d226de74db2998fd2196f813243ab40520b6f2a6a77073b38725fc0707ca76","first_unit":"R39-U0083","last_unit":"R39-U0163"},
-    {"path":"R39_EXHAUSTIVE_PARSE_V0.1_SHARD_03.json","logical_unit_count":28,"sha256":"b62a2e39391f6eba8c2442c0a573a20fc47360c16c267b1d5e484901ebfbb91c","first_unit":"R39-U0164","last_unit":"R39-U0191"}
-  ]
+    {"path":"R39_EXHAUSTIVE_PARSE_V0.1_SHARD_01.json","logical_unit_count":82,"canonical_object_sha256":"e5ac8f8195cf8335ed616fcab659fb361ac1c0ce0836d98fa5917f11703b7b3a","first_unit":"R39-U0001","last_unit":"R39-U0082"},
+    {"path":"R39_EXHAUSTIVE_PARSE_V0.1_SHARD_02.json","logical_unit_count":81,"canonical_object_sha256":"659cc0fb8a689cd4db24c06685d1eef1837f925b5097661caeb79eacf5a21f7c","first_unit":"R39-U0083","last_unit":"R39-U0163"},
+    {"path":"R39_EXHAUSTIVE_PARSE_V0.1_SHARD_03.json","logical_unit_count":28,"canonical_object_sha256":"1a604bc489e68e23b82460b04750692c0003d4913c29d3638b503337611b7d48","first_unit":"R39-U0164","last_unit":"R39-U0191"}
+  ],
+  "repair_record": {"type":"MANIFEST_HASH_SEMANTICS_NORMALIZATION","scope":"metadata only","semantic_units_changed":0,"standing_changes":0,"coverage_changes":0,"new_epistemic_distinction":false}
 }
