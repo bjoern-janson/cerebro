@@ -1,0 +1,43 @@
+{
+  "object": "CEREBRO_R36_SOURCE_SURFACE_V0.1",
+  "persistent_record_state": "FROZEN",
+  "repository": "bjoern-janson/controlled-adaptation-thesis",
+  "frozen_head": "040113221b04ccc86e74e568b769b7927ff9a376",
+  "frozen_root_tree": "a1a77bdc3ef16f602a82fff608b1d2d26a1e3637",
+  "enumeration_method": "COMPLETE_RECURSIVE_TREE_TRAVERSAL_TRUNCATED_FALSE",
+  "total_blob_paths": 11,
+  "parse_included_paths": 10,
+  "parse_excluded_by_frozen_scope": 1,
+  "parse_failed_paths": 0,
+  "parse_unsupported_paths": 0,
+  "unenumerated_paths": 0,
+  "paths": [
+    {"path":".github/pull_request_template.md","blob":"2e939ed911e3c41ca8ffcb3fd01486399b18c4b6","size":993,"disposition":"PARSE_INCLUDED","role":"POST_FREEZE_REVIEW_GOVERNANCE"},
+    {"path":".gitignore","blob":"469077c00255d2bfa915261bd1efb90ead7ab338","size":37,"disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"NON_RESEARCH_METADATA"},
+    {"path":"CHANGELOG.md","blob":"e646de0c432581492c5a84eeacac4087dd6e090b","size":640,"disposition":"PARSE_INCLUDED","role":"RELEASE_PROVENANCE"},
+    {"path":"FREEZE.md","blob":"63c4e9ef035fbefed54cb85c78ec2824ef4c6a47","size":1888,"disposition":"PARSE_INCLUDED","role":"POST_FREEZE_BOUNDARY_METADATA"},
+    {"path":"LINEAGE.md","blob":"e7d8121eb2ba2620e40ed1f509361077c9796a0b","size":3794,"disposition":"PARSE_INCLUDED","role":"POST_FREEZE_LINEAGE_METADATA"},
+    {"path":"README.md","blob":"58cd8c06631f13d8700395424b2903794f2460d0","size":4450,"disposition":"PARSE_INCLUDED","role":"CURRENT_ROUTING_AND_STATUS"},
+    {"path":"STATUS.md","blob":"7c00d25c77ac531fe08e75091e4d310340f82482","size":4419,"disposition":"PARSE_INCLUDED","role":"POST_FREEZE_CURRENT_STATUS"},
+    {"path":"THESIS.md","blob":"c4fce9e36595ce03f7d71c014177d167c870353b","size":10825,"disposition":"PARSE_INCLUDED","role":"FROZEN_CORE"},
+    {"path":"docs/ARCHITECTURE.md","blob":"b50f70fa58b746051f8ec4d861d3e6cacff6a799","size":4535,"disposition":"PARSE_INCLUDED","role":"FROZEN_CORE"},
+    {"path":"docs/BENCHMARK.md","blob":"c3b16bf47f7ead3f3f598a5fa10813fc157c57a1","size":4765,"disposition":"PARSE_INCLUDED","role":"FROZEN_CORE"},
+    {"path":"docs/GOVERNANCE.md","blob":"de12554935face70ee5bdfa4de44d1766c445219","size":3214,"disposition":"PARSE_INCLUDED","role":"FROZEN_CORE"}
+  ],
+  "freeze_boundary_verification": {
+    "declared_freeze_commit": "91ffe403879607d40a5e9c8babed1c5016ba0eba",
+    "current_head_ahead_by": 1,
+    "post_freeze_changed_paths": [".github/pull_request_template.md","FREEZE.md","LINEAGE.md","README.md","STATUS.md"],
+    "frozen_core_paths_changed_after_freeze": 0,
+    "verified_frozen_core_paths": ["THESIS.md","docs/ARCHITECTURE.md","docs/BENCHMARK.md","docs/GOVERNANCE.md"]
+  },
+  "execution_provenance": {
+    "workflow_source_paths_at_head": 0,
+    "pr_triggered_workflow_runs_visible_through_queried_connector": 0,
+    "combined_status_records_visible_through_queried_connector": 0
+  },
+  "visible_commit_count": 3,
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation": "NO"
+}
