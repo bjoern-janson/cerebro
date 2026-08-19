@@ -1,0 +1,34 @@
+{
+  "object":"CEREBRO_R32_EXHAUSTIVE_PARSE_V0.1",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/arc-reactor",
+  "frozen_head":"16e6972de4f9c5dfb2039baa88d520a41ea7e613",
+  "source_surface":"program/research_object_compression/R32_SOURCE_SURFACE_V0.1.json",
+  "serialization":"STANDING_GROUPED_SOURCE_LOCAL_UNITS",
+  "serialization_semantics":[
+    "Each explicit row in Parts A-D is one effective parse unit.",
+    "Same-path and same-standing source distinctions may share a unit and are individually retained in the locators array.",
+    "Different source standings are never merged into one unit.",
+    "Cross-file interface defects are secondary parser audits and are not injected into primary source semantics.",
+    "UNRESOLVED denotes a source-bounded operational or identification ceiling, not source absence or parser failure."
+  ],
+  "parts":[
+    {"path":"program/research_object_compression/R32_EXHAUSTIVE_PARSE_V0.1_PART_A.json","ids":"R32P0001-R32P0014","units":14,"paths":2},
+    {"path":"program/research_object_compression/R32_EXHAUSTIVE_PARSE_V0.1_PART_B.json","ids":"R32P0015-R32P0059","units":45,"paths":34},
+    {"path":"program/research_object_compression/R32_EXHAUSTIVE_PARSE_V0.1_PART_C.json","ids":"R32P0060-R32P0076","units":17,"paths":16},
+    {"path":"program/research_object_compression/R32_EXHAUSTIVE_PARSE_V0.1_PART_D.json","ids":"R32P0077-R32P0083","units":7,"paths":7}
+  ],
+  "effective_parse_units":83,
+  "parsed_representations":69,
+  "explicitly_unresolved":14,
+  "parser_failures":0,
+  "effective_source_paths":59,
+  "source_paths_without_primary_unit":0,
+  "duplicate_unit_ids":0,
+  "canonical_unit_set_sha256":"9b133e280954901c0d30742d492db865c5eef5c8ecdc398e2079d8089e701ab7",
+  "primary_standing_policy":"SOURCE_FACT_OR_LITERAL_CODE_SEMANTICS_ONLY",
+  "secondary_audit_policy":"CROSS_FILE_INTERFACE_AND_CONSTRUCT_DEDUCTIONS_DEFERRED_TO_DEATH_TEST",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO"
+}
