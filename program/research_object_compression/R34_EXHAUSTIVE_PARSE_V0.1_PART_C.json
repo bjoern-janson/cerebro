@@ -1,0 +1,38 @@
+{
+  "object":"R34_EXHAUSTIVE_PARSE_V0.1_PART_C",
+  "state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/the-correctable-lineage",
+  "frozen_head":"422411ea22fb3154a5bed2b0c950ab1b3f2bba5b",
+  "scope":"applications/current/evaluation/history/pilot-0/scripts: 15 admitted blobs",
+  "path_primary_count":15,
+  "standing_split_count":7,
+  "effective_units":22,
+  "path_primary_units":[
+    {"id":"R34P0071","path":"applications/README.md","kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","standing":"APPLICATION_ROUTING","content":"Routes application and stress-test material while explicitly denying application-level expansion or validation of the primary scientific claim."},
+    {"id":"R34P0072","path":"current/README.md","kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","standing":"CURRENT_LAYER_ROUTING","content":"Identifies current canonical materials and states that historical documents do not override the present claim boundary."},
+    {"id":"R34P0073","path":"evaluation/README.md","kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","standing":"EVALUATION_LAYER_ROUTING","content":"States that evaluation protocols are proposed tests unless a result document explicitly records execution and must not be treated as empirical support by default."},
+    {"id":"R34P0074","path":"evaluation/reader-calibration-run-2026-08-05.md","kind":"EMPIRICAL_RESULT","standing":"ADMINISTRATION_DRY_RUN_RECORD","content":"Persisted reader-calibration administration dry run; evaluator had extensive prior framework exposure, so the response is contaminated and does not count as blind reader evidence."},
+    {"id":"R34P0075","path":"history/README.md","kind":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","standing":"HISTORICAL_LAYER_ROUTING","content":"Routes historical material and explicitly states that preservation grants historical visibility, not current canonical authority."},
+    {"id":"R34P0076","path":"pilot-0/README.md","kind":"METHODOLOGY_TEST_PROTOCOL","standing":"PROSPECTIVE_FEASIBILITY_PACKAGE","content":"Defines Pilot 0 as a feasibility/translation/usability package; no participant data have been collected and it is not benchmark v0.6 or completed comparative validation."},
+    {"id":"R34P0077","path":"pilot-0/adjudication-template.md","kind":"METHODOLOGY_TEST_PROTOCOL","standing":"PROSPECTIVE_INSTRUMENT_TEMPLATE","content":"Plural adjudication template for preserving disagreement and underidentification; an empty template is not an adjudication result."},
+    {"id":"R34P0078","path":"pilot-0/failure-ledger-template.md","kind":"METHODOLOGY_TEST_PROTOCOL","standing":"PROSPECTIVE_INSTRUMENT_TEMPLATE","content":"Template for recording participant, case, representation, translation and governance failures; contains no observed failure data."},
+    {"id":"R34P0079","path":"pilot-0/neutral-cases.md","kind":"METHODOLOGY_TEST_PROTOCOL","standing":"PROSPECTIVE_CASE_SET","content":"Defines staged neutral cases intended to avoid framework-specific ontology leakage; cases are evaluation substrate, not evidence for the framework."},
+    {"id":"R34P0080","path":"pilot-0/participant-response-template.md","kind":"METHODOLOGY_TEST_PROTOCOL","standing":"PROSPECTIVE_INSTRUMENT_TEMPLATE","content":"Native-first participant response instrument preserving unsupported-open status and method-native representation; contains no participant response data."},
+    {"id":"R34P0081","path":"pilot-0/preregistration-draft.md","kind":"METHODOLOGY_TEST_PROTOCOL","standing":"DRAFT_PREREGISTRATION","content":"Draft predeclares Pilot 0 conditions, analyses and stop/narrow rules; it is not an independently registered study and human execution remains contingent on governance/ethics requirements."},
+    {"id":"R34P0082","path":"pilot-0/representation-manuals.md","kind":"METHODOLOGY_TEST_PROTOCOL","standing":"PROSPECTIVE_TRAINING_MATERIAL","content":"Defines claim-contract and comparator representation manuals while preserving native-first responses before cross-method extraction; training material is not outcome evidence."},
+    {"id":"R34P0083","path":"pilot-0/scoring-rubric.md","kind":"METHODOLOGY_TEST_PROTOCOL","standing":"PROSPECTIVE_SCORING_INSTRUMENT","content":"Defines multi-dimensional scoring including correction errors, open-status handling, disagreement legibility and complexity; scoring design does not validate the scored construct."},
+    {"id":"R34P0084","path":"pilot-0/translation-challenge.md","kind":"METHODOLOGY_TEST_PROTOCOL","standing":"PROSPECTIVE_TRANSLATION_TEST","content":"Tests whether mature methods can reproduce the claimed distinctions more naturally/cheaply; absorption into existing practice is an allowed successful correction outcome."},
+    {"id":"R34P0085","path":"scripts/validate_markdown.py","kind":"METHOD","standing":"DOCUMENTATION_VALIDATOR_SOURCE","content":"Validates repository-local links and Markdown/formatting invariants; it is not a scientific validator and produces no scientific authority by itself."}
+  ],
+  "standing_split_units":[
+    {"id":"R34P0120","path":"evaluation/reader-calibration-run-2026-08-05.md","standing":"EXECUTION_CLASSIFICATION","content":"A real administration procedure was attempted and persisted, so this is stronger than an unexecuted template but weaker than blind evaluation evidence."},
+    {"id":"R34P0121","path":"evaluation/reader-calibration-run-2026-08-05.md","standing":"CONTAMINATION_CEILING","content":"Evaluator prior exposure and answer-key/context contamination prohibit treating the response as independent reconstruction evidence."},
+    {"id":"R34P0122","path":"evaluation/reader-calibration-run-2026-08-05.md","standing":"BLIND_SAMPLE_COUNT","content":"N_blind = 0; no independent-reader reliability or usability estimate may be imputed."},
+    {"id":"R34P0123","path":"pilot-0/README.md","standing":"PARTICIPANT_STATUS","content":"Participant data = NONE; Pilot 0 remains unexecuted as a human study."},
+    {"id":"R34P0124","path":"pilot-0/README.md","standing":"AUTHORITY_CEILING","content":"Pilot materials can establish protocol completeness/readiness only, not usability, comparative advantage, external validity or framework effectiveness."},
+    {"id":"R34P0125","path":"current/README.md","standing":"CURRENT_HISTORY_PRECEDENCE","content":"Current routing has interpretive precedence where historical wording conflicts, while historical state remains preserved rather than deleted."},
+    {"id":"R34P0126","path":"applications/README.md","standing":"APPLICATION_AUTHORITY_CEILING","content":"Cross-domain application or stress-test coherence does not expand the primary claim's scientific scope or establish external validation."}
+  ],
+  "unresolved_units":0,
+  "execution_ladder":"PROTOCOL_SOURCE != ADMINISTRATION_DRY_RUN != BLIND_EVIDENCE != COMPARATIVE_STUDY"
+}
