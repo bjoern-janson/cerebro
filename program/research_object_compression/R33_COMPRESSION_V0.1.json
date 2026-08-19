@@ -1,0 +1,39 @@
+{
+  "object":"CEREBRO_R33_COMPRESSION_V0.1",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/interface-theory",
+  "frozen_head":"61bef6c4eb9ee46cc38ac85a2f91874f9f8642a5",
+  "effective_parse":"program/research_object_compression/R33_EXHAUSTIVE_PARSE_V0.1.json",
+  "compression_strategy":"IDENTITY_SIZED_LOSS_BOUNDED_STANDING_PRESERVING_PROJECTION",
+  "rationale":[
+    "The effective parse already preserves one primary unit per admitted source path and separate units for the explicitly mixed high-risk standings.",
+    "The sole cross-source unit is an unresolved numeric consistency record whose disagreement must remain explicit.",
+    "Further reduction would merge source standings, erase evidence-class distinctions, collapse historical/current state, or normalize a live contradiction."
+  ],
+  "id_materialization":{
+    "parse_ids":"R33P0001-R33P0196",
+    "compression_ids":"R33Z0001-R33Z0196",
+    "ordering":"First 150 path-primary units in lexicographic source-path order; then 45 standing-split units in the exact Part-A, Part-B, Part-C listed order; final R33P0196 is unresolved Gate002 numeric conflict R33U0001.",
+    "mapping":"R33Pnnnn -> R33Znnnn"
+  },
+  "effective_parse_units":196,
+  "compressed_items":196,
+  "direct_items":195,
+  "unresolved_items":1,
+  "loss_bounded_group_items":0,
+  "explicit_compression_exclusions":0,
+  "compression_failures":0,
+  "cross_standing_items":0,
+  "historical_current_state_collapses":0,
+  "evidence_class_collapses":0,
+  "numeric_conflict_normalizations":0,
+  "warrant_independence_default":"NOT_ESTABLISHED",
+  "warrant_multiplicity_effect_default":"NONE",
+  "reported_result_standing_policy":"Preserve gate-local result plus evidence-class/reproducibility ceiling exactly; committed audit does not imply independent replication.",
+  "legacy_standing_policy":"Current INVALIDATED_LEGACY tombstones remain tombstones; removed historical contents are not reintroduced as current payload.",
+  "map_edge_emission":"NONE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "amendment_005":"NOT_EARNED"
+}
