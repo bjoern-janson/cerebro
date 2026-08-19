@@ -1,0 +1,25 @@
+{
+  "object":"CEREBRO_R30_COMPRESSION_V0.1_PART_D",
+  "repository_id":"R30","frozen_head_commit":"f8491b695440066c0bdb8b7f47eefa008cd73a0b","persistent_record_state":"FROZEN_CANDIDATE","item_count":16,
+  "items":[
+    {"ITEM_ID":"R30C054","PATH":"figures/README.md","SOURCE_STANDING":"SOURCE_DESCRIBED_SCOPE_OR_PURPOSE","SOURCE_UNITS":["R30P0139"],"PAYLOAD":"Figures directory contains conceptual diagrams for reality feedback, residual detection, attribution, authority dynamics, representation change, and experimental validation."},
+    {"ITEM_ID":"R30C055","PATH":"figures/README.md","SOURCE_STANDING":"SOURCE_STATUS_ASSERTION","SOURCE_UNITS":["R30P0140","R30P0144"],"PAYLOAD":"Figures are explicitly conceptual rather than implementation diagrams; current forms are Markdown with future publication/architecture formats only proposed."},
+    {"ITEM_ID":"R30C056","PATH":"figures/README.md","SOURCE_STANDING":"SOURCE_RELATION_ASSERTION","SOURCE_UNITS":["R30P0141","R30P0142","R30P0143"],"PAYLOAD":"Figure index describes the adaptive loop, authority cycle, and Theory->Adaptive Authority Dynamics->RAHU research stack as conceptual relations."},
+    {"ITEM_ID":"R30C057","PATH":"figures/README.md","SOURCE_STANDING":"UNRESOLVED","SOURCE_UNITS":["R30U0049"],"PAYLOAD":"Conceptual arrows do not establish implemented data flow, causal identification, or Cerebro topology."},
+
+    {"ITEM_ID":"R30C058","PATH":"figures/adaptive_epistemic_loop.md","SOURCE_STANDING":"SOURCE_RELATION_ASSERTION","SOURCE_UNITS":["R30P0145"],"PAYLOAD":"Conceptual loop: Environment->Empirical Outcome->Residual->Attribution->Authority Modification->lower correction or representation expansion->Updated Mechanisms->Future Behavior->Environment."},
+    {"ITEM_ID":"R30C059","PATH":"figures/adaptive_epistemic_loop.md","SOURCE_STANDING":"SOURCE_FORMALISM","SOURCE_UNITS":["R30P0146"],"PAYLOAD":"Defining conceptual pathway is Reality->Residual->Internal Change."},
+    {"ITEM_ID":"R30C060","PATH":"figures/adaptive_epistemic_loop.md","SOURCE_STANDING":"SOURCE_ASSERTION","SOURCE_UNITS":["R30P0147","R30P0148"],"PAYLOAD":"Contradiction should modify future-generating mechanisms and the conceptual correction path distinguishes lower-level correction from representation expansion."},
+    {"ITEM_ID":"R30C061","PATH":"figures/adaptive_epistemic_loop.md","SOURCE_STANDING":"UNRESOLVED","SOURCE_UNITS":["R30U0050"],"PAYLOAD":"Executable interfaces, timing, measurements, and branch conditions are unspecified."},
+
+    {"ITEM_ID":"R30C062","PATH":"figures/authority_dynamics_cycle.md","SOURCE_STANDING":"SOURCE_RELATION_ASSERTION","SOURCE_UNITS":["R30P0149"],"PAYLOAD":"Authority cycle conceptually links mechanism distribution, behavior, environment, residual, attribution, decay/viability branches, updated authority map, and new mechanism distribution."},
+    {"ITEM_ID":"R30C063","PATH":"figures/authority_dynamics_cycle.md","SOURCE_STANDING":"SOURCE_DEFINITION","SOURCE_UNITS":["R30P0150"],"PAYLOAD":"Authority is depicted as a dynamic resource whose causal influence varies with empirical performance rather than binary retention/deletion."},
+    {"ITEM_ID":"R30C064","PATH":"figures/authority_dynamics_cycle.md","SOURCE_STANDING":"SOURCE_ASSERTION","SOURCE_UNITS":["R30P0151","R30P0152"],"PAYLOAD":"Cycle represents the proposed internal selection process, with contradiction-linked attenuation and viability-linked restoration feeding an updated authority map."},
+    {"ITEM_ID":"R30C065","PATH":"figures/authority_dynamics_cycle.md","SOURCE_STANDING":"UNRESOLVED","SOURCE_UNITS":["R30U0051"],"PAYLOAD":"Diagram does not establish measured authority, attribution accuracy, or a validated restoration rule."},
+
+    {"ITEM_ID":"R30C066","PATH":"figures/research_stack.md","SOURCE_STANDING":"SOURCE_RELATION_ASSERTION","SOURCE_UNITS":["R30P0153","R30P0156"],"PAYLOAD":"Source asserts Theory of Adaptive Epistemic Systems->Adaptive Authority Dynamics->RAHU Benchmark, with RAHU intended to test the proposed dynamics."},
+    {"ITEM_ID":"R30C067","PATH":"figures/research_stack.md","SOURCE_STANDING":"SOURCE_ASSERTION","SOURCE_UNITS":["R30P0154","R30P0155"],"PAYLOAD":"Theory is labeled the property layer and Adaptive Authority Dynamics the 'law' layer defining time-varying causal influence; label carries source standing only."},
+    {"ITEM_ID":"R30C068","PATH":"figures/research_stack.md","SOURCE_STANDING":"METHOD_SPECIFICATION","SOURCE_UNITS":["R30P0157"],"PAYLOAD":"Research flow is Theory question->dynamics/law question->benchmark comparative test question."},
+    {"ITEM_ID":"R30C069","PATH":"figures/research_stack.md","SOURCE_STANDING":"UNRESOLVED","SOURCE_UNITS":["R30U0052","R30U0053"],"PAYLOAD":"The 'law' label is not empirical validation, and the benchmark layer does not establish endpoint identity, implementation, execution, or results."}
+  ]
+}
