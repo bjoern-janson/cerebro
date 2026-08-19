@@ -1,0 +1,41 @@
+{
+  "object":"CEREBRO_R30_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "repository_id":"R30",
+  "repository":"bjoern-janson/theory-of-adaptive-epistemic-systems",
+  "frozen_head_commit":"f8491b695440066c0bdb8b7f47eefa008cd73a0b",
+  "effective_parse":"R30_EXHAUSTIVE_PARSE_V0.1.json",
+  "effective_compression":"R30_COMPRESSION_V0.1.json",
+  "persistent_record_state":"FROZEN",
+  "materialization_rule":"For each R30C001-R30C069 item in compression parts A-D, every UNIT_ID listed in SOURCE_UNITS has that item as its sole primary compression owner. If SOURCE_UNITS cardinality is 1, disposition is DIRECT_TO_COMPRESSION_ITEM; if cardinality >1, disposition is LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM. Units with UNRESOLVED source standing retain that standing inside the owning compression item; ownership does not resolve them.",
+  "effective_parse_unit_set":{
+    "represented":"R30P0001-R30P0157",
+    "unresolved":"R30U0001-R30U0053",
+    "total":210,
+    "unit_id_set_sha256":"b3359f513a11f19c69351aca3c17d3c6c90113a78b82b8b10c073174fbd3576e"
+  },
+  "compression_item_set":{
+    "range":"R30C001-R30C069",
+    "count":69
+  },
+  "accounting":{
+    "primary_projection_entries":210,
+    "direct_to_compression_item":29,
+    "loss_bounded_group_to_compression_item":181,
+    "explicit_compression_exclusion":0,
+    "unresolved_at_compression_as_unowned":0,
+    "compression_failure":0,
+    "unmapped_parse_units":0,
+    "duplicate_primary_owners":0,
+    "extra_projection_units":0,
+    "source_path_mismatches":0,
+    "source_standing_mismatches":0
+  },
+  "owner_map_sha256":"8c36859e3632b8166aa05491aa4b5be3e2fa48c12339358427eebc2b253f4d53",
+  "warrant_rules":[
+    "SOURCE_OCCURRENCE_MULTIPLICITY_DOES_NOT_ESTABLISH_WARRANT_INDEPENDENCE",
+    "GROUPING_DOES_NOT_CREATE_INDEPENDENT_WARRANT",
+    "UNRESOLVED_STANDING_SURVIVES_PRIMARY_OWNERSHIP",
+    "SOURCE_RELATION_ASSERTION_DOES_NOT_RESOLVE_ENDPOINT_IDENTITY",
+    "CHRONOLOGICAL_PROCESSING_DOES_NOT_CREATE_SEMANTIC_EDGE"
+  ]
+}
