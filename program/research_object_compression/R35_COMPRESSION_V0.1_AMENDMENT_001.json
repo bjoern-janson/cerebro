@@ -1,0 +1,22 @@
+{
+  "object":"R35_COMPRESSION_V0.1_AMENDMENT_001",
+  "state":"FROZEN",
+  "repository":"bjoern-janson/dostoevskian-cybernetics",
+  "frozen_head":"f4159b63d0dcdb748f4b9ce6009439103e9a2690",
+  "amends":"R35_COMPRESSION_V0.1",
+  "trigger":"Candidate compression metadata misstated singleton/grouped item cardinalities after the semantic mapping had already been persisted.",
+  "repair_scope":"CARDINALITY_METADATA_ONLY",
+  "before":{"direct_items":42,"loss_bounded_group_items":19},
+  "after":{"direct_items":34,"loss_bounded_group_items":27},
+  "effective_projection_accounting":{"parse_units":98,"compression_items":61,"direct_parse_units":34,"loss_bounded_group_parse_units":64,"unresolved_at_compression":5,"excluded_parse_units":0,"compression_failures":0},
+  "semantic_item_changes":0,
+  "source_standing_changes":0,
+  "parse_mapping_changes":0,
+  "unresolved_status_changes":0,
+  "authority_changes":0,
+  "repair_locality":"Compression candidate metadata only; source surface and exhaustive parse remain untouched.",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "amendment_005":"NOT_EARNED"
+}
