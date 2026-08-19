@@ -1,0 +1,28 @@
+{
+  "object": "R39_EXHAUSTIVE_PARSE_V0.1",
+  "repository": "bjoern-janson/cars",
+  "program_map_node": "R39",
+  "frozen_head": "190fa39ae5a011377f8fd6eeddb975158a483b05",
+  "source_surface": "R39_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation": "NO",
+  "coverage": {"admitted_source_paths":163,"represented_source_paths":163,"unenumerated":0,"parser_failures":0,"parse_units":191,"represented_units":191,"explicitly_unresolved_units":0},
+  "representation_contract": {
+    "base_path_units": 163,
+    "source_local_semantic_splits": 28,
+    "full_blob_reconstructibility": "Every base unit carries repository + immutable commit + path; exact source text is recoverable from the frozen blob at that locator.",
+    "semantic_split_rule": "High-risk mixed-standing, historical/current, execution/result, manipulation/outcome, practical/significance, and estimator/intrinsic boundaries receive separate source-local units.",
+    "independence_rule": "Multiple units at one source location are not independent sources or warrants.",
+    "absence_rule": "not extracted != does not exist outside aperture",
+    "base_unit_materialization": "R39-U0001..R39-U0163 are deterministic one-to-one projections of source_surface.admitted_paths in frozen order; shards 01-02 freeze the index ranges and classification rules rather than redundantly copying every path."
+  },
+  "standing_counts": {"BENCHMARK_SPECIFICATION":3,"DOCUMENTARY":24,"EVALUATION_SPECIFICATION":5,"EXAMPLE_ONLY":5,"HISTORICAL_NOTE":5,"IMPLEMENTATION":56,"METADATA":2,"PERSISTED_DIAGNOSTIC_OR_STATUS":11,"PERSISTED_SCIENTIFIC_RESULT_SOURCE_REPORTED":17,"PERSISTED_SYNTHETIC_DEVELOPMENT_RESULT":6,"PROMPT_INSTRUCTION":4,"PROTOCOL_CONFIG":49,"WORKFLOW_SOURCE":4},
+  "canonical_unit_set_sha256": "b6871fc2f04f58ba084be8fc0b2bcd6a847983e9633a552ff48693f9ec5c2a3e",
+  "shards": [
+    {"path":"R39_EXHAUSTIVE_PARSE_V0.1_SHARD_01.json","logical_unit_count":82,"sha256":"62b442741c280e3ba270a26db0e6e3629a76a7aaff393691bf243341c646f2a2","first_unit":"R39-U0001","last_unit":"R39-U0082"},
+    {"path":"R39_EXHAUSTIVE_PARSE_V0.1_SHARD_02.json","logical_unit_count":81,"sha256":"24d226de74db2998fd2196f813243ab40520b6f2a6a77073b38725fc0707ca76","first_unit":"R39-U0083","last_unit":"R39-U0163"},
+    {"path":"R39_EXHAUSTIVE_PARSE_V0.1_SHARD_03.json","logical_unit_count":28,"sha256":"b62a2e39391f6eba8c2442c0a573a20fc47360c16c267b1d5e484901ebfbb91c","first_unit":"R39-U0164","last_unit":"R39-U0191"}
+  ]
+}
