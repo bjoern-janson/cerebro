@@ -1,0 +1,33 @@
+{
+  "object":"R31_COMPRESSION_V0.1",
+  "repository":"bjoern-janson/law-of-adaptive-authority-dynamics",
+  "frozen_head":"846addefe5cae75492ccbef71b33f116f722a044",
+  "effective_parse":"program/research_object_compression/R31_EXHAUSTIVE_PARSE_V0.1.json",
+  "parse_death_test":"program/research_object_compression/R31_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "parts":[
+    {"path":"program/research_object_compression/R31_COMPRESSION_V0.1_PART_A.json","items":22,"owned_parse_units":95},
+    {"path":"program/research_object_compression/R31_COMPRESSION_V0.1_PART_B.json","items":12,"owned_parse_units":78},
+    {"path":"program/research_object_compression/R31_COMPRESSION_V0.1_PART_C.json","items":34,"owned_parse_units":94}
+  ],
+  "effective_parse_units":267,
+  "compressed_items":68,
+  "payload_materialization":"ORDERED_CONCATENATION_OF_FROZEN_PARSE_NORMALIZED_CONTENT_FOR_EXACT_SOURCE_UNITS",
+  "grouping_rule":"SAME_SOURCE_PATH_AND_SAME_KIND_AND_SAME_SOURCE_STANDING_ONLY",
+  "cross_source_grouping":0,
+  "cross_standing_grouping":0,
+  "reported_empirical_results":0,
+  "reported_negative_results":0,
+  "execution_records":0,
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "compression_invariants":[
+    "SOURCE_LOCAL_GROUPING_DOES_NOT_CREATE_CROSS_SOURCE_SYNTHESIS",
+    "SOURCE_STANDING_PURITY_DOES_NOT_UPGRADE_WARRANT",
+    "SOURCE_NAMED_LAW_REMAINS_SOURCE_NAMED_LAW",
+    "DERIVATION_REMAINS_DISTINCT_FROM_EMPIRICAL_VALIDATION",
+    "CONCEPTUAL_FIGURE_REMAINS_DISTINCT_FROM_DATA",
+    "SOURCE_RELATION_ASSERTION_REMAINS_DISTINCT_FROM_CEREBRO_EDGE"
+  ]
+}
