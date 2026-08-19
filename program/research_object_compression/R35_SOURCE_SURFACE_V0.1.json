@@ -1,0 +1,45 @@
+{
+  "object": "R35_SOURCE_SURFACE_V0.1",
+  "state": "FROZEN",
+  "repository": "bjoern-janson/dostoevskian-cybernetics",
+  "frozen_head": "f4159b63d0dcdb748f4b9ce6009439103e9a2690",
+  "frozen_root_tree": "69753e8f4bc2c3500b1213e788859bad6a3fb596",
+  "tree_truncated": false,
+  "total_blob_paths": 6,
+  "admitted_source_paths": 5,
+  "scope_excluded_paths": 1,
+  "unenumerated_paths": 0,
+  "paths": [
+    {"path":".gitignore","blob":"83972fadc2724842e111d0d3e2829a59ae3d3f45","size":4628,"disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"repository hygiene metadata; no research claim payload"},
+    {"path":"README.md","blob":"d5891a96f8c0f7c4002b61c1026520ad473f4170","size":7232,"disposition":"PARSE_INCLUDED"},
+    {"path":"THEORY.md","blob":"69126f25391eb22d83caf715894d031716b5b204","size":4266,"disposition":"PARSE_INCLUDED"},
+    {"path":"CFAE.md","blob":"e18c2f74aa2b271d141940ea4bf46a40809f6f7a","size":3015,"disposition":"PARSE_INCLUDED"},
+    {"path":"METRICS.md","blob":"60060d520e8705f0f79f6f653e571c128a272e48","size":4759,"disposition":"PARSE_INCLUDED"},
+    {"path":"OPEN_QUESTIONS.md","blob":"5586b6987922303a5f15a7b9ab8d39c181baee31","size":4398,"disposition":"PARSE_INCLUDED"}
+  ],
+  "history_surface": {
+    "visible_commit_count": 7,
+    "history_complete_under_returned_search": true,
+    "first_visible_commit": "efeb1ab16e628c4ba921993833a2292d2530b804",
+    "last_visible_commit": "f4159b63d0dcdb748f4b9ce6009439103e9a2690",
+    "chronology_use": "developmental provenance only; commit adjacency grants no semantic relation"
+  },
+  "execution_surface": {
+    "workflow_source_paths": 0,
+    "pr_triggered_workflow_runs_visible_through_queried_connector": 0,
+    "combined_status_records_visible_through_queried_connector": 0,
+    "persisted_experiment_code_paths": 0,
+    "persisted_result_paths": 0
+  },
+  "frozen_surface_conflict": {
+    "status": "PRESENT",
+    "source_location": "README.md#Repository-Structure",
+    "source_assertion": "README depicts experiments/ and results/benchmark subtrees",
+    "tree_observation": "neither experiments/ nor results/ exists in the frozen root tree",
+    "resolution": "TREE_AUTHORITATIVE_FOR_PERSISTED_HEAD_STATE; README_ASSERTION_PRESERVED_AS_SOURCE_DOCUMENTATION_CONFLICT",
+    "repair": "NONE"
+  },
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation": "NO"
+}
