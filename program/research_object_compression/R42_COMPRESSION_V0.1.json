@@ -1,0 +1,19 @@
+{
+  "object":"R42_COMPRESSION_V0.1",
+  "repository":"bjoern-janson/future-sufficiency",
+  "program_map_node":"R42",
+  "frozen_head":"2f4ca824e02b89df0c23d64de312c4f93a4c8a41",
+  "source_surface":"R42_SOURCE_SURFACE_V0.1.json",
+  "parse_manifest":"R42_EXHAUSTIVE_PARSE_V0.1.json",
+  "projection_ledger":"R42_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1.json",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "compression_rule":"DIRECT_STANDING_PRESERVING_TRANSPORT; one compression item per parse unit because historical/audit staging distinctions are consequential and no redundancy collapse is required",
+  "counts":{"parse_units":42,"compressed_items":42,"direct_singleton_items":42,"loss_bounded_group_items":0,"standing_mixed_items":0},
+  "item_materialization":{"rule":"R42-CNNNN owns exactly R42-UNNNN and its CONTENT is exactly that parse unit's NORMALIZED_CONTENT with the same source locator, source standing and limitations.","source_occurrence_multiplicity":"preserved from parse provenance; independent warrant is never inferred from repeated files/summaries"},
+  "item_registry":[["R42-C0001","R42-U0001"],["R42-C0002","R42-U0002"],["R42-C0003","R42-U0003"],["R42-C0004","R42-U0004"],["R42-C0005","R42-U0005"],["R42-C0006","R42-U0006"],["R42-C0007","R42-U0007"],["R42-C0008","R42-U0008"],["R42-C0009","R42-U0009"],["R42-C0010","R42-U0010"],["R42-C0011","R42-U0011"],["R42-C0012","R42-U0012"],["R42-C0013","R42-U0013"],["R42-C0014","R42-U0014"],["R42-C0015","R42-U0015"],["R42-C0016","R42-U0016"],["R42-C0017","R42-U0017"],["R42-C0018","R42-U0018"],["R42-C0019","R42-U0019"],["R42-C0020","R42-U0020"],["R42-C0021","R42-U0021"],["R42-C0022","R42-U0022"],["R42-C0023","R42-U0023"],["R42-C0024","R42-U0024"],["R42-C0025","R42-U0025"],["R42-C0026","R42-U0026"],["R42-C0027","R42-U0027"],["R42-C0028","R42-U0028"],["R42-C0029","R42-U0029"],["R42-C0030","R42-U0030"],["R42-C0031","R42-U0031"],["R42-C0032","R42-U0032"],["R42-C0033","R42-U0033"],["R42-C0034","R42-U0034"],["R42-C0035","R42-U0035"],["R42-C0036","R42-U0036"],["R42-C0037","R42-U0037"],["R42-C0038","R42-U0038"],["R42-C0039","R42-U0039"],["R42-C0040","R42-U0040"],["R42-C0041","R42-U0041"],["R42-C0042","R42-U0042"]],
+  "multiplicity_rule":{"WARRANT_INDEPENDENCE_STATUS":"NOT_ESTABLISHED unless separately established by generating provenance","WARRANT_MULTIPLICITY_EFFECT":"NONE by document/result/audit recurrence alone"},
+  "canonical_hash_status":"NOT_COMPUTED; no hash authority is claimed"
+}
