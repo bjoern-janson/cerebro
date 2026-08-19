@@ -1,0 +1,28 @@
+{
+  "object":"R38_EXHAUSTIVE_PARSE_V0.1_MANIFEST",
+  "repository":"bjoern-janson/magikarp",
+  "frozen_head":"876dbe9fae2d2ddb93419b1072162dc1491d3d7f",
+  "frozen_root_tree":"9d89c9d91bd187a1cb448ba93422f3fbe4addf36",
+  "state":"FROZEN_CANDIDATE",
+  "source_surface":{"total_blobs":47,"admitted_paths":44,"excluded_paths":3,"un-enumerated_paths":0},
+  "parse":{"effective_units":130,"parsed_representations":130,"explicitly_unresolved":0,"parser_failures":0,"source_path_coverage":"44/44","external_provenance_units":4},
+  "parts":[
+    {"path":"R38_EXHAUSTIVE_PARSE_V0.1_PART_A.json","units":33,"range":"R38P0001-R38P0033"},
+    {"path":"R38_EXHAUSTIVE_PARSE_V0.1_PART_B.json","units":38,"range":"R38P0034-R38P0071"},
+    {"path":"R38_EXHAUSTIVE_PARSE_V0.1_PART_C.json","units":40,"range":"R38P0072-R38P0111"},
+    {"path":"R38_EXHAUSTIVE_PARSE_V0.1_PART_D.json","units":19,"range":"R38P0112-R38P0130"}
+  ],
+  "accounting_check":"33+38+40+19=130",
+  "external_provenance_rule":"Four independently retrieved GitHub execution/Git-state units augment provenance but do not alter the 44-path frozen source aperture.",
+  "candidate_zero_unresolved_basis":[
+    "source evidence state explicitly distinguishes no evidence-bearing run from valid negative",
+    "retrieved CI logs explicitly classify the observed smoke as L0 engineering_only",
+    "tested PR head/merge/freeze tree identity is resolved by immutable tree SHA",
+    "post-freeze difference to frozen head is only .zenodo.json archival metadata",
+    "conceptual reserve/CRE/CARP/lineage surfaces are standing-separated from v0.1 empirical claims"
+  ],
+  "absence_invariant":"not extracted != does not exist outside frozen aperture",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO"
+}
