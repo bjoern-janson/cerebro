@@ -1,0 +1,23 @@
+{
+  "object": "R39_COMPRESSION_V0.1",
+  "repository": "bjoern-janson/cars",
+  "program_map_node": "R39",
+  "frozen_head": "190fa39ae5a011377f8fd6eeddb975158a483b05",
+  "source_surface": "R39_SOURCE_SURFACE_V0.1.json",
+  "parse_manifest": "R39_EXHAUSTIVE_PARSE_V0.1.json",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation": "NO",
+  "compression_rule": "one item per source path x source standing",
+  "counts": {"parse_units":191,"compressed_items":163,"source_paths":163,"standing_mixed_items":0},
+  "item_materialization": "R39-C0001..R39-C0163 correspond one-to-one with source_surface.admitted_paths in frozen order. Each item owns base unit R39-U same index plus any same-path semantic split units listed in compression parts. Payload is ordered concatenation of owned parse normalized contents.",
+  "multiplicity_rule": {"SOURCE_OCCURRENCE_COUNT":1,"WARRANT_INDEPENDENCE_STATUS":"NOT_ESTABLISHED","WARRANT_MULTIPLICITY_EFFECT":"NONE"},
+  "canonical_compression_item_set_sha256": "eb0ab6a4cfdcb34553dd87c35ac3eb7197c61ed048bdcd3c85a59936b0351453",
+  "parts": [
+    {"path":"R39_COMPRESSION_V0.1_PART_A.json","item_count":55,"canonical_object_sha256":"1284e94f8e29399e420d3bc0447118c779f14f49f73192f287bf6ead3114feb0","first_item":"R39-C0001","last_item":"R39-C0055"},
+    {"path":"R39_COMPRESSION_V0.1_PART_B.json","item_count":54,"canonical_object_sha256":"5d4f5a33ec836dc5f5b42a86e44cb4b0623edef8d4cb2edae29a2c4fb4f8d5a3","first_item":"R39-C0056","last_item":"R39-C0109"},
+    {"path":"R39_COMPRESSION_V0.1_PART_C.json","item_count":54,"canonical_object_sha256":"0bd5fd4c4a9b7c208af62b1b1688643daaabbf3fb901bfd310f23155ff2b5b5c","first_item":"R39-C0110","last_item":"R39-C0163"}
+  ],
+  "part_hash_semantics": "canonical JSON object SHA-256; insensitive to persistence whitespace"
+}
