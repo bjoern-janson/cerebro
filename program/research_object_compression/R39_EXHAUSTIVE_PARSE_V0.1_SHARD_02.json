@@ -1,0 +1,15 @@
+{
+  "object": "R39_EXHAUSTIVE_PARSE_V0.1_SHARD_02",
+  "repo": "bjoern-janson/cars",
+  "head": "190fa39ae5a011377f8fd6eeddb975158a483b05",
+  "source_surface": "R39_SOURCE_SURFACE_V0.1.json",
+  "state": "FROZEN_CANDIDATE",
+  "range": {
+    "unit_first": "R39-U0083",
+    "unit_last": "R39-U0163",
+    "source_surface_admitted_path_indices_1_based": [83, 163]
+  },
+  "unit_generation_rule": "For admitted_paths index i in this range, create unit R39-U%04d with path=admitted_paths[i], kind=SOURCE_PATH_FULL_BLOB_REFERENCE, standing from frozen classification_rules, disposition=REPRESENTED, and content=immutable full-blob reference repo@head:path plus audited primary-role class. Exact blob text remains reconstructible from frozen commit+path.",
+  "classification_rules": "IDENTICAL_TO_SHARD_01_FROZEN_RULES",
+  "independence_rule": "one path unit is one source occurrence; no multiplicity claim"
+}
