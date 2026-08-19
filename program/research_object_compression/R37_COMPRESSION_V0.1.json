@@ -1,0 +1,44 @@
+{
+  "object":"CEREBRO_R37_COMPRESSION_V0.1",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/negative-space-search",
+  "frozen_head":"307c24576ebea951be04d187c61e7428f4f0e184",
+  "effective_parse":"program/research_object_compression/R37_EXHAUSTIVE_PARSE_V0.1.json",
+  "parse_death_test":"program/research_object_compression/R37_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "compression_strategy":"IDENTITY_SIZED_LOSS_BOUNDED_VERSION_AND_STANDING_PURE_PROJECTION",
+  "rationale":[
+    "The effective parse already isolates version, source standing, execution provenance and claim-boundary distinctions.",
+    "Cross-version grouping would collapse developmental state; cross-standing grouping would collapse evidential role; cross-provenance grouping would collapse reported versus independently verified execution.",
+    "Therefore every effective parse unit becomes one compression item without semantic rewriting."
+  ],
+  "item_materialization_rule":{
+    "domain":"R37P0001-R37P0113",
+    "codomain":"R37Z0001-R37Z0113",
+    "mapping":"R37Pnnnn -> R37Znnnn",
+    "source_units":"[R37Pnnnn]",
+    "payload":"EXACT_NORMALIZED_CONTENT_OF_SOURCE_PARSE_UNIT",
+    "source_path":"INHERITED_FROM_PARSE_UNIT",
+    "source_blob":"INHERITED_FROM_PARSE_UNIT",
+    "source_standing":"INHERITED_FROM_PARSE_UNIT",
+    "warrant_independence_status":"NOT_ESTABLISHED",
+    "warrant_multiplicity_effect":"NONE"
+  },
+  "effective_parse_units":113,
+  "compressed_items":113,
+  "direct_items":113,
+  "loss_bounded_group_items":0,
+  "cross_version_items":0,
+  "cross_standing_items":0,
+  "unresolved_items":0,
+  "compression_failures":0,
+  "verified_execution_support":{
+    "v0_7_run_id":31177528904,
+    "v0_7_job_id":92862772195,
+    "standing":"EXTERNALLY_RETRIEVED_PR_STATE_EXECUTION_SUPPORT",
+    "release_head_identity":"DISTINCT_BUT_EXECUTABLE_STATE_UNCHANGED"
+  },
+  "map_edge_emission":"NONE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "amendment_005":"NOT_EARNED"
+}
