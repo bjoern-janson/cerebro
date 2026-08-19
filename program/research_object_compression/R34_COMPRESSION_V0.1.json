@@ -1,0 +1,70 @@
+{
+  "object":"R34_COMPRESSION_V0.1",
+  "state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/the-correctable-lineage",
+  "frozen_head":"422411ea22fb3154a5bed2b0c950ab1b3f2bba5b",
+  "parse_manifest":"R34_EXHAUSTIVE_PARSE_V0.1_MANIFEST",
+  "parse_death_test":"R34_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1",
+  "compression_mode":"LOSS_BOUNDED_IDENTITY_SIZED",
+  "accounting":{
+    "effective_parse_units":126,
+    "compression_items":126,
+    "grouped_items":0,
+    "excluded_parse_units":0,
+    "unresolved_at_compression":0,
+    "compression_failures":0
+  },
+  "canonical_item_construction":{
+    "rule":"For each k in [1,126], R34Z{k:04d} inherits exactly the normalized semantic payload, standing, source locator and provenance ceiling of R34P{k:04d}.",
+    "item_id_range":"R34Z0001-R34Z0126",
+    "payload_transformation":"NONE",
+    "semantic_merge":"NONE",
+    "standing_merge":"NONE",
+    "source_merge":"NONE",
+    "numeric_normalization":"NONE",
+    "authority_increase":"NONE"
+  },
+  "why_identity_sized":[
+    "current front-door claims cannot be merged with historical superseded formulations without losing temporal standing",
+    "positive benchmark results cannot be merged with their negative-result boundaries without weakening the developmental record",
+    "benchmark implementation/test/workflow/result classes cannot be merged without execution-lineage leakage",
+    "synthetic supplied-object evidence cannot be merged with autonomous-discovery or comparative-validity claims",
+    "the contaminated reader-calibration administration dry run cannot be merged with blind evidence because N_blind=0",
+    "Pilot 0 instruments cannot be merged with participant outcomes because no participant data exist",
+    "external methodological correction cannot be merged with validation of the downstream governance proposal",
+    "author-recollection incident provenance cannot be merged with preserved interaction evidence",
+    "source conceptual ancestry cannot be merged with resolved Cerebro graph edges",
+    "identified content, epistemic authority and decision authority must remain distinct"
+  ],
+  "compressed_state_summary":[
+    "Current research object: candidate downstream governance representation for constraining authority transitions by identified content, scope, dependencies and reopening conditions.",
+    "Established upstream substrate: target/query identifiability, observational equivalence, partial identification and related mature methods are not project novelty.",
+    "Synthetic evidence: v0.1-v0.5 demonstrate bounded supplied-object representational behaviors with preserved negative-result boundaries.",
+    "Execution ceiling: workflow/test source and persisted benchmark artifacts do not establish frozen-head workflow execution or independent replication.",
+    "Human evidence ceiling: one contaminated administration dry run exists, N_blind=0; Pilot 0 has no participant data; comparative study is unexecuted.",
+    "External correction: identifiability novelty was narrowed/absorbed; downstream claim-contract value remains unvalidated.",
+    "Historical governance: older authority semantics remain developmental provenance and do not override current epistemic/decision authority separation.",
+    "No cross-source unresolved contradiction remains at frozen head; apparent tensions are explicitly source-resolved by chronology, supersession, scope or standing."
+  ],
+  "standing_firewall":[
+    "HISTORICAL_STATE != CURRENT_CANONICAL_STATE",
+    "NEGATIVE_RESULT != FAILED_RESEARCH_OBJECT",
+    "SUPPLIED_OBJECT != AUTONOMOUS_DISCOVERY",
+    "IMPLEMENTATION != TEST_SOURCE != WORKFLOW_SOURCE != EXECUTION_RECORD != RESULT != INDEPENDENT_REPLICATION",
+    "ADMINISTRATION_DRY_RUN != BLIND_EVIDENCE",
+    "PILOT_PACKAGE != PARTICIPANT_DATA",
+    "COMPARATIVE_PROTOCOL != COMPARATIVE_STUDY",
+    "EXTERNAL_CORRECTION != DOWNSTREAM_VALIDATION",
+    "AUTHOR_RECOLLECTION != PRESERVED_LOGS",
+    "SOURCE_LINEAGE_MAP != CEREBRO_EDGE",
+    "IDENTIFIED != EPISTEMICALLY_AUTHORIZED != DECISION_JUSTIFIED"
+  ],
+  "warrant_multiplicity_default":{
+    "WARRANT_INDEPENDENCE_STATUS":"NOT_ESTABLISHED unless explicitly source-supported",
+    "WARRANT_MULTIPLICITY_EFFECT":"NONE"
+  },
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "amendment_005":"NOT_EARNED"
+}
