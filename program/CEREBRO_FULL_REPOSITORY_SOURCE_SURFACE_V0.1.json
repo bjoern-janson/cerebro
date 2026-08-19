@@ -1,0 +1,66 @@
+{
+  "object": "CEREBRO_FULL_REPOSITORY_SOURCE_SURFACE_V0.1",
+  "record_type": "ONE_GO_FULL_REPOSITORY_PARSE_APERTURE",
+  "repository": "bjoern-janson/cerebro",
+  "frozen_head": "7ad0f4f8206bd9b0be384e520a477247dfbd0e48",
+  "frozen_root_tree": "3ac1c1249df3fefa68eeb456aabc4a11d12a071d",
+  "persistent_record_state": "FROZEN",
+  "constitutional_authority": "NONE",
+  "scientific_authority": "NONE",
+  "map_authority": "NONE",
+  "propagation": "NO",
+  "scope": {
+    "included": "Every blob reachable from frozen root tree 3ac1c1249df3fefa68eeb456aabc4a11d12a071d except the two explicit frozen-scope exclusions below.",
+    "excluded": [
+      {"path": ".gitignore", "reason": "VCS_IGNORE_CONFIGURATION"},
+      {"path": "LICENSE", "reason": "LEGAL_LICENSE_TEXT"}
+    ],
+    "absence_rule": "Not represented outside this frozen aperture does not mean nonexistent elsewhere or at another Cerebro revision."
+  },
+  "root_bindings": {
+    ".github": "fbefbaebe3338b77a10cee9f4479a087505f6740",
+    "environment": "b847ccef0a9c7ced696c720ab0bf4b10f0c8308b",
+    "execution": "5257548dd3bdd0d6086e2b0fc3c396c2d7ac3536",
+    "frontier": "e86e111091cb318b4d208fbf238fd4a146b50c42",
+    "perception": "a9767f0519457c611cb50249af9ba0b3ac9cfcac",
+    "program": "4c21b685d22bc62edf8bf45d26c8fcaaaeacf312",
+    "research": "8ee8d7b7a692d242e47f3babd285b6252c4027ba"
+  },
+  "program_bindings": {
+    "network_architecture": "bf48fc8366117834b98d7e7c9395c82a9e1a1625",
+    "relation_extraction": "1dba0fa65419696aa5b36ee583ad9779fc3d64a5",
+    "research_object_compression": "89632eda4af11d394ba9a07a57ce34141e1981a7"
+  },
+  "research_object_compression_partition": {
+    "tree": "89632eda4af11d394ba9a07a57ce34141e1981a7",
+    "ownership_precedence": [
+      "A_CROSS_NEURON: any blob whose basename explicitly contains two or more RNN identifiers as a multi-neuron regression/amendment/retest object is owned by the cross-neuron historical family before any single-neuron rule.",
+      "B_RNN_FOSSILS: for N=01..43, every remaining blob whose basename begins RNN_ is owned by exactly that RNN historical neuron-fossil family.",
+      "C_GLOBAL_RESIDUAL: every remaining blob in the immutable research_object_compression subtree is owned by the global parser/compression-infrastructure residual family."
+    ],
+    "coverage_semantics": "The precedence rules are mutually exclusive by construction and total over blobs in the immutable subtree. They are ownership predicates, not semantic-equivalence or warrant-equivalence claims.",
+    "display_limitation": "The connector presentation of the very large immutable tree is line-truncated. No exact aggregate blob count is claimed from the displayed response; coverage is bound to the immutable tree plus the total ownership predicates rather than a visually displayed count."
+  },
+  "standing_firewall": [
+    "constitution != scientific truth",
+    "historical state != current state",
+    "workflow source != workflow execution",
+    "implementation != test source != execution != result",
+    "experience != observation != evidence != claim",
+    "source assertion != source truth",
+    "program map != truth oracle",
+    "relation assertion != resolved endpoint != licensed map edge",
+    "network architecture candidate != executable kernel",
+    "representational separability != safe executable propagation semantics",
+    "neuron fossil recurrence != independent warrant",
+    "43/43 ingestion completion != 43 independent warrants for a shared proposition",
+    "chronology or processing order != causality, dependency, support, identity, or authority"
+  ],
+  "global_firewall": {
+    "E_map": 0,
+    "Propagate": "NOT_EARNED",
+    "Authority": 0,
+    "AMENDMENT_005": "NOT_EARNED",
+    "Step_2": "CLOSED"
+  }
+}
