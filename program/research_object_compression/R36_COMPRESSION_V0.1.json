@@ -1,0 +1,50 @@
+{
+  "object":"CEREBRO_R36_COMPRESSION_V0.1",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/controlled-adaptation-thesis",
+  "frozen_head":"040113221b04ccc86e74e568b769b7927ff9a376",
+  "effective_parse":"program/research_object_compression/R36_EXHAUSTIVE_PARSE_V0.1_MANIFEST.json",
+  "parse_death_test":"program/research_object_compression/R36_EXHAUSTIVE_PARSE_DEATH_TEST_V0.1.md",
+  "compression_mode":"IDENTITY_SIZED_LOSS_BOUNDED_STANDING_PURE",
+  "rationale":[
+    "The parse already separates frozen-core theory, benchmark/governance specification, post-freeze metadata, verified repository provenance, and unresolved external referents.",
+    "Further grouping would either merge frozen-core and post-freeze standing, merge source-reported external references with locally verified objects, or weaken developmental/source provenance.",
+    "Identity-sized compression therefore preserves the smallest safe authority-bearing distinctions without forcing an artificial compression ratio."
+  ],
+  "item_materialization_rule":{
+    "domain":"R36P0001-R36P0139",
+    "codomain":"R36Z0001-R36Z0139",
+    "mapping":"R36Pnnnn -> R36Znnnn",
+    "payload":"exact normalized semantic payload of parse unit",
+    "source_locator":"inherited exactly",
+    "source_standing":"inherited exactly",
+    "warrant_independence_status":"NOT_ESTABLISHED unless explicitly source-supported",
+    "warrant_multiplicity_effect":"NONE"
+  },
+  "accounting":{
+    "effective_parse_units":139,
+    "compressed_items":139,
+    "ordinary_direct_items":135,
+    "unresolved_items":4,
+    "loss_bounded_group_items":0,
+    "cross_source_items":0,
+    "cross_standing_items":0,
+    "compression_failures":0
+  },
+  "unresolved_item_ids":["R36Z0118","R36Z0120","R36Z0123","R36Z0126"],
+  "standing_firewall":[
+    "FROZEN_CORE != POST_FREEZE_METADATA",
+    "CANDIDATE_THEORY != VALIDATED_THEORY",
+    "BENCHMARK_CONCEPT != EXTERNAL_PREREGISTRATION != IMPLEMENTATION != EXECUTION != RESULT",
+    "SOURCE_REPORTED_EXTERNAL_REFERENT != RESOLVED_ENDPOINT",
+    "SOURCE_REPORTED_LOCAL_RESULT != INSPECTED_PRIMARY_RESULT_ARTIFACT",
+    "INTERNAL_BREAK_RULE != CEREBRO_AMENDMENT_AUTHORITY",
+    "CONCEPTUAL_LINEAGE != AUTHORITY_INHERITANCE",
+    "CHRONOLOGY != SEMANTIC_EDGE"
+  ],
+  "map_edge_emission":"NONE",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "amendment_005":"NOT_EARNED"
+}
