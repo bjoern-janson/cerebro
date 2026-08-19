@@ -1,0 +1,73 @@
+{
+  "object": "CEREBRO_R30_SOURCE_SURFACE_V0.1",
+  "repository_id": "R30",
+  "repository": "bjoern-janson/theory-of-adaptive-epistemic-systems",
+  "frozen_head_commit": "f8491b695440066c0bdb8b7f47eefa008cd73a0b",
+  "frozen_root_tree": "5ecf89dd4f07c982e9e41d86971aaf7250388a6b",
+  "persistent_record_state": "FROZEN",
+  "inventory_method": "AUTHORITATIVE_NONRECURSIVE_TREE_TRAVERSAL",
+  "total_blob_paths": 15,
+  "research_bearing_paths": 14,
+  "scope_excluded_paths": 1,
+  "parse_failed_paths": 0,
+  "parse_unsupported_paths": 0,
+  "unenumerated_paths": 0,
+  "paths": [
+    {"path":"CITATION.cff","blob":"2898173f0737f42508d4a08e0b029d9d34bb7332","size":1046,"disposition":"PARSE_INCLUDED","role":"citation_and_project_metadata"},
+    {"path":"CONTRIBUTING.md","blob":"1f801a6a02c3c048eab118fd3792c1294c189c36","size":4097,"disposition":"PARSE_INCLUDED","role":"research_process_and_contribution_policy"},
+    {"path":"LICENSE","blob":"af602b2e8e83970d54a4a588e0fbdd14768cb691","size":1063,"disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","role":"legal_metadata"},
+    {"path":"README.md","blob":"f5d6cd6888340d52c58a2ff97e9097de24b50986","size":5056,"disposition":"PARSE_INCLUDED","role":"theory_overview"},
+    {"path":"paper.md","blob":"76326a1b0148cd92bc5b50a7e7334392b71e0e76","size":8129,"disposition":"PARSE_INCLUDED","role":"paper_surface"},
+    {"path":"docs/axioms.md","blob":"c6ca4a67225743177579b84af4fc513bf7885089","size":4568,"disposition":"PARSE_INCLUDED","role":"axioms"},
+    {"path":"docs/definitions.md","blob":"b6926ddee2570ec094a79a13e0b06e98ccf24501","size":6381,"disposition":"PARSE_INCLUDED","role":"definitions"},
+    {"path":"docs/formalism.md","blob":"8e9bc472c6584bf5709e3195469fd02fab06cdec","size":5015,"disposition":"PARSE_INCLUDED","role":"formalism"},
+    {"path":"docs/open_questions.md","blob":"bababa3cdfaad8fd0e9c99289f55e14ff0eee5cd","size":6924,"disposition":"PARSE_INCLUDED","role":"open_questions_and_validation_agenda"},
+    {"path":"docs/related_work.md","blob":"69e7a4fa14f1ecf87a5259546b5eaa596c53b847","size":7311,"disposition":"PARSE_INCLUDED","role":"source_authored_comparison_surface"},
+    {"path":"docs/theory.md","blob":"8c4b6b96f6863ec0b2012b8d98049915d5ffa409","size":7516,"disposition":"PARSE_INCLUDED","role":"theory"},
+    {"path":"figures/README.md","blob":"d8742000cba4d536cf0bed637db55c4e8dc6102e","size":1653,"disposition":"PARSE_INCLUDED","role":"figure_index_and_status"},
+    {"path":"figures/adaptive_epistemic_loop.md","blob":"605961275b1bb899ca3c7224051b219c7c74bae7","size":955,"disposition":"PARSE_INCLUDED","role":"conceptual_figure_specification"},
+    {"path":"figures/authority_dynamics_cycle.md","blob":"5fef2b9555d05ee414bbb2c6de3da58ba684b3f3","size":1017,"disposition":"PARSE_INCLUDED","role":"conceptual_figure_specification"},
+    {"path":"figures/research_stack.md","blob":"26a0f41333b526cba76d223986fd0d0b66bfb9f2","size":798,"disposition":"PARSE_INCLUDED","role":"conceptual_relation_figure_specification"}
+  ],
+  "execution_provenance": {
+    "executable_implementation_on_frozen_surface": false,
+    "test_source_on_frozen_surface": false,
+    "persisted_execution_records_on_frozen_surface": 0,
+    "source_reported_empirical_results": 0,
+    "source_reported_negative_results": 0,
+    "github_actions_runs_at_head": 0,
+    "combined_status_records_at_head": 0
+  },
+  "temporal_provenance": {
+    "commit_count": 15,
+    "first_visible_commit": "d5a7340fedbc05b88c235fa8e8042d301f0980de",
+    "first_visible_date": "2026-07-31T08:28:27Z",
+    "head_commit": "f8491b695440066c0bdb8b7f47eefa008cd73a0b",
+    "head_date": "2026-07-31T08:39:17Z",
+    "commit_sequence_newest_to_oldest": [
+      "f8491b695440066c0bdb8b7f47eefa008cd73a0b",
+      "0430240f588517538ec396474f0d377908ab5108",
+      "93ae364b83b1ebcfa1f1425841fa90f81811d917",
+      "841fdd8746a44d32c603248ace2911d90f46157d",
+      "40837799df99eee9eb6456d271709c5ca293eb4b",
+      "896455bc0e921490bf9690742654873415d49522",
+      "9b7208dce3bdcbb03388e2edbd89a8c8a315302d",
+      "10f4af89676e5b21b518c2d8e0f41f16d57cd5e2",
+      "fa55fdabce47d0d965481fcfefbba9715273b7c8",
+      "aa9ac9924a50aab26c5d7bdeecb8b37e3da4e3ec",
+      "5105efbc2c1e7e0f23fed6bf7913fb473ea5777b",
+      "db8f66ad1a4cb5eabb03993eccb90ad6c42ca278",
+      "1711e4ea6513463241100562f1f0662939018a45",
+      "07559563013965d3d6a094516b4dda92036214fc",
+      "d5a7340fedbc05b88c235fa8e8042d301f0980de"
+    ],
+    "semantic_rule": "CURRENT_HEAD_PARSE_APERTURE_IS_DISTINCT_FROM_DEVELOPMENTAL_HISTORY"
+  },
+  "scope_invariants": [
+    "CURRENT_HEAD_SEMANTICS_DO_NOT_INHERIT_HISTORICAL_STANDING",
+    "CONCEPTUAL_FIGURE_DOES_NOT_IMPLY_IMPLEMENTATION",
+    "SOURCE_RELATION_ASSERTION_DOES_NOT_EMIT_CEREBRO_EDGE",
+    "THEORETICAL_PREDICTION_DOES_NOT_IMPLY_REPORTED_RESULT",
+    "AXIOM_DOES_NOT_IMPLY_EMPIRICAL_LAW"
+  ]
+}
