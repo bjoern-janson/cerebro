@@ -7,7 +7,7 @@ Repository: `bjoern-janson/cars`
 Frozen head: `190fa39ae5a011377f8fd6eeddb975158a483b05`  
 Frozen root tree: `fc9c99ff89d1953faa2da45c54658156adf26170`
 
-State: `PASS`  
+State: `PASS_AFTER_METADATA_REPAIR`  
 Map authority: `NONE`  
 Scientific authority added by Cerebro: `NONE`  
 Propagation: `NO`
@@ -54,7 +54,7 @@ The base 163 units are deterministic one-to-one projections of the frozen `R39_S
 | Pilot-1 finite-estimator excess promoted to intrinsic adaptive complexity | Fixed estimator/resource ceiling preserved | PASS |
 | Match1 stronger identification ignored | Exact-state matching can dissolve descriptive excess without proving intrinsic structure | PASS |
 | P3/fresh-seed dissolution ignored | Preserve collapse and sign reversal under stronger/fresh test | PASS |
-| Future-plasticity forecastability promoted to causal plasticity | Predictive ≠ causal | PASS |
+| Future-plasticity forecastability promoted to causal plasticity | Predictive != causal | PASS |
 | G0-G3 failure promoted to intrinsic unpredictability | G4-G6 and stronger predictor families remain unauthorized | PASS |
 | Synthetic red-team/jump worlds promoted to real-system evidence | Synthetic development standing preserved | PASS |
 | Benchmark seed/example records promoted to verified runs | Example/development standing preserved | PASS |
@@ -76,18 +76,25 @@ The canonical ASI-0 terminal result is preserved as a source-reported persisted 
 
 `C=0, A=0, classification=STOP`.
 
-## Parse-specific failure search
+## Metadata repair and retest
 
-No source path is unrepresented. No semantic split introduces a second independent warrant for the same source occurrence. No result/config/workflow/prompt standing was silently promoted. No scientific result was invented from implementation source, synthetic reference, diagnostic output, or absent execution evidence.
+After the first persistence pass, the manifest's shard `sha256` labels were found to describe pre-persistence byte serialization. GitHub persistence used semantically identical JSON with different whitespace, so those labels would have been ambiguous as byte hashes.
+
+Minimal repair: replace them with explicitly named `canonical_object_sha256` values computed over canonical JSON objects. This changes no parse unit, standing, path, source content, result, or epistemic distinction.
+
+Retest after repair: all coverage, standing, semantic-split, independence, and attack-matrix checks remain unchanged and pass.
 
 ## Repair decision
 
 `SOURCE_SURFACE_REPAIR = NONE`  
-`PARSE_REPAIR = NONE`  
+`PARSE_REPAIR = MANIFEST_HASH_SEMANTICS_NORMALIZATION_ONLY`  
+`PARSE_SEMANTIC_UNIT_CHANGES = 0`  
+`PARSE_STANDING_CHANGES = 0`  
+`PARSE_COVERAGE_CHANGES = 0`  
 `AMENDMENT_005 = NOT_EARNED`
 
 ## Terminal parse verdict
 
-`R39_EXHAUSTIVE_PARSE_V0.1 = PASS`
+`R39_EXHAUSTIVE_PARSE_V0.1 = PASS_AFTER_METADATA_REPAIR`
 
 Compression may proceed. This verdict grants no map edge, propagation right, or scientific authority beyond the source-local standing already encoded.
