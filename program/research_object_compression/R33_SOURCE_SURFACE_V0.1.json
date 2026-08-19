@@ -1,0 +1,37 @@
+{
+  "object":"CEREBRO_R33_SOURCE_SURFACE_V0.1",
+  "persistent_record_state":"FROZEN",
+  "repository":"bjoern-janson/interface-theory",
+  "frozen_head":"61bef6c4eb9ee46cc38ac85a2f91874f9f8642a5",
+  "root_tree":"d74bb091afb73b03bb5d5e724c6ca56781635a30",
+  "enumeration_method":"IMMUTABLE_RECURSIVE_GIT_TREE_PLUS_DETERMINISTIC_DISPOSITION_FUNCTION",
+  "recursive_tree_truncated":false,
+  "enumeration_evidence":"https://api.github.com/repos/bjoern-janson/interface-theory/git/trees/d74bb091afb73b03bb5d5e724c6ca56781635a30?recursive=1",
+  "total_blob_paths":152,
+  "parse_included_paths":150,
+  "parse_excluded_by_frozen_scope":2,
+  "parse_failed_paths":0,
+  "parse_unsupported_paths":0,
+  "unenumerated_paths":0,
+  "path_disposition_function":{
+    ".gitignore":{"disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"NON_RESEARCH_METADATA","blob":"83972fadc2724842e111d0d3e2829a59ae3d3f45"},
+    "LICENSE":{"disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"LEGAL_METADATA","blob":"af602b2e8e83970d54a4a588e0fbdd14768cb691"},
+    "all_other_blob_paths_in_root_tree":{"disposition":"PARSE_INCLUDED","reason":"RESEARCH_THEORY_PROTOCOL_IMPLEMENTATION_EXAMPLE_OR_EVIDENCE_SURFACE"}
+  },
+  "inventory_by_frozen_subtree":[
+    {"prefix":".github/workflows","tree":"7b98a5debf6a83e4cfd37021f3ee5c3409a6b0b3","included_blobs":1},
+    {"prefix":"<root research documents>","tree":"d74bb091afb73b03bb5d5e724c6ca56781635a30","included_blobs":9,"excluded_blobs":2},
+    {"prefix":"CASE_STUDIES","tree":"23418914049ebbd7a512cb0822e9d6b08237a5aa","included_blobs":1},
+    {"prefix":"docs","tree":"fece2a0a7b59159565cffba73fb76a200d21cb0b","included_blobs":6},
+    {"prefix":"examples","tree":"49055ac3a598f6a45c6ef544e42d0adfb3a91970","included_blobs":55},
+    {"prefix":"experiments","tree":"b8831276dceee19217db85bc5bbd1cbad215c746","included_blobs":71},
+    {"prefix":"scripts","tree":"cbbad45ce43014ed622cc6f1db80f1c8fef201f3","included_blobs":1},
+    {"prefix":"theorems","tree":"63725b2a33332a30065e7eb36bcbd85c7196df4a","included_blobs":3},
+    {"prefix":"theory","tree":"1120d4cc54947d686a508890e0198597a9ffbb9c","included_blobs":3}
+  ],
+  "coverage_invariant":"Every blob reachable from root_tree receives exactly one disposition by the frozen function above; the recursive Git tree is immutable and truncated=false.",
+  "large_artifact_note":"experiments/results/gate_014_dynamic_reopenability_flow/factorization_audit.json is admitted despite size 8,824,934 bytes; size is not a scope exclusion.",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO"
+}
