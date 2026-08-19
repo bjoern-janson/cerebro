@@ -1,0 +1,32 @@
+{
+  "object":"R31_COMPRESSION_V0.1_AMENDMENT_001",
+  "repository":"bjoern-janson/law-of-adaptive-authority-dynamics",
+  "frozen_head":"846addefe5cae75492ccbef71b33f116f722a044",
+  "parent_compression":"program/research_object_compression/R31_COMPRESSION_V0.1.json",
+  "repair_class":"LOCAL_COMPRESSION_STANDING_GROUP_REPAIR",
+  "persistent_record_state":"FROZEN",
+  "defect":"Candidate item R31Z017 labeled four effective parse units as FORMAL_STRUCTURE_OR_EQUATION although R31_EXHAUSTIVE_PARSE_V0.1 freezes R31P0062, R31P0066, R31P0070 and R31P0071 as DEFINITION.",
+  "superseded_items":["R31Z017","R31Z018"],
+  "replacement_item":{
+    "ITEM_ID":"R31Z018R",
+    "SOURCE_PATH":"docs/definitions.md",
+    "KIND":"DEFINITION",
+    "SOURCE_STANDING":"SOURCE_AUTHORED",
+    "SOURCE_UNITS":["R31P0062","R31P0063","R31P0064","R31P0065","R31P0066","R31P0067","R31P0068","R31P0069","R31P0070","R31P0071","R31P0072","R31P0073","R31P0074","R31P0075"],
+    "DISPOSITION":"LOSS_BOUNDED_GROUP_TO_COMPRESSION_ITEM",
+    "PAYLOAD_MATERIALIZATION":"ORDERED_CONCATENATION_OF_FROZEN_PARSE_NORMALIZED_CONTENT_FOR_SOURCE_UNITS",
+    "PAYLOAD_SHA256":"ccabf50d496551973b040daf7a8c16274969b9336c3b9b588ceb0af23775d1d7"
+  },
+  "effective_item_count_before":68,
+  "effective_item_count_after":67,
+  "parse_units_moved_between_semantic_standings":0,
+  "parse_units_added":0,
+  "parse_units_removed":0,
+  "source_coordinates_changed":0,
+  "semantic_content_changed":0,
+  "reason":"Repair compression classification to match already-frozen parse standing; do not reopen or alter source parse.",
+  "global_contract_change":"NONE",
+  "AMENDMENT_005":"NOT_EARNED",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE"
+}
