@@ -1,0 +1,49 @@
+{
+  "object": "R31_SOURCE_SURFACE_V0.1",
+  "repository": "bjoern-janson/law-of-adaptive-authority-dynamics",
+  "frozen_head": "846addefe5cae75492ccbef71b33f116f722a044",
+  "root_tree": "36b797336261859091cfe651409f92b7034ada0e",
+  "enumeration_method": "NONRECURSIVE_GIT_TREE_TRAVERSAL",
+  "persistent_record_state": "FROZEN",
+  "total_blob_paths": 16,
+  "parse_included": 15,
+  "parse_excluded_by_frozen_scope": 1,
+  "parse_failed": 0,
+  "parse_unsupported": 0,
+  "unenumerated_paths": 0,
+  "paths": [
+    {"path":"CITATION.cff","blob":"9a97b8a88ef9615637da343757db794150f5c353","size":997,"disposition":"PARSE_INCLUDED"},
+    {"path":"CONTRIBUTING.md","blob":"389ce7f7514d4618791e25468c472871593642e5","size":4195,"disposition":"PARSE_INCLUDED"},
+    {"path":"LICENSE","blob":"af602b2e8e83970d54a4a588e0fbdd14768cb691","size":1063,"disposition":"PARSE_EXCLUDED_BY_FROZEN_SCOPE","reason":"LEGAL_METADATA"},
+    {"path":"README.md","blob":"9946b3c5fc4c941db29be0a695874e2990f47731","size":5835,"disposition":"PARSE_INCLUDED"},
+    {"path":"paper.md","blob":"b66b7152c39532d4797ffa009b9c981a9d148119","size":7031,"disposition":"PARSE_INCLUDED"},
+    {"path":"docs/axioms.md","blob":"95b63cf7af5f6a8a3e6b7d0ff7e3f41b8c91eda2","size":5495,"disposition":"PARSE_INCLUDED"},
+    {"path":"docs/definitions.md","blob":"545f708ec84115e9aae0a1c5e627a1315911aad0","size":5265,"disposition":"PARSE_INCLUDED"},
+    {"path":"docs/derivation.md","blob":"e88204b71d61b633fee166643e99a65a1901b8c8","size":5647,"disposition":"PARSE_INCLUDED"},
+    {"path":"docs/formalism.md","blob":"64e2a48f9ed166d1c0ad520bac9f7b9cd7ba7e1f","size":5490,"disposition":"PARSE_INCLUDED"},
+    {"path":"docs/law.md","blob":"5ca4e3b0b652fd3786daa7ce339b8ade8041e79b","size":6576,"disposition":"PARSE_INCLUDED"},
+    {"path":"docs/open_questions.md","blob":"c813f95cbc3b48a0c433cf9945b55a0c9de8cc43","size":6473,"disposition":"PARSE_INCLUDED"},
+    {"path":"docs/related_work.md","blob":"7c9f6f54e48414368176bde3cb964902fbe501ee","size":6619,"disposition":"PARSE_INCLUDED"},
+    {"path":"figures/README.md","blob":"2ee5e69347bf5f0e0d34fdc0d4833e3212ec4014","size":2640,"disposition":"PARSE_INCLUDED"},
+    {"path":"figures/adaptive_selection_landscape.md","blob":"31de5d91f5856ffcb36f9ecbb02f41773fc2ac2f","size":4393,"disposition":"PARSE_INCLUDED"},
+    {"path":"figures/authority_decay_curve.md","blob":"d90feb850686fcd3acb2e12560ef7612230261bb","size":3042,"disposition":"PARSE_INCLUDED"},
+    {"path":"figures/authority_flow.md","blob":"50cd41d953e4b8e4f49cd4c73fec34be47d6edb7","size":3784,"disposition":"PARSE_INCLUDED"}
+  ],
+  "execution_provenance_at_head": {
+    "github_actions_runs": 0,
+    "combined_status_records": 0,
+    "persisted_run_artifacts_on_frozen_surface": 0
+  },
+  "temporal_provenance": {
+    "visible_commit_count": 16,
+    "first_commit": "e0b7ecb9057cfe3dd580b7f9a8e67b9db1ac1814",
+    "last_commit": "846addefe5cae75492ccbef71b33f116f722a044",
+    "standing": "PROVENANCE_ONLY_NOT_CURRENT_HEAD_PARSE_CONTENT"
+  },
+  "non_inference": [
+    "CHRONOLOGY_DOES_NOT_IMPLY_SEMANTIC_RELATION",
+    "SOURCE_LABEL_LAW_DOES_NOT_ESTABLISH_EMPIRICAL_LAW",
+    "CITATION_TYPE_SOFTWARE_DOES_NOT_ESTABLISH_EXECUTABLE_IMPLEMENTATION",
+    "CONCEPTUAL_FIGURE_DOES_NOT_ESTABLISH_IMPLEMENTATION_OR_RESULT"
+  ]
+}
