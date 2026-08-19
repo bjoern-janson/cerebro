@@ -1,0 +1,50 @@
+{
+  "object":"CEREBRO_R37_EXHAUSTIVE_PARSE_V0.1",
+  "persistent_record_state":"FROZEN_CANDIDATE",
+  "repository":"bjoern-janson/negative-space-search",
+  "frozen_head":"307c24576ebea951be04d187c61e7428f4f0e184",
+  "root_tree":"6d1aa195fca73eee8c0cb733619357d5b79fdbc3",
+  "source_surface":"program/research_object_compression/R37_SOURCE_SURFACE_V0.1.json",
+  "parts":[
+    {"path":"program/research_object_compression/R37_EXHAUSTIVE_PARSE_V0.1_PART_A.json","ids":"R37P0001-R37P0026","units":26,"paths":16},
+    {"path":"program/research_object_compression/R37_EXHAUSTIVE_PARSE_V0.1_PART_B.json","ids":"R37P0027-R37P0050","units":24,"paths":24},
+    {"path":"program/research_object_compression/R37_EXHAUSTIVE_PARSE_V0.1_PART_C.json","ids":"R37P0051-R37P0081","units":31,"paths":10},
+    {"path":"program/research_object_compression/R37_EXHAUSTIVE_PARSE_V0.1_PART_D.json","ids":"R37P0082-R37P0113","units":32,"paths":32}
+  ],
+  "serialization_semantics":[
+    "All 82 admitted frozen-head paths have at least one primary semantic unit.",
+    "Mixed high-risk documentary/result paths are split by standing; homogeneous implementation, test, preregistration and metadata paths may remain one standing-pure unit.",
+    "Historical source-reported workflow IDs are preserved as SOURCE_REPORTED_EXECUTION_PROVENANCE unless independently fetched during R37 ingestion.",
+    "Only v0.7 execution provenance receives SOURCE_REPORTED_AND_EXTERNALLY_VERIFIED_EXECUTION_PROVENANCE because run 31177528904/job 92862772195 and logs were independently retrieved.",
+    "Versioned negative results and later narrower positive results remain separate units; no retroactive result replacement is permitted.",
+    "Cross-repository conceptual lineage is a source relation assertion only and emits no endpoint identity or edge."
+  ],
+  "effective_parse_units":113,
+  "parsed_representations":113,
+  "explicitly_unresolved":0,
+  "parser_failures":0,
+  "effective_source_paths":82,
+  "source_paths_without_primary_unit":0,
+  "duplicate_unit_ids":0,
+  "unmapped_source_paths":0,
+  "execution_lineage":{
+    "verified_v0_7_pr_run_id":31177528904,
+    "verified_v0_7_job_id":92862772195,
+    "verified_test_count":70,
+    "verified_test_result":"OK",
+    "tested_pr_head":"ffe7d4ef75e60eae8da38e0a8f62db03f801a3f0",
+    "frozen_release_head":"307c24576ebea951be04d187c61e7428f4f0e184",
+    "executable_benchmark_test_paths_changed_after_tested_state":0,
+    "head_pr_run_witnesses_visible_through_queried_connector":0,
+    "head_combined_status_records_visible_through_queried_connector":0
+  },
+  "temporal_provenance":{
+    "initial_commit":"f84d755959aa927bd9f1cb2ee1b0962d249cc0cc",
+    "commits_ahead_of_initial_to_head":120,
+    "reachable_commit_count_including_initial":121,
+    "use":"DEVELOPMENTAL_PROVENANCE_ONLY"
+  },
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO"
+}
