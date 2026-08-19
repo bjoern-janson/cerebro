@@ -1,0 +1,28 @@
+{
+  "object":"CEREBRO_R32_EXHAUSTIVE_PARSE_V0.1_AMENDMENT_001",
+  "persistent_record_state":"FROZEN",
+  "repository":"bjoern-janson/arc-reactor",
+  "frozen_head":"16e6972de4f9c5dfb2039baa88d520a41ea7e613",
+  "parent_parse":"program/research_object_compression/R32_EXHAUSTIVE_PARSE_V0.1.json",
+  "repair_class":"CARDINALITY_METADATA_ONLY",
+  "target":"program/research_object_compression/R32_EXHAUSTIVE_PARSE_V0.1_PART_B.json",
+  "changes":[{
+    "field":"covered_paths",
+    "candidate_value":21,
+    "effective_value":34,
+    "warrant":"The 45 explicit Part-B parse rows span 34 unique src/arc paths; no row content changes."
+  }],
+  "effective_parse_units":83,
+  "parsed_representations":69,
+  "explicitly_unresolved":14,
+  "effective_source_paths":59,
+  "semantic_unit_change":"NONE",
+  "standing_change":"NONE",
+  "source_coordinate_change":"NONE",
+  "unit_id_change":"NONE",
+  "parse_reopened":false,
+  "new_epistemic_distinction_required":false,
+  "amendment_005":"NOT_EARNED",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE"
+}
