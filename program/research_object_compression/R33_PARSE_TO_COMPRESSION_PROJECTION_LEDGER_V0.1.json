@@ -1,0 +1,39 @@
+{
+  "object":"CEREBRO_R33_PARSE_TO_COMPRESSION_PROJECTION_LEDGER_V0.1",
+  "persistent_record_state":"FROZEN",
+  "repository":"bjoern-janson/interface-theory",
+  "frozen_head":"61bef6c4eb9ee46cc38ac85a2f91874f9f8642a5",
+  "effective_parse_units":196,
+  "effective_compressed_items":196,
+  "id_materialization":{
+    "parse_ids":"R33P0001-R33P0196",
+    "compression_ids":"R33Z0001-R33Z0196",
+    "ordering":"150 path-primary units in lexicographic source-path order, followed by 45 standing-split units in Part-A then Part-B then Part-C listed order, followed by unresolved Gate002 conflict unit",
+    "owner_rule":"For every n in [1,196], R33P{n:04d} has exactly one primary owner R33Z{n:04d}."
+  },
+  "projection_dispositions":{
+    "R33P0001-R33P0195":"DIRECT_TO_COMPRESSION_ITEM",
+    "R33P0196":"UNRESOLVED_AT_COMPRESSION"
+  },
+  "payload_rule":"Compression item preserves the corresponding parse semantic content and standing without semantic rewrite.",
+  "provenance_rule":"Path-primary and standing-split items inherit exact path/blob through the frozen root-tree locator. R33P0196/R33Z0196 retains both Gate002 source occurrences and no warrant-independence multiplier.",
+  "primary_projection_entries":196,
+  "direct_projection_entries":195,
+  "unresolved_at_compression_entries":1,
+  "loss_bounded_group_projection_entries":0,
+  "explicit_compression_exclusions":0,
+  "compression_failures":0,
+  "unmapped_parse_units":0,
+  "duplicate_primary_owners":0,
+  "extra_projection_units":0,
+  "source_standing_mismatches":0,
+  "historical_current_state_mismatches":0,
+  "evidence_class_mismatches":0,
+  "canonical_owner_map_sha256":"70bee19071c13b7199800a3539da56b0dfd3e6ed15f2ea6b3bbc20ebce1a8981",
+  "warrant_independence_status":"NOT_ESTABLISHED unless independently established by source lineage",
+  "warrant_multiplicity_effect":"NONE by default",
+  "map_authority":"NONE",
+  "scientific_authority":"NONE",
+  "propagation":"NO",
+  "amendment_005":"NOT_EARNED"
+}
