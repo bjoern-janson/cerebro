@@ -1,0 +1,31 @@
+{
+  "object": "R41_EXHAUSTIVE_PARSE_V0.1",
+  "repository": "bjoern-janson/tevpp",
+  "program_map_node": "R41",
+  "frozen_head": "6b38882224bf8d3cd11b237eb6d3caf0718accdc",
+  "frozen_root_tree": "8042216be720d61347bd6276dcd9afc736da95c5",
+  "source_surface": "R41_SOURCE_SURFACE_V0.1.json",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation": "NO",
+  "aperture": "IMMUTABLE_USER_RESEARCH_COMMIT_DELTA_PLUS_AUXILIARY_EXECUTION_CONTROL",
+  "coverage": {"admitted_repository_source_occurrences":8,"user_delta_paths":7,"auxiliary_repository_control_paths":1,"external_execution_record_surfaces":2,"parse_units":49,"represented_units":49,"explicitly_unresolved_units":0,"parser_failures":0,"silent_omissions":0},
+  "representation_contract": {
+    "same_file_semantic_splits":"Multiple parse units from one source occurrence preserve distinct roles but do not become independent sources or warrants.",
+    "delta_scope":"Inherited upstream content unchanged from the frozen parent is explicitly outside the R41 local-research semantic aperture.",
+    "standing_boundary":"theory != protocol != configuration != implementation != test source != execution record != reported result",
+    "identity_boundary":"runtime identity != source revision/provenance",
+    "lineage_boundary":"stage traversal != reconstruction; live lineage != stored result",
+    "correspondence_boundary":"interactive correspondence != materialized correspondence unless their recorded transforms agree",
+    "validation_boundary":"software semantic-anchor execution != broad empirical/scientific validation",
+    "relation_boundary":"source-reported lineage/reference != endpoint identity != Cerebro edge"
+  },
+  "canonical_logical_unit_set_sha256": "a8ba15fc909e7eca6dce26bad4391ec53f46d60e368a8d44e2b1eec74cf185b6",
+  "canonical_hash_semantics": "SHA-256 of canonical UTF-8 JSON over the fully materialized ordered logical unit list; object keys sorted, compact separators, Unicode preserved.",
+  "shards": [
+    {"path":"R41_EXHAUSTIVE_PARSE_V0.1_SHARD_01.json","logical_unit_count":17,"canonical_object_sha256":"610c5d6fe99b930e649cfbe0b79375708f885467530101af18198f51e49586fa","first_unit":"R41-U0001","last_unit":"R41-U0017"},
+    {"path":"R41_EXHAUSTIVE_PARSE_V0.1_SHARD_02.json","logical_unit_count":17,"canonical_object_sha256":"67b02384ba61dd7b656e294cf5800a4b7afe80ad96fc7f4e7fef4e7a4d368017","first_unit":"R41-U0018","last_unit":"R41-U0034"},
+    {"path":"R41_EXHAUSTIVE_PARSE_V0.1_SHARD_03.json","logical_unit_count":15,"canonical_object_sha256":"7a6bf3a0f502da21cc21f18896ad3286567c428597764e204a2c1c07da98ef7c","first_unit":"R41-U0035","last_unit":"R41-U0049"}
+  ]
+}
