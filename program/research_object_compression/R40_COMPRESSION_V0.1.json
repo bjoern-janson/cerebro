@@ -1,0 +1,34 @@
+{
+  "object": "R40_COMPRESSION_V0.1",
+  "repository": "bjoern-janson/correction-capable-adaptation",
+  "program_map_node": "R40",
+  "frozen_head": "b0aa3a2a65d08b7349f9c45228a861b36cc654c8",
+  "source_surface": "R40_SOURCE_SURFACE_V0.1.json",
+  "parse_manifest": "R40_EXHAUSTIVE_PARSE_V0.1.json",
+  "persistent_record_state": "FROZEN_CANDIDATE",
+  "map_authority": "NONE",
+  "scientific_authority": "NONE",
+  "propagation": "NO",
+  "compression_rule": "source-local × source-standing-pure; one item per (path, source_standing); no item crosses source paths or standings",
+  "counts": {
+    "parse_units": 134,
+    "compressed_items": 83,
+    "source_paths": 41,
+    "direct_singleton_items": 52,
+    "loss_bounded_group_items": 31,
+    "standing_mixed_items": 0
+  },
+  "item_materialization": "R40-C0001..R40-C0083 are materialized in parts A-C. Each item owns exactly the listed parse units from one path and one source standing. Payload is ordered concatenation of owned parse normalized contents.",
+  "multiplicity_rule": {
+    "SOURCE_OCCURRENCE_COUNT": 1,
+    "WARRANT_INDEPENDENCE_STATUS": "NOT_ESTABLISHED",
+    "WARRANT_MULTIPLICITY_EFFECT": "NONE"
+  },
+  "canonical_compression_item_set_sha256": "483ad7816483a65af2df0e92d3c8b5fecb5421ad8152df8803bc29bbba04bf47",
+  "canonical_hash_semantics": "SHA-256 of canonical UTF-8 JSON over the fully materialized ordered compression-item objects; object keys sorted, compact separators, Unicode preserved.",
+  "parts": [
+    {"path":"R40_COMPRESSION_V0.1_PART_A.json","item_count":28,"canonical_object_sha256":"3f4c37b72f94222e49820a9f56a70580639eb18a0c3ed2c313a771530d949652","first_item":"R40-C0001","last_item":"R40-C0028"},
+    {"path":"R40_COMPRESSION_V0.1_PART_B.json","item_count":28,"canonical_object_sha256":"605fe7d0e33e2b7d61ec070d69ec34b4045a24d1c411f457d198d20d438b7213","first_item":"R40-C0029","last_item":"R40-C0056"},
+    {"path":"R40_COMPRESSION_V0.1_PART_C.json","item_count":27,"canonical_object_sha256":"0cb6ccb3da928d41e73a8f54cf2e0e7b8d4f8a76adf4c1ffbf55076edffe25bc","first_item":"R40-C0057","last_item":"R40-C0083"}
+  ]
+}
